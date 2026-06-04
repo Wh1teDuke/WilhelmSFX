@@ -1,0 +1,534 @@
+Presets:
+  Man:
+    Laugh1: 341730__sgtpepperarc360__hahahaha
+    
+    Scream1: 759458__akridiy__a-single-scream-of-a-young-male
+    Scream2: 813304__qubodup__wilhelm-scream-alternative-2
+
+    Agony1: 272023__aldenroth2__male-scream
+    Agony2: 823508__riippumattog__pain-yell-male
+    Agony3: 267480__islandan__male-scream
+    
+    Snore1: 233600__sortsapostata__snoring
+    
+    Doubt1: 469605__bolkmar__voice-male-humming-doubting
+    
+    Grunt1: 416838__tonsil5__grunt2-death-pain
+    Grunt2: 416839__tonsil5__grunt1-death-pain
+    Grunt3: 90164__snaginneb__gruntsound
+    Grunt4: 547209__mrfossy__voice_adultmale_paingrunts_09
+    
+    Fart1: 26216__walter_odington__grim-fart
+    Fart2: 558741__samsterbirdies__fart-sound
+    Fart3: 94989__deleted_user_1391979__bad-chili-fart
+    Fart4: 324453__katavlogsyt__small-fart
+    Fart5: 840755__bassimat__fart-005
+    Fart6: 249583__ycbcr__short-definite-fart
+    Fart7: 346143__dleigh__fart3
+    Fart8: 346145__dleigh__fart4
+    Fart9: 553480__samsterbirdies__fart
+    
+    Burp1: 12730__pingel__burp
+    Burp2: 324514__deleted_user_2104797__burp
+    Burp3: 26762__santuccie__belch1
+    Burp4: 331630__etheron369__burp
+    Burp5: 172071__jeffijoe__small-burp
+    Burp6: 466759__phatcorns__burp-belch
+    Burp7: 245751__2mbst1__ruelps-3
+    Burp8: 678963__josetb__cartoon-burp
+    Burp9: 683053__phatcorns__loud-burp
+    
+    Ohm1: 26244__bitsmart__ohm
+
+  Woman:
+    Laugh1: 241494__reitanna__laugh12
+    Laugh2: 343944__reitanna__laugh87
+    Laugh3: 343991__reitanna__giggle8
+    Laugh4: 343940__reitanna__laugh83
+    
+    Kiss1: 536335__trijohnstone__cartoon-kiss_cjohnstone
+    Kiss2: 344209__vospi__short-kiss
+    
+    Doubt1: 170768__esperar__hmm-question
+    
+    Cough1: 326096__1980supra__cough-cough
+    
+    Scream1: 400183__tomattka__girl-screaming_01
+    Scream2: 235592__tcrocker68__girl_scream
+    Scream3: 169811__missozzy__female-scream-02
+    Scream4: 344013__reitanna__high-pitched-ah2
+    
+    Grunt1: 344004__reitanna__heavy-grunt
+    
+    Surprise1: 509883__slamaxu__female_gasp
+    Surprise2: 323707__reitanna__ooh
+    Surprise3: 343878__reitanna__big-gasp
+    
+    Dissapoint1: 170765__esperar__oh-disappointed
+    Dissapoint2: 391896__edinaldoapsantos__bocejo_feminino
+    
+    Nya1: 336012__mike_bes__nya
+    
+  People:
+    Laugh1: 262983__alcappuccino__audience_laughing50
+    Laugh2: 324894__deleted_user_2104797__crowd-laugh
+    
+    Applause1: 277022__sandermotions__applause-1
+    Applause2: 432333__jentlemen__medium-crowd-clapping-6
+    
+    WarCry1: 521831__joelcarrsound__middle-ages-war-cry-3
+    WarCry2: 521830__joelcarrsound__middle-ages-war-cry
+    WarCry3: 521832__joelcarrsound__middle-ages-war-cry-2
+    WarCry4: 527740__khenshom__hey-men-shouting-together-jewish-wedding
+
+    Aww1: 431134__quartetofantastico__aaww
+    Aww2: universfield-crowd-disappointment-reaction-352718
+
+    Boo1: dragon-studio-crowd-booing-494319
+    
+    Loud1:
+      - 113698__huubjeroen__goalloop
+      - Start: 0
+      - End: 53678
+
+  Move:
+    Grass1: 464691__branndybottle__grasswalking_step1
+    Grass2: 464690__branndybottle__grasswalking_step2
+    
+    Leaves1: 517142__wdomino__footsteps_leaves_5
+    Leaves2: 517140__wdomino__footsteps_leaves_1
+    Leaves3: 517139__wdomino__footsteps_leaves_2
+    Leaves4: 517129__wdomino__footsteps_leaves_6
+    
+    Bush1: 178615__montacue__the-rustle-of-a-bush
+    Bush2: 190638__gus_man__rustling-foilage-4
+    Bush3: 190639__gus_man__rustling-foilage-3
+    Bush4: 508545__wdomino__bush_footstep4
+    Bush5: 508542__wdomino__bush_footstep3
+    Bush6: 508544__wdomino__bush_footstep1
+    
+    Wood1: 502511__rudmer_rotteveel__wood-creak-single-v3
+    Wood2: 502505__rudmer_rotteveel__wood-creak-single-v1
+    Wood3: 502504__rudmer_rotteveel__wood-creak-single-v2
+    
+    Snow1: 369779__morganpurkis__snow-step-3
+    Snow2: 369777__morganpurkis__snow-step-1
+    Snow3: 369778__morganpurkis__snow-step-2
+    
+    Sand1: 464699__branndybottle__sandwalking_step1
+    Sand2: 464695__branndybottle__sandwalking_step2
+    
+    Dirty1: 370367__lilmati__step-on-dirt
+    
+    Gravel1: 384880__ali_6868__right-gravel-footstep-5
+    Gravel2: 223154__yoyodaman234__dirtgravel-footstep-3
+    Gravel3: 384890__ali_6868__knight-right-footstep-on-gravel-5-with-chainmail
+    
+    Water1: 450621__breviceps__step-into-water-puddle-wade
+    
+    Slime1: 447930__breviceps__step-on-a-slug-splat-2
+    
+  Robot:
+    Robo1: 275654__deleted_user_4798915__robot_yes-sir
+    Robo2: 316311__littlerobotsoundfactory__robot2_16
+    Robo3: 336883__shahruhaudio__robotic-transform-5
+    Robo4: 826373__charonfaustinus__small-robot-very-cute
+    Robo5: 187409__mazk1985__robot_go
+    Robo6: 255883__dontgothere__funny-cartoon-robot
+    
+    Move1: 178345__erikh2000__stomps-robot-walk
+    Move2: 318559__speedenza__short-servo-burst-1
+    Move3: 148309__keemocore__robot-step-short-medium-heavy
+  
+  Animals:
+    Toy1: 445958__breviceps__cartoon-bat-mouse-squeak
+    
+    CatMeow1: 146975__zabuhailo__cathowls2
+    CatMeow2: 763906__countrygirls13__cat_meow
+    CatMeow3: 686775__nathan-osman__meow-1
+    CatMeow4: 156643__yoyodaman234__catmeow1
+    CatMeow5: 64015__department64__kitten20
+
+    CatHiss1: 146963__zabuhailo__cathisses1
+    
+    DogBark1: 277058__kwahmah_02__single-dog-bark
+    DogBark2: 332176__ivolipa__dog_bark_agressive
+    DogBark3: 100032__nfrae__rose_bark
+    DogBark4: 464406__michael_grinnell__dog_bark_2
+    
+    Chicken1: 316920__rudmer_rotteveel__chicken-single-alarm-call
+    Chicken2: 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico
+    
+    Bird1: 34207__deleted_user_229898__birds_01
+    Bird2: 509321__xfromarge1__bird_cherp_42
+    Bird3: 85405__readeonly__birdcall
+    Bird4: 607242__d4xx__great-tit
+    Bird5: 607223__d4xx__bird-sound
+    
+    Crow2: 56234__qk__crows_02
+    
+    Cow1: u_jd81cxyq22-cow-mooing-343423
+    
+    Pig1: 442906__qubodup__pig-oink
+    Pig2: 442907__qubodup__pig-grunt
+    Pig3: 442904__qubodup__pig-squeak
+    Pig4: 770339__mastersoundboy2005__pig-squealing-sound-effect
+    
+    Rat1: 397651__sieuamthanh__chuot07
+    Rat2: tanweraman-mouse-squeak-261126
+    Rat3: sound_garage-rat-squeaks-1-fx-396297
+    
+    Bat1: freesound_community-double-squeak-2-103875_a
+    Bat2: freesound_community-double-squeak-2-103875_b
+    Bat3: the-vampires-monster-bat-chirping-type-2-355965_a
+    Bat4: the-vampires-monster-bat-chirping-type-2-355965_b
+    
+    WingFlap1:
+      - 389634__stubb__wing-flap-1
+      - Start: 0
+      - End: 8995
+        
+    WingFlap2:
+      - freesound_community-wing-flap-1-6434
+      - Start: 0
+      - End: 9047
+    
+    WingFlap3:
+      - dragon-studio-dragon-flapping-wings-364476
+      - Start: 0
+      - End: 8927
+    
+  Guns:
+    Laser1: 253446__jmayoff__laser
+    Laser2: 417731__wcoltd__laser1
+    Laser3: 83562__nbs-dark__ship-fire3
+    
+    Gun1: 406476__kretopi__synthguns-001
+    
+    Silenced1: 255716__paul368__silenced-pistol-layered-powerful
+    
+    MachineGun1: 
+      - 274559__mrjohnweez__auto-machine-gun
+      - Start: 0
+      - End: 92041
+        
+    ShotGun1: 427595__michorvath__20-gauge-shotgun-gunshot
+    ShotGun2: 473846__lilmati__shotgun-shot-03
+    
+    GunCock1: 182276__martian__kg-gun-cock-02
+    GunCock2: 595051__21100354__gun-reloading
+    GunCock3: 153560__splicesound__winchester-rifle-cock-reload
+    GunCock4: 200966__paul368__shotgun-cock-reload-layered-powerful
+    
+    GrenLaunch1: 163458__lemudcrab__grenade-launcher
+
+  Doors:
+    DoorOpen1: 15419__pagancow__dorm-door-opening
+    
+    DoorSlide1: 176146__swagmuffinplus__sliding-doors
+    DoorSlide2: 425090__neospica__pressurized-door-opening
+    DoorSlide3: 243699__ertfelda__hidden-wall-opening
+    
+    DoorCreak1: 219499__jarredgibb__door-creak
+    
+    DoorClose1: 117614__soundmary__door-close
+    DoorClose2: 48980__lunardrive__metal-door-slam_soundsmith
+    DoorClose3: 571797__nachtmahrtv__door-slamming-hard
+    
+    Curtain1: 272436__ryanharding95__opening-shower-curtain
+    Curtain2: 106132__j1987__showercurtain
+  
+  Vehicles:    
+    CarOpen1: 335102__rnl__opening_car_door
+    
+    CarClose1: 208695__monotraum__car-door-close
+    CarClose2: 173009__ninebilly__car-door-close
+    
+    CarHorn1: 434878__mickthemicguy__car-honking
+    CarHorn2: 164626__deleted_user_2104797__car_horn_mid
+    CarHorn3: 513741__danlucaz__truck-horn
+    
+    CarAlarm1:
+      - freesound_community-car-alarm-88609
+      - Start: 0
+      - End: 8620
+    
+    Crash1: dragon-studio-car-crash-sound-effect-376874
+    
+  Machine:
+    Motor1:
+      - 325809__soundjoao__motor-loop-3
+      - Start: 0
+      - End: 96966
+
+    Motor2:
+      - 242741__marlonhj__engcad1
+      - Start: 3667
+      - End: 71454
+    
+    Motor3:
+      - 386235__ldezem__pneumatic-angle-grinder-fuji-f7vh-run-1a-short
+      - Start: 0
+      - End: 71389
+    
+    Motor4:
+      - 747794__fercraft64__renfe-333-motor-idle
+      - Start: 0
+      - End: 60038
+    
+    Shutter1: 61059__xef6__350d-shutter 
+    Shutter2: 231286__ulose2piranha__5dmkii-shutter-sound 
+    Shutter3: 87149__benjohansen__dslr-shutter 
+    Shutter4: 537314__ristooooo1__camera-take-photo
+    
+    Keyboard1: 194799__jim-ph__keyboard5
+    Keyboard2: 194798__jim-ph__vintage-keyboard-4
+    Keyboard3: 194797__jim-ph__vintage-keyboard-3
+    Keyboard4: 194795__jim-ph__vintage-keyboard-1
+    Keyboard5: 194796__jim-ph__vintage-keyboard-2
+    
+    Click1: 256116__kwahmah_02__click
+    Click2: 54405__korgms2000b__button-click
+    Click3: 342200__christopherderp__videogame-menu-button-click
+    Click4: 215772__otisjames__click
+    Click5: 257357__brnck__button-click
+    Click6: 63531__florian_reinke__click1
+    Click7: 478197__jonnyruss01__click_1
+    
+    Electric1:
+      - 512471__michael_grinnell__electric-zap
+      - Start: 0
+      - End: 2409
+  
+  Digit:
+    Radio1: 
+      - 724706__9voltplasma__glitchy-radio-static-industrial-sfx
+      - Start: 0
+      - End: 38651
+    Radio2: 
+      - 257878__zmobie__short-wave-radio-noise-3
+      - Start: 0
+      - End: 199512
+    Radio3:
+      - 448364__stepgames__noise_long
+      - Start: 0
+      - End: 11026
+        
+    PhoneNoise1: 50699__rutgermuller__cell-phone-interference-noise-1
+    PhoneHang1: 467200__thunderquads__phone-hangup
+    
+    Dial1: 466832__breviceps__phone-dial
+    Dial2: 324693__univ_lyon3__vandierdonck-joan-2015-2016-numbering-phone
+    
+    Beep1: 392972__morganpurkis__radio-wave
+    Beep2: 721525__scywav__outro-quindar-tone
+    Beep3: 701314__sef7__walkie-talkie-button-press-tone
+    Beep4: 843148__sadiquecat__795hz-monitor-blip
+
+    Radar1:
+      - 751577__leszek_szary__radar-4
+      - Start: 0
+      - End: 20477
+    Radar2:
+      - 751576__leszek_szary__radar-3
+      - Start: 0
+      - End: 20476
+    Radar3:
+      - 751575__leszek_szary__radar-2
+      - Start: 0
+      - End: 20477
+    Radar4:
+      - 445723__lilmati__radar-something-detected-01-sec
+      - Start: 0
+      - End: 21759
+    Radar5:
+      - 539957__samsterbirdies__sonar-ping
+      - Start: 0
+      - End: 61778
+
+    Radar6:
+      - 32093__jbum__jsyd_ping
+      - Start: 0
+      - End: 44086
+  
+  Items:
+    CashReg1: 184438__capslok__cash-register-fake
+    
+    Scissor1: 175522__mywhats__scissors-cut
+    Scissor2: 127153__daphne_in_wonderland__scissors
+    
+    MoneyBag1: 338260__philsavlem__money-bag
+    
+    CoinDrop1: 360739__lilmati__coin-sound-01
+    CoinsDrop1: 162195__rickmk2__coin-drop
+    
+    BulletDrop1: 337235__anthousai__bullet-shells-linearly-01_a
+    BulletDrop2: 337235__anthousai__bullet-shells-linearly-01_b
+    BulletDrop3: 337235__anthousai__bullet-shells-linearly-01_c
+    BulletDrop4: 337235__anthousai__bullet-shells-linearly-01_d
+    
+    Padlock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
+    
+    Chains1: 581268__zaqqazlowell__shackles
+    Chains2: 161650__cosmicembers__snapping-chain
+    Chains3: 167915__ani_music__steel-chain-link-rustling
+    Chains4: 167373__ani_music__steel-chain-being-dropped
+    Chains5: 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box
+    
+    Bottle1: 416288__fugeni__empty-beer-bottles-clinking-clanking
+    
+    Match1: 370362__devilqube__match-lighting-candle
+    Match2: 398448__brachern__match-ignite-no-strike
+    
+    Lighter1: 398977__samsterbirdies__lighter-flick
+    Lighter2: 676471__neartheatmoshphere__lighter-short
+    
+    DrawSword1: 175957__freefire66__swordraw
+    DrawSword2: 471147__audroger__sword-slide
+    DrawSword3: 471148__audroger__sword-slide-2
+    DrawSword4: 394338__denysfontanarosa__drawing-a-sword
+    
+    Gas1: 724126__saha213131__lightergas
+    
+  Break:
+    Glass1: 141563__avrahamy__glass-break
+    Glass2: 369070__lazylids__breaking_mirror
+    Glass3: 371091__mccormick_iain__glass-break-4
+
+    Branch1: 164472__deleted_user_2104797__crack-of-branch-3
+    Branch2: 594277__crazychuy__stepping-on-branch
+    
+    Barrel1: 66772__kevinkace__barrel-break-4
+    
+    Vase1: 512246__neospica__crash
+    
+    Bone1: 87570__huluvu42__genickbruch
+    Bone2: 355052__greatnate98__bone-crunch
+    Bone3: 217759__reitanna__knuckles-cracking2
+    
+    Ceramic1: 583310__fission9__tile-breaking
+    Ceramic2: 338018__m_delaparra__mug-breaking
+    Ceramic3: 565642__jcsg__plate-break-1
+    
+    Concrete1: 194688__kingsrow__pieceofconcrete01
+    
+    Paper1: 485524__byjesusjp__hoja-rota
+  
+  Hit:
+    Swing1: 389590__jofae__swing-woosh
+    Swing2: 352719__dalesome__woosh-stick-swung-in-the-air
+    Swing3: 420668__sypherzent__basic-melee-swing-miss-whoosh
+    Swing4: 420670__sypherzent__strong-melee-swing
+    
+    Slap1: 444407__mootmcnoodles__slap
+
+    Punch1: 100466__hoot_avi__smash
+    Punch2: 399183__janbezouska__major-punch
+    Punch3: 507131__daleonfire__punch2
+    Punch4: 799658__katzuyitsu__light-punch
+    
+    Hammer1: 96135__bmaczero__clink2
+    Hammer2: 544396__department64__hits-concrete-09
+    
+    Whip1: 72190__snowflakes__whip02
+    Whip2: 72189__snowflakes__whip01
+    Whip3: 353047__deleted_user_6479820__g_whiff_alt_2
+    Whip4: universfield-whip-02-242215
+    
+    Anvil1: 270589__michorvath__anvil-hit-1
+    
+    Sword1: 442769__qubodup__sword-hit
+    Sword2: 52458__audione__sword-01
+    Sword3: 568170__merrick079__sword-sound-1
+    Sword4: 381864__cribbler__sword
+    
+    Axe1: 442903__qubodup__slash
+    
+    Chop1: 452554__kyles__axe-chop-into-wood-little-debris
+    Chop2: 421929__micahlg__chopping-wood-02
+    Chop3: 421928__micahlg__chopping-wood-01
+    Chop4: 442534__super8ude__treechop3
+    
+  Bang:
+    Boom1: 47252__deleted_user_364925__bad-explosion
+    Boom2: dragon-studio-boom-425459
+    Boom3: soundreality-explosion-fx-343683
+    Boom4: gearpile-explosion-3-386885
+    
+    Flashbang1: 693421__areniporgen__cts-7290
+    
+  Bell:
+    Bell1: 
+      - 650317__jotraing__japanese-railway
+      - Start: 0
+      - End: 96493
+    Bell2: 611113__5ro4__bell-ding-1
+        
+    Door1: 182879__landub__door-bell-rings
+    Door2: 442280__jwheeler91__doorbell-shortened
+    Door3: 171755__2887679652__ding_dongremix-of-110165
+    
+    School1: 378394__deleted_user_7020630__school-bell
+  
+  Ring:
+    Door1: 201030__dr-macak__zvonekdoma
+    
+    Phone1: 106744__nixsound__80s_car_phone1
+    Phone2: 65535__eliasheuninck__1x_telefoon
+    Phone3: 345805__knufds__ringtone-1960s-office-phone
+  
+  Nature:
+    Splash1: 316744__bird_man__big-splash
+    Splash2: 96725__ryding__plask
+    Splash3: 398032__swordofkings128__splash
+    
+    Drop1: freesound_community-water-drop-3-84577
+    Drop2: freesound_community-water-drip-45622
+    Drop3: mrstokes302-water-droplet-sfx-mrstokes302-417690
+    Drop4: dragon-studio-waterdrop-406639
+    Drop5: alexzavesa-water-drop-tap-4-463593
+    
+    Rain1:
+      - 530975__inframatico__rain1
+      - Start: 0
+      - End: 115935
+    
+    Rain2:
+      - 672701__cinetony__rain-on-the-roof-of-car-inside-3
+      - Start: 0
+      - End: 143535
+        
+    Wind1:
+      - dragon-studio-wind-blowing-sfx-06-423674
+      - Start: 0
+      - End: 806400
+    
+    Wind2:
+      - dragon-studio-eerie-wind-478386
+      - Start: 0
+      - End: 605952
+    
+    River1:
+      - 368299__radioactive_blueberry__river-loop
+      - Start: 0
+      - End: 140613
+    
+    River2:
+      - 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice
+      - Start: 0
+      - End: 54606
+    
+    Thunder1: 467777__sgak__thunder
+    Thunder2: u_q2hb2391vb-thunder-clap-521194
+    
+    Fire1:
+      - storegraphic-crackling-fire-sound-309634
+      - Start: 3729
+      - End: 277191
+
+    Fire2: djartmusic-short-fire-whoosh_1-317280
+    Fire3: yodguard-fire-magic-5-378639
+    
+    Embers1: 471158__audroger__embers-4
+    Embers2: 471161__audroger__embers-1
+    Embers3: 471159__audroger__embers-3
