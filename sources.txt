@@ -1,3 +1,5 @@
+No protection is claimed in original U.S. Government works
+
 // Action
 651515__1bob__grab-item                                 https://freesound.org/people/1bob/sounds/651515/
 841596__qubodup__grab-item                              https://freesound.org/people/qubodup/sounds/841596/
@@ -187,6 +189,15 @@ horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_d    https://freesoun
 universfield-wolf-howling-140235                        https://pixabay.com/sound-effects/nature-wolf-howling-140235/
 dragon-studio-wolf-howl-2-359870                        https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/
 dragon-studio-a-lone-wolf-cries-359871                  https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/
+yell-YELLWolvesDec252013                                https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm
+
+yell-YELLgrizzlyC20160626SM303143_a                     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
+yell-YELLgrizzlyC20160626SM303143_b                     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
+yell-YELLGrizzlyBearVocalizations20160520Android1_a     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
+yell-YELLGrizzlyBearVocalizations20160520Android1_b     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
+yell-YELLGrizzlyBearVocalizations20160520Android1_c     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
+
+yell-ChorusFrogs                                        https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm
 
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
@@ -197,6 +208,9 @@ dragon-studio-hawk-call-sound-effect-hawk-cry-364472    https://pixabay.com/soun
 556575__sieuamthanh__ai-bang-tren-khong                 https://freesound.org/people/SieuAmThanh/sounds/556575/
 
 u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/sound-effects/nature-cow-mooing-343423/
+
+yell-YELLMM8K2005918Bison_a                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
+yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
 
 184503__madklown__horse                                 https://freesound.org/people/madklown/sounds/184503/
 269571__shadowisp__horse-neigh-shortened                https://freesound.org/people/shadoWisp/sounds/269571/
@@ -219,9 +233,15 @@ u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/soun
 442904__qubodup__pig-squeak                             https://freesound.org/people/qubodup/sounds/442904/
 770339__mastersoundboy2005__pig-squealing-sound-effect  https://freesound.org/people/Mastersoundboy2005/sounds/770339/
 
+527845__djones__elephant-trumpets-growls                https://freesound.org/people/D.jones/sounds/527845/
+
+u_zpj3vbdres-monkey-128368                              https://pixabay.com/sound-effects/nature-monkey-128368/
+
 516829__lilmati__lion-growl                             https://freesound.org/people/LilMati/sounds/516829/
 675443__craigsmith__s01-09_short-lion-roars             https://freesound.org/people/craigsmith/sounds/675443/
 pwlpl-powerful-lion-roar-sound-effect-high-quality-sfx-444190   https://pixabay.com/sound-effects/nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190/
+
+yell-YELLSGYredsquirrel2004320                          https://www.nps.gov/yell/learn/photosmultimedia/sounds-redsquirrel.htm
 
 397651__sieuamthanh__chuot07                            https://freesound.org/people/SieuAmThanh/sounds/397651/
 tanweraman-mouse-squeak-261126                          https://pixabay.com/sound-effects/nature-mouse-squeak-261126/
@@ -243,6 +263,11 @@ dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/soun
 
 154934__klawykogut__empty-gun-shot                      https://freesound.org/people/KlawyKogut/sounds/154934/
 107806__j1987__metallicclick                            https://freesound.org/people/j1987/sounds/107806/
+686657__deltacode__empty-clip                           https://freesound.org/people/DeltaCode/sounds/686657/
+
+universfield-gunshot-352466                             https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/
+universfield-pistol-gun-shot-278821                     https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/
+eaglaxle-gun-shot-1-530788                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/
 
 406476__kretopi__synthguns-001                          https://freesound.org/people/kretopi/sounds/406476/
 344142__brokenphono__gunshot_002                        https://freesound.org/people/Brokenphono/sounds/344142/
@@ -265,6 +290,9 @@ dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/soun
 595051__21100354__gun-reloading                         https://freesound.org/people/21100354/sounds/595051/
 153560__splicesound__winchester-rifle-cock-reload       https://freesound.org/people/SpliceSound/sounds/153560/
 448987__lilmati__weapon-ready                           https://freesound.org/people/LilMati/sounds/448987/
+dragon-studio-gun-reload-511309                         https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/
+dragon-studio-gun-reload-2-511308                       https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/
+eaglaxle-gun-shot-3-530790                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/
 
 163458__lemudcrab__grenade-launcher                     https://freesound.org/people/LeMudCrab/sounds/163458/
 

@@ -16,10 +16,11 @@ Used sites:
 
 - [freesound.org](https://freesound.org)
 - [pixabay.com](https://pixabay.com)
+- [www.nps.gov](https://www.nps.gov)
 
 ***
 
-## Effect List (387)
+## Effect List (407)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -443,6 +444,26 @@ Wolf2 [dragon studio wolf howl 2 359870](https://pixabay.com/sound-effects/horro
 
 Wolf3 [dragon studio a lone wolf cries 359871](https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/)
 
+Wolf4 [yell YELLWolvesDec252013](https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm)
+
+&nbsp;
+&nbsp;
+
+Bear1 [yell YELLgrizzlyC20160626SM303143 a](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm)
+
+Bear2 [yell YELLgrizzlyC20160626SM303143 b](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm)
+
+Bear3 [yell YELLGrizzlyBearVocalizations20160520Android1 a](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm)
+
+Bear4 [yell YELLGrizzlyBearVocalizations20160520Android1 b](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm)
+
+Bear5 [yell YELLGrizzlyBearVocalizations20160520Android1 c](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm)
+
+&nbsp;
+&nbsp;
+
+ChorusFrog1 [yell ChorusFrogs](https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm)
+
 &nbsp;
 &nbsp;
 
@@ -465,6 +486,13 @@ Eagle2 [ai bang tren khong](https://freesound.org/people/SieuAmThanh/sounds/5565
 &nbsp;
 
 Cow1 [u jd81cxyq22 cow mooing 343423](https://pixabay.com/sound-effects/nature-cow-mooing-343423/)
+
+&nbsp;
+&nbsp;
+
+Bison1 [yell YELLMM8K2005918Bison a](https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm)
+
+Bison2 [yell YELLMM8K2005918Bison b](https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm)
 
 &nbsp;
 &nbsp;
@@ -516,11 +544,28 @@ Pig4 [pig squealing sound effect](https://freesound.org/people/Mastersoundboy200
 &nbsp;
 &nbsp;
 
+Elephant1 [elephant trumpets growls](https://freesound.org/people/D.jones/sounds/527845/)
+
+Elephant2 [u 7bikmggkv2 trumpet sound of an elephant 154720](https://pixabay.com/sound-effects/nature-trumpet-sound-of-an-elephant-154720/)
+
+&nbsp;
+&nbsp;
+
+Monkey1 [u zpj3vbdres monkey 128368](https://pixabay.com/sound-effects/nature-monkey-128368/)
+
+&nbsp;
+&nbsp;
+
 Lion1 [lion growl](https://freesound.org/people/LilMati/sounds/516829/)
 
 Lion2 [s01 09 short lion roars](https://freesound.org/people/craigsmith/sounds/675443/)
 
 Lion3 [pwlpl powerful lion roar sound effect high quality sfx 444190](https://pixabay.com/sound-effects/nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190/)
+
+&nbsp;
+&nbsp;
+
+Squirrel1 [yell YELLSGYredsquirrel2004320](https://www.nps.gov/yell/learn/photosmultimedia/sounds-redsquirrel.htm)
 
 &nbsp;
 &nbsp;
@@ -569,12 +614,23 @@ Empty1 [empty gun shot](https://freesound.org/people/KlawyKogut/sounds/154934/)
 
 Empty2 [metallicclick](https://freesound.org/people/j1987/sounds/107806/)
 
+Empty3 [empty clip](https://freesound.org/people/DeltaCode/sounds/686657/)
+
 &nbsp;
 &nbsp;
 
-Gun1 [synthguns 001](https://freesound.org/people/kretopi/sounds/406476/)
+Shot3 [universfield gunshot 352466](https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/)
 
-Gun2 [gunshot 002](https://freesound.org/people/Brokenphono/sounds/344142/)
+Shot4 [universfield pistol gun shot 278821](https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/)
+
+Shot5 [eaglaxle gun shot 1 530788](https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/)
+
+&nbsp;
+&nbsp;
+
+Shot1 [synthguns 001](https://freesound.org/people/kretopi/sounds/406476/)
+
+Shot2 [gunshot 002](https://freesound.org/people/Brokenphono/sounds/344142/)
 
 &nbsp;
 &nbsp;
@@ -618,6 +674,12 @@ Reload2 [gun reloading](https://freesound.org/people/21100354/sounds/595051/)
 Reload3 [winchester rifle cock reload](https://freesound.org/people/SpliceSound/sounds/153560/)
 
 Reload5 [weapon ready](https://freesound.org/people/LilMati/sounds/448987/)
+
+Reload6 [dragon studio gun reload 511309](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/)
+
+Reload7 [dragon studio gun reload 2 511308](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/)
+
+Shit6 [eaglaxle gun shot 3 530790](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/)
 
 &nbsp;
 &nbsp;

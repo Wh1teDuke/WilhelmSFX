@@ -134,9 +134,14 @@ if (processReadme)
 
     var urls = new HashSet<string>();
     var count = 0;
+    var firstGroup = true;
     
     foreach (var line in sourcesTxt.Split(Environment.NewLine))
     {
+        if (firstGroup && !line.StartsWith("//"))
+            continue;
+        firstGroup = false;
+        
         if (line.IsWhiteSpace())
         {
             readme += "&nbsp;\n&nbsp;\n\n";
@@ -195,16 +200,16 @@ if (processSamples)
 
         // <filter>
         "-af \"" +
+        // Trim silence from start/end
+        "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=1:stop_threshold=-45dB:stop_duration=0.1," +
+        // Lowpass
+        $"lowpass=f={lowpass}:p=2," +
+        // Playback rate
+        "atempo={2}," +
         // Bit depth
         $"acrusher=bits={bitcrush}:mix=1:mode=log:samples=2," +
         // Normalize,
-        "loudnorm=I=-14:TP=-1.0:LRA=6," +
-        // Lowpass
-        $"lowpass=f={lowpass}," +
-        // Playback rate
-        "atempo={2}," +
-        // Trim silence from start/end
-        "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=1:stop_threshold=-45dB:stop_duration=1" +
+        "loudnorm=I=-14:TP=-1.0:LRA=6" +
         // </filter>
         "\" " +
 
