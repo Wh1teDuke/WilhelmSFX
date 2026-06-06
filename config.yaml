@@ -114,8 +114,7 @@ Presets:
     
     Loud1:
       - 113698__huubjeroen__goalloop
-      - Start: 0
-      - End: 53678
+      - End: all
 
   Move:
     Foot1: 251788__vkproduktion__footstep-01
@@ -231,18 +230,15 @@ Presets:
     
     WingFlap1:
       - 389634__stubb__wing-flap-1
-      - Start: 0
-      - End: 8995
+      - End: all
         
     WingFlap2:
       - freesound_community-wing-flap-1-6434
-      - Start: 0
-      - End: 9047
+      - End: all
     
     WingFlap3:
       - dragon-studio-dragon-flapping-wings-364476
-      - Start: 0
-      - End: 8927
+      - End: all
     
   Gun:
     Laser1: 253446__jmayoff__laser
@@ -260,13 +256,12 @@ Presets:
     
     MachineGun1: 
       - 274559__mrjohnweez__auto-machine-gun
-      - Start: 0
-      - End: 7285
+      - End: all
 
     MachineGun2:
       - 122103__greatmganga__dshk_01
-      - Start: 456
-      - End: 5021
+      - Start: 0.027
+      - End: 0.171
         
     ShotGun1: 427595__michorvath__20-gauge-shotgun-gunshot
     ShotGun2: 473846__lilmati__shotgun-shot-03
@@ -274,13 +269,12 @@ Presets:
     Rifle1: 163460__lemudcrab__sniper-shot
     Rifle2:
       - 258198__wadaltmon__thompson-smg-shot
-      - Start: 0
-      - End: 2699
+      - Start: .008
+      - End: .114
     
     Rifle3:
       - 482120__qubodup__rifle-burst
-      - Start: 0
-      - End: 6445
+      - End: all
     
     Reload1: 182276__martian__kg-gun-cock-02
     Reload2: 595051__21100354__gun-reloading
@@ -320,31 +314,57 @@ Presets:
     
     Alarm1:
       - freesound_community-car-alarm-88609
-      - Start: 0
-      - End: 8620
+      - End: all
     
     Crash1: dragon-studio-car-crash-sound-effect-376874
     
   Machine:
     Motor1:
       - 325809__soundjoao__motor-loop-3
-      - Start: 0
-      - End: 96966
+      - End: all
 
     Motor2:
       - 242741__marlonhj__engcad1
-      - Start: 3667
-      - End: 71454
+      - Start: .272
+      - End: 1.465
     
     Motor3:
       - 386235__ldezem__pneumatic-angle-grinder-fuji-f7vh-run-1a-short
-      - Start: 0
-      - End: 71389
+      - End: all
     
     Motor4:
       - 747794__fercraft64__renfe-333-motor-idle
-      - Start: 0
-      - End: 60038
+      - End: all
+        
+    Motor5:
+      - 828754__chungus43a__mississauga-transit
+      - End: all
+    
+    Motor6:
+      - 264864__augustsandberg__marine-diesel-engine
+      - End: all
+    
+    MotorDead1:
+      - 32416__kraftwerk2k1__car_engine_wont-start
+      - Start: .251
+      - End: all
+    
+    Train1:
+      - 69005__heigh-hoo__freight_on_bridge
+      - End: all
+    
+    Minecart1:
+      - 351382__wmquincy101__minecart
+      - End: all
+        
+    Break1: 
+      - 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_a
+      - Start: .308
+      - End: .713
+    Break2:
+      - 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_b
+      - Start: .096
+      - End: .429
     
     Shutter1: 61059__xef6__350d-shutter 
     Shutter2: 231286__ulose2piranha__5dmkii-shutter-sound 
@@ -367,22 +387,18 @@ Presets:
     
     Electric1:
       - 512471__michael_grinnell__electric-zap
-      - Start: 0
-      - End: 2409
+      - End: all
   
   Digit:
     Radio1: 
       - 724706__9voltplasma__glitchy-radio-static-industrial-sfx
-      - Start: 0
-      - End: 38651
+      - End: all
     Radio2: 
       - 257878__zmobie__short-wave-radio-noise-3
-      - Start: 0
-      - End: 199512
+      - End: all
     Radio3:
       - 448364__stepgames__noise_long
-      - Start: 0
-      - End: 11026
+      - End: all
         
     PhoneNoise1: 50699__rutgermuller__cell-phone-interference-noise-1
     PhoneHang1: 467200__thunderquads__phone-hangup
@@ -397,29 +413,22 @@ Presets:
 
     Radar1:
       - 751577__leszek_szary__radar-4
-      - Start: 0
-      - End: 20477
+      - End: all
     Radar2:
       - 751576__leszek_szary__radar-3
-      - Start: 0
-      - End: 20476
+      - End: all
     Radar3:
       - 751575__leszek_szary__radar-2
-      - Start: 0
-      - End: 20477
+      - End: all
     Radar4:
       - 445723__lilmati__radar-something-detected-01-sec
-      - Start: 0
-      - End: 21759
+      - End: all
     Radar5:
       - 539957__samsterbirdies__sonar-ping
-      - Start: 0
-      - End: 61778
-
+      - End: all
     Radar6:
       - 32093__jbum__jsyd_ping
-      - Start: 0
-      - End: 44086
+      - End: all
   
   Item:
     Pour1: 207781__dvideoguy__pouring-liquid
@@ -552,8 +561,7 @@ Presets:
   Bell:
     Bell1: 
       - 650317__jotraing__japanese-railway
-      - Start: 0
-      - End: 96493
+      - End: all
     Bell2: 611113__5ro4__bell-ding-1
         
     Door1: 182879__landub__door-bell-rings
@@ -590,41 +598,36 @@ Presets:
     
     Rain1:
       - 530975__inframatico__rain1
-      - Start: 0
-      - End: 115935
+      - End: all
     
     Rain2:
       - 672701__cinetony__rain-on-the-roof-of-car-inside-3
-      - Start: 0
-      - End: 143535
+      - Start: 0.198
+      - End: all
         
     Wind1:
       - dragon-studio-wind-blowing-sfx-06-423674
-      - Start: 0
-      - End: 806400
+      - End: all
     
     Wind2:
       - dragon-studio-eerie-wind-478386
-      - Start: 0
-      - End: 605952
+      - End: all
     
     River1:
       - 368299__radioactive_blueberry__river-loop
-      - Start: 0
-      - End: 140613
+      - End: all
     
     River2:
       - 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice
-      - Start: 0
-      - End: 54606
+      - End: all
     
     Thunder1: 467777__sgak__thunder
     Thunder2: u_q2hb2391vb-thunder-clap-521194
     
     Fire1:
       - storegraphic-crackling-fire-sound-309634
-      - Start: 3729
-      - End: 277191
+      - Start: .665
+      - End: 5.437
 
     Fire2: djartmusic-short-fire-whoosh_1-317280
     Fire3: yodguard-fire-magic-5-378639

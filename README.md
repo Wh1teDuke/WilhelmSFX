@@ -364,6 +364,17 @@ Slime1 [step on a slug splat 2](https://freesound.org/people/Breviceps/sounds/44
 &nbsp;
 &nbsp;
 
+Horse1 [horse galloping coconut shells looped 03 nicholas judy tdc a](https://freesound.org/people/designerschoice/sounds/807858/)
+
+Horse2 [horse galloping coconut shells looped 03 nicholas judy tdc b](https://freesound.org/people/designerschoice/sounds/807858/)
+
+Horse3 [horse galloping coconut shells looped 03 nicholas judy tdc c](https://freesound.org/people/designerschoice/sounds/807858/)
+
+Horse4 [horse galloping coconut shells looped 03 nicholas judy tdc d](https://freesound.org/people/designerschoice/sounds/807858/)
+
+&nbsp;
+&nbsp;
+
 ### Robot
 
 Robo1 [robot yes sir](https://freesound.org/people/deleted_user_4798915/sounds/275654/)
@@ -428,6 +439,19 @@ DogBark4 [dog bark 2](https://freesound.org/people/michael_grinnell/sounds/46440
 
 Chicken1 [chicken single alarm call](https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/)
 
+Chicken2 [birdfowl rooster crow boisterous cock cocorico](https://freesound.org/people/harrisonlace/sounds/842587/)
+
+Chicken3 [rooster crow 1](https://freesound.org/people/rafaelpicoli/sounds/392029/)
+
+Chicken4 [rooster crows in a farm](https://freesound.org/people/nomadas/sounds/623796/)
+
+&nbsp;
+&nbsp;
+
+Eagle1 [dragon studio hawk call sound effect hawk cry 364472](https://pixabay.com/sound-effects/nature-hawk-call-sound-effect-hawk-cry-364472/)
+
+Eagle2 [ai bang tren khong](https://freesound.org/people/SieuAmThanh/sounds/556575/)
+
 &nbsp;
 &nbsp;
 
@@ -436,7 +460,16 @@ Cow1 [u jd81cxyq22 cow mooing 343423](https://pixabay.com/sound-effects/nature-c
 &nbsp;
 &nbsp;
 
-Chicken2 [birdfowl rooster crow boisterous cock cocorico](https://freesound.org/people/harrisonlace/sounds/842587/)
+Horse1 [horse](https://freesound.org/people/madklown/sounds/184503/)
+
+Horse2 [horse neigh shortened](https://freesound.org/people/shadoWisp/sounds/269571/)
+
+Horse3 [horsesnort 3](https://freesound.org/people/o_ciz/sounds/475483/)
+
+&nbsp;
+&nbsp;
+
+Donkey1 [jumento](https://freesound.org/people/rafaelpicoli/sounds/392029/)
 
 &nbsp;
 &nbsp;
@@ -454,7 +487,11 @@ Bird5 [bird sound](https://freesound.org/people/D4XX/sounds/607223/)
 &nbsp;
 &nbsp;
 
-Crow2 [crows 02](https://freesound.org/people/Q.K./sounds/56234/)
+Crow1 [croworraven1](https://freesound.org/people/iwanPlays/sounds/512781/)
+
+Crow2 [croworraven2](https://freesound.org/people/iwanPlays/sounds/512780/)
+
+Crow3 [crows 02](https://freesound.org/people/Q.K./sounds/56234/)
 
 &nbsp;
 &nbsp;
@@ -656,6 +693,32 @@ Motor2 [engcad1](https://freesound.org/people/MarlonHJ/sounds/242741/)
 Motor3 [pneumatic angle grinder fuji f7vh run 1a short](https://freesound.org/people/ldezem/sounds/386235/)
 
 Motor4 [renfe 333 motor idle](https://freesound.org/people/Fercraft64/sounds/747794/)
+
+Motor5 [mississauga transit](https://freesound.org/people/chungus43A/sounds/828754/)
+
+Motor6 [marine diesel engine](https://freesound.org/people/AugustSandberg/sounds/264864/)
+
+&nbsp;
+&nbsp;
+
+MotorDead1 [car engine wont start](https://freesound.org/people/KRAFTWERK2K1/sounds/32416/)
+
+&nbsp;
+&nbsp;
+
+Train1 [freight on bridge](https://freesound.org/people/Heigh-hoo/sounds/69005/)
+
+&nbsp;
+&nbsp;
+
+Minecart1 [minecart](https://freesound.org/people/wmquincy101/sounds/351382/)
+
+&nbsp;
+&nbsp;
+
+Break1 [car stop breaks screech engine rev by monnie101mp4 a](https://freesound.org/people/monnie101/sounds/58150/)
+
+Break2 [car stop breaks screech engine rev by monnie101mp4 b](https://freesound.org/people/monnie101/sounds/58150/)
 
 &nbsp;
 &nbsp;

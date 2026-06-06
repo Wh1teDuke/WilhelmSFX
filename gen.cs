@@ -1,4 +1,4 @@
-#!/usr/bin/env -S dotnet run --configuration Release
+#!/usr/bin/env -S dotnet run
 
 #:package SpessaSharp@4.3.7-nightly-00001
 #:package YamlDotNet@18.0.0
@@ -34,6 +34,8 @@ var processReadme = !ArgsContains("--skip-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
 var lowpass = ArgsInt("--lowpass") ?? sampleRate;
 var bitcrush = ArgsInt("--bitcrush") ?? 32;
+var saveDuration = ArgsContains("--save-duration");
+var includeExtra = ArgsContains("--include-extra");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
@@ -46,25 +48,37 @@ var deserializer = new DeserializerBuilder()
     .WithTypeConverter(new SampleCfgConverter())
     .Build();
 
-var mConfig = deserializer.Deserialize<MConfig>(File.ReadAllText("config.yaml"));
 var fileToName = new Dictionary<string, string>();
-var presets = new List<(string Name, List<(string, SampleCfg)>)>();
+var presets = new Dictionary<string, List<(string, SampleCfg)>>();
 var sampleLen = 0;
 
-foreach (var entry in mConfig.Presets)
-{
-    sampleLen += entry.Value.Count;
-    
-    Console.WriteLine($"{entry.Key} ({entry.Value.Count})");
-    
-    var list = new List<(string, SampleCfg)>();
-    foreach (var (name, value) in entry.Value)
-    {
-        fileToName[value.File] = name;
-        list.Add((name, value));
-    }
+List<string> cfgFileList = ["config.yaml"];
+if (includeExtra) cfgFileList.Add("config_extra.yaml");
 
-    presets.Add((entry.Key, list));
+foreach (var cfgFile in cfgFileList)
+{
+    if (!File.Exists(cfgFile)) continue;
+    
+    Console.WriteLine("Reading cfg: " + cfgFile);
+    var mConfig = deserializer.Deserialize<MConfig>(File.ReadAllText(cfgFile));
+    
+    foreach (var entry in mConfig.Presets)
+    {
+        sampleLen += entry.Value.Count;
+    
+        Console.WriteLine($"{entry.Key} ({entry.Value.Count})");
+    
+        var list = new List<(string, SampleCfg)>();
+        foreach (var (name, value) in entry.Value)
+        {
+            fileToName[value.File] = name;
+            list.Add((name, value));
+        }
+
+        if (!presets.ContainsKey(entry.Key))
+            presets[entry.Key] = [];
+        presets[entry.Key].AddRange(list);
+    }   
 }
 
 Console.WriteLine("Samples: " + sampleLen);
@@ -150,7 +164,7 @@ if (processSamples)
 
     var baseCmdArgs =
         // Quiet output
-        "-nostats -loglevel quiet -y -hide_banner " +
+        "-nostats -loglevel error -y -hide_banner " +
         // Input
         "-i {0} " +
 
@@ -176,7 +190,11 @@ if (processSamples)
     Console.WriteLine(">ffmpeg " + baseCmdArgs, "[INPUT]", "[OUTPUT]");
 
     var processList = new List<Process>();
-    foreach (var file in Directory.GetFiles("Samples"))
+    var files = Directory.GetFiles("Samples").ToList();
+    if (includeExtra && Directory.Exists("ExtraSamples"))
+        files.AddRange(Directory.GetFiles("ExtraSamples"));
+    
+    foreach (var file in files)
     {
         var name = Path.GetFileNameWithoutExtension(file);
         var output = Path.Join(samplesOutput, $"{name}.ogg");
@@ -190,27 +208,31 @@ if (processSamples)
     Console.WriteLine();
 }
 
-// Get duration
+// Get Duration
 Console.WriteLine("Process Samples Duration ...");
 
-var sampleDur = new ConcurrentDictionary<string, double>();
+var sampleToDuration = new ConcurrentDictionary<string, double>();
 var tasksDur = new List<Task>();
-foreach (var sampleFile in presets
-             .SelectMany(p => p.Item2)
-             .Select(e => e.Item2.File))
+foreach (var sampleFile in presets.Values
+             .SelectMany(s => s.Select(ss => ss.Item2.File)))
 {
     var path = Path.Join(outputDir.Name, sampleFile + ".ogg");
-
-    var task = Task.Run(() =>
-    {
-        sampleDur[sampleFile] = double.Parse(ProcessRead(
-            "ffprobe",
-            $"-v quiet -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {path}").Trim());
-    });
+    var task = Task.Run(() => sampleToDuration[sampleFile] = double.Parse(ProcessRead(
+        "ffprobe",
+        $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {path}").Trim()));
     tasksDur.Add(task);
 }
 
 Task.WaitAll(tasksDur.ToArray());
+
+if (saveDuration)
+{
+    var durTxt = "";
+    foreach (var entry in sampleToDuration) 
+        durTxt += $"{entry.Value,-8:F4} {entry.Key}\n";
+
+    File.WriteAllText("duration.txt", durTxt);   
+}
 
 // We are cooking
 Console.WriteLine("Process Sound Bank ...");
@@ -250,7 +272,8 @@ foreach (var (presetName, sounds) in presets)
         // Sample
         var audioData = File.ReadAllBytes(file.FullName);
         var sampleName = presetName + "." + soundName;
-        var sampleDuration = sampleDur[fileName];
+        var sampleDuration = sampleToDuration[fileName];
+        var sampleDurLen = (int)(sampleDuration * sampleRate);
 
         if (!set.Add(sampleName))
             throw new ArgumentException($"Duplicated name: '{sampleName}'");
@@ -260,14 +283,43 @@ foreach (var (presetName, sounds) in presets)
         sample.Rate = sampleRate;
         sample.OriginalKey = i;
         sample.SetCompressedData(audioData);
-        sample.LoopStart = sound.LoopStart ?? 0;
-        sample.LoopEnd = sound.LoopEnd ?? 0;
+        
+        if (sound.LoopStart is {} lStart)
+            sample.LoopStart = (int)(lStart * sampleRate);
+
+        if (sound.LoopEnd is { } lEnd)
+        {
+            int samples;
+
+            if (lEnd is string end)
+            {
+                if (end == "all")
+                    samples = sampleDurLen;
+                else if (end.EndsWith('%'))
+                    samples = (int)(sampleDuration * sampleRate * double.Parse(end[..^2]));
+                else
+                    throw new ArgumentException("Wrong loop arg: " + lEnd);
+            }
+            else
+                samples = (int)((double)lEnd * sampleRate);
+
+            sample.LoopEnd = samples;
+        }
 
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
         
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
-            zone.Basic.SetGenerator(Generator.Type.SampleModes, 1);
+        {
+            if (sample.LoopEnd < sampleDurLen)
+            {
+                zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, sampleDurLen - sample.LoopEnd);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, sampleDurLen - sample.LoopEnd);
+            }
+            else
+                zone.Basic.SetGenerator(Generator.Type.SampleModes, 1);
+        }
         
         bank.Samples.Add(sample);
 
@@ -330,9 +382,16 @@ string ProcessRead(string cmd, string args = "")
         new ProcessStartInfo(cmd, args)
         {
             RedirectStandardOutput = true,
+            RedirectStandardError = true,
         });
     var reader = proc!.StandardOutput;
+    var err = proc.StandardError;
+    
     proc.WaitForExit();
+
+    var errMsg = err.ReadToEnd();
+    if (errMsg != "") throw new Exception(errMsg);
+    
     return reader.ReadToEnd();
 }
 #endregion
@@ -341,8 +400,8 @@ string ProcessRead(string cmd, string args = "")
 internal sealed class SampleCfg
 {
     public string File = "";
-    public int? LoopStart;
-    public int? LoopEnd;
+    public double? LoopStart;
+    public object? LoopEnd;
 }
 
 internal class MConfig
@@ -371,10 +430,14 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
             switch (parser.Consume<Scalar>().Value)
             {
                 case "Start":
-                    cfg.LoopStart = GetInt();
+                    cfg.LoopStart = GetDouble();
                     break;
                 case "End":
-                    cfg.LoopEnd   = GetInt();
+                    var val = parser.Consume<Scalar>().Value;
+                    if (val.Equals("all", StringComparison.CurrentCultureIgnoreCase))
+                        cfg.LoopEnd = "all";
+                    else
+                        cfg.LoopEnd = double.Parse(val);
                     break;
             }
             parser.Consume<MappingEnd>();
@@ -383,6 +446,7 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
         return cfg;
 
         int GetInt() => int.Parse(parser.Consume<Scalar>().Value);
+        double GetDouble() => double.Parse(parser.Consume<Scalar>().Value);
     }
 
     public void WriteYaml(

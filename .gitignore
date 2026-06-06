@@ -1,3 +1,5 @@
 SamplesOgg/
+ExtraSamples/*
+config_extra.yaml
 *.cfg
 *.sf3
