@@ -76,6 +76,7 @@ foreach (var cfgFile in cfgFileList)
         {
             fileToName[value.File] = name;
             fileToCfg[value.File] = value;
+            
             list.Add((name, value));
         }
 
@@ -359,14 +360,14 @@ foreach (var (presetName, sounds) in presets)
                 zone.Basic.SetGenerator(
                     Generator.Type.ReleaseModEnv, (int)(rme * 1_000));
         }
-        
+
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
             if (sample.LoopEnd < sampleDurLen)
             {
                 var ms = (int)
                     ((sample.LoopEnd / (double)sampleDurLen) *
-                     sampleDuration * 1_000);
+                     sampleDuration * 1_000) * 5;
                 
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
                 zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, ms);

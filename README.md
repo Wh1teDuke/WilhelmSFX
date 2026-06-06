@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (407)
+## Effect List (429)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -52,6 +52,20 @@ ClimbLadder4 [ladderclimb3](https://freesound.org/people/deleted_user_10023915/s
 &nbsp;
 &nbsp;
 
+ToiletFlush1 [toilet flushing](https://freesound.org/people/lorenzgillner/sounds/274448/)
+
+ToiletFlush2 [toilet flushing](https://freesound.org/people/DeantheDinosauce/sounds/202049/)
+
+ToiletFlush3 [flush](https://freesound.org/people/justeluis/sounds/185046/)
+
+&nbsp;
+&nbsp;
+
+PoopFall1 [poop fall into toilet 1](https://freesound.org/people/frenkfurth/sounds/771698/)
+
+&nbsp;
+&nbsp;
+
 Burp1 [burp](https://freesound.org/people/Pingel/sounds/12730/)
 
 Burp2 [burp](https://freesound.org/people/deleted_user_2104797/sounds/324514/)
@@ -71,6 +85,28 @@ Burp8 [cartoon burp](https://freesound.org/people/josetb/sounds/678963/)
 Burp9 [loud burp](https://freesound.org/people/phatcorns/sounds/683053/)
 
 Burp10 [burp single clear](https://freesound.org/people/Geruhn/sounds/833381/)
+
+&nbsp;
+&nbsp;
+
+Poke1 [gage](https://freesound.org/people/RavenBlueFeather/sounds/606981/)
+
+Poke2 [velisophigus vomiting 301069](https://pixabay.com/sound-effects/people-vomiting-301069/)
+
+&nbsp;
+&nbsp;
+
+Chew1 [bite apple](https://freesound.org/people/wadaltmon/sounds/275015/)
+
+Chew2 [crunch](https://freesound.org/people/steenish/sounds/528962/)
+
+Chew3 [apple bite](https://freesound.org/people/AntumDeluge/sounds/584290/)
+
+Chew4 [eating sound effect](https://freesound.org/people/User391915396/sounds/570336/)
+
+Chew5 [crunch](https://freesound.org/people/qubodup/sounds/816237/)
+
+Chew6 [crispy bite](https://freesound.org/people/JoMungus/sounds/718593/)
 
 &nbsp;
 &nbsp;
@@ -546,8 +582,6 @@ Pig4 [pig squealing sound effect](https://freesound.org/people/Mastersoundboy200
 
 Elephant1 [elephant trumpets growls](https://freesound.org/people/D.jones/sounds/527845/)
 
-Elephant2 [u 7bikmggkv2 trumpet sound of an elephant 154720](https://pixabay.com/sound-effects/nature-trumpet-sound-of-an-elephant-154720/)
-
 &nbsp;
 &nbsp;
 
@@ -786,6 +820,13 @@ MotorDead1 [car engine wont start](https://freesound.org/people/KRAFTWERK2K1/sou
 &nbsp;
 &nbsp;
 
+Drill1 [drill gun](https://freesound.org/people/metrostock99/sounds/345073/)
+
+Drill2 [impact drill](https://freesound.org/people/wjoojoo/sounds/179725/)
+
+&nbsp;
+&nbsp;
+
 Train1 [freight on bridge](https://freesound.org/people/Heigh-hoo/sounds/69005/)
 
 &nbsp;
@@ -922,6 +963,22 @@ Clink4 [bottles 2](https://freesound.org/people/somatik7/sounds/608709/)
 &nbsp;
 &nbsp;
 
+OpenLid1 [opening beer can](https://freesound.org/people/MarviinR/sounds/523322/)
+
+OpenLid2 [soda bottle open](https://freesound.org/people/supersnd/sounds/350618/)
+
+&nbsp;
+&nbsp;
+
+PotLid1 [pot lid a](https://freesound.org/people/bowlingballout/sounds/210100/)
+
+PotLid2 [pot lid b](https://freesound.org/people/bowlingballout/sounds/210100/)
+
+PotLid3 [pot lid c](https://freesound.org/people/bowlingballout/sounds/210100/)
+
+&nbsp;
+&nbsp;
+
 CashReg1 [cash register fake](https://freesound.org/people/CapsLok/sounds/184438/)
 
 &nbsp;
@@ -970,6 +1027,15 @@ BulletDrop2 [bullet shells linearly 01 b](https://freesound.org/people/Anthousai
 BulletDrop3 [bullet shells linearly 01 c](https://freesound.org/people/Anthousai/sounds/337235/)
 
 BulletDrop4 [bullet shells linearly 01 d](https://freesound.org/people/Anthousai/sounds/337235/)
+
+&nbsp;
+&nbsp;
+
+ChestOpen1 [foley object metal chest openclose mono a](https://freesound.org/people/Nox_Sound/sounds/570484/)
+
+ChestOpen2 [foley object metal chest openclose mono b](https://freesound.org/people/Nox_Sound/sounds/570484/)
+
+Chestclose2 [foley object metal chest openclose mono c](https://freesound.org/people/Nox_Sound/sounds/570484/)
 
 &nbsp;
 &nbsp;
@@ -1106,6 +1172,11 @@ Slap1 [slap](https://freesound.org/people/MootMcnoodles/sounds/444407/)
 &nbsp;
 
 Arrow1 [fx bowarrow](https://freesound.org/people/Lydmakeren/sounds/511490/)
+
+&nbsp;
+&nbsp;
+
+Crossbow1 [pvc rocket cannon 2](https://freesound.org/people/bowlingballout/sounds/151714/)
 
 &nbsp;
 &nbsp;

@@ -14,6 +14,12 @@ No protection is claimed in original U.S. Government works
 478054__deleted_user_10023915__ladderclimb2             https://freesound.org/people/deleted_user_10023915/sounds/478054/
 478053__deleted_user_10023915__ladderclimb3             https://freesound.org/people/deleted_user_10023915/sounds/478053/
 
+274448__lorenzgillner__toilet-flushing                  https://freesound.org/people/lorenzgillner/sounds/274448/
+202049__deanthedinosauce__toilet-flushing               https://freesound.org/people/DeantheDinosauce/sounds/202049/
+185046__justeluis__flush                                https://freesound.org/people/justeluis/sounds/185046/
+
+771698__frenkfurth__poop-fall-into-toilet-1             https://freesound.org/people/frenkfurth/sounds/771698/
+
 12730__pingel__burp                                     https://freesound.org/people/Pingel/sounds/12730/
 324514__deleted_user_2104797__burp                      https://freesound.org/people/deleted_user_2104797/sounds/324514/
 26762__santuccie__belch1                                https://freesound.org/people/santuccie/sounds/26762/
@@ -24,6 +30,16 @@ No protection is claimed in original U.S. Government works
 678963__josetb__cartoon-burp                            https://freesound.org/people/josetb/sounds/678963/
 683053__phatcorns__loud-burp                            https://freesound.org/people/phatcorns/sounds/683053/
 833381__geruhn__burp-single-clear                       https://freesound.org/people/Geruhn/sounds/833381/
+
+606981__ravenbluefeather__gage                          https://freesound.org/people/RavenBlueFeather/sounds/606981/
+velisophigus-vomiting-301069                            https://pixabay.com/sound-effects/people-vomiting-301069/
+
+275015__wadaltmon__bite-apple                           https://freesound.org/people/wadaltmon/sounds/275015/
+528962__steenish__crunch                                https://freesound.org/people/steenish/sounds/528962/
+584290__antumdeluge__apple-bite                         https://freesound.org/people/AntumDeluge/sounds/584290/
+570336__user391915396__eating-sound-effect              https://freesound.org/people/User391915396/sounds/570336/
+816237__qubodup__crunch                                 https://freesound.org/people/qubodup/sounds/816237/
+718593__jomungus__crispy-bite                           https://freesound.org/people/JoMungus/sounds/718593/
 
 // Man
 341730__sgtpepperarc360__hahahaha                       https://freesound.org/people/SgtPepperArc360/sounds/341730/
@@ -338,6 +354,9 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 
 32416__kraftwerk2k1__car_engine_wont-start              https://freesound.org/people/KRAFTWERK2K1/sounds/32416/
 
+345073__metrostock99__drill-gun                         https://freesound.org/people/metrostock99/sounds/345073/
+179725__wjoojoo__impact_drill                           https://freesound.org/people/wjoojoo/sounds/179725/
+
 69005__heigh-hoo__freight_on_bridge                     https://freesound.org/people/Heigh-hoo/sounds/69005/
 
 351382__wmquincy101__minecart                           https://freesound.org/people/wmquincy101/sounds/351382/
@@ -399,6 +418,13 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 416288__fugeni__empty-beer-bottles-clinking-clanking    https://freesound.org/people/Fugeni/sounds/416288/
 608709__somatik7__bottles-2                             https://freesound.org/people/somatik7/sounds/608709/
 
+523322__marviinr__opening-beer-can                      https://freesound.org/people/MarviinR/sounds/523322/
+350618__supersnd__soda-bottle-open                      https://freesound.org/people/supersnd/sounds/350618/
+
+210100__bowlingballout__pot-lid_a                       https://freesound.org/people/bowlingballout/sounds/210100/
+210100__bowlingballout__pot-lid_b                       https://freesound.org/people/bowlingballout/sounds/210100/
+210100__bowlingballout__pot-lid_c                       https://freesound.org/people/bowlingballout/sounds/210100/
+
 184438__capslok__cash-register-fake                     https://freesound.org/people/CapsLok/sounds/184438/
 
 175522__mywhats__scissors-cut                           https://freesound.org/people/mywhats/sounds/175522/
@@ -421,6 +447,10 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 337235__anthousai__bullet-shells-linearly-01_b          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_c          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_d          https://freesound.org/people/Anthousai/sounds/337235/
+
+570484__nox_sound__foley_object_metal_chest_openclose_mono_a    https://freesound.org/people/Nox_Sound/sounds/570484/
+570484__nox_sound__foley_object_metal_chest_openclose_mono_b    https://freesound.org/people/Nox_Sound/sounds/570484/
+570484__nox_sound__foley_object_metal_chest_openclose_mono_c    https://freesound.org/people/Nox_Sound/sounds/570484/
 
 632489__ani_music__opening-a-steel-padlock-shackle-take-c   https://freesound.org/people/ani_music/sounds/632489/
 342713__spacejoe__lock-3-remove-key-3                   https://freesound.org/people/SpaceJoe/sounds/342713/
@@ -481,6 +511,8 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 444407__mootmcnoodles__slap                             https://freesound.org/people/MootMcnoodles/sounds/444407/
 
 511490__lydmakeren__fx_bowarrow                         https://freesound.org/people/Lydmakeren/sounds/511490/
+
+151714__bowlingballout__pvc-rocket-cannon_2             https://freesound.org/people/bowlingballout/sounds/151714/
 
 100466__hoot_avi__smash                                 https://freesound.org/people/hoot_avi/sounds/100466/
 399183__janbezouska__major-punch                        https://freesound.org/people/janbezouska/sounds/399183/

@@ -20,6 +20,12 @@ Presets:
     ClimbLadder3: 478054__deleted_user_10023915__ladderclimb2
     ClimbLadder4: 478053__deleted_user_10023915__ladderclimb3
     
+    ToiletFlush1: 274448__lorenzgillner__toilet-flushing
+    ToiletFlush2: 202049__deanthedinosauce__toilet-flushing
+    ToiletFlush3: 185046__justeluis__flush
+    
+    PoopFall1: 771698__frenkfurth__poop-fall-into-toilet-1
+    
     Fart1: 26216__walter_odington__grim-fart
     Fart2: 558741__samsterbirdies__fart-sound
     Fart3: 94989__deleted_user_1391979__bad-chili-fart
@@ -30,6 +36,18 @@ Presets:
     Fart8: 346145__dleigh__fart4
     Fart9: 553480__samsterbirdies__fart
     Fart10: 561535__jixolros__small-realpoot117
+    
+    Poke1: 606981__ravenbluefeather__gage
+    Poke2: 
+      - velisophigus-vomiting-301069
+      - Speed: 1.4
+    
+    Chew1: 275015__wadaltmon__bite-apple
+    Chew2: 528962__steenish__crunch
+    Chew3: 584290__antumdeluge__apple-bite
+    Chew4: 570336__user391915396__eating-sound-effect
+    Chew5: 816237__qubodup__crunch
+    Chew6: 718593__jomungus__crispy-bite
   
   Man:
     Laugh1: 341730__sgtpepperarc360__hahahaha
@@ -338,6 +356,7 @@ Presets:
     DoorSlide2: 425090__neospica__pressurized-door-opening
     DoorSlide3: 243699__ertfelda__hidden-wall-opening
     
+    
     DoorCreak1: 219499__jarredgibb__door-creak
     
     DoorClose1: 117614__soundmary__door-close
@@ -395,6 +414,16 @@ Presets:
       - 32416__kraftwerk2k1__car_engine_wont-start
       - Start: .251
       - End: all
+    
+    Drill1: 
+      - 345073__metrostock99__drill-gun
+      - Start: .167
+      - End: .376
+    
+    Drill2:
+      - 179725__wjoojoo__impact_drill
+      - Start: .335
+      - End: .709
     
     Train1:
       - 69005__heigh-hoo__freight_on_bridge
@@ -487,6 +516,13 @@ Presets:
     Clink3: 416288__fugeni__empty-beer-bottles-clinking-clanking
     Clink4: 608709__somatik7__bottles-2
     
+    OpenLid1: 523322__marviinr__opening-beer-can
+    OpenLid2: 350618__supersnd__soda-bottle-open
+    
+    PotLid1: 210100__bowlingballout__pot-lid_a
+    PotLid2: 210100__bowlingballout__pot-lid_b
+    PotLid3: 210100__bowlingballout__pot-lid_c
+    
     CashReg1: 184438__capslok__cash-register-fake
     
     Scissor1: 175522__mywhats__scissors-cut
@@ -509,6 +545,11 @@ Presets:
     BulletDrop2: 337235__anthousai__bullet-shells-linearly-01_b
     BulletDrop3: 337235__anthousai__bullet-shells-linearly-01_c
     BulletDrop4: 337235__anthousai__bullet-shells-linearly-01_d
+    
+    ChestOpen1: 570484__nox_sound__foley_object_metal_chest_openclose_mono_a
+    ChestOpen2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_b
+
+    Chestclose2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_c
     
     Lock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
     Lock2: 342713__spacejoe__lock-3-remove-key-3
@@ -570,6 +611,8 @@ Presets:
     Slap1: 444407__mootmcnoodles__slap
     
     Arrow1: 511490__lydmakeren__fx_bowarrow
+    
+    Crossbow1: 151714__bowlingballout__pvc-rocket-cannon_2
 
     Punch1: 100466__hoot_avi__smash
     Punch2: 399183__janbezouska__major-punch
