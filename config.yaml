@@ -20,6 +20,8 @@ Presets:
     ClimbLadder3: 478054__deleted_user_10023915__ladderclimb2
     ClimbLadder4: 478053__deleted_user_10023915__ladderclimb3
     
+    Boil1: 420228__14fpanska_nemec_petr__37-17-boi
+    
     ToiletFlush1: 274448__lorenzgillner__toilet-flushing
     ToiletFlush2: 202049__deanthedinosauce__toilet-flushing
     ToiletFlush3: 185046__justeluis__flush
@@ -177,6 +179,14 @@ Presets:
     Gravel3: 384890__ali_6868__knight-right-footstep-on-gravel-5-with-chainmail
     
     Water1: 450621__breviceps__step-into-water-puddle-wade
+    Water2: mindoutofoffice-footsteps-on-wet-ground-with-puddles-232258_a
+    Water3: mindoutofoffice-footsteps-on-wet-ground-with-puddles-232258_b
+    Water4: mindoutofoffice-footsteps-on-wet-ground-with-puddles-232258_c
+    Water5: mindoutofoffice-footsteps-on-wet-ground-with-puddles-232258_d
+    
+    Swim1: dragon-studio-swimming-sounds-331502_a
+    Swim2: dragon-studio-swimming-sounds-331502_b
+    Swim3: dragon-studio-swimming-sounds-331502_c
     
     Slime1: 447930__breviceps__step-on-a-slug-splat-2
     
@@ -523,6 +533,10 @@ Presets:
     PotLid2: 210100__bowlingballout__pot-lid_b
     PotLid3: 210100__bowlingballout__pot-lid_c
     
+    Sharpen1: 443806__deathscyp__spiketrap
+    Sharpen2: 336592__anthousai__knife-sharpen-03
+    Sharpen3: 336590__anthousai__knife-sharpen-05
+    
     CashReg1: 184438__capslok__cash-register-fake
     
     Scissor1: 175522__mywhats__scissors-cut
@@ -602,7 +616,7 @@ Presets:
     
     Paper1: 485524__byjesusjp__hoja-rota
   
-  Attack:
+  Hit:
     Swing1: 389590__jofae__swing-woosh
     Swing2: 352719__dalesome__woosh-stick-swung-in-the-air
     Swing3: 420668__sypherzent__basic-melee-swing-miss-whoosh
@@ -641,6 +655,10 @@ Presets:
     Chop3: 421928__micahlg__chopping-wood-01
     Chop4: 442534__super8ude__treechop3
     
+    PickAxe1: 638696__captainyulef__pickaxe
+    PickAxe2: 233633__abstraktgeneriert__pickaxe-1
+    PickAxe3: 233629__abstraktgeneriert__pickaxe-3
+    
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion
     Boom2: dragon-studio-boom-425459
@@ -669,9 +687,12 @@ Presets:
     Phone3: 345805__knufds__ringtone-1960s-office-phone
   
   Nature:
-    Splash1: 316744__bird_man__big-splash
-    Splash2: 96725__ryding__plask
-    Splash3: 398032__swordofkings128__splash
+    WaterSplash1: 316744__bird_man__big-splash
+    WaterSplash2: 96725__ryding__plask
+    WaterSplash3: 398032__swordofkings128__splash
+    
+    WaterDump1: 406217__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-onto-concrete
+    WaterDump2: 406218__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-off-of-a-second-story-railing-01
     
     Drop1: freesound_community-water-drop-3-84577
     Drop2: freesound_community-water-drip-45622
