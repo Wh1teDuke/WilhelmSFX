@@ -19,7 +19,7 @@ Used sites:
 
 ***
 
-## Effect List (380)
+## Effect List (387)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -437,6 +437,15 @@ DogBark4 [dog bark 2](https://freesound.org/people/michael_grinnell/sounds/46440
 &nbsp;
 &nbsp;
 
+Wolf1 [universfield wolf howling 140235](https://pixabay.com/sound-effects/nature-wolf-howling-140235/)
+
+Wolf2 [dragon studio wolf howl 2 359870](https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/)
+
+Wolf3 [dragon studio a lone wolf cries 359871](https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/)
+
+&nbsp;
+&nbsp;
+
 Chicken1 [chicken single alarm call](https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/)
 
 Chicken2 [birdfowl rooster crow boisterous cock cocorico](https://freesound.org/people/harrisonlace/sounds/842587/)
@@ -503,6 +512,15 @@ Pig2 [pig grunt](https://freesound.org/people/qubodup/sounds/442907/)
 Pig3 [pig squeak](https://freesound.org/people/qubodup/sounds/442904/)
 
 Pig4 [pig squealing sound effect](https://freesound.org/people/Mastersoundboy2005/sounds/770339/)
+
+&nbsp;
+&nbsp;
+
+Lion1 [lion growl](https://freesound.org/people/LilMati/sounds/516829/)
+
+Lion2 [s01 09 short lion roars](https://freesound.org/people/craigsmith/sounds/675443/)
+
+Lion3 [pwlpl powerful lion roar sound effect high quality sfx 444190](https://pixabay.com/sound-effects/nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190/)
 
 &nbsp;
 &nbsp;
@@ -918,6 +936,8 @@ Chains3 [steel chain link rustling](https://freesound.org/people/ani_music/sound
 Chains4 [steel chain being dropped](https://freesound.org/people/ani_music/sounds/167373/)
 
 Chains5 [steel chain being dropped and dragged on a cardboard box](https://freesound.org/people/ani_music/sounds/167372/)
+
+Chains6 [chainwrapping2](https://freesound.org/people/richardemoore/sounds/362858/)
 
 &nbsp;
 &nbsp;

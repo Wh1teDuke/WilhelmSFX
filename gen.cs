@@ -49,6 +49,9 @@ var deserializer = new DeserializerBuilder()
     .Build();
 
 var fileToName = new Dictionary<string, string>();
+var fileToCfg = new Dictionary<string, SampleCfg>();
+var presetToCfg = new Dictionary<string, GroupCfg>();
+
 var presets = new Dictionary<string, List<(string, SampleCfg)>>();
 var sampleLen = 0;
 
@@ -72,13 +75,29 @@ foreach (var cfgFile in cfgFileList)
         foreach (var (name, value) in entry.Value)
         {
             fileToName[value.File] = name;
+            fileToCfg[value.File] = value;
             list.Add((name, value));
         }
 
         if (!presets.ContainsKey(entry.Key))
             presets[entry.Key] = [];
         presets[entry.Key].AddRange(list);
-    }   
+    }
+
+    if (mConfig.Settings is { } settings)
+    {
+        foreach (var entry in settings)
+        {
+            if (entry.Key.Equals("Presets"))
+            {
+                foreach (var (preset, cfg) in entry.Value)
+                {
+                    presetToCfg[preset] = cfg;
+                }
+            }
+            else throw new Exception("Unknown settings key: " + entry.Key);
+        }
+    }
 }
 
 Console.WriteLine("Samples: " + sampleLen);
@@ -182,6 +201,8 @@ if (processSamples)
         "loudnorm=I=-14:TP=-1.0:LRA=6," +
         // Lowpass
         $"lowpass=f={lowpass}," +
+        // Playback rate
+        "atempo={2}," +
         // Trim silence from start/end
         "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=1:stop_threshold=-45dB:stop_duration=1" +
         // </filter>
@@ -193,7 +214,7 @@ if (processSamples)
         "{1}";
 
     Console.WriteLine();
-    Console.WriteLine(">ffmpeg " + baseCmdArgs, "[INPUT]", "[OUTPUT]");
+    Console.WriteLine(">ffmpeg " + baseCmdArgs, "[INPUT]", "[OUTPUT]", "[x]");
 
     var processList = new List<Process>();
     var files = Directory.GetFiles("Samples").ToList();
@@ -204,7 +225,15 @@ if (processSamples)
     {
         var name = Path.GetFileNameWithoutExtension(file);
         var output = Path.Join(samplesOutput, $"{name}.ogg");
-        var cmdArgs = string.Format(baseCmdArgs, file, output);
+
+        var playbackRate = fileToCfg[name].Speed ?? 1;
+
+        var cmdArgs = string.Format(
+            baseCmdArgs,
+            file,
+            output,
+            playbackRate);
+
         processList.Add(Process.Start("ffmpeg", cmdArgs));
     }
 
@@ -262,7 +291,8 @@ foreach (var (presetName, sounds) in presets)
     instrument.Name = "Ins_" + presetName;
     instrument.GlobalZone.SetGenerator(Generator.Type.SampleModes, 1);
     bank.Instruments.Add(instrument);
-    
+
+    var pCfg = presetToCfg.GetValueOrDefault(presetName);
     var set = new HashSet<string>();
 
     var i = -1;
@@ -315,13 +345,27 @@ foreach (var (presetName, sounds) in presets)
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
         
+        if (pCfg != null)
+        {
+            if (pCfg.ReleaseVolEnv is {} rve)
+                zone.Basic.SetGenerator(
+                    Generator.Type.ReleaseVolEnv, (int)(rve * 1_000));
+            if (pCfg.ReleaseModEnv is {} rme)
+                zone.Basic.SetGenerator(
+                    Generator.Type.ReleaseModEnv, (int)(rme * 1_000));
+        }
+        
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
             if (sample.LoopEnd < sampleDurLen)
             {
+                var ms = (int)
+                    ((sample.LoopEnd / (double)sampleDurLen) *
+                     sampleDuration * 1_000);
+                
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
-                zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, sampleDurLen - sample.LoopEnd);
-                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, sampleDurLen - sample.LoopEnd);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, ms);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, ms);
             }
             else
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 1);
@@ -403,16 +447,25 @@ string ProcessRead(string cmd, string args = "")
 #endregion
 
 #region Model
+
+internal sealed class GroupCfg
+{
+    public double? ReleaseVolEnv;
+    public double? ReleaseModEnv;
+}
+
 internal sealed class SampleCfg
 {
     public string File = "";
     public double? LoopStart;
     public object? LoopEnd;
+    public double? Speed;
 }
 
 internal class MConfig
 {
-    public object? Settings;
+    public Dictionary<
+        string, Dictionary<string, GroupCfg>>? Settings;
 
     public Dictionary<
         string, Dictionary<string, SampleCfg>> Presets;
@@ -444,6 +497,9 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                         cfg.LoopEnd = "all";
                     else
                         cfg.LoopEnd = double.Parse(val);
+                    break;
+                case "Speed":
+                    cfg.Speed = GetDouble();
                     break;
             }
             parser.Consume<MappingEnd>();

@@ -1,3 +1,10 @@
+Settings:
+  # Per preset settings
+  Presets:
+    Animal:
+      ReleaseVolEnv: 2.0
+      ReleaseModEnv: 2.0
+
 Presets:
   Action:
     Grab1: 651515__1bob__grab-item
@@ -188,6 +195,13 @@ Presets:
     DogBark3: 100032__nfrae__rose_bark
     DogBark4: 464406__michael_grinnell__dog_bark_2
     
+    Wolf1: universfield-wolf-howling-140235
+    Wolf2:
+      - dragon-studio-wolf-howl-2-359870
+      - Speed: 1.5
+
+    Wolf3: dragon-studio-a-lone-wolf-cries-359871
+    
     Chicken1: 316920__rudmer_rotteveel__chicken-single-alarm-call
     Chicken2: 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico
     Chicken3: 435508__benjaminnelan__rooster-crow-1
@@ -218,6 +232,10 @@ Presets:
     Pig2: 442907__qubodup__pig-grunt
     Pig3: 442904__qubodup__pig-squeak
     Pig4: 770339__mastersoundboy2005__pig-squealing-sound-effect
+    
+    Lion1: 516829__lilmati__lion-growl
+    Lion2: 675443__craigsmith__s01-09_short-lion-roars
+    Lion3: pwlpl-powerful-lion-roar-sound-effect-high-quality-sfx-444190
     
     Rat1: 397651__sieuamthanh__chuot07
     Rat2: tanweraman-mouse-squeak-261126
@@ -475,6 +493,7 @@ Presets:
     Chains3: 167915__ani_music__steel-chain-link-rustling
     Chains4: 167373__ani_music__steel-chain-being-dropped
     Chains5: 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box
+    Chains6: 362858__richardemoore__chainwrapping2
     
     Match1: 370362__devilqube__match-lighting-candle
     Match2: 398448__brachern__match-ignite-no-strike

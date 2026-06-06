@@ -184,6 +184,10 @@ horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_d    https://freesoun
 100032__nfrae__rose_bark                                https://freesound.org/people/nfrae/sounds/100032/
 464406__michael_grinnell__dog_bark_2                    https://freesound.org/people/michael_grinnell/sounds/464406/
 
+universfield-wolf-howling-140235                        https://pixabay.com/sound-effects/nature-wolf-howling-140235/
+dragon-studio-wolf-howl-2-359870                        https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/
+dragon-studio-a-lone-wolf-cries-359871                  https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/
+
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
 435508__benjaminnelan__rooster-crow-1                   https://freesound.org/people/rafaelpicoli/sounds/392029/
@@ -214,6 +218,10 @@ u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/soun
 442907__qubodup__pig-grunt                              https://freesound.org/people/qubodup/sounds/442907/
 442904__qubodup__pig-squeak                             https://freesound.org/people/qubodup/sounds/442904/
 770339__mastersoundboy2005__pig-squealing-sound-effect  https://freesound.org/people/Mastersoundboy2005/sounds/770339/
+
+516829__lilmati__lion-growl                             https://freesound.org/people/LilMati/sounds/516829/
+675443__craigsmith__s01-09_short-lion-roars             https://freesound.org/people/craigsmith/sounds/675443/
+pwlpl-powerful-lion-roar-sound-effect-high-quality-sfx-444190   https://pixabay.com/sound-effects/nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190/
 
 397651__sieuamthanh__chuot07                            https://freesound.org/people/SieuAmThanh/sounds/397651/
 tanweraman-mouse-squeak-261126                          https://pixabay.com/sound-effects/nature-mouse-squeak-261126/
@@ -398,6 +406,7 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 167915__ani_music__steel-chain-link-rustling            https://freesound.org/people/ani_music/sounds/167915/
 167373__ani_music__steel-chain-being-dropped            https://freesound.org/people/ani_music/sounds/167373/
 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box https://freesound.org/people/ani_music/sounds/167372/
+362858__richardemoore__chainwrapping2                   https://freesound.org/people/richardemoore/sounds/362858/
 
 370362__devilqube__match-lighting-candle                https://freesound.org/people/devilqube/sounds/370362/
 398448__brachern__match-ignite-no-strike                https://freesound.org/people/brachern/sounds/398448/
