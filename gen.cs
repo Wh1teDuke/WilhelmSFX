@@ -109,11 +109,12 @@ if (processReadme)
 
         ***
 
-        ## Effect List
+        ## Effect List ({1})
         
         """;
 
     var urls = new HashSet<string>();
+    var count = 0;
     
     foreach (var line in sourcesTxt.Split(Environment.NewLine))
     {
@@ -144,9 +145,14 @@ if (processReadme)
         name = name.Replace("-", " ");
 
         readme += $"{realName} [{name}]({src})\n\n";
+
+        count++;
     }
 
-    readme = string.Format(readme, string.Join("\n", urls.Select(u => $"- [{u}](https://{u})")));
+    readme = string.Format(
+        readme, 
+        string.Join("\n", urls.Select(u => $"- [{u}](https://{u})")), 
+        count);
     
     File.WriteAllText("README.md", readme);
 }
