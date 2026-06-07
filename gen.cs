@@ -266,15 +266,15 @@ if (processSamples)
         // <filter>
         "-af \"" +
         // Trim silence from start/end
-        "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=1:stop_threshold=-45dB:stop_duration=0.1," +
-        // Lowpass
-        $"lowpass=f={lowpass}:p=2," +
+        "silenceremove=start_periods=1:start_threshold=-40dB:stop_periods=1:stop_threshold=-40dB:stop_duration=0.1," +
         // Playback rate
         "atempo={2}," +
         // Bit depth
-        $"acrusher=bits={bitcrush}:mix=1:mode=log:samples=2," +
-        // Normalize,
-        "loudnorm=I=-14:TP=-1.0:LRA=6" +
+        $"acrusher=bits={bitcrush}:mix=1:mode=log:samples=1," +
+        // Lowpass
+        $"lowpass=f={lowpass}:p=2," +
+        // Normalize volume,
+        "loudnorm=I=-14:TP=-1.0:LRA=6," +
         // </filter>
         "\" " +
 
