@@ -176,7 +176,13 @@ Used sites:
 
 
 
-[BabyCry 1](https://freesound.org/people/mariiao2/sounds/240372/ "baby cry") [BabyLaugh 1](https://freesound.org/people/gary_in_wv/sounds/449869/ "infantlaugh") [2](https://freesound.org/people/arvinsohi29/sounds/462457/ "children laughing mike koenig 575083331") 
+[BabyCry 1](https://freesound.org/people/mariiao2/sounds/240372/ "baby cry") 
+
+*`weeping`, `tantrum`, `fussy`, `upset`, `tears`*
+
+
+
+[BabyLaugh 1](https://freesound.org/people/gary_in_wv/sounds/449869/ "infantlaugh") [2](https://freesound.org/people/arvinsohi29/sounds/462457/ "children laughing mike koenig 575083331") 
 
 *`giggle`, `chuckle`, `happy`, `cooing`, `wholesome`*
 
@@ -730,17 +736,25 @@ Used sites:
 
 
 
-[CoinDrop 1](https://freesound.org/people/LilMati/sounds/360739/ "coin sound 01") [2](https://freesound.org/people/Rocotilos/sounds/343462/ "real coin drop") [CoinsDrop 1](https://freesound.org/people/Rickmk2/sounds/162195/ "coin drop") [2](https://freesound.org/people/Gerent/sounds/558991/ "coins falling 022") 
+[CoinDrop 1](https://freesound.org/people/LilMati/sounds/360739/ "coin sound 01") [2](https://freesound.org/people/Rocotilos/sounds/343462/ "real coin drop") 
+
+*`jingle`, `metallic`, `currency`*
+
+
+
+[CoinsDrop 1](https://freesound.org/people/Rickmk2/sounds/162195/ "coin drop") [2](https://freesound.org/people/Gerent/sounds/558991/ "coins falling 022") 
 
 *`casing`, `shell`, `ammo`*
 
 
 
-[BulletDrop 1](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 a") [2](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 b") [3](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 c") [4](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 d") 
+[BulletDrop 1](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 a") [2](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 b") 
 
 *`casing`, `shell`, `ammo`*
 
 
+
+[3](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 c") [4](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 d") 
 
 [ChestOpen 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono a") [2](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono b") [Chestclose 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono c") 
 
@@ -870,11 +884,13 @@ Used sites:
 
 
 
-[Dial 1](https://freesound.org/people/Breviceps/sounds/466832/ "phone dial") [2](https://freesound.org/people/univ_lyon3/sounds/324693/ "vandierdonck joan 2015 2016 numbering phone") 
+[Dial 1](https://freesound.org/people/Breviceps/sounds/466832/ "phone dial") 
 
 *`calling`, `tones`*
 
 
+
+[2](https://freesound.org/people/univ_lyon3/sounds/324693/ "vandierdonck joan 2015 2016 numbering phone") 
 
 [Beep 1](https://freesound.org/people/morganpurkis/sounds/392972/ "radio wave") [2](https://freesound.org/people/scy.wav/sounds/721525/ "outro quindar tone") [3](https://freesound.org/people/SEF7/sounds/701314/ "walkie talkie button press tone") [4](https://freesound.org/people/Sadiquecat/sounds/843148/ "795hz monitor blip") 
 
@@ -941,7 +957,7 @@ Used sites:
 
 
 
-[Reload 1](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") [Shit 1](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/ "eaglaxle gun shot 3 530790") 
+[Reload 1](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") [Shot 1](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/ "eaglaxle gun shot 3 530790") 
 
 *`grenade`, `projectile`, `mortar`*
 
@@ -1048,7 +1064,7 @@ Used sites:
 
 [DoorCreak 1](https://freesound.org/people/JarredGibb/sounds/219499/ "door creak") 
 
-*`ring`, `ding`, `dong`, `chime`*
+*`slam`, `shut`*
 
 
 
@@ -1166,7 +1182,13 @@ Used sites:
 
 
 
-[Barrel 1](https://freesound.org/people/kevinkace/sounds/66772/ "barrel break 4") [Vase 1](https://freesound.org/people/NeoSpica/sounds/512246/ "crash") 
+[Barrel 1](https://freesound.org/people/kevinkace/sounds/66772/ "barrel break 4") 
+
+*`crate`, `container`*
+
+
+
+[Vase 1](https://freesound.org/people/NeoSpica/sounds/512246/ "crash") 
 
 *`pottery`, `ceramic`, `clay`*
 
@@ -1234,7 +1256,7 @@ Used sites:
 
 [Door 1](https://freesound.org/people/LanDub/sounds/182879/ "door bell rings") [2](https://freesound.org/people/jwheeler91/sounds/442280/ "doorbell shortened") [3](https://freesound.org/people/2887679652/sounds/171755/ "ding dongremix of 110165") 
 
-*`intercom`, `ring`, `buzz`*
+*`ring`, `ding`, `dong`, `chime`*
 
 
 
@@ -1255,7 +1277,7 @@ Used sites:
 
 [Door 1](https://freesound.org/people/Dr.%20Macak/sounds/201030/ "zvonekdoma") 
 
-*`ring`, `office`*
+*`intercom`, `ring`, `buzz`*
 
 
 

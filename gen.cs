@@ -229,7 +229,7 @@ if (processReadme)
         for (var i = 0; i < tagList.Count; i++)
         {
             var (tagKey, tagVal) = tagList[i];
-            if (!tagGroup.StartsWith(tagKey)) continue;
+            if (tagGroup != tagKey) continue;
 
             tagList.RemoveAt(i);
 
