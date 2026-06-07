@@ -363,18 +363,20 @@ foreach (var (presetName, sounds) in presets)
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
+			var mode = sound.LoopMode ?? 1;// TODO: if sample is very short, maybe mode 3 is a sensible default
+
             if (sample.LoopEnd < sampleDurLen)
             {
                 var ms = (int)
                     ((sample.LoopEnd / (double)sampleDurLen) *
                      sampleDuration * 1_000) * 5;
-                
+
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
                 zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, ms);
                 zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, ms);
             }
             else
-                zone.Basic.SetGenerator(Generator.Type.SampleModes, 1);
+                zone.Basic.SetGenerator(Generator.Type.SampleModes, mode);
         }
         
         bank.Samples.Add(sample);
@@ -465,6 +467,8 @@ internal sealed class SampleCfg
     public string File = "";
     public double? LoopStart;
     public object? LoopEnd;
+	public int? LoopMode;
+
     public double? Speed;
 }
 
@@ -504,6 +508,16 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                     else
                         cfg.LoopEnd = double.Parse(val);
                     break;
+				case "LoopMode":
+					switch (parser.Consume<Scalar>().Value.ToLowerInvariant())
+					{
+						case "untilrelease":
+							cfg.LoopMode = 3;
+							break;
+						case var m:
+							throw new Exception("Unknown loop mode: " + m);
+						}
+					break;
                 case "Speed":
                     cfg.Speed = GetDouble();
                     break;

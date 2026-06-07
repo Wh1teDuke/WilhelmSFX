@@ -51,14 +51,22 @@ velisophigus-vomiting-301069                            https://pixabay.com/soun
 759458__akridiy__a-single-scream-of-a-young-male        https://freesound.org/people/akridiy/sounds/759458/
 813304__qubodup__wilhelm-scream-alternative-2           https://freesound.org/people/qubodup/sounds/813304/
 523216__feed__death-scream                              https://freesound.org/people/Feed_/sounds/523216/
+219719__mariateresa_garcia__man-screaming               https://freesound.org/people/mariateresa_garcia/sounds/219719/
+813310__qubodup__victim-screaming                       https://freesound.org/people/qubodup/sounds/813310/
+222648__mariallinas__wild-scream                        https://freesound.org/people/mariallinas/sounds/222648/
 
 187762__anguruso__buttface                              https://freesound.org/people/anguruso/sounds/187762/
 318090__drkvixn91__sigh_5_male_deep                     https://freesound.org/people/Drkvixn91/sounds/318090/
 391939__ssierra1202__anger                              https://freesound.org/people/ssierra1202/sounds/391939/
 
+166944__qubodup__grunts-of-pain-by-military-soldiers_a  https://freesound.org/people/qubodup/sounds/166944/
+166944__qubodup__grunts-of-pain-by-military-soldiers_b  https://freesound.org/people/qubodup/sounds/166944/
+
 272023__aldenroth2__male-scream                         https://freesound.org/people/aldenroth2/sounds/272023/
 823508__riippumattog__pain-yell-male                    https://freesound.org/people/riippumattog/sounds/823508/
 267480__islandan__male-scream                           https://freesound.org/people/islandan/sounds/267480/
+546123__pepsimanfan__young-man-being-hurt               https://freesound.org/people/pepsimanfan/sounds/546123/
+528839__th3romeo__human-roar-1                          https://freesound.org/people/th3romeo/sounds/528839/
 
 233600__sortsapostata__snoring                          https://freesound.org/people/SortsApostata/sounds/233600/
 365372__rdpipo7777__ronquido                            https://freesound.org/people/rdpipo7777/sounds/365372/
@@ -91,6 +99,8 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 
 26244__bitsmart__ohm                                    https://freesound.org/people/bitsmart/sounds/26244/
 
+221550__joseppujol__pleasure-sound                      https://freesound.org/people/joseppujol/sounds/221550/
+
 // Woman
 241494__reitanna__laugh12                               https://freesound.org/people/Reitanna/sounds/241494/
 343944__reitanna__laugh87                               https://freesound.org/people/Reitanna/sounds/343944/
@@ -108,11 +118,17 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 235592__tcrocker68__girl_scream                         https://freesound.org/people/tcrocker68/sounds/235592/
 169811__missozzy__female-scream-02                      https://freesound.org/people/missozzy/sounds/169811/
 344013__reitanna__high-pitched-ah2                      https://freesound.org/people/Reitanna/sounds/344013/
+235595__tcrocker68__girl_two_screams_a                  https://freesound.org/people/tcrocker68/sounds/235595/
+235595__tcrocker68__girl_two_screams_b                  https://freesound.org/people/tcrocker68/sounds/235595/
+625318__darknightprincess__female-startled-scream-sound-effect-voiced-by-darknightprincess  https://freesound.org/people/DarkNightPrincess/sounds/625318/
 
 344010__reitanna__growly                                https://freesound.org/people/Reitanna/sounds/344010/
 343919__reitanna__large-growl                           https://freesound.org/people/Reitanna/sounds/343919/
 344003__reitanna__so-anger_a                            https://freesound.org/people/Reitanna/sounds/344003/
 344003__reitanna__so-anger_b                            https://freesound.org/people/Reitanna/sounds/344003/
+
+219656__annatabernero__young-girl-scream                https://freesound.org/people/annatabernero/sounds/219656/
+220644__ritola27__grito_mujer2                          https://freesound.org/people/ritola27/sounds/220644/
 
 344004__reitanna__heavy-grunt                           https://freesound.org/people/Reitanna/sounds/344004/
 
@@ -124,6 +140,10 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 391896__edinaldoapsantos__bocejo_feminino               https://freesound.org/people/EdinaldoApSantos/sounds/391896/
 
 336012__mike_bes__nya                                   https://freesound.org/people/Mike_bes/sounds/336012/
+
+220654__ritola27__grito_mujer8                          https://freesound.org/people/ritola27/sounds/220654/
+220652__ritola27__grito_mujer7                          https://freesound.org/people/ritola27/sounds/220652/
+220650__ritola27__grito_mujer6                          https://freesound.org/people/ritola27/sounds/220650/
 
 // Child
 
@@ -137,6 +157,8 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 445964__breviceps__cartoon-uh-oh                        https://freesound.org/people/Breviceps/sounds/445964/
 
 397686__piermic__little-girl-screaming                  https://freesound.org/people/piermic/sounds/397686/
+442607__topschool__highpichedscreamgirl                 https://freesound.org/people/Topschool/sounds/442607/
+360465__topschool__scream01                             https://freesound.org/people/Topschool/sounds/360465/
 
 470120__the_coolguy78__child-coffing                    https://freesound.org/people/The_coolguy78/sounds/470120/
 
@@ -251,6 +273,9 @@ yell-YELLGrizzlyBearVocalizations20160520Android1_c     https://www.nps.gov/yell
 
 yell-ChorusFrogs                                        https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm
 
+320113__laughatlantic__cicadas                          https://freesound.org/people/laughatlantic/sounds/320113/
+493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania  https://freesound.org/people/heyheymaimai/sounds/493058/  
+
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
 435508__benjaminnelan__rooster-crow-1                   https://freesound.org/people/rafaelpicoli/sounds/392029/
@@ -316,6 +341,7 @@ the-vampires-monster-bat-chirping-type-2-355965_b       https://pixabay.com/soun
 361117__katzlbt__frog_quak                              https://freesound.org/people/katzlbt/sounds/361117/
 
 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night https://freesound.org/people/Attia.phonatics/sounds/829810/
+640718__soundofsong__cicada-insect-loop                 https://freesound.org/people/soundofsong/sounds/640718/
 
 389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
 freesound_community-wing-flap-1-6434                    https://pixabay.com/sound-effects/film-special-effects-wing-flap-1-6434/

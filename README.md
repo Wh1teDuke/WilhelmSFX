@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (472)
+## Effect List (490)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -134,6 +134,12 @@ Scream2 [wilhelm scream alternative 2](https://freesound.org/people/qubodup/soun
 
 Scream3 [death scream](https://freesound.org/people/Feed_/sounds/523216/)
 
+Scream4 [man screaming](https://freesound.org/people/mariateresa_garcia/sounds/219719/)
+
+Scream5 [victim screaming](https://freesound.org/people/qubodup/sounds/813310/)
+
+Scream6 [wild scream](https://freesound.org/people/mariallinas/sounds/222648/)
+
 &nbsp;
 &nbsp;
 
@@ -146,11 +152,22 @@ Angry3 [anger](https://freesound.org/people/ssierra1202/sounds/391939/)
 &nbsp;
 &nbsp;
 
+Grunt5 [grunts of pain by military soldiers a](https://freesound.org/people/qubodup/sounds/166944/)
+
+Grunt6 [grunts of pain by military soldiers b](https://freesound.org/people/qubodup/sounds/166944/)
+
+&nbsp;
+&nbsp;
+
 Agony1 [male scream](https://freesound.org/people/aldenroth2/sounds/272023/)
 
 Agony2 [pain yell male](https://freesound.org/people/riippumattog/sounds/823508/)
 
 Agony3 [male scream](https://freesound.org/people/islandan/sounds/267480/)
+
+Agony4 [young man being hurt](https://freesound.org/people/pepsimanfan/sounds/546123/)
+
+Agony5 [human roar 1](https://freesound.org/people/th3romeo/sounds/528839/)
 
 &nbsp;
 &nbsp;
@@ -223,6 +240,11 @@ Ohm1 [ohm](https://freesound.org/people/bitsmart/sounds/26244/)
 &nbsp;
 &nbsp;
 
+Moan1 [pleasure sound](https://freesound.org/people/joseppujol/sounds/221550/)
+
+&nbsp;
+&nbsp;
+
 ### Woman
 
 Laugh1 [laugh12](https://freesound.org/people/Reitanna/sounds/241494/)
@@ -261,6 +283,12 @@ Scream3 [female scream 02](https://freesound.org/people/missozzy/sounds/169811/)
 
 Scream4 [high pitched ah2](https://freesound.org/people/Reitanna/sounds/344013/)
 
+Scream5 [girl two screams a](https://freesound.org/people/tcrocker68/sounds/235595/)
+
+Scream6 [girl two screams b](https://freesound.org/people/tcrocker68/sounds/235595/)
+
+Scream7 [female startled scream sound effect voiced by darknightprincess](https://freesound.org/people/DarkNightPrincess/sounds/625318/)
+
 &nbsp;
 &nbsp;
 
@@ -271,6 +299,13 @@ Angry2 [large growl](https://freesound.org/people/Reitanna/sounds/343919/)
 Angry3 [so anger a](https://freesound.org/people/Reitanna/sounds/344003/)
 
 Angry4 [so anger b](https://freesound.org/people/Reitanna/sounds/344003/)
+
+&nbsp;
+&nbsp;
+
+Agony1 [young girl scream](https://freesound.org/people/annatabernero/sounds/219656/)
+
+Agony2 [grito mujer2](https://freesound.org/people/ritola27/sounds/220644/)
 
 &nbsp;
 &nbsp;
@@ -297,6 +332,15 @@ Dissapoint2 [bocejo feminino](https://freesound.org/people/EdinaldoApSantos/soun
 &nbsp;
 
 Nya1 [nya](https://freesound.org/people/Mike_bes/sounds/336012/)
+
+&nbsp;
+&nbsp;
+
+Moan1 [grito mujer8](https://freesound.org/people/ritola27/sounds/220654/)
+
+Moan2 [grito mujer7](https://freesound.org/people/ritola27/sounds/220652/)
+
+Moan3 [grito mujer6](https://freesound.org/people/ritola27/sounds/220650/)
 
 &nbsp;
 &nbsp;
@@ -328,6 +372,10 @@ GirlOh1 [cartoon uh oh](https://freesound.org/people/Breviceps/sounds/445964/)
 &nbsp;
 
 GirlScream1 [little girl screaming](https://freesound.org/people/piermic/sounds/397686/)
+
+GirlScream2 [highpichedscreamgirl](https://freesound.org/people/Topschool/sounds/442607/)
+
+GirlScream3 [scream01](https://freesound.org/people/Topschool/sounds/360465/)
 
 &nbsp;
 &nbsp;

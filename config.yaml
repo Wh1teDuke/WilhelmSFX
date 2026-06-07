@@ -59,6 +59,9 @@ Presets:
     Scream1: 759458__akridiy__a-single-scream-of-a-young-male
     Scream2: 813304__qubodup__wilhelm-scream-alternative-2
     Scream3: 523216__feed__death-scream
+    Scream4: 219719__mariateresa_garcia__man-screaming
+    Scream5: 813310__qubodup__victim-screaming
+    Scream6: 222648__mariallinas__wild-scream
     
     Angry1: 187762__anguruso__buttface
     Angry2: 318090__drkvixn91__sigh_5_male_deep
@@ -67,6 +70,8 @@ Presets:
     Agony1: 272023__aldenroth2__male-scream
     Agony2: 823508__riippumattog__pain-yell-male
     Agony3: 267480__islandan__male-scream
+    Agony4: 546123__pepsimanfan__young-man-being-hurt
+    Agony5: 528839__th3romeo__human-roar-1
     
     Snore1: 233600__sortsapostata__snoring
     Snore2: 365372__rdpipo7777__ronquido
@@ -85,6 +90,8 @@ Presets:
     Grunt2: 416839__tonsil5__grunt1-death-pain
     Grunt3: 90164__snaginneb__gruntsound
     Grunt4: 547209__mrfossy__voice_adultmale_paingrunts_09
+    Grunt5: 166944__qubodup__grunts-of-pain-by-military-soldiers_a
+    Grunt6: 166944__qubodup__grunts-of-pain-by-military-soldiers_b
     
     Burp1: 12730__pingel__burp
     Burp2: 324514__deleted_user_2104797__burp
@@ -98,6 +105,8 @@ Presets:
     Burp10: 833381__geruhn__burp-single-clear
     
     Ohm1: 26244__bitsmart__ohm
+    
+    Moan1: 221550__joseppujol__pleasure-sound
 
   Woman:
     Laugh1: 241494__reitanna__laugh12
@@ -116,11 +125,17 @@ Presets:
     Scream2: 235592__tcrocker68__girl_scream
     Scream3: 169811__missozzy__female-scream-02
     Scream4: 344013__reitanna__high-pitched-ah2
+    Scream5: 235595__tcrocker68__girl_two_screams_a
+    Scream6: 235595__tcrocker68__girl_two_screams_b
+    Scream7: 625318__darknightprincess__female-startled-scream-sound-effect-voiced-by-darknightprincess
     
     Angry1: 344010__reitanna__growly
     Angry2: 343919__reitanna__large-growl
     Angry3: 344003__reitanna__so-anger_a
     Angry4: 344003__reitanna__so-anger_b
+    
+    Agony1: 219656__annatabernero__young-girl-scream
+    Agony2: 220644__ritola27__grito_mujer2
     
     Grunt1: 344004__reitanna__heavy-grunt
     
@@ -132,6 +147,10 @@ Presets:
     Dissapoint2: 391896__edinaldoapsantos__bocejo_feminino
     
     Nya1: 336012__mike_bes__nya
+    
+    Moan1: 220654__ritola27__grito_mujer8
+    Moan2: 220652__ritola27__grito_mujer7
+    Moan3: 220650__ritola27__grito_mujer6
   
   Child:
     BabyCry1: 240372__mariiao2__baby-cry
@@ -145,6 +164,8 @@ Presets:
     GirlOh1: 445964__breviceps__cartoon-uh-oh
 
     GirlScream1: 397686__piermic__little-girl-screaming
+    GirlScream2: 442607__topschool__highpichedscreamgirl
+    GirlScream3: 360465__topschool__scream01
     
     Cough1: 470120__the_coolguy78__child-coffing
     
@@ -263,11 +284,6 @@ Presets:
     Bear4: yell-YELLGrizzlyBearVocalizations20160520Android1_b
     Bear5: yell-YELLGrizzlyBearVocalizations20160520Android1_c
     
-    ChorusFrog1:
-      - yell-ChorusFrogs
-      - Start: 1.2
-      - End: all
-    
     Chicken1: 316920__rudmer_rotteveel__chicken-single-alarm-call
     Chicken2: 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico
     Chicken3: 435508__benjaminnelan__rooster-crow-1
@@ -335,6 +351,30 @@ Presets:
     
     Cicada1:
       - 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night
+      - End: all
+      - LoopMode: UntilRelease
+    
+    Cicada2:
+      - 640718__soundofsong__cicada-insect-loop
+      - End: all
+      - LoopMode: UntilRelease
+        
+    Cicada3:
+      - 515053__nox_sound__animal_cicada_solo_loop
+      - End: all
+      - LoopMode: UntilRelease
+
+    ChorusFrog1:
+      - yell-ChorusFrogs
+      - Start: 1.2
+      - End: all
+
+    ChorusCicada1:
+      - 320113__laughatlantic__cicadas
+      - End: all
+
+    ChorusCicada2:
+      - 493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania
       - End: all
     
     WingFlap1:
