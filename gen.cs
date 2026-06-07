@@ -170,14 +170,14 @@ if (processReadme)
         if (line.IsWhiteSpace())
         {
             if (needTag) readme += "!TAGS!";
-            readme += "&nbsp;\n&nbsp;\n\n";
+            readme += "\n\n";
             needTag = false;
             continue;
         }
 
         if (line.StartsWith("//"))
         {
-            readme += "### " + line[2..].Trim() + "\n\n";
+            readme += "&nbsp;\n### " + line[2..].Trim() + "\n\n";
             continue;
         }
 
