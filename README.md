@@ -202,7 +202,7 @@ Used sites:
 
 [Cough 1](https://freesound.org/people/The_coolguy78/sounds/470120/ "child coffing") 
 
-*`battle`, `charging`, `horde`*
+*`clapping`, `ovation`*
 
 
 
@@ -215,15 +215,21 @@ Used sites:
 
 
 
-[Laugh 1](https://freesound.org/people/Alcappuccino/sounds/262983/ "audience laughing50") [2](https://freesound.org/people/deleted_user_2104797/sounds/324894/ "crowd laugh") [WarCry 1](https://freesound.org/people/joelcarrsound/sounds/521831/ "middle ages war cry 3") [2](https://freesound.org/people/joelcarrsound/sounds/521830/ "middle ages war cry") [3](https://freesound.org/people/joelcarrsound/sounds/521832/ "middle ages war cry 2") [4](https://freesound.org/people/khenshom/sounds/527740/ "hey men shouting together jewish wedding") 
+[Laugh 1](https://freesound.org/people/Alcappuccino/sounds/262983/ "audience laughing50") [2](https://freesound.org/people/deleted_user_2104797/sounds/324894/ "crowd laugh") 
 
-*`battle`, `charging`, `horde`*
+*`clapping`, `ovation`*
 
 
 
 [Applause 1](https://freesound.org/people/Sandermotions/sounds/277022/ "applause 1") [2](https://freesound.org/people/jentlemen/sounds/432333/ "medium crowd clapping 6") 
 
 *`clapping`, `ovation`*
+
+
+
+[WarCry 1](https://freesound.org/people/joelcarrsound/sounds/521831/ "middle ages war cry 3") [2](https://freesound.org/people/joelcarrsound/sounds/521830/ "middle ages war cry") [3](https://freesound.org/people/joelcarrsound/sounds/521832/ "middle ages war cry 2") [4](https://freesound.org/people/khenshom/sounds/527740/ "hey men shouting together jewish wedding") 
+
+*`battle`, `charging`, `horde`*
 
 
 
