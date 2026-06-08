@@ -12,6 +12,7 @@ Moan Groan sigh pleasure soft gasp
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Kiss Smooch peck mwah lip affection romance love
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
+Cry weep whimper grief distress
 Cough Throat sick illness cold respiratory flu
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
@@ -44,6 +45,7 @@ Burp eructation belch gross funny digestion
 Poke Gagging retching vomit throat nausea sick
 Chew Bite crunch munching eating mastication food
 Brush teeth friction hygiene dental
+Scrub wash laundry thud shuffling
 Foot step stride pace walking
 Grass outdoor
 Leaves Foliage dry crunchy rustle
@@ -61,6 +63,7 @@ Toy Squeaker
 CatMeow Meow kitten howl
 CatHiss Hissing angry snarl
 DogBark woof ruff aggressive
+DogGrunt canine sigh groan murmur
 Wolf Howl pack
 Bear Grizzly roar predator apex
 ChorusFrog Frogs croaking ribbit amphibians
@@ -92,6 +95,8 @@ SmokePoof Poof cloud magic steam
 Bubble Plop pop air burst
 Bubbles Bubbling fizz carbonation effervescence
 Rain downpour drizzle precipitation
+RainInterior storm window indoor car patter
+Wind cyclone gale muffled
 River Stream rushing flow
 Waterfall Cascading Rushing
 Thunder lightning storm tempest
@@ -105,10 +110,12 @@ PotLid clang cookware kitchenware rattle
 Sharpen Blade scrape friction grindstone
 CashReg register store money
 Scissor Snip shearing cutting cutting
+Velcro peel rip tear crisp
 Keys jingle rattle stash clink
 BookClose Thud slap Muffled puff
 BookDrop Thud Flop Dull
 PageTurn Crisp Friction paper whoosh
+Newspaper rummage rustle page fold
 MoneyBag Coin sack loot pouch wealth
 CoinDrop jingle metallic currency
 CoinsDrop chink clink Tinkling
@@ -121,16 +128,27 @@ Match ignition flame candle lighting
 Lighter spark flint
 DrawSword Unsheathe slide blade metallic
 Gas Fuel hiss canister butane
-Motor Engine hum grinder diesel machinery
+Spray burst liquid barber misting
+Card pick deck inventory flick crisp
+Cloth foley cotton soft subtle
+Scratch tapping friction scrape
+Motor Engine hum grinder diesel machinery boat car bike
 MotorDead Failed engine struggle cranking dead
 Drill electric hardware power
+Fan extractor ventilation hum airflow suction
 Train Locomotive rumble freight railway
 Minecart rail coaster rattle wagon clatter
 Break Brake screech tire squeal abrupt stop
 Shutter camera click snap aperture snapshot photo capture
+Typewriter Typing mechanical press stroke typewriter
 Keyboard Typing mechanical press stroke typewriter
 Click Button press
+Drier motor hair barbershop buzz airflow wind
+Trimmer clipper shaver buzz hum
 Electric Zap circuit spark current discharge voltage
+CarInterior motion driving rumble hum
+TrainInterior railway commute rumble track hum
+PlaneInterior drone hum aviation
 Radio static fuzz noise frequency
 PhoneNoise cellular buzz signal
 PhoneHang disconnect
@@ -169,9 +187,11 @@ Hammer strike concrete tool impact mallet
 Whip crack lash snap
 Anvil blacksmith forge metal craft
 Sword blade clash slash parry
+Stick Impact thud Wood
 Axe cleave slash hit
 Chop hack logging cut lumberjack tree
 PickAxe quarry mining dig
+MetalThud hit impact thump moan
 Glass shatter smash
 Branch twig crack stick
 Barrel crate container
@@ -182,6 +202,7 @@ Concrete crumble crunch crush
 Paper tear rip canvas sheet
 Flesh Squish Squelch Wet Gory Meaty Slash
 Boom explosion blast detonation bomb burst
+Firework pyrothechnic explosion bang aerial
 Flashbang stun grenade blast blinding
 Bell ding chime
 Door ring ding dong chime

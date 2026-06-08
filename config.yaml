@@ -7,9 +7,10 @@ Settings:
 
 Presets:
   # Alive
-  
+
   Man:
-    Laugh1: 341730__sgtpepperarc360__hahahaha
+    Laugh1: 190627__danielsilveira321__hahaha
+    Laugh2: VOXLaff_Police_Officer_Laugh_Vocal_Male_1
 
     Scream1: 759458__akridiy__a-single-scream-of-a-young-male
     Scream2: 523216__feed__death-scream
@@ -40,11 +41,15 @@ Presets:
     Cough3: 319363__monosfera__facet-kaszle-guy-coughs-01_a
     Cough4: 319363__monosfera__facet-kaszle-guy-coughs-01_b
 
-    Yawn1: 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
+    Yawn1:
+      - 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
+      - SkipTrim: true
+
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
 
     Doubt1: 469605__bolkmar__voice-male-humming-doubting
+    Doubt2: HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1
 
     Grunt1: 416838__tonsil5__grunt2-death-pain
     Grunt2: 416839__tonsil5__grunt1-death-pain
@@ -67,6 +72,8 @@ Presets:
     Kiss2: 344209__vospi__short-kiss
 
     Doubt1: 170768__esperar__hmm-question
+
+    Cry1: VOXCry_Crying_Female_04_05_SNDBTS_VH
 
     Cough1: 326096__1980supra__cough-cough
     Cough2: 151213__owlstorm__cough-female
@@ -144,25 +151,25 @@ Presets:
   Action:
     Grab1: 651515__1bob__grab-item
     Grab2: 841596__qubodup__grab-item
-    
+
     Swallow1: 368711__mikes-multimedia__heavy_swallow
     Swallow2: 445970__breviceps__drink-drinking-liquid
     Swallow3: 531755__magnuswaker__gulp-hard-swallow
     Swallow4: 552676__boaay__gulp
-    
+
     ClimbLadder1: 478052__deleted_user_10023915__ladderclimb4
     ClimbLadder2: 478055__deleted_user_10023915__ladderclimb1
     ClimbLadder3: 478054__deleted_user_10023915__ladderclimb2
     ClimbLadder4: 478053__deleted_user_10023915__ladderclimb3
-    
+
     Boil1: 420228__14fpanska_nemec_petr__37-17-boi
-    
+
     ToiletFlush1: 274448__lorenzgillner__toilet-flushing
     ToiletFlush2: 202049__deanthedinosauce__toilet-flushing
     ToiletFlush3: 185046__justeluis__flush
-    
+
     PoopFall1: 771698__frenkfurth__poop-fall-into-toilet-1
-    
+
     Fart1: 26216__walter_odington__grim-fart
     Fart2: 558741__samsterbirdies__fart-sound
     Fart3: 94989__deleted_user_1391979__bad-chili-fart
@@ -184,20 +191,23 @@ Presets:
     Burp8: 678963__josetb__cartoon-burp
     Burp9: 683053__phatcorns__loud-burp
     Burp10: 833381__geruhn__burp-single-clear
-    
+
     Poke1: 606981__ravenbluefeather__gage
-    Poke2: 
+    Poke2:
       - velisophigus-vomiting-301069
       - Speed: 1.4
-    
+
     Chew1: 275015__wadaltmon__bite-apple
     Chew2: 528962__steenish__crunch
     Chew3: 584290__antumdeluge__apple-bite
     Chew4: 570336__user391915396__eating-sound-effect
     Chew5: 816237__qubodup__crunch
     Chew6: 718593__jomungus__crispy-bite
-    
+
     Brush1: 344579__vcspran__brushing_teeth
+
+    Scrub1: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a
+    Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
 
   Move:
     Foot1: 251788__vkproduktion__footstep-01
@@ -266,6 +276,8 @@ Presets:
     DogBark2: 332176__ivolipa__dog_bark_agressive
     DogBark3: 100032__nfrae__rose_bark
     DogBark4: 464406__michael_grinnell__dog_bark_2
+
+    DogGrunt1: ANMLDog_Dog_Shuffle,_Grunt,_Movement,_Lying_Down_344_Audio_Dog_Vocalisations
 
     Wolf1: universfield-wolf-howling-140235
     Wolf2:
@@ -412,9 +424,13 @@ Presets:
       - 530975__inframatico__rain1
       - End: all
 
-    Rain2:
+    RainInterior1:
       - 672701__cinetony__rain-on-the-roof-of-car-inside-3
       - Start: 0.198
+      - End: all
+
+    RainInterior2:
+      - RAINInt_Heavy_Rain_on_Window,__Constant
       - End: all
 
     Wind1:
@@ -422,7 +438,7 @@ Presets:
       - End: all
 
     Wind2:
-      - dragon-studio-eerie-wind-478386
+      - WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi
       - End: all
 
     River1:
@@ -480,6 +496,8 @@ Presets:
     Scissor1: 175522__mywhats__scissors-cut
     Scissor2: 127153__daphne_in_wonderland__scissors
 
+    Velcro1: OBJTape_VelcroRip29_InMotionAudio_Velcro
+
     Keys1: 97481__egolessdub__keys9
     Keys2: 788310__realsquink__key-pickup
     Keys3: 443956__anational__keys-stash
@@ -493,6 +511,8 @@ Presets:
     PageTurn1: 397548__lilmati__page-turn-01
     PageTurn2: 119127__esperri__book-turn-page-2
     PageTurn3: 119128__esperri__book-turn-page-3
+
+    Newspaper1: Newspaper_Static_Foley_Rummage
 
     MoneyBag1: 338260__philsavlem__money-bag
     MoneyBag2: 565699__ralphwhitehead__coin-bag-pickup-drop
@@ -537,7 +557,22 @@ Presets:
     DrawSword3: 471148__audroger__sword-slide-2
     DrawSword4: 394338__denysfontanarosa__drawing-a-sword
 
-    Gas1: 724126__saha213131__lightergas
+    Gas1:
+      - 724126__saha213131__lightergas
+      - SkipTrim: true
+      - End: all
+
+    Spray1: OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1
+
+    Card1:
+      - GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1
+      - SkipTrim: true
+      - SkipNorm: true
+
+    Cloth1: FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_a
+    Cloth2: FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_b
+
+    Scratch1: OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard
 
   Machine:
     Motor1:
@@ -562,7 +597,15 @@ Presets:
       - End: all
 
     Motor6:
+      - VEHSkid_Honda_CB500F_Engine_Start_Tires
+      - End: all
+
+    Motor7:
       - 264864__augustsandberg__marine-diesel-engine
+      - End: all
+
+    Motor8:
+      - BOATMotr_Diesel_Engine_Boat_Idle_Steady
       - End: all
 
     MotorDead1:
@@ -579,6 +622,10 @@ Presets:
       - 179725__wjoojoo__impact_drill
       - Start: .335
       - End: .709
+
+    Fan1:
+      - 219491__jarredgibb__extractor-fan-01
+      - End: all
 
     Train1:
       - 69005__heigh-hoo__freight_on_bridge
@@ -602,6 +649,8 @@ Presets:
     Shutter3: 87149__benjohansen__dslr-shutter
     Shutter4: 537314__ristooooo1__camera-take-photo
 
+    Typewriter1: COMType_Typewriter_Space_Key,_Typewriter_05_344_Audio_Antiques_-_Typewriter
+
     Keyboard1: 194799__jim-ph__keyboard5
     Keyboard2: 194798__jim-ph__vintage-keyboard-4
     Keyboard3: 194797__jim-ph__vintage-keyboard-3
@@ -616,8 +665,28 @@ Presets:
     Click6: 63531__florian_reinke__click1
     Click7: 478197__jonnyruss01__click_1
 
+    Drier1:
+      - OBJMisc_Hair_Dryer,_On,_Idle,_Off_4_344
+      - End: all
+
+    Trimmer1:
+      - OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle
+      - End: all
+
     Electric1:
       - 512471__michael_grinnell__electric-zap
+      - End: all
+
+    CarInterior1:
+      - VEHCar_TownDrivingAmbience06_InMotionAu
+      - End: all
+
+    TrainInterior1:
+      - AMBTran_TrainInterior09_InMotionAudio
+      - End: all
+
+    PlaneInterior1:
+      - AEROInt_Airplane_Interior_Small_Plane
       - End: all
 
   Digit:
@@ -665,22 +734,22 @@ Presets:
     Laser1: 253446__jmayoff__laser
     Laser2: 417731__wcoltd__laser1
     Laser3: 83562__nbs-dark__ship-fire3
-    
+
     Empty1: 154934__klawykogut__empty-gun-shot
     Empty2: 107806__j1987__metallicclick
     Empty3: 686657__deltacode__empty-clip
-    
+
     Shot1: 406476__kretopi__synthguns-001
     Shot2: 344142__brokenphono__gunshot_002
     Shot3: universfield-gunshot-352466
     Shot4: universfield-pistol-gun-shot-278821
     Shot5: eaglaxle-gun-shot-1-530788
     Shot6: eaglaxle-gun-shot-3-530790
-    
+
     Silenced1: 255716__paul368__silenced-pistol-layered-powerful
     Silenced2: 188499__underlineddesigns__silenced-shotgun-gunshot
-    
-    MachineGun1: 
+
+    MachineGun1:
       - 274559__mrjohnweez__auto-machine-gun
       - End: all
 
@@ -688,20 +757,20 @@ Presets:
       - 122103__greatmganga__dshk_01
       - Start: 0.027
       - End: 0.171
-        
+
     ShotGun1: 427595__michorvath__20-gauge-shotgun-gunshot
     ShotGun2: 473846__lilmati__shotgun-shot-03
-    
+
     Rifle1: 163460__lemudcrab__sniper-shot
     Rifle2:
       - 258198__wadaltmon__thompson-smg-shot
       - Start: .008
       - End: .114
-    
+
     Rifle3:
       - 482120__qubodup__rifle-burst
       - End: all
-    
+
     Reload1: 182276__martian__kg-gun-cock-02
     Reload2: 595051__21100354__gun-reloading
     Reload3: 153560__splicesound__winchester-rifle-cock-reload
@@ -709,9 +778,9 @@ Presets:
     Reload5: 448987__lilmati__weapon-ready
     Reload6: dragon-studio-gun-reload-511309
     Reload7: dragon-studio-gun-reload-2-511308
-    
+
     GrenLaunch1: 163458__lemudcrab__grenade-launcher
-    
+
     Flamethrower1:
       - 490166__samsterbirdies__flamethrower
       - End: all
@@ -722,9 +791,10 @@ Presets:
     Close1: 208695__monotraum__car-door-close
     Close2: 173009__ninebilly__car-door-close
 
-    Horn1: 434878__mickthemicguy__car-honking
+    Horn1: 434878__mickthemicguy__car-honking # TODO Loop points
     Horn2: 164626__deleted_user_2104797__car_horn_mid
     Horn3: 513741__danlucaz__truck-horn
+    Horn4: VEHHorn_Honda_CB500F_Horn_Long_02_SNDBTS_MCH
 
     Lock1: 50888__rutgermuller__car-door-porter-unlocking
 
@@ -748,18 +818,18 @@ Presets:
 
   Door:
     DoorOpen1: 15419__pagancow__dorm-door-opening
-    
+
     DoorSlide1: 176146__swagmuffinplus__sliding-doors
     DoorSlide2: 425090__neospica__pressurized-door-opening
     DoorSlide3: 243699__ertfelda__hidden-wall-opening
-    
-    
+
+
     DoorCreak1: 219499__jarredgibb__door-creak
-    
+
     DoorClose1: 117614__soundmary__door-close
     DoorClose2: 48980__lunardrive__metal-door-slam_soundsmith
     DoorClose3: 571797__nachtmahrtv__door-slamming-hard
-    
+
     Curtain1: 272436__ryanharding95__opening-shower-curtain
     Curtain2: 106132__j1987__showercurtain
 
@@ -786,7 +856,8 @@ Presets:
     Whip1: 72190__snowflakes__whip02
     Whip2: 72189__snowflakes__whip01
     Whip3: 353047__deleted_user_6479820__g_whiff_alt_2
-    Whip4: universfield-whip-02-242215
+    Whip4: WEAPWhip_WHIP_Snap_Crack_05_DDUMAIS_a
+    Whip5: WEAPWhip_WHIP_Snap_Crack_05_DDUMAIS_b
 
     Anvil1: 270589__michorvath__anvil-hit-1
 
@@ -794,6 +865,8 @@ Presets:
     Sword2: 52458__audione__sword-01
     Sword3: 568170__merrick079__sword-sound-1
     Sword4: 381864__cribbler__sword
+
+    Stick1: WEAPBlnt_Spear_And_Stick_Impact,_Wooden_MKH_2_344_Audio_Medieval_Weapons_Vol_2
 
     Axe1: 442903__qubodup__slash
 
@@ -806,6 +879,9 @@ Presets:
     PickAxe2: 233633__abstraktgeneriert__pickaxe-1
     PickAxe3: 233629__abstraktgeneriert__pickaxe-3
 
+    MetalThud1: DSGNImpt_Metal_Hit_Thud_Thump_Low_Ring_Geofon_1_The_Noisery_Moaning_Metal
+    MetalThud2: 638613__captainyulef__metal-thud
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror
@@ -813,50 +889,53 @@ Presets:
 
     Branch1: 164472__deleted_user_2104797__crack-of-branch-3
     Branch2: 594277__crazychuy__stepping-on-branch
-    
+
     Barrel1: 66772__kevinkace__barrel-break-4
-    
+
     Vase1: 512246__neospica__crash
-    
+
     Bone1: 87570__huluvu42__genickbruch
     Bone2: 355052__greatnate98__bone-crunch
     Bone3: 217759__reitanna__knuckles-cracking2
-    
+
     Ceramic1: 583310__fission9__tile-breaking
     Ceramic2: 338018__m_delaparra__mug-breaking
     Ceramic3: 565642__jcsg__plate-break-1
-    
+
     Concrete1: 194688__kingsrow__pieceofconcrete01
-    
+
     Paper1: 485524__byjesusjp__hoja-rota
 
     Flesh1: 511194__pablobd__headshot
     Flesh2: 411122__vdovitsky__sword-hits-the-body
     Flesh3: 433840__archos__slime-27
-    
+
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion
     Boom2: dragon-studio-boom-425459
     Boom3: soundreality-explosion-fx-343683
     Boom4: gearpile-explosion-3-386885
-    
+
+    Firework1: 587195__derplayer__explosion_07
+    Firework2: 587191__derplayer__firework_twister
+
     Flashbang1: 693421__areniporgen__cts-7290
 
   Bell:
-    Bell1: 
+    Bell1:
       - 650317__jotraing__japanese-railway
       - End: all
     Bell2: 611113__5ro4__bell-ding-1
-        
+
     Door1: 182879__landub__door-bell-rings
     Door2: 442280__jwheeler91__doorbell-shortened
     Door3: 171755__2887679652__ding_dongremix-of-110165
-    
+
     School1: 378394__deleted_user_7020630__school-bell
-  
+
   Ring:
     Door1: 201030__dr-macak__zvonekdoma
-    
+
     Phone1: 106744__nixsound__80s_car_phone1
     Phone2: 65535__eliasheuninck__1x_telefoon
     Phone3: 345805__knufds__ringtone-1960s-office-phone

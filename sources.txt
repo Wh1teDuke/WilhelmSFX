@@ -4,7 +4,8 @@ No protection is claimed in original U.S. Government works
 
 // Man
 
-341730__sgtpepperarc360__hahahaha                       https://freesound.org/people/SgtPepperArc360/sounds/341730/
+190627__danielsilveira321__hahaha                       https://freesound.org/people/danielsilveira321/sounds/190627/
+VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://gdc.sonniss.com/
 
 759458__akridiy__a-single-scream-of-a-young-male        https://freesound.org/people/akridiy/sounds/759458/
 523216__feed__death-scream                              https://freesound.org/people/Feed_/sounds/523216/
@@ -40,6 +41,7 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 202105__spookymodem__yawn                               https://freesound.org/people/spookymodem/sounds/202105/
 
 469605__bolkmar__voice-male-humming-doubting            https://freesound.org/people/bolkmar/sounds/469605/
+HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://gdc.sonniss.com/
 
 416838__tonsil5__grunt2-death-pain                      https://freesound.org/people/tonsil5/sounds/416838/
 416839__tonsil5__grunt1-death-pain                      https://freesound.org/people/tonsil5/sounds/416839/
@@ -65,6 +67,8 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 344209__vospi__short-kiss                               https://freesound.org/people/Vospi/sounds/344209/
 
 170768__esperar__hmm-question                           https://freesound.org/people/esperar/sounds/170768/
+
+VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://gdc.sonniss.com/
 
 326096__1980supra__cough-cough                          https://freesound.org/people/1980supra/sounds/326096/
 151213__owlstorm__cough-female                          https://freesound.org/people/OwlStorm/sounds/151213/
@@ -202,6 +206,9 @@ velisophigus-vomiting-301069                            https://pixabay.com/soun
 
 344579__vcspran__brushing_teeth                         https://freesound.org/people/vcspran/sounds/344579/
 
+FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a https://gdc.sonniss.com/
+FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b https://gdc.sonniss.com/
+
 
 
 // Move
@@ -275,6 +282,8 @@ horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_d    https://freesoun
 332176__ivolipa__dog_bark_agressive                     https://freesound.org/people/ivolipa/sounds/332176/
 100032__nfrae__rose_bark                                https://freesound.org/people/nfrae/sounds/100032/
 464406__michael_grinnell__dog_bark_2                    https://freesound.org/people/michael_grinnell/sounds/464406/
+
+ANMLDog_Dog_Shuffle,_Grunt,_Movement,_Lying_Down_344_Audio_Dog_Vocalisations  https://gdc.sonniss.com/
 
 universfield-wolf-howling-140235                        https://pixabay.com/sound-effects/nature-wolf-howling-140235/
 dragon-studio-wolf-howl-2-359870                        https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/
@@ -392,7 +401,9 @@ alexzavesa-water-drop-tap-4-463593                      https://pixabay.com/soun
 96125__bmaczero__bubbles_single2                        https://freesound.org/people/BMacZero/sounds/96125/
 
 530975__inframatico__rain1                              https://freesound.org/people/inframatico/sounds/530975/
+
 672701__cinetony__rain-on-the-roof-of-car-inside-3      https://freesound.org/people/Cinetony/sounds/672701/
+RAINInt_Heavy_Rain_on_Window,__Constant                 https://gdc.sonniss.com/
 
 368299__radioactive_blueberry__river-loop               https://freesound.org/people/radioactive_blueberry/sounds/368299/
 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice  https://freesound.org/people/bitlab_coop/sounds/574803/
@@ -403,7 +414,7 @@ alexzavesa-water-drop-tap-4-463593                      https://pixabay.com/soun
 u_q2hb2391vb-thunder-clap-521194                        https://pixabay.com/sound-effects/film-special-effects-thunder-clap-521194/
 
 dragon-studio-wind-blowing-sfx-06-423674                https://pixabay.com/sound-effects/nature-wind-blowing-sfx-06-423674/
-dragon-studio-eerie-wind-478386                         https://pixabay.com/sound-effects/horror-eerie-wind-478386/
+WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi                 https://gdc.sonniss.com/
 
 storegraphic-crackling-fire-sound-309634                https://pixabay.com/sound-effects/nature-crackling-fire-sound-309634/
 djartmusic-short-fire-whoosh_1-317280                   https://pixabay.com/sound-effects/film-special-effects-short-fire-whoosh-1-317280/
@@ -445,6 +456,8 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 175522__mywhats__scissors-cut                           https://freesound.org/people/mywhats/sounds/175522/
 127153__daphne_in_wonderland__scissors                  https://freesound.org/people/Daphne_in_Wonderland/sounds/127153/
 
+OBJTape_VelcroRip29_InMotionAudio_Velcro                https://gdc.sonniss.com/
+
 97481__egolessdub__keys9                                https://freesound.org/people/egolessdub/sounds/97481/
 788310__realsquink__key-pickup                          https://freesound.org/people/RealSquink/sounds/788310/
 443956__anational__keys-stash                           https://freesound.org/people/anational/sounds/443956/
@@ -458,6 +471,8 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 397548__lilmati__page-turn-01                           https://freesound.org/people/LilMati/sounds/397548/
 119127__esperri__book-turn-page-2                       https://freesound.org/people/esperri/sounds/119127/
 119128__esperri__book-turn-page-3                       https://freesound.org/people/esperri/sounds/119128/
+
+Newspaper_Static_Foley_Rummage                          https://gdc.sonniss.com/
 
 338260__philsavlem__money-bag                           https://freesound.org/people/PhilSavlem/sounds/338260/
 565699__ralphwhitehead__coin-bag-pickup-drop            https://freesound.org/people/ralph.whitehead/sounds/565699/
@@ -505,6 +520,15 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 
 724126__saha213131__lightergas                          https://freesound.org/people/saha213131/sounds/724126/
 
+OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1  https://gdc.sonniss.com/
+
+GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1 https://gdc.sonniss.com/
+
+FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_a   https://gdc.sonniss.com/
+FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_b   https://gdc.sonniss.com/
+
+OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://gdc.sonniss.com/
+
 
 
 // Machine
@@ -514,12 +538,16 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 386235__ldezem__pneumatic-angle-grinder-fuji-f7vh-run-1a-short  https://freesound.org/people/ldezem/sounds/386235/
 747794__fercraft64__renfe-333-motor-idle                https://freesound.org/people/Fercraft64/sounds/747794/
 828754__chungus43a__mississauga-transit                 https://freesound.org/people/chungus43A/sounds/828754/
+VEHSkid_Honda_CB500F_Engine_Start_Tires                 https://gdc.sonniss.com/
 264864__augustsandberg__marine-diesel-engine            https://freesound.org/people/AugustSandberg/sounds/264864/
+BOATMotr_Diesel_Engine_Boat_Idle_Steady                 https://gdc.sonniss.com/
 
 32416__kraftwerk2k1__car_engine_wont-start              https://freesound.org/people/KRAFTWERK2K1/sounds/32416/
 
 345073__metrostock99__drill-gun                         https://freesound.org/people/metrostock99/sounds/345073/
 179725__wjoojoo__impact_drill                           https://freesound.org/people/wjoojoo/sounds/179725/
+
+219491__jarredgibb__extractor-fan-01                    https://freesound.org/people/JarredGibb/sounds/219491/
 
 69005__heigh-hoo__freight_on_bridge                     https://freesound.org/people/Heigh-hoo/sounds/69005/
 
@@ -532,6 +560,8 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 231286__ulose2piranha__5dmkii-shutter-sound             https://freesound.org/people/ulose2piranha/sounds/231286/
 87149__benjohansen__dslr-shutter                        https://freesound.org/people/benjohansen/sounds/87149/
 537314__ristooooo1__camera-take-photo                   https://freesound.org/people/ristooooo1/sounds/537314/
+
+COMType_Typewriter_Space_Key,_Typewriter_05_344_Audio_Antiques_-_Typewriter https://gdc.sonniss.com/
 
 194799__jim-ph__keyboard5                               https://freesound.org/people/jim-ph/sounds/194799/
 194798__jim-ph__vintage-keyboard-4                      https://freesound.org/people/jim-ph/sounds/194798/
@@ -547,7 +577,17 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 63531__florian_reinke__click1                           https://freesound.org/people/florian_reinke/sounds/63531/
 478197__jonnyruss01__click_1                            https://freesound.org/people/JonnyRuss01/sounds/478197/
 
+OBJMisc_Hair_Dryer,_On,_Idle,_Off_4_344                 https://gdc.sonniss.com/
+
+OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle                 https://gdc.sonniss.com/
+
 512471__michael_grinnell__electric-zap                  https://freesound.org/people/michael_grinnell/sounds/512471/
+
+VEHCar_TownDrivingAmbience06_InMotionAu                 https://gdc.sonniss.com/
+
+AMBTran_TrainInterior09_InMotionAudio                   https://gdc.sonniss.com/
+
+AEROInt_Airplane_Interior_Small_Plane                   https://gdc.sonniss.com/
 
 
 
@@ -632,6 +672,7 @@ dragon-studio-gun-reload-2-511308                       https://pixabay.com/soun
 434878__mickthemicguy__car-honking                      https://freesound.org/people/univ_lyon3/sounds/324693/
 164626__deleted_user_2104797__car_horn_mid              https://freesound.org/people/deleted_user_2104797/sounds/164626/
 513741__danlucaz__truck-horn                            https://freesound.org/people/danlucaz/sounds/513741/
+VEHHorn_Honda_CB500F_Horn_Long_02_SNDBTS_MCH            https://gdc.sonniss.com/
 
 50888__rutgermuller__car-door-porter-unlocking          https://freesound.org/people/RutgerMuller/sounds/50888/
 
@@ -699,7 +740,8 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 72190__snowflakes__whip02                               https://freesound.org/people/snowflakes/sounds/72190/
 72189__snowflakes__whip01                               https://freesound.org/people/snowflakes/sounds/72189/
 353047__deleted_user_6479820__g_whiff_alt_2             https://freesound.org/people/deleted_user_6479820/sounds/353047/
-universfield-whip-02-242215                             https://pixabay.com/sound-effects/film-special-effects-whip-02-242215/
+WEAPWhip_WHIP_Snap_Crack_05_DDUMAIS_a                   https://gdc.sonniss.com/
+WEAPWhip_WHIP_Snap_Crack_05_DDUMAIS_b                   https://gdc.sonniss.com/
 
 270589__michorvath__anvil-hit-1                         https://freesound.org/people/michorvath/sounds/270589/
 
@@ -707,6 +749,8 @@ universfield-whip-02-242215                             https://pixabay.com/soun
 52458__audione__sword-01                                https://freesound.org/people/audione/sounds/52458/
 568170__merrick079__sword-sound-1                       https://freesound.org/people/Merrick079/sounds/568170/
 381864__cribbler__sword                                 https://freesound.org/people/cribbler/sounds/381864/
+
+WEAPBlnt_Spear_And_Stick_Impact,_Wooden_MKH_2_344_Audio_Medieval_Weapons_Vol_2  https://gdc.sonniss.com/
 
 442903__qubodup__slash                                  https://freesound.org/people/qubodup/sounds/442903/
 
@@ -718,6 +762,9 @@ universfield-whip-02-242215                             https://pixabay.com/soun
 638696__captainyulef__pickaxe                           https://freesound.org/people/CaptainYulef/sounds/638696/
 233633__abstraktgeneriert__pickaxe-1                    https://freesound.org/people/abstraktgeneriert/sounds/233633/
 233629__abstraktgeneriert__pickaxe-3                    https://freesound.org/people/abstraktgeneriert/sounds/233629/
+
+DSGNImpt_Metal_Hit_Thud_Thump_Low_Ring_Geofon_1_The_Noisery_Moaning_Metal https://gdc.sonniss.com/
+638613__captainyulef__metal-thud                        https://freesound.org/people/CaptainYulef/sounds/638613/
 
 
 
@@ -758,6 +805,9 @@ universfield-whip-02-242215                             https://pixabay.com/soun
 dragon-studio-boom-425459                               https://pixabay.com/sound-effects/film-special-effects-boom-425459/
 soundreality-explosion-fx-343683                        https://pixabay.com/sound-effects/film-special-effects-explosion-fx-343683/
 gearpile-explosion-3-386885                             https://pixabay.com/sound-effects/film-special-effects-explosion-3-386885/
+
+587195__derplayer__explosion_07                         https://freesound.org/people/derplayer/sounds/587195/
+587191__derplayer__firework_twister                     https://freesound.org/people/derplayer/sounds/587191/
 
 693421__areniporgen__cts-7290                           https://freesound.org/people/areniporgen/sounds/693421/
 

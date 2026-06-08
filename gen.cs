@@ -257,16 +257,25 @@ if (processSamples)
     outputDir.Refresh();
     outputDir.Create();
 
+    const string argFilterTrim =
+        "silenceremove=start_periods=1:start_threshold=-40dB:stop_periods=1:stop_threshold=-40dB:stop_duration=0.1,";
+    const string argQuiet = 
+        "-nostats -loglevel error -y -hide_banner ";
+    const string argVolNorm = 
+        "loudnorm=I=-14:TP=-1.0:LRA=6,";
+
     var baseCmdArgs =
         // Quiet output
-        "-nostats -loglevel error -y -hide_banner " +
+       argQuiet +
         // Input
         "-i {0} " +
+        // Remove embedded pictures
+        "-vn " +
 
         // <filter>
         "-af \"" +
         // Trim silence from start/end
-        "silenceremove=start_periods=1:start_threshold=-40dB:stop_periods=1:stop_threshold=-40dB:stop_duration=0.1," +
+        argFilterTrim +
         // Playback rate
         "atempo={2}," +
         // Bit depth
@@ -274,7 +283,7 @@ if (processSamples)
         // Lowpass
         $"lowpass=f={lowpass}:p=2," +
         // Normalize volume,
-        "loudnorm=I=-14:TP=-1.0:LRA=6," +
+        argVolNorm +
         // </filter>
         "\" " +
 
@@ -284,7 +293,11 @@ if (processSamples)
         "{1}";
 
     Console.WriteLine();
-    Console.WriteLine(">ffmpeg " + baseCmdArgs, "[INPUT]", "[OUTPUT]", "[x]");
+    Console.WriteLine(
+        ">ffmpeg " + baseCmdArgs, 
+        "[INPUT]", 
+        "[OUTPUT]", 
+        "[x]");
 
     var processList = new List<Process>();
     var files = Directory.GetFiles("Samples").ToList();
@@ -296,13 +309,20 @@ if (processSamples)
         var name = Path.GetFileNameWithoutExtension(file);
         var output = Path.Join(samplesOutput, $"{name}.ogg");
 
-        var playbackRate = fileToCfg[name].Speed ?? 1;
+        var cfg = fileToCfg[name];
+        var playbackRate = cfg.Speed ?? 1;
 
         var cmdArgs = string.Format(
             baseCmdArgs,
             file,
             output,
             playbackRate);
+
+        if (cfg.SkipTrim is true)
+            cmdArgs = cmdArgs.Replace(argFilterTrim, null);
+        
+        if (cfg.SkipNorm is true)
+            cmdArgs = cmdArgs.Replace(argVolNorm, null);
 
         processList.Add(Process.Start("ffmpeg", cmdArgs));
     }
@@ -534,6 +554,8 @@ internal sealed class SampleCfg
 	public int? LoopMode;
 
     public double? Speed;
+    public bool? SkipTrim;
+    public bool? SkipNorm;
 }
 
 internal class MConfig
@@ -562,6 +584,12 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
             parser.Consume<MappingStart>();
             switch (parser.Consume<Scalar>().Value)
             {
+                case "SkipTrim":
+                    cfg.SkipTrim = GetBool();
+                    break;
+                case "SkipNorm":
+                    cfg.SkipNorm = GetBool();
+                    break;
                 case "Start":
                     cfg.LoopStart = GetDouble();
                     break;
@@ -592,6 +620,7 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
         return cfg;
 
         int GetInt() => int.Parse(parser.Consume<Scalar>().Value);
+        bool GetBool() => bool.Parse(parser.Consume<Scalar>().Value);
         double GetDouble() => double.Parse(parser.Consume<Scalar>().Value);
     }
 
