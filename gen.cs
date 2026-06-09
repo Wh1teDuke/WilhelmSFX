@@ -194,7 +194,9 @@ if (processReadme)
 
         if (line.StartsWith("//"))
         {
-            readme += "&nbsp;\n### " + line[2..].Trim() + "\n\n";
+            var catName = line[2..].Trim();
+            readme += "&nbsp;\n### " +
+                catName + $" ({presets[catName].Count})" + "\n\n";
             continue;
         }
 

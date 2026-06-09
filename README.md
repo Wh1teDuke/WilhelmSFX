@@ -23,7 +23,7 @@ Used sites:
 
 ## Effect List (568)
 &nbsp;
-### Man
+### Man (40)
 
 
 
@@ -104,7 +104,7 @@ Used sites:
 
 
 &nbsp;
-### Woman
+### Woman (35)
 
 
 
@@ -197,7 +197,7 @@ Used sites:
 
 
 &nbsp;
-### Child
+### Child (10)
 
 
 
@@ -242,7 +242,7 @@ Used sites:
 
 
 &nbsp;
-### People
+### People (12)
 
 
 
@@ -287,7 +287,7 @@ Used sites:
 
 
 &nbsp;
-### Action
+### Action (47)
 
 
 
@@ -374,7 +374,7 @@ Used sites:
 
 
 &nbsp;
-### Move
+### Move (38)
 
 
 
@@ -461,7 +461,7 @@ Used sites:
 
 
 &nbsp;
-### Animal
+### Animal (80)
 
 
 
@@ -644,7 +644,7 @@ Used sites:
 
 
 &nbsp;
-### Nature
+### Nature (33)
 
 
 
@@ -749,7 +749,7 @@ Used sites:
 
 
 &nbsp;
-### Item
+### Item (74)
 
 
 
@@ -944,7 +944,7 @@ Used sites:
 
 
 &nbsp;
-### Machine
+### Machine (38)
 
 
 
@@ -1043,7 +1043,7 @@ Used sites:
 
 
 &nbsp;
-### Digit
+### Digit (17)
 
 
 
@@ -1088,7 +1088,7 @@ Used sites:
 
 
 &nbsp;
-### Gun
+### Gun (31)
 
 
 
@@ -1163,7 +1163,7 @@ Used sites:
 
 
 &nbsp;
-### Vehicle
+### Vehicle (13)
 
 
 
@@ -1226,7 +1226,7 @@ Used sites:
 
 
 &nbsp;
-### Robot
+### Robot (9)
 
 
 
@@ -1247,7 +1247,7 @@ Used sites:
 
 
 &nbsp;
-### Door
+### Door (12)
 
 
 
@@ -1292,7 +1292,7 @@ Used sites:
 
 
 &nbsp;
-### Hit
+### Hit (38)
 
 
 
@@ -1397,7 +1397,7 @@ Used sites:
 
 
 &nbsp;
-### Break
+### Break (26)
 
 
 
@@ -1484,7 +1484,7 @@ Used sites:
 
 
 &nbsp;
-### Bang
+### Bang (7)
 
 
 
@@ -1511,7 +1511,7 @@ Used sites:
 
 
 &nbsp;
-### Bell
+### Bell (6)
 
 
 
@@ -1538,7 +1538,7 @@ Used sites:
 
 
 &nbsp;
-### Ring
+### Ring (4)
 
 
 
