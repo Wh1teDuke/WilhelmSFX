@@ -5,7 +5,7 @@
 
 using System.Collections.Concurrent;
 using System.Diagnostics;
-
+using System.Diagnostics.CodeAnalysis;
 using SpessaSharp.MIDI;
 using SpessaSharp.SoundBank;
 using SpessaSharp.SoundBank.SoundFont;
@@ -22,10 +22,13 @@ using YamlDotNet.Serialization.NamingConventions;
 #pragma warning disable CS8321 // Local function is declared but never used
 #pragma warning disable IL3050 // Using member 'X' which has 'RequiresDynamicCodeAttribute' can break functionality when AOT compiling.
 
+// ----------------------------------------------------------------------------
 // General Settings
 const string bankName = "WilhelmSFX";
 const string author = "WhiteDuke";
 const string samplesOutput = "SamplesOgg";
+
+var sw = Stopwatch.StartNew();
 
 // Read command line
 var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
@@ -41,8 +44,11 @@ var includeExtra = ArgsContains("--include-extra");
 var sourcesTxt = File.ReadAllText("sources.txt");
 
 var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass}, BitCrush={bitcrush}";
+Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
 
+
+// ----------------------------------------------------------------------------
 // Read Config
 var deserializer = new DeserializerBuilder()
     .WithNamingConvention(PascalCaseNamingConvention.Instance)
@@ -59,18 +65,22 @@ var sampleLen = 0;
 List<string> cfgFileList = ["config.yaml"];
 if (includeExtra) cfgFileList.Add("config_extra.yaml");
 
+Console.WriteLine();
+Console.WriteLine("[PROCESS CONFIG FILES]");
 foreach (var cfgFile in cfgFileList)
 {
     if (!File.Exists(cfgFile)) continue;
 
-    Console.WriteLine("Reading cfg: " + cfgFile);
+    Console.WriteLine(">Reading cfg: " + cfgFile);
     var mConfig = deserializer.Deserialize<MConfig>(File.ReadAllText(cfgFile));
+    var i = 0;
     
     foreach (var entry in mConfig.Presets)
     {
         sampleLen += entry.Value.Count;
     
-        Console.WriteLine($"{entry.Key} ({entry.Value.Count})");
+        Console.Write($"{entry.Key} ({entry.Value.Count}), ");
+        if (i++ % 6 == 0) Console.WriteLine();
     
         var list = new List<(string, SampleCfg)>();
         foreach (var (name, value) in entry.Value)
@@ -85,52 +95,54 @@ foreach (var cfgFile in cfgFileList)
             presets[entry.Key] = [];
         presets[entry.Key].AddRange(list);
     }
+    
+    Console.WriteLine();
 
     if (mConfig.Settings is { } settings)
-    {
         foreach (var entry in settings)
-        {
             if (entry.Key.Equals("Presets"))
-            {
                 foreach (var (preset, cfg) in entry.Value)
-                {
                     presetToCfg[preset] = cfg;
-                }
-            }
-            else throw new Exception("Unknown settings key: " + entry.Key);
-        }
-    }
+            else Error("Unknown settings key: " + entry.Key);
 }
 
-Console.WriteLine();
 Console.WriteLine("Samples: " + sampleLen);
+Console.WriteLine();
 
+// ----------------------------------------------------------------------------
 // Process Readme
 if (processReadme)
 {
-    Console.WriteLine("Process Readme ...");
+    Console.WriteLine("[PROCESS README]");
     
     // Tags
     var tagList = new List<(string, HashSet<string>)>();
     
-    foreach (var line in
-             File.ReadAllText("tags.txt").Split(Environment.NewLine))
+    foreach (var line in File
+         .ReadAllText("tags.txt")
+         .ReplaceLineEndings()
+         .Split(Environment.NewLine))
     {
         if (line.IsWhiteSpace()) continue;
+        if (line.Trim().StartsWith('#')) continue;
         
-        var list = line.Split(' ');
+        var list = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
         var name = list[0].ToLowerInvariant();
         var tags = list[1..].Select(
             n => n.Trim().ToLowerInvariant()).ToHashSet();
 
         if (tags.Count == 0)
-            throw new Exception("Tag count cannot be 0: " + name);
+            Error("No tags found: " + name);
+        
+        var exists = presets.Values.Any(e => e.Any(e => 
+            e.Item1[..^1].Equals(name, StringComparison.InvariantCultureIgnoreCase)));
+        if (!exists) Error($"No effect exists for tag '{name}'");
         
         tagList.Add((name, tags));
     }
 
     // Readme
-    var readme = 
+    var readme =
         """
         # Wilhelm SFX
 
@@ -162,7 +174,11 @@ if (processReadme)
     var tagGroup = "-";
     var needTag = false;
     
-    foreach (var line in sourcesTxt.Split(Environment.NewLine))
+    const string tagsVar = "!TAGS!";
+    
+    foreach (var line in sourcesTxt
+                 .ReplaceLineEndings()
+                 .Split(Environment.NewLine))
     {
         if (firstGroup && !line.StartsWith("//"))
             continue;
@@ -170,7 +186,7 @@ if (processReadme)
         
         if (line.IsWhiteSpace())
         {
-            if (needTag) readme += "!TAGS!";
+            if (needTag) readme += tagsVar;
             readme += "\n\n";
             needTag = false;
             continue;
@@ -184,7 +200,7 @@ if (processReadme)
 
         if (line.Split(' ', StringSplitOptions.RemoveEmptyEntries) is not
             [var name, var src])
-            throw new Exception($"Wrong source format: '{line}'");
+            Error($"Wrong source format: '{line}'");
 
         urls.Add(new Uri(src).Host);
         
@@ -223,6 +239,7 @@ if (processReadme)
         count);
     
     File.WriteAllText("README.md", readme);
+    Console.WriteLine();
 
     if (onlyReadme) return;
 
@@ -238,20 +255,21 @@ if (processReadme)
             tagList.RemoveAt(i);
 
             var tags = string.Join(", ", tagVal.Select(n => $"`{n}`"));
-            readme = readme.Replace("!TAGS!", $"\n\n*{tags}*\n\n");
+            readme = readme.Replace(tagsVar, $"\n\n*{tags}*\n\n");
             return;
         }
 
-        throw new Exception($"No tags found for '{tagGroup}'");
+        Error($"No tags found for '{tagGroup}'");
     }
 }
 
+// ----------------------------------------------------------------------------
 // Process samples
 var outputDir = new DirectoryInfo(samplesOutput);
 
 if (processSamples)
 {
-    Console.WriteLine("Process Samples ...");
+    Console.WriteLine("[PROCESS SAMPLES]");
     
     if (outputDir.Exists) outputDir.Delete(true);
     outputDir.Refresh();
@@ -292,7 +310,6 @@ if (processSamples)
         // Output
         "{1}";
 
-    Console.WriteLine();
     Console.WriteLine(
         ">ffmpeg " + baseCmdArgs, 
         "[INPUT]", 
@@ -303,11 +320,19 @@ if (processSamples)
     var files = Directory.GetFiles("Samples").ToList();
     if (includeExtra && Directory.Exists("ExtraSamples"))
         files.AddRange(Directory.GetFiles("ExtraSamples"));
+
+    var argList = new List<string>();
     
     foreach (var file in files)
     {
         var name = Path.GetFileNameWithoutExtension(file);
         var output = Path.Join(samplesOutput, $"{name}.ogg");
+
+        if (!fileToCfg.ContainsKey(name))
+        {
+            Warn("Unused sample: " + file);
+            continue;
+        }
 
         var cfg = fileToCfg[name];
         var playbackRate = cfg.Speed ?? 1;
@@ -324,8 +349,11 @@ if (processSamples)
         if (cfg.SkipNorm is true)
             cmdArgs = cmdArgs.Replace(argVolNorm, null);
 
-        processList.Add(Process.Start("ffmpeg", cmdArgs));
+        argList.Add(cmdArgs);
     }
+
+    foreach (var cmdArgs in argList)
+        processList.Add(Process.Start("ffmpeg", cmdArgs));
 
     foreach (var process in processList)
         process.WaitForExit();
@@ -333,8 +361,9 @@ if (processSamples)
     Console.WriteLine();
 }
 
+// ----------------------------------------------------------------------------
 // Get Duration
-Console.WriteLine("Process Samples Duration ...");
+Console.WriteLine("[PROCESS SAMPLES DURATION]");
 
 var sampleToDuration = new ConcurrentDictionary<string, double>();
 var tasksDur = new List<Task>();
@@ -359,8 +388,10 @@ if (saveDuration)
     File.WriteAllText("duration.txt", durTxt);   
 }
 
+// ----------------------------------------------------------------------------
 // We are cooking
-Console.WriteLine("Process Sound Bank ...");
+Console.WriteLine();
+Console.WriteLine("[BUILD SOUND BANK]");
 
 var bank = new SoundBank();
 
@@ -392,8 +423,8 @@ foreach (var (presetName, sounds) in presets)
 
         var fileName = sound.File;
         var file = new FileInfo(Path.Join(samplesOutput, fileName + ".ogg"));
-        if (!file.Exists) throw new FileNotFoundException(
-            "Sound preset file not found", file.FullName);
+        if (!file.Exists) Error(
+            "Sound preset file not found: " + file.FullName);
      
         // Sample
         var audioData = File.ReadAllBytes(file.FullName);
@@ -402,7 +433,7 @@ foreach (var (presetName, sounds) in presets)
         var sampleDurLen = (int)(sampleDuration * sampleRate);
 
         if (!set.Add(sampleName))
-            throw new ArgumentException($"Duplicated name: '{sampleName}'");
+            Error($"Duplicated sample name: '{sampleName}'");
         
         var sample = BasicSample.NewEmpty();
         sample.Name = sampleName;
@@ -424,7 +455,7 @@ foreach (var (presetName, sounds) in presets)
                 else if (end.EndsWith('%'))
                     samples = (int)(sampleDuration * sampleRate * double.Parse(end[..^2]));
                 else
-                    throw new ArgumentException("Wrong loop arg: " + lEnd);
+                    Error("Wrong sample loop arg: " + lEnd);
             }
             else
                 samples = (int)((double)lEnd * sampleRate);
@@ -435,7 +466,7 @@ foreach (var (presetName, sounds) in presets)
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
         
-        if (pCfg != null)
+        if (pCfg != null)// TODO: Add this to intrument global zone
         {
             if (pCfg.ReleaseVolEnv is {} rve)
                 zone.Basic.SetGenerator(
@@ -492,13 +523,26 @@ bank.Info = bank.Info with
     Comment = comment,
 };
 
-bank.WriteSF2(new FileInfo(bankName + ".sf3"), SF2WriteOptions.Default with
+var sbFile = new FileInfo(bankName + ".sf3");
+bank.WriteSF2(sbFile, SF2WriteOptions.Default with
 {
     Compress = true,
     Software = "SpessaSynth",
 });
+sbFile.Refresh();
 
 File.WriteAllText(bankName + ".cfg", input.TrimEnd());
+
+var totalDuration = TimeSpan.FromSeconds(
+    sampleToDuration.Sum(i => i.Value));
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine(
+    $"[SUCCESS({(int)sw.Elapsed.TotalSeconds}sec)]: {
+    sbFile.Name}, {
+    sbFile.Length / 1024d / 1024d:F1} MB, {
+    totalDuration:mm\\:ss} samples duration");
+Console.ResetColor();
 
 return;
 
@@ -532,14 +576,40 @@ string ProcessRead(string cmd, string args = "")
     proc.WaitForExit();
 
     var errMsg = err.ReadToEnd();
-    if (errMsg != "") throw new Exception(errMsg);
+    if (errMsg != "") Error(errMsg);
     
     return reader.ReadToEnd();
+}
+
+[DoesNotReturn]
+static void Error(string msg)
+{
+    Util.Error(msg);
+    throw new Exception(); // Local variable 'X' might not be initialized before accessing
+}
+
+static void Warn(string msg)
+{
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine("[WARN] " + msg);
+    Console.ResetColor();
+}
+
+internal static class Util
+{
+    [DoesNotReturn]
+    public static void Error(string msg)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("[ERROR] " + msg);
+        Console.ResetColor();
+        Environment.Exit(1);
+        throw new Exception(); // Local variable 'X' might not be initialized before accessing
+    }
 }
 #endregion
 
 #region Model
-
 internal sealed class GroupCfg
 {
     public double? ReleaseVolEnv;
@@ -569,20 +639,22 @@ internal class MConfig
 
 internal sealed class SampleCfgConverter : IYamlTypeConverter
 {
+    private Mark _prev;
+    
     public bool Accepts(Type type) => type == typeof(SampleCfg);
 
     public object ReadYaml(IParser parser, Type __, ObjectDeserializer ___)
     {
-        if (parser.TryConsume<Scalar>(out var scalar))
+        if (TryConsume<Scalar>(out var scalar))
             return new SampleCfg { File = scalar.Value };
 
-        parser.Consume<SequenceStart>();
+        Consume<SequenceStart>();
         
-        var cfg = new SampleCfg { File = parser.Consume<Scalar>().Value };
-        while (!parser.TryConsume<SequenceEnd>(out _))
+        var cfg = new SampleCfg { File = Consume<Scalar>().Value };
+        while (!TryConsume<SequenceEnd>(out _))
         {
-            parser.Consume<MappingStart>();
-            switch (parser.Consume<Scalar>().Value)
+            Consume<MappingStart>();
+            switch (Consume<Scalar>().Value)
             {
                 case "SkipTrim":
                     cfg.SkipTrim = GetBool();
@@ -594,34 +666,50 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                     cfg.LoopStart = GetDouble();
                     break;
                 case "End":
-                    var val = parser.Consume<Scalar>().Value;
+                    var val = Consume<Scalar>().Value;
                     if (val.Equals("all", StringComparison.CurrentCultureIgnoreCase))
                         cfg.LoopEnd = "all";
                     else
                         cfg.LoopEnd = double.Parse(val);
                     break;
 				case "LoopMode":
-					switch (parser.Consume<Scalar>().Value.ToLowerInvariant())
+					switch (Consume<Scalar>().Value.ToLowerInvariant())
 					{
 						case "untilrelease":
 							cfg.LoopMode = 3;
 							break;
 						case var m:
-							throw new Exception("Unknown loop mode: " + m);
+                            Error("Unknown loop mode: " + m);
+                            break;
 						}
 					break;
                 case "Speed":
                     cfg.Speed = GetDouble();
                     break;
             }
-            parser.Consume<MappingEnd>();
+            Consume<MappingEnd>();
         }
 
         return cfg;
 
-        int GetInt() => int.Parse(parser.Consume<Scalar>().Value);
-        bool GetBool() => bool.Parse(parser.Consume<Scalar>().Value);
-        double GetDouble() => double.Parse(parser.Consume<Scalar>().Value);
+        int GetInt() => int.Parse(Consume<Scalar>().Value);
+        bool GetBool() => bool.Parse(Consume<Scalar>().Value);
+        double GetDouble() => double.Parse(Consume<Scalar>().Value);
+
+        T Consume<T>() where T : ParsingEvent
+        {
+            _prev = parser.Current?.Start ?? new();
+            return parser.Consume<T>();
+        }
+
+        bool TryConsume<T>([MaybeNullWhen(false)] out T @event) where T : ParsingEvent
+        {
+            _prev = parser.Current?.Start ?? new();
+            return parser.TryConsume(out @event);
+        }
+        
+        void Error(string msg) => 
+            Util.Error($"[Line: {_prev.Line}, Col: {_prev.Column}] " + msg);
     }
 
     public void WriteYaml(

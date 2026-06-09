@@ -58,6 +58,8 @@ Presets:
     Grunt5: 166944__qubodup__grunts-of-pain-by-military-soldiers_a
     Grunt6: 166944__qubodup__grunts-of-pain-by-military-soldiers_b
 
+    Surprise1: HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17
+
     Ohm1: 26244__bitsmart__ohm
 
     Moan1: 221550__joseppujol__pleasure-sound
@@ -105,6 +107,8 @@ Presets:
     Dissapoint2: 391896__edinaldoapsantos__bocejo_feminino
 
     Nya1: 336012__mike_bes__nya
+
+    Sniff1: HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL
 
     Moan1: 220654__ritola27__grito_mujer8
     Moan2: 220652__ritola27__grito_mujer7
@@ -204,7 +208,8 @@ Presets:
     Chew5: 816237__qubodup__crunch
     Chew6: 718593__jomungus__crispy-bite
 
-    Brush1: 344579__vcspran__brushing_teeth
+    BrushTeeth1: 344579__vcspran__brushing_teeth
+    SandWood1: 594403__elandre01__sanding-wood
 
     Scrub1: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a
     Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
@@ -336,7 +341,7 @@ Presets:
     Donkey1: 392029__rafaelpicoli__jumento
 
     Pig1: 442906__qubodup__pig-oink
-    Pig2: 442907__qubodup__pig-grunt
+    Pig2: ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA
     Pig3: 442904__qubodup__pig-squeak
     Pig4: 770339__mastersoundboy2005__pig-squealing-sound-effect
 
@@ -402,9 +407,14 @@ Presets:
     WaterSplash1: 316744__bird_man__big-splash
     WaterSplash2: 96725__ryding__plask
     WaterSplash3: 398032__swordofkings128__splash
+    WaterSplash4: Bluezone_BC0298_designed_water_texture_014
 
     WaterDump1: 406217__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-onto-concrete
     WaterDump2: 406218__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-off-of-a-second-story-railing-01
+
+    Underwater1:
+      - Bluezone_BC0298_designed_water_underwater_005
+      - End: all
 
     Drop1: freesound_community-water-drop-3-84577
     Drop2: freesound_community-water-drip-45622
@@ -482,6 +492,7 @@ Presets:
 
     OpenLid1: 523322__marviinr__opening-beer-can
     OpenLid2: 350618__supersnd__soda-bottle-open
+    OpenLid3: OBJCont_Flask,glass,figuredbottle,realcork,liquid,remove,squeak,slosh,alt4_EWKR
 
     PotLid1: 210100__bowlingballout__pot-lid_a
     PotLid2: 210100__bowlingballout__pot-lid_b
@@ -497,6 +508,9 @@ Presets:
     Scissor2: 127153__daphne_in_wonderland__scissors
 
     Velcro1: OBJTape_VelcroRip29_InMotionAudio_Velcro
+
+    Zipper1: NEO008_a
+    Zipper2: NEO008_b
 
     Keys1: 97481__egolessdub__keys9
     Keys2: 788310__realsquink__key-pickup
@@ -569,10 +583,14 @@ Presets:
       - SkipTrim: true
       - SkipNorm: true
 
+    Dice1: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_a
+    Dice2: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_b
+
     Cloth1: FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_a
     Cloth2: FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_b
 
     Scratch1: OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard
+
 
   Machine:
     Motor1:
@@ -677,17 +695,8 @@ Presets:
       - 512471__michael_grinnell__electric-zap
       - End: all
 
-    CarInterior1:
-      - VEHCar_TownDrivingAmbience06_InMotionAu
-      - End: all
-
-    TrainInterior1:
-      - AMBTran_TrainInterior09_InMotionAudio
-      - End: all
-
-    PlaneInterior1:
-      - AEROInt_Airplane_Interior_Small_Plane
-      - End: all
+    Lever1: Bluezone_BC0302_industrial_lever_switch_014
+    Lever2: Bluezone_BC0302_industrial_lever_switch_039
 
   Digit:
     Radio1:
@@ -731,7 +740,7 @@ Presets:
       - End: all
 
   Gun:
-    Laser1: 253446__jmayoff__laser
+    Laser1: Bluezone_BC0295_sci_fi_weapon_gun_shot_008
     Laser2: 417731__wcoltd__laser1
     Laser3: 83562__nbs-dark__ship-fire3
 
@@ -779,6 +788,8 @@ Presets:
     Reload6: dragon-studio-gun-reload-511309
     Reload7: dragon-studio-gun-reload-2-511308
 
+    InsertMagazine1: GUNMech_SVD_Dragunov_7.62×54R_SOURCE_Magazine_Insert_Slow_DRCA_DRAG_CO-100K
+
     GrenLaunch1: 163458__lemudcrab__grenade-launcher
 
     Flamethrower1:
@@ -804,6 +815,19 @@ Presets:
 
     Crash1: dragon-studio-car-crash-sound-effect-376874
 
+
+    CarInterior1:
+      - VEHCar_TownDrivingAmbience06_InMotionAu
+      - End: all
+
+    TrainInterior1:
+      - AMBTran_TrainInterior09_InMotionAudio
+      - End: all
+
+    PlaneInterior1:
+      - AEROInt_Airplane_Interior_Small_Plane
+      - End: all
+
   Robot:
     Robo1: 275654__deleted_user_4798915__robot_yes-sir
     Robo2: 316311__littlerobotsoundfactory__robot2_16
@@ -817,18 +841,20 @@ Presets:
     Move3: 148309__keemocore__robot-step-short-medium-heavy
 
   Door:
-    DoorOpen1: 15419__pagancow__dorm-door-opening
+    Open1: 15419__pagancow__dorm-door-opening
 
-    DoorSlide1: 176146__swagmuffinplus__sliding-doors
-    DoorSlide2: 425090__neospica__pressurized-door-opening
-    DoorSlide3: 243699__ertfelda__hidden-wall-opening
+    Slide1: 176146__swagmuffinplus__sliding-doors
+    Slide2: 425090__neospica__pressurized-door-opening
+    Slide3: 243699__ertfelda__hidden-wall-opening
 
+    Metal1: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_a
+    Metal2: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_b
 
-    DoorCreak1: 219499__jarredgibb__door-creak
+    Creak1: 219499__jarredgibb__door-creak
 
-    DoorClose1: 117614__soundmary__door-close
-    DoorClose2: 48980__lunardrive__metal-door-slam_soundsmith
-    DoorClose3: 571797__nachtmahrtv__door-slamming-hard
+    Close1: 117614__soundmary__door-close
+    Close2: 48980__lunardrive__metal-door-slam_soundsmith
+    Close3: 571797__nachtmahrtv__door-slamming-hard
 
     Curtain1: 272436__ryanharding95__opening-shower-curtain
     Curtain2: 106132__j1987__showercurtain
@@ -882,10 +908,17 @@ Presets:
     MetalThud1: DSGNImpt_Metal_Hit_Thud_Thump_Low_Ring_Geofon_1_The_Noisery_Moaning_Metal
     MetalThud2: 638613__captainyulef__metal-thud
 
+    Blocked1: WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_a
+    Blocked2: WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_b
+    Blocked3: WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_c
+
+    Racket1: 338122__jacklilley__tennis-ball-being-hit
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror
     Glass3: 371091__mccormick_iain__glass-break-4
+    Glass4: Bluezone_BC0292_alien_tripod_debris_glass_falling_003
 
     Branch1: 164472__deleted_user_2104797__crack-of-branch-3
     Branch2: 594277__crazychuy__stepping-on-branch
@@ -904,11 +937,22 @@ Presets:
 
     Concrete1: 194688__kingsrow__pieceofconcrete01
 
+    Stone1: Bluezone_BC0297_stone_impact_041
+
+    Wood1: WOODBrk_Snap09_InMotionAudio_Wood
+
     Paper1: 485524__byjesusjp__hoja-rota
+    Paper2: PAPRHndl_Paper_Sheet_Crumple__04_MWSFX_CDAP
+
+    Cloth1: CLOTHRip_CottonRips13_InMotionAudio_TornTShirt
+    Cloth2: CLOTHRip_CottonRips44_InMotionAudio_TornTShirt
 
     Flesh1: 511194__pablobd__headshot
     Flesh2: 411122__vdovitsky__sword-hits-the-body
     Flesh3: 433840__archos__slime-27
+
+    Gore1: GORESplt_Gore_Splatter_01_JSE_GMP_a
+    Gore2: GORESplt_Gore_Splatter_01_JSE_GMP_b
 
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion

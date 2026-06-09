@@ -1,3 +1,4 @@
+# Man
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
@@ -8,7 +9,10 @@ Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
+Surprise ooh astonishment Gasp shock startled amazed
 Moan Groan sigh pleasure soft gasp
+
+# Woman
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Kiss Smooch peck mwah lip affection romance love
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
@@ -21,19 +25,26 @@ Grunt Groan strain effort military soldier exertion
 Surprise ooh astonishment Gasp shock startled amazed
 Dissapoint Disappointed sigh letdown groan
 Nya Catgirl meow anime cute kawaii catgirl
+Sniff inhale smelling congestion
 Moan Groan sigh pleasure soft gasp
+
+# Child
 BabyCry weeping tantrum fussy upset tears fussy
 BabyLaugh giggle chuckle happy cooing wholesome
 GirlLaugh giggle titter laughing innocent playground
 GirlOh Uh-oh mistake
 GirlScream shriek panic scream scared
 Cough Throat sick illness cold respiratory flu
+
+# People
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Applause Clapping ovation
 WarCry Battle charging horde
 Aww sympathy sigh pity
 Boo Booing jeering disapproval
 Loud roar celebration arena
+
+# Action
 Grab Pickup take loot inventory item collect
 Swallow Gulp drinking chugging throat chug
 ClimbLadder climbing rung stepping scaling
@@ -44,8 +55,11 @@ Fart Flatulence poot toot fart gas gross bathroom funny comedy poop intestinal
 Burp eructation belch gross funny digestion
 Poke Gagging retching vomit throat nausea sick
 Chew Bite crunch munching eating mastication food
-Brush teeth friction hygiene dental
+BrushTeeth friction hygiene dental
+SandWood scraping friction foley workshop
 Scrub wash laundry thud shuffling
+
+# Move
 Foot step stride pace walking
 Grass outdoor
 Leaves Foliage dry crunchy rustle
@@ -59,6 +73,8 @@ Water Puddle splash slushy
 Swim splashing pool lake
 Slime squish squelch slimy
 Horse Gallop trot equestrian
+
+# Animal
 Toy Squeaker
 CatMeow Meow kitten howl
 CatHiss Hissing angry snarl
@@ -88,8 +104,11 @@ Bat vampire chirp cave
 Frog Croak toad quack ribbit amphibian swamp
 Cicada Insect buzz
 WingFlap Flapping airborne
+
+# Nature
 WaterSplash Splash plop plask water
 WaterDump spill
+Underwater submerged subaquatic hydrophone dive bubble swirl fluid
 Drop Droplet drip water tap condensation
 SmokePoof Poof cloud magic steam
 Bubble Plop pop air burst
@@ -103,6 +122,10 @@ Thunder lightning storm tempest
 Wind Breeze gust gale blowing
 Fire Crackle campfire
 Embers Crackling coals burning hearth
+
+
+
+# Item
 Pour liquid glass
 Clink Clank bottle cheers
 OpenLid bottle can hiss crack
@@ -111,6 +134,7 @@ Sharpen Blade scrape friction grindstone
 CashReg register store money
 Scissor Snip shearing cutting cutting
 Velcro peel rip tear crisp
+Zipper fastener track friction raspy
 Keys jingle rattle stash clink
 BookClose Thud slap Muffled puff
 BookDrop Thud Flop Dull
@@ -130,8 +154,11 @@ DrawSword Unsheathe slide blade metallic
 Gas Fuel hiss canister butane
 Spray burst liquid barber misting
 Card pick deck inventory flick crisp
+Dice tabletop roll tumbling bouncing rattling clattering
 Cloth foley cotton soft subtle
 Scratch tapping friction scrape
+
+# Machine
 Motor Engine hum grinder diesel machinery boat car bike
 MotorDead Failed engine struggle cranking dead
 Drill electric hardware power
@@ -146,15 +173,17 @@ Click Button press
 Drier motor hair barbershop buzz airflow wind
 Trimmer clipper shaver buzz hum
 Electric Zap circuit spark current discharge voltage
-CarInterior motion driving rumble hum
-TrainInterior railway commute rumble track hum
-PlaneInterior drone hum aviation
+Lever switch handle latch toggle clunk lock unlock metallic
+
+# Digit
 Radio static fuzz noise frequency
 PhoneNoise cellular buzz signal
 PhoneHang disconnect
 Dial calling tones
 Beep blip tone ping
 Radar sonar pulse scan detection
+
+# Gun
 Laser blaster plasma energy beam pew
 Empty dry click
 Shot blast pistol
@@ -163,21 +192,34 @@ MachineGun automatic burst heavy assault
 ShotGun scatter pump
 Rifle sniper marsman
 Reload cocking magazine chambering round
+InsertMagazine reload slow slide lock
 GrenLaunch grenade projectile mortar
 Flamethrower fire fuel incinerator pyro
+
+# Vehicle
 Open unlatch pull
 Close slam shut seal
 Horn honk klaxon traffic
 Lock deadbolt click
 Alarm siren antitheft security
 Crash accident smash collision crunch
+CarInterior motion driving rumble hum
+TrainInterior railway commute rumble track hum
+PlaneInterior drone hum aviation
+
+# Robot
 Robo synthetic bloop android
 Move step whirl stomp
-DoorOpen entrance portal
-DoorSlide pneumatic pressurized hidden
-DoorCreak squeak wooden rusty
-DoorClose slam shut
+
+# Door
+Open entrance portal
+Slide pneumatic pressurized hidden
+Metal gate screech rusty creak
+Creak squeak wooden rusty
+Close slam shut
 Curtain shower fabric
+
+# Hit
 Swing swipe strike whiff miss
 Slap smack impact
 Arrow bow trajectory shot
@@ -192,6 +234,10 @@ Axe cleave slash hit
 Chop hack logging cut lumberjack tree
 PickAxe quarry mining dig
 MetalThud hit impact thump moan
+Blocked shield armor parry deflect bash
+Racket tennis ball smash stroke plock
+
+# Break
 Glass shatter smash
 Branch twig crack stick
 Barrel crate container
@@ -199,13 +245,23 @@ Vase pottery ceramic clay
 Bone snap fracture crack
 Ceramic crumble masonry smash
 Concrete crumble crunch crush
+Stone rock impact debris thud crumble shatter
+Wood snap crack twig timber crisp
 Paper tear rip canvas sheet
+Cloth fabric rip tear textile soft
 Flesh Squish Squelch Wet Gory Meaty Slash
+Gore splatter squish flesh gruesome visceral
+
+# Bang
 Boom explosion blast detonation bomb burst
 Firework pyrothechnic explosion bang aerial
 Flashbang stun grenade blast blinding
+
+# Bell
 Bell ding chime
 Door ring ding dong chime
 School bell ring recess
+
+# Ring
 Door intercom ring buzz
 Phone ring office

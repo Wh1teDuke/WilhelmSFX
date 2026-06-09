@@ -15,19 +15,19 @@ Requires `dotnet 10` and `ffmpeg`. Example:
 Used sites:
 
 - [freesound.org](https://freesound.org)
-- [gdc.sonniss.com](https://gdc.sonniss.com)
+- [sonniss.com](https://sonniss.com)
 - [pixabay.com](https://pixabay.com)
 - [www.nps.gov](https://www.nps.gov)
 
 ***
 
-## Effect List (541)
+## Effect List (568)
 &nbsp;
 ### Man
 
 
 
-[Laugh 1](https://freesound.org/people/danielsilveira321/sounds/190627/ "hahaha") [2](https://gdc.sonniss.com/ "VOXLaff Police Officer Laugh Vocal Male 1") 
+[Laugh 1](https://freesound.org/people/danielsilveira321/sounds/190627/ "hahaha") [2](https://sonniss.com/gameaudiogdc/ "VOXLaff Police Officer Laugh Vocal Male 1") 
 
 *`giggle`, `chuckle`, `snicker`, `chortle`, `guffaw`, `cackle`*
 
@@ -69,7 +69,7 @@ Used sites:
 
 
 
-[Doubt 1](https://freesound.org/people/bolkmar/sounds/469605/ "voice male humming doubting") [2](https://gdc.sonniss.com/ "HMNBrth Police Officer Gasp Vocal Male Shocked Alert 1") 
+[Doubt 1](https://freesound.org/people/bolkmar/sounds/469605/ "voice male humming doubting") [2](https://sonniss.com/gameaudiogdc/ "HMNBrth Police Officer Gasp Vocal Male Shocked Alert 1") 
 
 *`humming`, `pondering`, `skeptical`, `inquisitive`, `hmm`, `doubting`, `thinking`, `uncertain`, `questioning`*
 
@@ -84,6 +84,12 @@ Used sites:
 [Ohm 1](https://freesound.org/people/bitsmart/sounds/26244/ "ohm") 
 
 *`om`, `meditation`, `drone`, `mantra`, `spiritual`, `chant`*
+
+
+
+[Surprise 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Male, Breath, Surprise, Gasp UberDuo INHL 17") 
+
+*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
 
 
 
@@ -120,7 +126,7 @@ Used sites:
 
 
 
-[Cry 1](https://gdc.sonniss.com/ "VOXCry Crying Female 04 05 SNDBTS VH") 
+[Cry 1](https://sonniss.com/gameaudiogdc/ "VOXCry Crying Female 04 05 SNDBTS VH") 
 
 *`weep`, `whimper`, `grief`, `distress`*
 
@@ -171,6 +177,12 @@ Used sites:
 [Nya 1](https://freesound.org/people/Mike_bes/sounds/336012/ "nya") 
 
 *`catgirl`, `meow`, `anime`, `cute`, `kawaii`*
+
+
+
+[Sniff 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Female, Sniff, Nose 7 UberDuo INHL") 
+
+*`inhale`, `smelling`, `congestion`*
 
 
 
@@ -339,13 +351,19 @@ Used sites:
 
 
 
-[Brush 1](https://freesound.org/people/vcspran/sounds/344579/ "brushing teeth") 
+[BrushTeeth 1](https://freesound.org/people/vcspran/sounds/344579/ "brushing teeth") 
 
-*`teeth`, `friction`, `hygiene`, `dental`*
+*`friction`, `hygiene`, `dental`*
 
 
 
-[Scrub 1](https://gdc.sonniss.com/ "FOLYMisc WashingBasket Pats&Movement12 InMotionAudio WashingBasketFoley a") [2](https://gdc.sonniss.com/ "FOLYMisc WashingBasket Pats&Movement12 InMotionAudio WashingBasketFoley b") 
+[SandWood 1](https://freesound.org/people/Elandre01/sounds/594403/ "sanding wood") 
+
+*`scraping`, `friction`, `foley`, `workshop`*
+
+
+
+[Scrub 1](https://sonniss.com/gameaudiogdc/ "FOLYMisc WashingBasket Pats&Movement12 InMotionAudio WashingBasketFoley a") [2](https://sonniss.com/gameaudiogdc/ "FOLYMisc WashingBasket Pats&Movement12 InMotionAudio WashingBasketFoley b") 
 
 *`wash`, `laundry`, `thud`, `shuffling`*
 
@@ -471,7 +489,7 @@ Used sites:
 
 
 
-[DogGrunt 1](https://gdc.sonniss.com/ "ANMLDog Dog Shuffle, Grunt, Movement, Lying Down 344 Audio Dog Vocalisations") 
+[DogGrunt 1](https://sonniss.com/gameaudiogdc/ "ANMLDog Dog Shuffle, Grunt, Movement, Lying Down 344 Audio Dog Vocalisations") 
 
 *`canine`, `sigh`, `groan`, `murmur`*
 
@@ -561,7 +579,7 @@ Used sites:
 
 
 
-[Pig 1](https://freesound.org/people/qubodup/sounds/442906/ "pig oink") [2](https://freesound.org/people/qubodup/sounds/442907/ "pig grunt") [3](https://freesound.org/people/qubodup/sounds/442904/ "pig squeak") [4](https://freesound.org/people/Mastersoundboy2005/sounds/770339/ "pig squealing sound effect") 
+[Pig 1](https://freesound.org/people/qubodup/sounds/442906/ "pig oink") [2](https://sonniss.com/gameaudiogdc/ "ANMLFarm Pig Squeal and Snort 18 MWSFX FA") [3](https://freesound.org/people/qubodup/sounds/442904/ "pig squeak") [4](https://freesound.org/people/Mastersoundboy2005/sounds/770339/ "pig squealing sound effect") 
 
 *`oink`, `grunt`, `squeal`, `swine`*
 
@@ -630,7 +648,7 @@ Used sites:
 
 
 
-[WaterSplash 1](https://freesound.org/people/Bird_man/sounds/316744/ "big splash") [2](https://freesound.org/people/Ryding/sounds/96725/ "plask") [3](https://freesound.org/people/swordofkings128/sounds/398032/ "splash") 
+[WaterSplash 1](https://freesound.org/people/Bird_man/sounds/316744/ "big splash") [2](https://freesound.org/people/Ryding/sounds/96725/ "plask") [3](https://freesound.org/people/swordofkings128/sounds/398032/ "splash") [4](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water texture 014") 
 
 *`splash`, `plop`, `plask`, `water`*
 
@@ -639,6 +657,12 @@ Used sites:
 [WaterDump 1](https://freesound.org/people/Anthousai/sounds/406217/ "water ice cooler dumping a cooler full of ice onto concrete") [2](https://freesound.org/people/Anthousai/sounds/406218/ "water ice cooler dumping a cooler full of ice off of a second story railing 01") 
 
 *`spill`*
+
+
+
+[Underwater 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water underwater 005") 
+
+*`submerged`, `subaquatic`, `hydrophone`, `dive`, `bubble`, `swirl`, `fluid`*
 
 
 
@@ -672,7 +696,7 @@ Used sites:
 
 
 
-[RainInterior 1](https://freesound.org/people/Cinetony/sounds/672701/ "rain on the roof of car inside 3") [2](https://gdc.sonniss.com/ "Constant") 
+[RainInterior 1](https://freesound.org/people/Cinetony/sounds/672701/ "rain on the roof of car inside 3") [2](https://sonniss.com/gameaudiogdc/ "Constant") 
 
 *`storm`, `window`, `indoor`, `car`, `patter`*
 
@@ -696,7 +720,7 @@ Used sites:
 
 
 
-[Wind 1](https://pixabay.com/sound-effects/nature-wind-blowing-sfx-06-423674/ "dragon studio wind blowing sfx 06 423674") [2](https://gdc.sonniss.com/ "WINDDsgn EXT, Eye Of The Storm 344 Audi") 
+[Wind 1](https://pixabay.com/sound-effects/nature-wind-blowing-sfx-06-423674/ "dragon studio wind blowing sfx 06 423674") [2](https://sonniss.com/gameaudiogdc/ "WINDDsgn EXT, Eye Of The Storm 344 Audi") 
 
 *`cyclone`, `gale`, `muffled`*
 
@@ -741,7 +765,7 @@ Used sites:
 
 
 
-[OpenLid 1](https://freesound.org/people/MarviinR/sounds/523322/ "opening beer can") [2](https://freesound.org/people/supersnd/sounds/350618/ "soda bottle open") 
+[OpenLid 1](https://freesound.org/people/MarviinR/sounds/523322/ "opening beer can") [2](https://freesound.org/people/supersnd/sounds/350618/ "soda bottle open") [3](https://sonniss.com/gameaudiogdc/ "OBJCont Flask,glass,figuredbottle,realcork,liquid,remove,squeak,slosh,alt4 EWKR") 
 
 *`bottle`, `can`, `hiss`, `crack`*
 
@@ -771,9 +795,15 @@ Used sites:
 
 
 
-[Velcro 1](https://gdc.sonniss.com/ "OBJTape VelcroRip29 InMotionAudio Velcro") 
+[Velcro 1](https://sonniss.com/gameaudiogdc/ "OBJTape VelcroRip29 InMotionAudio Velcro") 
 
 *`peel`, `rip`, `tear`, `crisp`*
+
+
+
+[Zipper 1](https://sonniss.com/gameaudiogdc/ "NEO008 a") [2](https://sonniss.com/gameaudiogdc/ "NEO008 b") 
+
+*`fastener`, `track`, `friction`, `raspy`*
 
 
 
@@ -801,7 +831,7 @@ Used sites:
 
 
 
-[Newspaper 1](https://gdc.sonniss.com/ "Newspaper Static Foley Rummage") 
+[Newspaper 1](https://sonniss.com/gameaudiogdc/ "Newspaper Static Foley Rummage") 
 
 *`rummage`, `rustle`, `page`, `fold`*
 
@@ -879,25 +909,31 @@ Used sites:
 
 
 
-[Spray 1](https://gdc.sonniss.com/ "OBJMisc Spray Bottle, Spray 1 344 Audio Barbershop Vol 1") 
+[Spray 1](https://sonniss.com/gameaudiogdc/ "OBJMisc Spray Bottle, Spray 1 344 Audio Barbershop Vol 1") 
 
 *`burst`, `liquid`, `barber`, `misting`*
 
 
 
-[Card 1](https://gdc.sonniss.com/ "GAMECas Pick Up Multiple Cards At Once 5 344 Audio Casino Cards Vol 1") 
+[Card 1](https://sonniss.com/gameaudiogdc/ "GAMECas Pick Up Multiple Cards At Once 5 344 Audio Casino Cards Vol 1") 
 
 *`pick`, `deck`, `inventory`, `flick`, `crisp`*
 
 
 
-[Cloth 1](https://gdc.sonniss.com/ "FOLYClth ClothMovement24 InMotionAudio FoleyT Shirt a") [2](https://gdc.sonniss.com/ "FOLYClth ClothMovement24 InMotionAudio FoleyT Shirt b") 
+[Dice 1](https://sonniss.com/gameaudiogdc/ "GAMEBoard Dice, Contact, Die, Roll, On Table UberDuo Game a") [2](https://sonniss.com/gameaudiogdc/ "GAMEBoard Dice, Contact, Die, Roll, On Table UberDuo Game b") 
+
+*`tabletop`, `roll`, `tumbling`, `bouncing`, `rattling`, `clattering`*
+
+
+
+[Cloth 1](https://sonniss.com/gameaudiogdc/ "FOLYClth ClothMovement24 InMotionAudio FoleyT Shirt a") [2](https://sonniss.com/gameaudiogdc/ "FOLYClth ClothMovement24 InMotionAudio FoleyT Shirt b") 
 
 *`foley`, `cotton`, `soft`, `subtle`*
 
 
 
-[Scratch 1](https://gdc.sonniss.com/ "OBJMisc ScratchCard CoinTapScratch 01 InMotionAudio ScratchCard") 
+[Scratch 1](https://sonniss.com/gameaudiogdc/ "OBJMisc ScratchCard CoinTapScratch 01 InMotionAudio ScratchCard") 
 
 *`tapping`, `friction`, `scrape`*
 
@@ -912,7 +948,7 @@ Used sites:
 
 
 
-[Motor 1](https://freesound.org/people/soundjoao/sounds/325809/ "motor loop 3") [2](https://freesound.org/people/MarlonHJ/sounds/242741/ "engcad1") [3](https://freesound.org/people/ldezem/sounds/386235/ "pneumatic angle grinder fuji f7vh run 1a short") [4](https://freesound.org/people/Fercraft64/sounds/747794/ "renfe 333 motor idle") [5](https://freesound.org/people/chungus43A/sounds/828754/ "mississauga transit") [6](https://gdc.sonniss.com/ "VEHSkid Honda CB500F Engine Start Tires") [7](https://freesound.org/people/AugustSandberg/sounds/264864/ "marine diesel engine") [8](https://gdc.sonniss.com/ "BOATMotr Diesel Engine Boat Idle Steady") 
+[Motor 1](https://freesound.org/people/soundjoao/sounds/325809/ "motor loop 3") [2](https://freesound.org/people/MarlonHJ/sounds/242741/ "engcad1") [3](https://freesound.org/people/ldezem/sounds/386235/ "pneumatic angle grinder fuji f7vh run 1a short") [4](https://freesound.org/people/Fercraft64/sounds/747794/ "renfe 333 motor idle") [5](https://freesound.org/people/chungus43A/sounds/828754/ "mississauga transit") [6](https://sonniss.com/gameaudiogdc/ "VEHSkid Honda CB500F Engine Start Tires") [7](https://freesound.org/people/AugustSandberg/sounds/264864/ "marine diesel engine") [8](https://sonniss.com/gameaudiogdc/ "BOATMotr Diesel Engine Boat Idle Steady") 
 
 *`engine`, `hum`, `grinder`, `diesel`, `machinery`, `boat`, `car`, `bike`*
 
@@ -960,7 +996,7 @@ Used sites:
 
 
 
-[Typewriter 1](https://gdc.sonniss.com/ "COMType Typewriter Space Key, Typewriter 05 344 Audio Antiques   Typewriter") 
+[Typewriter 1](https://sonniss.com/gameaudiogdc/ "COMType Typewriter Space Key, Typewriter 05 344 Audio Antiques   Typewriter") 
 
 *`typing`, `mechanical`, `press`, `stroke`, `typewriter`*
 
@@ -978,13 +1014,13 @@ Used sites:
 
 
 
-[Drier 1](https://gdc.sonniss.com/ "OBJMisc Hair Dryer, On, Idle, Off 4 344") 
+[Drier 1](https://sonniss.com/gameaudiogdc/ "OBJMisc Hair Dryer, On, Idle, Off 4 344") 
 
 *`motor`, `hair`, `barbershop`, `buzz`, `airflow`, `wind`*
 
 
 
-[Trimmer 1](https://gdc.sonniss.com/ "OBJMisc Wahl Sterling Trimmer, On, Idle") 
+[Trimmer 1](https://sonniss.com/gameaudiogdc/ "OBJMisc Wahl Sterling Trimmer, On, Idle") 
 
 *`clipper`, `shaver`, `buzz`, `hum`*
 
@@ -996,21 +1032,9 @@ Used sites:
 
 
 
-[CarInterior 1](https://gdc.sonniss.com/ "VEHCar TownDrivingAmbience06 InMotionAu") 
+[Lever 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0302 industrial lever switch 014") [2](https://sonniss.com/gameaudiogdc/ "Bluezone BC0302 industrial lever switch 039") 
 
-*`motion`, `driving`, `rumble`, `hum`*
-
-
-
-[TrainInterior 1](https://gdc.sonniss.com/ "AMBTran TrainInterior09 InMotionAudio") 
-
-*`railway`, `commute`, `rumble`, `track`, `hum`*
-
-
-
-[PlaneInterior 1](https://gdc.sonniss.com/ "AEROInt Airplane Interior Small Plane") 
-
-*`drone`, `hum`, `aviation`*
+*`switch`, `handle`, `latch`, `toggle`, `clunk`, `lock`, `unlock`, `metallic`*
 
 
 
@@ -1068,7 +1092,7 @@ Used sites:
 
 
 
-[Laser 1](https://freesound.org/people/jmayoff/sounds/253446/ "laser") [2](https://freesound.org/people/wcoltd/sounds/417731/ "laser1") [3](https://freesound.org/people/Nbs%20Dark/sounds/83562/ "ship fire3") 
+[Laser 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0295 sci fi weapon gun shot 008") [2](https://freesound.org/people/wcoltd/sounds/417731/ "laser1") [3](https://freesound.org/people/Nbs%20Dark/sounds/83562/ "ship fire3") 
 
 *`blaster`, `plasma`, `energy`, `beam`, `pew`*
 
@@ -1116,6 +1140,12 @@ Used sites:
 
 
 
+[InsertMagazine 1](https://sonniss.com/gameaudiogdc/ "GUNMech SVD Dragunov 7.62×54R SOURCE Magazine Insert Slow DRCA DRAG CO 100K") 
+
+*`reload`, `slow`, `slide`, `lock`*
+
+
+
 [GrenLaunch 1](https://freesound.org/people/LeMudCrab/sounds/163458/ "grenade launcher") 
 
 *`grenade`, `projectile`, `mortar`*
@@ -1149,7 +1179,7 @@ Used sites:
 
 
 
-[Horn 1](https://freesound.org/people/univ_lyon3/sounds/324693/ "car honking") [2](https://freesound.org/people/deleted_user_2104797/sounds/164626/ "car horn mid") [3](https://freesound.org/people/danlucaz/sounds/513741/ "truck horn") [4](https://gdc.sonniss.com/ "VEHHorn Honda CB500F Horn Long 02 SNDBTS MCH") 
+[Horn 1](https://freesound.org/people/univ_lyon3/sounds/324693/ "car honking") [2](https://freesound.org/people/deleted_user_2104797/sounds/164626/ "car horn mid") [3](https://freesound.org/people/danlucaz/sounds/513741/ "truck horn") [4](https://sonniss.com/gameaudiogdc/ "VEHHorn Honda CB500F Horn Long 02 SNDBTS MCH") 
 
 *`honk`, `klaxon`, `traffic`*
 
@@ -1170,6 +1200,24 @@ Used sites:
 [Crash 1](https://pixabay.com/sound-effects/film-special-effects-car-crash-sound-effect-376874/ "dragon studio car crash sound effect 376874") 
 
 *`accident`, `smash`, `collision`, `crunch`*
+
+
+
+[CarInterior 1](https://sonniss.com/gameaudiogdc/ "VEHCar TownDrivingAmbience06 InMotionAu") 
+
+*`motion`, `driving`, `rumble`, `hum`*
+
+
+
+[TrainInterior 1](https://sonniss.com/gameaudiogdc/ "AMBTran TrainInterior09 InMotionAudio") 
+
+*`railway`, `commute`, `rumble`, `track`, `hum`*
+
+
+
+[PlaneInterior 1](https://sonniss.com/gameaudiogdc/ "AEROInt Airplane Interior Small Plane") 
+
+*`drone`, `hum`, `aviation`*
 
 
 
@@ -1203,25 +1251,31 @@ Used sites:
 
 
 
-[DoorOpen 1](https://freesound.org/people/pagancow/sounds/15419/ "dorm door opening") 
+[Open 1](https://freesound.org/people/pagancow/sounds/15419/ "dorm door opening") 
 
 *`entrance`, `portal`*
 
 
 
-[DoorSlide 1](https://freesound.org/people/SwagMuffinPlus/sounds/176146/ "sliding doors") [2](https://freesound.org/people/NeoSpica/sounds/425090/ "pressurized door opening") [3](https://freesound.org/people/ertfelda/sounds/243699/ "hidden wall opening") 
+[Slide 1](https://freesound.org/people/SwagMuffinPlus/sounds/176146/ "sliding doors") [2](https://freesound.org/people/NeoSpica/sounds/425090/ "pressurized door opening") [3](https://freesound.org/people/ertfelda/sounds/243699/ "hidden wall opening") 
 
 *`pneumatic`, `pressurized`, `hidden`*
 
 
 
-[DoorCreak 1](https://freesound.org/people/JarredGibb/sounds/219499/ "door creak") 
+[Metal 1](https://sonniss.com/gameaudiogdc/ "DOORGate Metal Gate Spring Latch Mechanism, Screech Jake Fielding Squeaky Gates 01 a") [2](https://sonniss.com/gameaudiogdc/ "DOORGate Metal Gate Spring Latch Mechanism, Screech Jake Fielding Squeaky Gates 01 b") 
+
+*`gate`, `screech`, `rusty`, `creak`*
+
+
+
+[Creak 1](https://freesound.org/people/JarredGibb/sounds/219499/ "door creak") 
 
 *`squeak`, `wooden`, `rusty`*
 
 
 
-[DoorClose 1](https://freesound.org/people/soundmary/sounds/117614/ "door close") [2](https://freesound.org/people/Lunardrive/sounds/48980/ "metal door slam soundsmith") [3](https://freesound.org/people/NachtmahrTV/sounds/571797/ "door slamming hard") 
+[Close 1](https://freesound.org/people/soundmary/sounds/117614/ "door close") [2](https://freesound.org/people/Lunardrive/sounds/48980/ "metal door slam soundsmith") [3](https://freesound.org/people/NachtmahrTV/sounds/571797/ "door slamming hard") 
 
 *`slam`, `shut`*
 
@@ -1278,7 +1332,7 @@ Used sites:
 
 
 
-[Whip 1](https://freesound.org/people/snowflakes/sounds/72190/ "whip02") [2](https://freesound.org/people/snowflakes/sounds/72189/ "whip01") [3](https://freesound.org/people/deleted_user_6479820/sounds/353047/ "g whiff alt 2") [4](https://gdc.sonniss.com/ "WEAPWhip WHIP Snap Crack 05 DDUMAIS a") [5](https://gdc.sonniss.com/ "WEAPWhip WHIP Snap Crack 05 DDUMAIS b") 
+[Whip 1](https://freesound.org/people/snowflakes/sounds/72190/ "whip02") [2](https://freesound.org/people/snowflakes/sounds/72189/ "whip01") [3](https://freesound.org/people/deleted_user_6479820/sounds/353047/ "g whiff alt 2") [4](https://sonniss.com/gameaudiogdc/ "WEAPWhip WHIP Snap Crack 05 DDUMAIS a") [5](https://sonniss.com/gameaudiogdc/ "WEAPWhip WHIP Snap Crack 05 DDUMAIS b") 
 
 *`crack`, `lash`, `snap`*
 
@@ -1296,7 +1350,7 @@ Used sites:
 
 
 
-[Stick 1](https://gdc.sonniss.com/ "WEAPBlnt Spear And Stick Impact, Wooden MKH 2 344 Audio Medieval Weapons Vol 2") 
+[Stick 1](https://sonniss.com/gameaudiogdc/ "WEAPBlnt Spear And Stick Impact, Wooden MKH 2 344 Audio Medieval Weapons Vol 2") 
 
 *`impact`, `thud`, `wood`*
 
@@ -1320,9 +1374,21 @@ Used sites:
 
 
 
-[MetalThud 1](https://gdc.sonniss.com/ "DSGNImpt Metal Hit Thud Thump Low Ring Geofon 1 The Noisery Moaning Metal") [2](https://freesound.org/people/CaptainYulef/sounds/638613/ "metal thud") 
+[MetalThud 1](https://sonniss.com/gameaudiogdc/ "DSGNImpt Metal Hit Thud Thump Low Ring Geofon 1 The Noisery Moaning Metal") [2](https://freesound.org/people/CaptainYulef/sounds/638613/ "metal thud") 
 
 *`hit`, `impact`, `thump`, `moan`*
+
+
+
+[Blocked 1](https://sonniss.com/gameaudiogdc/ "WEAPArmr Metal Shield Block Hits JSE MW a") [2](https://sonniss.com/gameaudiogdc/ "WEAPArmr Metal Shield Block Hits JSE MW b") [3](https://sonniss.com/gameaudiogdc/ "WEAPArmr Metal Shield Block Hits JSE MW c") 
+
+*`shield`, `armor`, `parry`, `deflect`, `bash`*
+
+
+
+[Racket 1](https://freesound.org/people/jacklilley/sounds/338122/ "tennis ball being hit") 
+
+*`tennis`, `ball`, `smash`, `stroke`, `plock`*
 
 
 
@@ -1335,7 +1401,7 @@ Used sites:
 
 
 
-[Glass 1](https://freesound.org/people/avrahamy/sounds/141563/ "glass break") [2](https://freesound.org/people/LazyLids/sounds/369070/ "breaking mirror") [3](https://freesound.org/people/mccormick_iain/sounds/371091/ "glass break 4") 
+[Glass 1](https://freesound.org/people/avrahamy/sounds/141563/ "glass break") [2](https://freesound.org/people/LazyLids/sounds/369070/ "breaking mirror") [3](https://freesound.org/people/mccormick_iain/sounds/371091/ "glass break 4") [4](https://sonniss.com/gameaudiogdc/ "Bluezone BC0292 alien tripod debris glass falling 003") 
 
 *`shatter`, `smash`*
 
@@ -1377,15 +1443,39 @@ Used sites:
 
 
 
-[Paper 1](https://freesound.org/people/ByJesusJP/sounds/485524/ "hoja rota") 
+[Stone 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0297 stone impact 041") 
+
+*`rock`, `impact`, `debris`, `thud`, `crumble`, `shatter`*
+
+
+
+[Wood 1](https://sonniss.com/gameaudiogdc/ "WOODBrk Snap09 InMotionAudio Wood") 
+
+*`snap`, `crack`, `twig`, `timber`, `crisp`*
+
+
+
+[Paper 1](https://freesound.org/people/ByJesusJP/sounds/485524/ "hoja rota") [2](https://sonniss.com/gameaudiogdc/ "04 MWSFX CDAP") 
 
 *`tear`, `rip`, `canvas`, `sheet`*
+
+
+
+[Cloth 1](https://sonniss.com/gameaudiogdc/ "CLOTHRip CottonRips13 InMotionAudio TornTShirt") [2](https://sonniss.com/gameaudiogdc/ "CLOTHRip CottonRips44 InMotionAudio TornTShirt") 
+
+*`fabric`, `rip`, `tear`, `textile`, `soft`*
 
 
 
 [Flesh 1](https://freesound.org/people/Pablobd/sounds/511194/ "headshot") [2](https://freesound.org/people/vdovitsky/sounds/411122/ "sword hits the body") [3](https://freesound.org/people/Archos/sounds/433840/ "slime 27") 
 
 *`squish`, `squelch`, `wet`, `gory`, `meaty`, `slash`*
+
+
+
+[Gore 1](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP a") [2](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP b") 
+
+*`splatter`, `squish`, `flesh`, `gruesome`, `visceral`*
 
 
 
