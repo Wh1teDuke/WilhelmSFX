@@ -421,6 +421,17 @@ foreach (var (presetName, sounds) in presets)
     bank.Instruments.Add(instrument);
 
     var pCfg = presetToCfg.GetValueOrDefault(presetName);
+    
+    if (pCfg != null)
+    {
+        if (pCfg.ReleaseVolEnv is {} rve)
+            instrument.GlobalZone.SetGenerator(
+                Generator.Type.ReleaseVolEnv, SecondsToTimecents(rve));
+        if (pCfg.ReleaseModEnv is {} rme)
+            instrument.GlobalZone.SetGenerator(
+                Generator.Type.ReleaseModEnv, SecondsToTimecents(rme));
+    }
+    
     var set = new HashSet<string>();
 
     var i = -1;
@@ -472,16 +483,6 @@ foreach (var (presetName, sounds) in presets)
 
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
-        
-        if (pCfg != null)// TODO: Add this to intrument global zone
-        {
-            if (pCfg.ReleaseVolEnv is {} rve)
-                zone.Basic.SetGenerator(
-                    Generator.Type.ReleaseVolEnv, (int)(rve * 1_000));
-            if (pCfg.ReleaseModEnv is {} rme)
-                zone.Basic.SetGenerator(
-                    Generator.Type.ReleaseModEnv, (int)(rme * 1_000));
-        }
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
@@ -489,13 +490,13 @@ foreach (var (presetName, sounds) in presets)
 
             if (sample.LoopEnd < sampleDurLen)
             {
-                var ms = (int)
-                    ((sample.LoopEnd / (double)sampleDurLen) *
-                     sampleDuration * 1_000) * 5;
+                var sec = 
+                    (sample.LoopEnd / (double)sampleDurLen) * sampleDuration;
+                var tc = SecondsToTimecents(sec);
 
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
-                zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, ms);
-                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, ms);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, tc);
+                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, tc);
             }
             else
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, mode);
@@ -600,6 +601,15 @@ static void Warn(string msg)
     Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine("[WARN] " + msg);
     Console.ResetColor();
+}
+
+static short SecondsToTimecents(double seconds)
+{
+    if (seconds is <= 0 or double.NaN) return -12_000;
+
+    var timecents = 1_200.0 * Math.Log2(seconds);
+    return (short)Math.Clamp(
+        (long)Math.Round(timecents), -12_000, short.MaxValue);
 }
 
 internal static class Util
