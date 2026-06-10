@@ -39,6 +39,7 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning          https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/
 238399__amorralteixe__yawn                              https://freesound.org/people/amorralteixe/sounds/238399/
 202105__spookymodem__yawn                               https://freesound.org/people/spookymodem/sounds/202105/
+Ahh,_Relief,_Drink,_Soda,_Exhale,_Male                  https://sonniss.com/gameaudiogdc/
 
 469605__bolkmar__voice-male-humming-doubting            https://freesound.org/people/bolkmar/sounds/469605/
 HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://sonniss.com/gameaudiogdc/
@@ -91,6 +92,7 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 
 219656__annatabernero__young-girl-scream                https://freesound.org/people/annatabernero/sounds/219656/
 220644__ritola27__grito_mujer2                          https://freesound.org/people/ritola27/sounds/220644/
+VOXScrm_Female_Scream_in_Pain,_Agony,_Wounded_2_344_Audio_Screaming https://sonniss.com/gameaudiogdc/
 
 344004__reitanna__heavy-grunt                           https://freesound.org/people/Reitanna/sounds/344004/
 
@@ -270,6 +272,14 @@ horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_b    https://freesoun
 horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_c    https://freesound.org/people/designerschoice/sounds/807858/
 horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_d    https://freesound.org/people/designerschoice/sounds/807858/
 
+
+
+// Monster
+
+MonsterPack2_Monster06_Attack13                         https://sonniss.com/gameaudiogdc/
+MonsterPack2_Monster10_Call09                           https://sonniss.com/gameaudiogdc/
+
+MonsterPack2_Monster09_Death02                          https://sonniss.com/gameaudiogdc/
 
 
 // Animal
@@ -495,6 +505,7 @@ Newspaper_Static_Foley_Rummage                          https://sonniss.com/game
 
 162195__rickmk2__coin-drop                              https://freesound.org/people/Rickmk2/sounds/162195/
 558991__gerent__coins-falling-022                       https://freesound.org/people/Gerent/sounds/558991/
+many_coins_12                                           https://sonniss.com/gameaudiogdc/
 
 337235__anthousai__bullet-shells-linearly-01_a          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_b          https://freesound.org/people/Anthousai/sounds/337235/
@@ -559,6 +570,8 @@ VEHSkid_Honda_CB500F_Engine_Start_Tires                 https://sonniss.com/game
 BOATMotr_Diesel_Engine_Boat_Idle_Steady                 https://sonniss.com/gameaudiogdc/
 
 32416__kraftwerk2k1__car_engine_wont-start              https://freesound.org/people/KRAFTWERK2K1/sounds/32416/
+
+Bluezone_BC0290_demolisher_pneumatic_texture_007        https://sonniss.com/gameaudiogdc/
 
 345073__metrostock99__drill-gun                         https://freesound.org/people/metrostock99/sounds/345073/
 179725__wjoojoo__impact_drill                           https://freesound.org/people/wjoojoo/sounds/179725/
@@ -636,6 +649,7 @@ Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/game
 Bluezone_BC0295_sci_fi_weapon_gun_shot_008              https://sonniss.com/gameaudiogdc/
 417731__wcoltd__laser1                                  https://freesound.org/people/wcoltd/sounds/417731/
 83562__nbs-dark__ship-fire3                             https://freesound.org/people/Nbs%20Dark/sounds/83562/
+Bluezone_BC0287_annihilation_mech_weapon_scifi_shot_004 https://sonniss.com/gameaudiogdc/
 
 154934__klawykogut__empty-gun-shot                      https://freesound.org/people/KlawyKogut/sounds/154934/
 107806__j1987__metallicclick                            https://freesound.org/people/j1987/sounds/107806/
@@ -715,6 +729,7 @@ AEROInt_Airplane_Interior_Small_Plane                   https://sonniss.com/game
 178345__erikh2000__stomps-robot-walk                    https://freesound.org/people/ErikH2000/sounds/178345/
 318559__speedenza__short-servo-burst-1                  https://freesound.org/people/Speedenza/sounds/318559/
 148309__keemocore__robot-step-short-medium-heavy        https://freesound.org/people/keemocore/sounds/148309/
+Bluezone_BC0284_soundwave_robot_footsteps_001           https://sonniss.com/gameaudiogdc/
 
 
 
@@ -826,6 +841,8 @@ Bluezone_BC0297_stone_impact_041                        https://sonniss.com/game
 
 WOODBrk_Snap09_InMotionAudio_Wood                       https://sonniss.com/gameaudiogdc/
 
+Bluezone_BC0278_ice_crack_break_078                     https://sonniss.com/gameaudiogdc/
+
 485524__byjesusjp__hoja-rota                            https://freesound.org/people/ByJesusJP/sounds/485524/
 PAPRHndl_Paper_Sheet_Crumple__04_MWSFX_CDAP             https://sonniss.com/gameaudiogdc/
 
@@ -838,6 +855,9 @@ CLOTHRip_CottonRips44_InMotionAudio_TornTShirt          https://sonniss.com/game
 
 GORESplt_Gore_Splatter_01_JSE_GMP_a                     https://sonniss.com/gameaudiogdc/
 GORESplt_Gore_Splatter_01_JSE_GMP_b                     https://sonniss.com/gameaudiogdc/
+
+Bluezone_BC0287_annihilation_debris_falling_rock_001    https://sonniss.com/gameaudiogdc/
+Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://sonniss.com/gameaudiogdc/
 
 
 

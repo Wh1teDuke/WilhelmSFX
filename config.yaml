@@ -48,6 +48,8 @@ Presets:
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
 
+    Exhile1: Ahh,_Relief,_Drink,_Soda,_Exhale,_Male
+
     Doubt1: 469605__bolkmar__voice-male-humming-doubting
     Doubt2: HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1
 
@@ -96,6 +98,7 @@ Presets:
 
     Agony1: 219656__annatabernero__young-girl-scream
     Agony2: 220644__ritola27__grito_mujer2
+    Agony3: VOXScrm_Female_Scream_in_Pain,_Agony,_Wounded_2_344_Audio_Screaming
 
     Grunt1: 344004__reitanna__heavy-grunt
 
@@ -151,6 +154,12 @@ Presets:
     Loud1:
       - 113698__huubjeroen__goalloop
       - End: all
+
+  Monster:
+    Roar1: MonsterPack2_Monster06_Attack13
+    Roar2: MonsterPack2_Monster10_Call09
+
+    Agony1: MonsterPack2_Monster09_Death02
 
   Action:
     Grab1: 651515__1bob__grab-item
@@ -535,6 +544,7 @@ Presets:
     CoinDrop2: 343462__rocotilos__real-coin-drop
     CoinsDrop1: 162195__rickmk2__coin-drop
     CoinsDrop2: 558991__gerent__coins-falling-022
+    CoinsDrop3: many_coins_12
 
     BulletDrop1: 337235__anthousai__bullet-shells-linearly-01_a
     BulletDrop2: 337235__anthousai__bullet-shells-linearly-01_b
@@ -630,6 +640,8 @@ Presets:
       - 32416__kraftwerk2k1__car_engine_wont-start
       - Start: .251
       - End: all
+
+    Pneumatic1: Bluezone_BC0290_demolisher_pneumatic_texture_007
 
     Drill1:
       - 345073__metrostock99__drill-gun
@@ -743,6 +755,7 @@ Presets:
     Laser1: Bluezone_BC0295_sci_fi_weapon_gun_shot_008
     Laser2: 417731__wcoltd__laser1
     Laser3: 83562__nbs-dark__ship-fire3
+    Laser4: Bluezone_BC0287_annihilation_mech_weapon_scifi_shot_004
 
     Empty1: 154934__klawykogut__empty-gun-shot
     Empty2: 107806__j1987__metallicclick
@@ -839,6 +852,7 @@ Presets:
     Move1: 178345__erikh2000__stomps-robot-walk
     Move2: 318559__speedenza__short-servo-burst-1
     Move3: 148309__keemocore__robot-step-short-medium-heavy
+    Move4: Bluezone_BC0284_soundwave_robot_footsteps_001
 
   Door:
     Open1: 15419__pagancow__dorm-door-opening
@@ -941,6 +955,8 @@ Presets:
 
     Wood1: WOODBrk_Snap09_InMotionAudio_Wood
 
+    Ice1: Bluezone_BC0278_ice_crack_break_078
+
     Paper1: 485524__byjesusjp__hoja-rota
     Paper2: PAPRHndl_Paper_Sheet_Crumple__04_MWSFX_CDAP
 
@@ -953,6 +969,9 @@ Presets:
 
     Gore1: GORESplt_Gore_Splatter_01_JSE_GMP_a
     Gore2: GORESplt_Gore_Splatter_01_JSE_GMP_b
+
+    Debris1: Bluezone_BC0287_annihilation_debris_falling_rock_001
+    Debris2: Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010
 
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion

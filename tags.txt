@@ -6,6 +6,7 @@ Agony Pain hurt roar suffering anguish wounded injured
 Snore Snoring breathing sleeping asleep slumber rest apnea
 Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
+Exhile Relief Satisfaction Refreshment
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
@@ -73,6 +74,10 @@ Water Puddle splash slushy
 Swim splashing pool lake
 Slime squish squelch slimy
 Horse Gallop trot equestrian
+
+# Monster
+Roar aggresive creature hostile
+Agony death pain
 
 # Animal
 Toy Squeaker
@@ -161,6 +166,7 @@ Scratch tapping friction scrape
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
 MotorDead Failed engine struggle cranking dead
+Pneumatic Hydraulic Piston compression servo valve hiss whistling
 Drill electric hardware power
 Fan extractor ventilation hum airflow suction
 Train Locomotive rumble freight railway
@@ -247,10 +253,12 @@ Ceramic crumble masonry smash
 Concrete crumble crunch crush
 Stone rock impact debris thud crumble shatter
 Wood snap crack twig timber crisp
+Ice crack shatter creak brittle
 Paper tear rip canvas sheet
 Cloth fabric rip tear textile soft
 Flesh Squish Squelch Wet Gory Meaty Slash
 Gore splatter squish flesh gruesome visceral
+Debris rock collapse landslide fragmentation scattering
 
 # Bang
 Boom explosion blast detonation bomb burst

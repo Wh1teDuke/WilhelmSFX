@@ -21,9 +21,9 @@ Used sites:
 
 ***
 
-## Effect List (568)
+## Effect List (580)
 &nbsp;
-### Man (40)
+### Man (41)
 
 
 
@@ -63,9 +63,9 @@ Used sites:
 
 
 
-[Yawn 1](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/ "yawnyawning") [2](https://freesound.org/people/amorralteixe/sounds/238399/ "yawn") [3](https://freesound.org/people/spookymodem/sounds/202105/ "yawn") 
+[Yawn 1](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/ "yawnyawning") [2](https://freesound.org/people/amorralteixe/sounds/238399/ "yawn") [3](https://freesound.org/people/spookymodem/sounds/202105/ "yawn") [Exhile 1](https://sonniss.com/gameaudiogdc/ "Ahh, Relief, Drink, Soda, Exhale, Male") 
 
-*`yawning`, `sleepiness`, `vocalization`, `fatigue`, `sigh`, `tired`, `sleepy`, `exhaustion`, `waking`*
+*`relief`, `satisfaction`, `refreshment`*
 
 
 
@@ -104,7 +104,7 @@ Used sites:
 
 
 &nbsp;
-### Woman (35)
+### Woman (36)
 
 
 
@@ -150,7 +150,7 @@ Used sites:
 
 
 
-[Agony 1](https://freesound.org/people/annatabernero/sounds/219656/ "young girl scream") [2](https://freesound.org/people/ritola27/sounds/220644/ "grito mujer2") 
+[Agony 1](https://freesound.org/people/annatabernero/sounds/219656/ "young girl scream") [2](https://freesound.org/people/ritola27/sounds/220644/ "grito mujer2") [3](https://sonniss.com/gameaudiogdc/ "VOXScrm Female Scream in Pain, Agony, Wounded 2 344 Audio Screaming") 
 
 *`pain`, `hurt`, `roar`, `suffering`, `anguish`, `wounded`, `injured`*
 
@@ -461,6 +461,25 @@ Used sites:
 
 
 &nbsp;
+### Monster (3)
+
+
+
+[Roar 1](https://sonniss.com/gameaudiogdc/ "MonsterPack2 Monster06 Attack13") [2](https://sonniss.com/gameaudiogdc/ "MonsterPack2 Monster10 Call09") 
+
+*`aggresive`, `creature`, `hostile`*
+
+
+
+[Agony 1](https://sonniss.com/gameaudiogdc/ "MonsterPack2 Monster09 Death02") 
+
+*`death`, `pain`*
+
+
+
+
+
+&nbsp;
 ### Animal (80)
 
 
@@ -749,7 +768,7 @@ Used sites:
 
 
 &nbsp;
-### Item (74)
+### Item (75)
 
 
 
@@ -849,7 +868,7 @@ Used sites:
 
 
 
-[CoinsDrop 1](https://freesound.org/people/Rickmk2/sounds/162195/ "coin drop") [2](https://freesound.org/people/Gerent/sounds/558991/ "coins falling 022") 
+[CoinsDrop 1](https://freesound.org/people/Rickmk2/sounds/162195/ "coin drop") [2](https://freesound.org/people/Gerent/sounds/558991/ "coins falling 022") [3](https://sonniss.com/gameaudiogdc/ "many coins 12") 
 
 *`chink`, `clink`, `tinkling`*
 
@@ -944,7 +963,7 @@ Used sites:
 
 
 &nbsp;
-### Machine (38)
+### Machine (39)
 
 
 
@@ -957,6 +976,12 @@ Used sites:
 [MotorDead 1](https://freesound.org/people/KRAFTWERK2K1/sounds/32416/ "car engine wont start") 
 
 *`failed`, `engine`, `struggle`, `cranking`, `dead`*
+
+
+
+[Pneumatic 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0290 demolisher pneumatic texture 007") 
+
+*`hydraulic`, `piston`, `compression`, `servo`, `valve`, `hiss`, `whistling`*
 
 
 
@@ -1088,11 +1113,11 @@ Used sites:
 
 
 &nbsp;
-### Gun (31)
+### Gun (32)
 
 
 
-[Laser 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0295 sci fi weapon gun shot 008") [2](https://freesound.org/people/wcoltd/sounds/417731/ "laser1") [3](https://freesound.org/people/Nbs%20Dark/sounds/83562/ "ship fire3") 
+[Laser 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0295 sci fi weapon gun shot 008") [2](https://freesound.org/people/wcoltd/sounds/417731/ "laser1") [3](https://freesound.org/people/Nbs%20Dark/sounds/83562/ "ship fire3") [4](https://sonniss.com/gameaudiogdc/ "Bluezone BC0287 annihilation mech weapon scifi shot 004") 
 
 *`blaster`, `plasma`, `energy`, `beam`, `pew`*
 
@@ -1226,7 +1251,7 @@ Used sites:
 
 
 &nbsp;
-### Robot (9)
+### Robot (10)
 
 
 
@@ -1236,7 +1261,7 @@ Used sites:
 
 
 
-[Move 1](https://freesound.org/people/ErikH2000/sounds/178345/ "stomps robot walk") [2](https://freesound.org/people/Speedenza/sounds/318559/ "short servo burst 1") [3](https://freesound.org/people/keemocore/sounds/148309/ "robot step short medium heavy") 
+[Move 1](https://freesound.org/people/ErikH2000/sounds/178345/ "stomps robot walk") [2](https://freesound.org/people/Speedenza/sounds/318559/ "short servo burst 1") [3](https://freesound.org/people/keemocore/sounds/148309/ "robot step short medium heavy") [4](https://sonniss.com/gameaudiogdc/ "Bluezone BC0284 soundwave robot footsteps 001") 
 
 *`step`, `whirl`, `stomp`*
 
@@ -1397,7 +1422,7 @@ Used sites:
 
 
 &nbsp;
-### Break (26)
+### Break (29)
 
 
 
@@ -1455,6 +1480,12 @@ Used sites:
 
 
 
+[Ice 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0278 ice crack break 078") 
+
+*`crack`, `shatter`, `creak`, `brittle`*
+
+
+
 [Paper 1](https://freesound.org/people/ByJesusJP/sounds/485524/ "hoja rota") [2](https://sonniss.com/gameaudiogdc/ "04 MWSFX CDAP") 
 
 *`tear`, `rip`, `canvas`, `sheet`*
@@ -1476,6 +1507,12 @@ Used sites:
 [Gore 1](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP a") [2](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP b") 
 
 *`splatter`, `squish`, `flesh`, `gruesome`, `visceral`*
+
+
+
+[Debris 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0287 annihilation debris falling rock 001") [2](https://sonniss.com/gameaudiogdc/ "Bluezone BC0275 building collapse debris falling rock rubble glass 010") 
+
+*`rock`, `collapse`, `landslide`, `fragmentation`, `scattering`*
 
 
 
