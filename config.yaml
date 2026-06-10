@@ -359,7 +359,9 @@ Presets:
     Horse3: 475483__o_ciz__horsesnort_3
     Horse4: dragon-studio-horse-whinny-copyright-free-515978
 
-    Donkey1: 392029__rafaelpicoli__jumento
+    Donkey1:
+      - 392029__rafaelpicoli__jumento
+      - SkipTrim: true
 
     Pig1: 442906__qubodup__pig-oink
     Pig2: ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA
