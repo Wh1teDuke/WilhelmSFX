@@ -6,6 +6,9 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: sound-bank-artifact
-          path: Wilhelm.sf3
+          path: WilhelmSFX.sf3
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
@@ -41,4 +44,4 @@ jobs:
           body: "Automated build from master branch."
           prerelease: true
           files: |
-            Wilhelm.sf3
+            WilhelmSFX.sf3
