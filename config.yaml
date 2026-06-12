@@ -876,10 +876,7 @@ Presets:
     Robo5: 187409__mazk1985__robot_go
     Robo6: 255883__dontgothere__funny-cartoon-robot
 
-    Move1: 178345__erikh2000__stomps-robot-walk
-    Move2: 318559__speedenza__short-servo-burst-1
-    Move3: 148309__keemocore__robot-step-short-medium-heavy
-    Move4: Bluezone_BC0284_soundwave_robot_footsteps_001
+    Move1: Bluezone_BC0284_soundwave_robot_footsteps_001
 
   Door:
     Open1: 15419__pagancow__dorm-door-opening

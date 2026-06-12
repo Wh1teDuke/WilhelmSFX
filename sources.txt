@@ -738,9 +738,6 @@ AEROInt_Airplane_Interior_Small_Plane                   https://sonniss.com/game
 187409__mazk1985__robot_go                              https://freesound.org/people/mazk1985/sounds/187409/
 255883__dontgothere__funny-cartoon-robot                https://freesound.org/people/DontGoThere/sounds/255883/
 
-178345__erikh2000__stomps-robot-walk                    https://freesound.org/people/ErikH2000/sounds/178345/
-318559__speedenza__short-servo-burst-1                  https://freesound.org/people/Speedenza/sounds/318559/
-148309__keemocore__robot-step-short-medium-heavy        https://freesound.org/people/keemocore/sounds/148309/
 Bluezone_BC0284_soundwave_robot_footsteps_001           https://sonniss.com/gameaudiogdc/
 
 
