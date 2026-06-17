@@ -1,12 +1,12 @@
 #!/usr/bin/env -S dotnet run
 
-#:package SpessaSharp@4.3.8-nightly-00009
+#:package SpessaSharp@4.3.8-nightly-00015
 #:package YamlDotNet@18.0.0
 
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
@@ -32,11 +32,11 @@ const string bankName = "WilhelmSFX";
 const string author = "WhiteDuke";
 const string samplesOutput = "SamplesOgg";
 
+SampleCache.Init(samplesOutput);
 var sw = Stopwatch.StartNew();
 
 // Read command line
 var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
-var processSamples = !ArgsContains("--skip-process");
 var processReadme = !ArgsContains("--skip-readme");
 var onlyReadme = ArgsContains("--only-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
@@ -272,18 +272,14 @@ if (processReadme)
 // ----------------------------------------------------------------------------
 // Process samples
 var outputDir = new DirectoryInfo(samplesOutput);
+if (!outputDir.Exists)
+{
+    outputDir.Refresh();
+    outputDir.Create();   
+}
 
-if (processSamples)
 {
     Console.WriteLine("[PROCESS SAMPLES]");
-    
-    SampleCache.Init(samplesOutput);
-
-    if (!outputDir.Exists)
-    {
-        outputDir.Refresh();
-        outputDir.Create();   
-    }
 
     const string argBaseFilterTrim =
         "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
@@ -645,7 +641,8 @@ internal static class SampleCache
 {
     private const int VERSION = 0;
     
-    private static readonly Dictionary<string, (string, double?)> Cache = [];
+    private static readonly Dictionary<
+        string, (string Args, double? Duration)> Cache = [];
     private static readonly Lock Lock = new();
 
     private static string _cacheFile = "";
@@ -653,13 +650,25 @@ internal static class SampleCache
     public static bool Add(string filename, string args)
     {
         using var _ = Lock.EnterScope();
-        return Cache.TryAdd(Hash(filename), (Hash(args), null));
+
+        var key = Hash(filename);
+        var val = (Args: Hash(args), Duration: (double?)null);
+        
+        if (!Cache.TryGetValue(key, out var value))
+            return Cache.TryAdd(key, val);
+
+        if (value.Args == val.Args) 
+            return false;
+
+        Cache[key] = val;
+        return true;
     }
 
     public static double? TryGetDuration(string filename)
     {
         using var _ = Lock.EnterScope();
-        return Cache.TryGetValue(Hash(filename), out var val) ? val.Item2 : null;
+        return Cache.TryGetValue(
+            Hash(filename), out var val) ? val.Duration : null;
     }
 
     public static void SetDuration(string filename, double dur)
@@ -667,7 +676,7 @@ internal static class SampleCache
         using var _ = Lock.EnterScope();
         ref var val = ref CollectionsMarshal.GetValueRefOrNullRef(
             Cache, Hash(filename));
-        val.Item2 = dur;
+        val.Duration = dur;
     }
 
     public static void Init(string folder)
@@ -701,7 +710,7 @@ internal static class SampleCache
         var sb = new StringBuilder();
         sb.AppendLine(VERSION.ToString());
         foreach (var (key, val) in Cache)
-            sb.AppendLine($"{key} {val.Item1} {val.Item2}");
+            sb.AppendLine($"{key} {val.Args} {val.Duration}");
         File.WriteAllText(_cacheFile, sb.ToString().TrimEnd());
     }
 
