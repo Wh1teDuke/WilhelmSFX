@@ -411,6 +411,9 @@ var p = -1;
 
 foreach (var (presetName, sounds) in presets)
 {
+    if (sounds.Count > 128)
+        Error($"Too many samples in preset '{presetName}'");
+
     p++;
     var patch = new MidiPatch(p % 128, 7 + p / 128, 7, false);
     
@@ -629,7 +632,7 @@ internal sealed class SampleCfg
     public string File = "";
     public double? LoopStart;
     public object? LoopEnd;
-	public int? LoopMode;
+    public int? LoopMode;
 
     public double? Speed;
     public bool? SkipTrim;
@@ -680,17 +683,17 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                     else
                         cfg.LoopEnd = double.Parse(val);
                     break;
-				case "LoopMode":
-					switch (Consume<Scalar>().Value.ToLowerInvariant())
-					{
-						case "untilrelease":
-							cfg.LoopMode = 3;
-							break;
-						case var m:
+                case "LoopMode":
+                    switch (Consume<Scalar>().Value.ToLowerInvariant())
+                    {
+                        case "untilrelease":
+                        cfg.LoopMode = 3;
+                        break;
+                        case var m:
                             Error("Unknown loop mode: " + m);
                             break;
-						}
-					break;
+                    }
+                break;
                 case "Speed":
                     cfg.Speed = GetDouble();
                     break;
