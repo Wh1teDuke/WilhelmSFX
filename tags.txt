@@ -6,7 +6,7 @@ Agony Pain hurt roar suffering anguish wounded injured
 Snore Snoring breathing sleeping asleep slumber rest apnea
 Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
-Exhale Relief Satisfaction Refreshment
+Exhale Relief Satisfaction Refreshment Gasp Phew
 Sigh sob whine moan breathe yearn lament sorrow
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Grunt Groan strain effort military soldier exertion
