@@ -53,6 +53,9 @@ Ahh,_Relief,_Drink,_Soda,_Exhale,_Male                  https://sonniss.com/game
 469605__bolkmar__voice-male-humming-doubting            https://freesound.org/people/bolkmar/sounds/469605/
 HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://sonniss.com/gameaudiogdc/
 
+613435__poochiegirl72__male-cry_a                       https://freesound.org/people/Poochiegirl72/sounds/613435/
+613435__poochiegirl72__male-cry_b                       https://freesound.org/people/Poochiegirl72/sounds/613435/
+
 416838__tonsil5__grunt2-death-pain                      https://freesound.org/people/tonsil5/sounds/416838/
 416839__tonsil5__grunt1-death-pain                      https://freesound.org/people/tonsil5/sounds/416839/
 90164__snaginneb__gruntsound                            https://freesound.org/people/snaginneb/sounds/90164/
@@ -135,6 +138,8 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 // Child
 
 240372__mariiao2__baby-cry                              https://freesound.org/people/mariiao2/sounds/240372/
+346663__deleted_user_2104797__baby-cry_a                https://freesound.org/people/deleted_user_2104797/sounds/346663/
+346663__deleted_user_2104797__baby-cry_b                https://freesound.org/people/deleted_user_2104797/sounds/346663/
 
 449869__gary_in_wv__infantlaugh                         https://freesound.org/people/gary_in_wv/sounds/449869/
 462457__arvinsohi29__children_laughing-mike_koenig-575083331    https://freesound.org/people/arvinsohi29/sounds/462457/

@@ -61,6 +61,9 @@ Presets:
     Doubt1: 469605__bolkmar__voice-male-humming-doubting
     Doubt2: HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1
 
+    Cry1: 613435__poochiegirl72__male-cry_a
+    Cry2: 613435__poochiegirl72__male-cry_b
+
     Grunt1: 416838__tonsil5__grunt2-death-pain
     Grunt2: 416839__tonsil5__grunt1-death-pain
     Grunt3: 90164__snaginneb__gruntsound
@@ -136,6 +139,8 @@ Presets:
 
   Child:
     BabyCry1: 240372__mariiao2__baby-cry
+    BabyCry2: 346663__deleted_user_2104797__baby-cry_a
+    BabyCry3: 346663__deleted_user_2104797__baby-cry_b
 
     BabyLaugh1: 449869__gary_in_wv__infantlaugh
     BabyLaugh2: 462457__arvinsohi29__children_laughing-mike_koenig-575083331
