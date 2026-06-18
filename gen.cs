@@ -41,13 +41,13 @@ var processReadme = !ArgsContains("--skip-readme");
 var onlyReadme = ArgsContains("--only-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
 var lowpass = ArgsInt("--lowpass") ?? sampleRate;
-var bitcrush = ArgsInt("--bitcrush") ?? 32;
+var bitcrush = ArgsInt("--bitcrush");
 var saveDuration = ArgsContains("--save-duration");
 var includeExtra = ArgsContains("--include-extra");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
-var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass}, BitCrush={bitcrush}";
+var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass}, BitCrush={bitcrush?.ToString() ?? "no"}";
 Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
 
@@ -204,9 +204,13 @@ if (processReadme)
             continue;
         }
 
-        if (line.Split(' ', StringSplitOptions.RemoveEmptyEntries) is not
-            [var name, var src])
+        var idx = line.TrimEnd().LastIndexOf(' ');
+
+        if (idx == -1)
             Error($"Wrong source format: '{line}'");
+
+        var name = line[..idx].Trim();
+        var src = line[idx..].Trim();
 
         urls.Add(new Uri(src).Host);
         
@@ -281,46 +285,18 @@ if (!outputDir.Exists)
 {
     Console.WriteLine("[PROCESS SAMPLES]");
 
-    const string argBaseFilterTrim =
-        "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
     const string argQuiet = 
         "-nostats -loglevel error -y -hide_banner ";
-    const string argVolNorm = 
+    const string argCompress = "-c:a libvorbis -ac 1 -ar {0} -q:a {1} ";
+
+    const string filterTrim =
+        "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
+    const string filterVolNorm =
         "loudnorm=I=-14:TP=-1.0:LRA=6,";
     // TODO: Don't remove silence if sample is too short
-    var baseCmdArgs =
-        // Quiet output
-       argQuiet +
-        // Input
-        "-i {0} " +
-        // Remove embedded pictures
-        "-vn " +
-
-        // <filter>
-        "-af \"" +
-        // Trim silence from start/end
-        argBaseFilterTrim +
-        // Playback rate
-        "atempo={2}," +
-        // Bit depth
-        $"acrusher=bits={bitcrush}:mix=1:mode=log:samples=1," +
-        // Lowpass
-        $"lowpass=f={lowpass}:p=2," +
-        // Normalize volume,
-        argVolNorm +
-        // </filter>
-        "\" " +
-
-        // Compress to vorbis (q = quality)
-        $"-c:a libvorbis -ac 1 -ar {sampleRate} -q:a {q} " +
-        // Output
-        "{1}";
-
-    Console.WriteLine(
-        ">ffmpeg " + baseCmdArgs.Replace(argBaseFilterTrim, string.Format(argBaseFilterTrim, -45)),
-        "[INPUT]", 
-        "[OUTPUT]", 
-        "[x]");
+    const string filterPlaybackRate = "atempo={0},";
+    const string filterBitCrusher = "acrusher=bits={0}:mix=1:mode=log:samples=1,";
+    const string filterLowPass = "lowpass=f={0}:p=2,";
 
     var processList = new List<Process>();
     var files = Directory.GetFiles("Samples").ToList();
@@ -340,28 +316,54 @@ if (!outputDir.Exists)
             continue;
         }
 
-        var playbackRate = cfg.Speed ?? 1;
+
         var db = -45;
 
-        var argFilterTrim = string.Format(argBaseFilterTrim, db);
+        var cmd =
+            // Quiet output
+            argQuiet +
+            // Input
+            $"-i {file} " +
+            // Remove embedded pictures
+            "-vn " +
 
-        var cmdArgs = string.Format(
-            baseCmdArgs.Replace(
-                argBaseFilterTrim,
-                argFilterTrim),
-            file,
-            output,
-            playbackRate);
+            // <filter>
+            "-af \""
+        ;
 
-        if (cfg.SkipTrim is true)
-            cmdArgs = cmdArgs.Replace(argFilterTrim, null);
+        // Trim silence from start/end
+        if (cfg.SkipTrim is not true)
+            cmd += string.Format(filterTrim, db);
+
+        // Playback rate
+        if (cfg.Speed is {} speed)
+            cmd += string.Format(filterPlaybackRate, speed);
+
+        // Bit depth
+        if (bitcrush is {} bc)
+            cmd += string.Format(filterBitCrusher, bc);
+
+        // Lowpass
+        cmd += string.Format(filterLowPass, lowpass);
+
+        // Normalize volume,
+        if (cfg.SkipNorm is not true)
+            cmd += filterVolNorm;
+
+        cmd +=
+            // </filter>
+            "\" " +
+
+            // Compress to vorbis (q = quality)
+            string.Format(argCompress, sampleRate, q) +
+            // Output
+            output
+        ;
+
         
-        if (cfg.SkipNorm is true)
-            cmdArgs = cmdArgs.Replace(argVolNorm, null);
-        
-        if (!SampleCache.Add(name, cmdArgs)) continue;
+        if (!SampleCache.Add(name, cmd)) continue;
 
-        argList.Add(cmdArgs);
+        argList.Add(cmd);
     }
 
     foreach (var cmdArgs in argList) 
