@@ -641,6 +641,7 @@ internal static class Util
 
 internal static class SampleCache
 {
+    private const string CACHE_NAME = "0000_cache.txt";
     private const int VERSION = 0;
     
     private static readonly Dictionary<
@@ -685,7 +686,7 @@ internal static class SampleCache
     {
         using var _ = Lock.EnterScope();
         
-        _cacheFile = Path.Join(folder, "_cache.txt");
+        _cacheFile = Path.Join(folder, CACHE_NAME);
         if (!File.Exists(_cacheFile)) return;
         var lines = File.ReadAllLines(_cacheFile);
 
@@ -702,7 +703,7 @@ internal static class SampleCache
         }
         catch (Exception e)
         {
-            Util.Warn("Error parsing _cache.txt: " + e.Message);
+            Util.Warn($"Error parsing {CACHE_NAME}: {e.Message}");
         }
     }
 
