@@ -70,6 +70,8 @@ BrushTeeth friction hygiene dental
 SandWood scraping friction foley workshop
 Scrub wash laundry thud shuffling
 Push scrape slide friction drag
+FingerSnap click percussive
+KnuckleCrack pop crunch joint break
 
 # Move
 Foot step stride pace walking

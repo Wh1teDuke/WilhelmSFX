@@ -277,6 +277,12 @@ Presets:
       - Start: .5
       - End: 1.7
 
+    FingerSnap1: 332604__vckhaze__single-finger-snap
+    FingerSnap2: 151214__owlstorm__click-finger-snap
+
+    KnuckleCrack1: 218219__reitanna__knuckles-crack10
+    KnuckleCrack2: 218220__reitanna__knuckles-crack8
+
   Move:
     Foot1: 251788__vkproduktion__footstep-01
 

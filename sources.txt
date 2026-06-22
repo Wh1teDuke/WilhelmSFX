@@ -264,6 +264,12 @@ FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b https:
 391960__ssierra1202__dragged                            https://freesound.org/people/ssierra1202/sounds/391960/
 146408__crashoverride6__sand-on-paper-dragged-long      https://freesound.org/people/crashoverride6/sounds/146408/
 
+332604__vckhaze__single-finger-snap                     https://freesound.org/people/vckhaze/sounds/332604/
+151214__owlstorm__click-finger-snap                     https://freesound.org/people/OwlStorm/sounds/151214/
+
+218219__reitanna__knuckles-crack10                      https://freesound.org/people/Reitanna/sounds/218219/
+218220__reitanna__knuckles-crack8                       https://freesound.org/people/Reitanna/sounds/218220/
+
 
 // Move
 
