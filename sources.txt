@@ -407,6 +407,13 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 85405__readeonly__birdcall                              https://freesound.org/people/ReadeOnly/sounds/85405/
 607242__d4xx__great-tit                                 https://freesound.org/people/D4XX/sounds/607242/
 607223__d4xx__bird-sound                                https://freesound.org/people/D4XX/sounds/607223/
+47599__readeonly__                                      https://freesound.org/people/ReadeOnly/sounds/47599/
+85404__readeonly__canaryartie-4                         https://freesound.org/people/ReadeOnly/sounds/85404/
+519105__lilmati__bird-02                                https://freesound.org/people/LilMati/sounds/519105/
+98448__williew705__bird-song-at-spfd-lake               https://freesound.org/people/williew705/sounds/98448/
+365668__lilmati__bird-thrush-nightingale-04             https://freesound.org/people/LilMati/sounds/365668/
+
+558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044 https://freesound.org/people/Gerent/sounds/558397/
 
 512781__iwanplays__croworraven1                         https://freesound.org/people/iwanPlays/sounds/512781/
 512780__iwanplays__croworraven2                         https://freesound.org/people/iwanPlays/sounds/512780/

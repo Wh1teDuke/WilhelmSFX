@@ -111,7 +111,8 @@ Duck Quack Honk Nasal
 Bison Buffalo beast
 Horse Neigh whinny stallion equine snort
 Donkey Bray ass mule
-Bird Chirp tweet warble
+Bird chirp tweet warble
+Owl hoot night spooky avian
 Crow Caw raven rook ominous
 Seagull bird chirp ocean
 Pig Oink grunt squeal swine

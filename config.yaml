@@ -395,6 +395,19 @@ Presets:
     Bird3: 85405__readeonly__birdcall
     Bird4: 607242__d4xx__great-tit
     Bird5: 607223__d4xx__bird-sound
+    Bird6:
+      - 47599__readeonly__
+      - SkipTrim: true
+    Bird7: 85404__readeonly__canaryartie-4
+    Bird8:
+      - 519105__lilmati__bird-02
+      - SkipTrim: true
+    Bird9: 98448__williew705__bird-song-at-spfd-lake
+    Bird10:
+      - 365668__lilmati__bird-thrush-nightingale-04
+      - SkipTrim: true
+
+    Owl1: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
 
     Crow1: 512781__iwanplays__croworraven1
     Crow2: 512780__iwanplays__croworraven2
