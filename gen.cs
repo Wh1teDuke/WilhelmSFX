@@ -329,43 +329,43 @@ if (!outputDir.Exists)
             // Input
             $"-i \"{file}\" " +
             // Remove embedded pictures
-            "-vn " +
-
-            // <filter>
-            "-af \""
+            "-vn "
         ;
+
+        var filters = "";
 
         // Trim silence from start/end
         if (cfg.SkipTrim is not true)
-            cmd += string.Format(filterTrim, db);
+            filters += string.Format(filterTrim, db);
 
         // Playback rate
         if (cfg.Speed is {} speed)
-            cmd += string.Format(filterPlaybackRate, speed);
+            filters += string.Format(filterPlaybackRate, speed);
 
         // Bit depth
         if (bitcrush is {} bc)
-            cmd += string.Format(filterBitCrusher, bc);
+            filters += string.Format(filterBitCrusher, bc);
 
         // Lowpass
         if (lowpass is {} lp)
-            cmd += string.Format(filterLowPass, lp);
+            filters += string.Format(filterLowPass, lp);
 
         // Normalize volume,
         if (cfg.SkipNorm is not true)
-            cmd += filterVolNorm;
+            filters += filterVolNorm;
+
+        if (filters != "")
+            filters = "-af \"" + filters + "\" ";
 
         cmd +=
-            // </filter>
-            "\" " +
+            // Filters
+            filters +
 
             // Compress to vorbis (q = quality)
             string.Format(argCompress, cfg.SampleRate ?? sampleRate, cfg.Q ?? q) +
             // Output
             $"\"{output}\""
         ;
-
-        cmd = cmd.Replace("-af \"\"", null);
 
         if (SampleCache.Add(name, cmd)) argList.Add(cmd);
     }
@@ -626,7 +626,7 @@ string ProcessRead(string cmd, string args = "")
     return reader.ReadToEnd();
 }
 
-GroupCfg GetGroupCfg(string sampleName)
+GroupCfg? GetGroupCfg(string sampleName)
 {
     var groupName = sampleName.AsSpan();
     while (char.IsDigit(groupName[^1]))
