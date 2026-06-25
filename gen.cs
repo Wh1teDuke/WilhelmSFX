@@ -355,7 +355,7 @@ if (!outputDir.Exists)
             filters += filterVolNorm;
 
         if (filters != "")
-            filters = "-af \"" + filters + "\" ";
+            filters = "-af \"" + filters.TrimEnd(',') + "\" ";
 
         cmd +=
             // Filters
