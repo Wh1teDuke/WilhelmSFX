@@ -51,7 +51,7 @@ Presets:
 
     Yawn1:
       - 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
-      - SkipTrim: true
+      - Trim: false
 
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
@@ -247,7 +247,7 @@ Presets:
     Burp1: 12730__pingel__burp
     Burp2:
       - 324514__deleted_user_2104797__burp
-      - SkipTrim: true
+      - Trim: false
     Burp3: 26762__santuccie__belch1
     Burp4: 331630__etheron369__burp
     Burp5: 172071__jeffijoe__small-burp
@@ -260,7 +260,7 @@ Presets:
     Puke1: 606981__ravenbluefeather__gage
     Puke2:
       - 135415__turroe22__gagging-1
-      - SkipTrim: true
+      - Trim: false
 
     Chew1: 275015__wadaltmon__bite-apple
     Chew2: 528962__steenish__crunch
@@ -279,7 +279,7 @@ Presets:
       - 391960__ssierra1202__dragged
       - Start: .05
       - End: .25
-      - SkipTrim: true
+      - Trim: false
 
     Push2:
       - 146408__crashoverride6__sand-on-paper-dragged-long
@@ -297,10 +297,10 @@ Presets:
 
     Grass1:
       - 464691__branndybottle__grasswalking_step1
-      - SkipTrim: true
+      - Trim: false
     Grass2:
       - 464690__branndybottle__grasswalking_step2
-      - SkipTrim: true
+      - Trim: false
 
     Leaves1: 517142__wdomino__footsteps_leaves_5
     Leaves2: 517140__wdomino__footsteps_leaves_1
@@ -399,15 +399,15 @@ Presets:
     Bird5: 607223__d4xx__bird-sound
     Bird6:
       - 47599__readeonly__
-      - SkipTrim: true
+      - Trim: false
     Bird7: 85404__readeonly__canaryartie-4
     Bird8:
       - 519105__lilmati__bird-02
-      - SkipTrim: true
+      - Trim: false
     Bird9: 98448__williew705__bird-song-at-spfd-lake
     Bird10:
       - 365668__lilmati__bird-thrush-nightingale-04
-      - SkipTrim: true
+      - Trim: false
 
     Owl1: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
 
@@ -441,7 +441,7 @@ Presets:
 
     Donkey1:
       - 392029__rafaelpicoli__jumento
-      - SkipTrim: true
+      - Trim: false
 
     Pig1: 442906__qubodup__pig-oink
     Pig2: ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA
@@ -690,7 +690,7 @@ Presets:
 
     Gas1:
       - 724126__saha213131__lightergas
-      - SkipTrim: true
+      - Trim: false
       - End: all
 
     Spray1: OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1
@@ -701,8 +701,8 @@ Presets:
 
     Card1:
       - GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1
-      - SkipTrim: true
-      - SkipNorm: true
+      - Trim: false
+      - Norm: false
 
     Dice1: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_a
     Dice2: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_b
@@ -765,7 +765,7 @@ Presets:
     Elevator2:
       - 217471__jarredgibb__lift-3
       - End: all
-      - SkipTrim: true
+      - Trim: false
 
     Elevator3:
       - 182331__simplen00b__elev_loop
@@ -1113,7 +1113,9 @@ Presets:
 
     Stone1: Bluezone_BC0297_stone_impact_041
 
-    Wood1: WOODBrk_Snap09_InMotionAudio_Wood
+    Wood1:
+      - WOODBrk_Snap09_InMotionAudio_Wood
+      - Trim: false
 
     Ice1: Bluezone_BC0278_ice_crack_break_078
 

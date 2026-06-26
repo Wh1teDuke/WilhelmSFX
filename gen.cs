@@ -1,6 +1,6 @@
 #!/usr/bin/env -S dotnet run
 
-#:package SpessaSharp@4.3.8-nightly-00015
+#:package SpessaSharp@4.3.12-nightly-00023
 #:package YamlDotNet@18.0.0
 
 using System.Collections.Concurrent;
@@ -335,7 +335,7 @@ if (!outputDir.Exists)
         var filters = "";
 
         // Trim silence from start/end
-        if (cfg.SkipTrim is not true)
+        if (cfg.Trim ?? true)
             filters += string.Format(filterTrim, db);
 
         // Playback rate
@@ -351,7 +351,7 @@ if (!outputDir.Exists)
             filters += string.Format(filterLowPass, lp);
 
         // Normalize volume,
-        if (cfg.SkipNorm is not true)
+        if (cfg.Norm ?? true)
             filters += filterVolNorm;
 
         if (filters != "")
@@ -763,8 +763,8 @@ internal sealed class SampleCfg
     public int? LoopMode;
 
     public double? Speed;
-    public bool? SkipTrim;
-    public bool? SkipNorm;
+    public bool? Trim;
+    public bool? Norm;
     public int? Q;
     public int? SampleRate;
 }
@@ -806,11 +806,11 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                 case "Q":
                     cfg.Q = Math.Clamp(GetInt(), 0, 10);
                     break;
-                case "SkipTrim":
-                    cfg.SkipTrim = GetBool();
+                case "Trim":
+                    cfg.Trim = GetBool();
                     break;
-                case "SkipNorm":
-                    cfg.SkipNorm = GetBool();
+                case "Norm":
+                    cfg.Norm = GetBool();
                     break;
                 case "Start":
                     cfg.LoopStart = GetDouble();
