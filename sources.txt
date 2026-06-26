@@ -636,6 +636,7 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 735514__slv443__falling-spoon                           https://freesound.org/people/SLV443/sounds/735514/
 
 74385__dland__to-hell-with-vinyl                        https://freesound.org/people/dland/sounds/74385/
+162493__tasmanianpower__vinyl-rewind                    https://freesound.org/people/TasmanianPower/sounds/162493/
 
 
 
@@ -921,6 +922,9 @@ WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_c               https://sonniss.com/game
 185370__cower__rolling-can-sound-2_b                    https://freesound.org/people/cower/sounds/185370/
 185370__cower__rolling-can-sound-2_c                    https://freesound.org/people/cower/sounds/185370/
 
+326044__freeman213sg__ventilation-grate-fall_a          https://freesound.org/people/Freeman213SG/sounds/326044/
+326044__freeman213sg__ventilation-grate-fall_b          https://freesound.org/people/Freeman213SG/sounds/326044/
+
 
 
 // Break
@@ -950,6 +954,8 @@ Bluezone_BC0292_alien_tripod_debris_glass_falling_003   https://sonniss.com/game
 Bluezone_BC0297_stone_impact_041                        https://sonniss.com/gameaudiogdc/
 
 WOODBrk_Snap09_InMotionAudio_Wood                       https://sonniss.com/gameaudiogdc/
+443293__deathscyp__wood-break                           https://freesound.org/people/Deathscyp/sounds/443293/
+500901__bertsz__wood-crate-destory-2                    https://freesound.org/people/Bertsz/sounds/500901/
 
 Bluezone_BC0278_ice_crack_break_078                     https://sonniss.com/gameaudiogdc/
 

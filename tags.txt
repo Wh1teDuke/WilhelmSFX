@@ -182,7 +182,7 @@ Dice tabletop roll tumbling bouncing rattling clattering
 Cloth foley cotton soft subtle
 Scratch tapping friction scrape
 Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
-Vynil record scratch stop
+Vinyl record scratch stop rewind turntable dj
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
@@ -272,6 +272,7 @@ MetalThud hit impact thump moan
 Blocked shield armor parry deflect bash
 Racket tennis ball smash stroke plock
 Can tin roll rattle metallic clatter
+Metal vent grate
 
 # Break
 Glass shatter smash
@@ -282,7 +283,7 @@ Bone snap fracture crack
 Ceramic crumble masonry smash
 Concrete crumble crunch crush
 Stone rock impact debris thud crumble shatter
-Wood snap crack twig timber crisp
+Wood crate box snap crack twig timber crisp
 Ice crack shatter creak brittle
 Paper tear rip canvas sheet
 Cloth fabric rip tear textile soft

@@ -717,7 +717,10 @@ Presets:
     Cutlery3: 370298__closetwalrus__plate
     Cutlery4: 735514__slv443__falling-spoon
 
-    Vynil1: 74385__dland__to-hell-with-vinyl
+    Vinyl1: 74385__dland__to-hell-with-vinyl
+    Vinyl2:
+      - 162493__tasmanianpower__vinyl-rewind
+      - Speed: 1.7
 
   Machine:
     Motor1:
@@ -1088,6 +1091,9 @@ Presets:
     Can2: 185370__cower__rolling-can-sound-2_b
     Can3: 185370__cower__rolling-can-sound-2_c
 
+    Metal1: 326044__freeman213sg__ventilation-grate-fall_a
+    Metal2: 326044__freeman213sg__ventilation-grate-fall_b
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror
@@ -1115,7 +1121,10 @@ Presets:
 
     Wood1:
       - WOODBrk_Snap09_InMotionAudio_Wood
-      - Trim: false
+      - Trim: false # TODO This needs some trimming
+
+    Wood2: 443293__deathscyp__wood-break
+    Wood3: 500901__bertsz__wood-crate-destory-2
 
     Ice1: Bluezone_BC0278_ice_crack_break_078
 
