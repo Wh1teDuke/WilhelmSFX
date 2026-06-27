@@ -200,7 +200,12 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 431134__quartetofantastico__aaww                        https://freesound.org/people/QUARTETOFANTASTICO/sounds/431134/
 universfield-crowd-disappointment-reaction-352718       https://pixabay.com/sound-effects/people-crowd-disappointment-reaction-352718/
 
-dragon-studio-crowd-booing-494319                       https://pixabay.com/sound-effects/people-crowd-booing-494319/
+403060__valeriebbb96__boooh                             https://freesound.org/people/valeriebbb96/sounds/403060/
+
+491405__ienba__crowd-in-panic                           https://freesound.org/people/IENBA/sounds/491405/
+
+232263__zerocarina__gasp                                https://freesound.org/people/ZerOcarina/sounds/232263/
+353924__dr_skitz__gasp                                  https://freesound.org/people/dr_skitz/sounds/353924/
 
 113698__huubjeroen__goalloop                            https://freesound.org/people/huubjeroen/sounds/113698/
 
@@ -411,7 +416,7 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 184503__madklown__horse                                 https://freesound.org/people/madklown/sounds/184503/
 269571__shadowisp__horse-neigh-shortened                https://freesound.org/people/shadoWisp/sounds/269571/
 475483__o_ciz__horsesnort_3                             https://freesound.org/people/o_ciz/sounds/475483/
-dragon-studio-horse-whinny-copyright-free-515978        https://pixabay.com/sound-effects/nature-horse-whinny-copyright-free-515978/
+347036__kubuzz__horses-whinny                           https://freesound.org/people/Kubuzz/sounds/347036/
 
 392029__rafaelpicoli__jumento                           https://freesound.org/people/rafaelpicoli/sounds/392029/
 
@@ -812,7 +817,7 @@ VEHHorn_Honda_CB500F_Horn_Long_02_SNDBTS_MCH            https://sonniss.com/game
 
 50888__rutgermuller__car-door-porter-unlocking          https://freesound.org/people/RutgerMuller/sounds/50888/
 
-freesound_community-car-alarm-88609                     https://pixabay.com/sound-effects/city-car-alarm-88609/
+150981__soundingoffagain__caralarm                      https://freesound.org/people/soundingoffagain/sounds/150981/
 
 dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/sound-effects/film-special-effects-car-crash-sound-effect-376874/
 

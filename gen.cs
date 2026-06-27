@@ -360,6 +360,9 @@ if (!outputDir.Exists)
             continue;
         }
 
+        var pCfg = presetToCfg.GetValueOrDefault(cfg.Preset);
+        var gCfg = GetGroupCfg(cfg.Name);
+
         var cmd =
             // Quiet output
             argQuiet +
@@ -399,7 +402,10 @@ if (!outputDir.Exists)
             filters +
 
             // Compress to vorbis (q = quality)
-            string.Format(argCompress, cfg.SampleRate ?? sampleRate, cfg.Q ?? q) +
+            string.Format(
+                argCompress,
+                cfg.SampleRate ?? gCfg?.SampleRate ?? pCfg?.SampleRate ?? sampleRate,
+                cfg.Q ?? gCfg?.Q ?? pCfg?.Q ?? q) +
             // Output
             $"\"{output}\""
         ;
@@ -836,6 +842,8 @@ internal sealed class GroupCfg
 {
     public double? ReleaseVolEnv;
     public double? ReleaseModEnv;
+    public int? Q;
+    public int? SampleRate;
 }
 
 internal sealed class SampleCfg

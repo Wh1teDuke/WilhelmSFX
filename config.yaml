@@ -210,7 +210,15 @@ Presets:
     Aww1: 431134__quartetofantastico__aaww
     Aww2: universfield-crowd-disappointment-reaction-352718
 
-    Boo1: dragon-studio-crowd-booing-494319
+    Boo1: 403060__valeriebbb96__boooh
+
+    Panic1:
+      - 491405__ienba__crowd-in-panic
+      - Start: 1.396
+      - End: 7.715
+
+    Gasp1: 232263__zerocarina__gasp
+    Gasp2: 353924__dr_skitz__gasp
 
     Loud1:
       - 113698__huubjeroen__goalloop
@@ -454,7 +462,7 @@ Presets:
     Horse1: 184503__madklown__horse
     Horse2: 269571__shadowisp__horse-neigh-shortened
     Horse3: 475483__o_ciz__horsesnort_3
-    Horse4: dragon-studio-horse-whinny-copyright-free-515978
+    Horse4: 347036__kubuzz__horses-whinny
 
     Donkey1:
       - 392029__rafaelpicoli__jumento
@@ -992,7 +1000,7 @@ Presets:
     Lock1: 50888__rutgermuller__car-door-porter-unlocking
 
     Alarm1:
-      - freesound_community-car-alarm-88609
+      - 150981__soundingoffagain__caralarm
       - End: all
 
     Crash1: dragon-studio-car-crash-sound-effect-376874
