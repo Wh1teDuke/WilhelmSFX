@@ -21,9 +21,9 @@ Used sites:
 
 ***
 
-## Effect List (605)
+## Effect List (681)
 &nbsp;
-### Male (45)
+### Male (53)
 
 
 
@@ -45,7 +45,7 @@ Used sites:
 
 
 
-[Agony 1](https://freesound.org/people/aldenroth2/sounds/272023/ "male scream") [2](https://freesound.org/people/riippumattog/sounds/823508/ "pain yell male") [3](https://freesound.org/people/islandan/sounds/267480/ "male scream") [4](https://freesound.org/people/pepsimanfan/sounds/546123/ "young man being hurt") [5](https://freesound.org/people/th3romeo/sounds/528839/ "human roar 1") 
+[Agony 1](https://freesound.org/people/aldenroth2/sounds/272023/ "male scream") [2](https://freesound.org/people/riippumattog/sounds/823508/ "pain yell male") [3](https://freesound.org/people/islandan/sounds/267480/ "male scream") [4](https://freesound.org/people/pepsimanfan/sounds/546123/ "young man being hurt") [5](https://freesound.org/people/th3romeo/sounds/528839/ "human roar 1") [6](https://freesound.org/people/AugustSandberg/sounds/265554/ "studio roar") 
 
 *`pain`, `hurt`, `roar`, `suffering`, `anguish`, `wounded`, `injured`*
 
@@ -53,7 +53,7 @@ Used sites:
 
 [Snore 1](https://freesound.org/people/SortsApostata/sounds/233600/ "snoring") [2](https://freesound.org/people/rdpipo7777/sounds/365372/ "ronquido") [3](https://pixabay.com/sound-effects/people-snore-250959/ "universfield snore 250959") [4](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 a") [5](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 b") [6](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 c") 
 
-*`snoring`, `breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
+*`breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
 
 
 
@@ -69,9 +69,9 @@ Used sites:
 
 
 
-[Exhale 1](https://sonniss.com/gameaudiogdc/ "Ahh, Relief, Drink, Soda, Exhale, Male") 
+[Exhale 1](https://sonniss.com/gameaudiogdc/ "Ahh, Relief, Drink, Soda, Exhale, Male") [2](https://freesound.org/people/otherthings/sounds/65619/ "exhale 10115a") [3](https://freesound.org/people/esperar/sounds/171943/ "phews a") [4](https://freesound.org/people/esperar/sounds/171943/ "phews b") [5](https://freesound.org/people/u3190/sounds/169931/ "gasp inhale") [6](https://freesound.org/people/14GPanskaMuzatko_Matej/sounds/419779/ "01 exhale male effort") 
 
-*`relief`, `satisfaction`, `refreshment`*
+*`relief`, `satisfaction`, `refreshment`, `gasp`, `phew`*
 
 
 
@@ -87,6 +87,12 @@ Used sites:
 
 
 
+[Cry 1](https://freesound.org/people/Poochiegirl72/sounds/613435/ "male cry a") [2](https://freesound.org/people/Poochiegirl72/sounds/613435/ "male cry b") 
+
+*`weep`, `whimper`, `grief`, `distress`*
+
+
+
 [Grunt 1](https://freesound.org/people/tonsil5/sounds/416838/ "grunt2 death pain") [2](https://freesound.org/people/tonsil5/sounds/416839/ "grunt1 death pain") [3](https://freesound.org/people/snaginneb/sounds/90164/ "gruntsound") [4](https://freesound.org/people/MrFossy/sounds/547209/ "voice adultmale paingrunts 09") [5](https://freesound.org/people/qubodup/sounds/166944/ "grunts of pain by military soldiers a") [6](https://freesound.org/people/qubodup/sounds/166944/ "grunts of pain by military soldiers b") 
 
 *`groan`, `strain`, `effort`, `military`, `soldier`, `exertion`*
@@ -99,9 +105,9 @@ Used sites:
 
 
 
-[Surprise 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Male, Breath, Surprise, Gasp UberDuo INHL 17") [2](https://freesound.org/people/ranman22/sounds/677888/ "man gasping") [3](https://freesound.org/people/efsdcnveoi/sounds/427688/ "07 sorpresa") 
+[Gasp 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Male, Breath, Surprise, Gasp UberDuo INHL 17") [2](https://freesound.org/people/ranman22/sounds/677888/ "man gasping") [3](https://freesound.org/people/efsdcnveoi/sounds/427688/ "07 sorpresa") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`ooh`, `astonishment`, `surprise`, `shock`, `startled`, `amazed`*
 
 
 
@@ -118,7 +124,7 @@ Used sites:
 
 
 &nbsp;
-### Female (41)
+### Female (50)
 
 
 
@@ -152,9 +158,21 @@ Used sites:
 
 
 
+[Sneeze 1](https://freesound.org/people/jes5ika/sounds/370761/ "sneeze") [2](https://freesound.org/people/starplatinums/sounds/451736/ "sneeze") [3](https://freesound.org/people/Vanalosswen/sounds/580831/ "sneeze female") 
+
+*`cold`, `blow`, `sternutation`*
+
+
+
 [Yawn 1](https://freesound.org/people/wintuh/sounds/471859/ "46 bostezonina") [2](https://freesound.org/people/CyWeb/sounds/672450/ "yawn baillements") 
 
 *`yawning`, `sleepiness`, `vocalization`, `fatigue`, `sigh`, `tired`, `sleepy`, `exhaustion`, `waking`*
+
+
+
+[Exhale 1](https://freesound.org/people/thatkellytrna/sounds/425781/ "girl exhale") 
+
+*`relief`, `satisfaction`, `refreshment`, `gasp`, `phew`*
 
 
 
@@ -188,9 +206,9 @@ Used sites:
 
 
 
-[Surprise 1](https://freesound.org/people/slamaxu/sounds/509883/ "female gasp") [2](https://freesound.org/people/Reitanna/sounds/323707/ "ooh") [3](https://freesound.org/people/Reitanna/sounds/343878/ "big gasp") 
+[Gasp 1](https://freesound.org/people/slamaxu/sounds/509883/ "female gasp") [2](https://freesound.org/people/Reitanna/sounds/323707/ "ooh") [3](https://freesound.org/people/Reitanna/sounds/343878/ "big gasp") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`ooh`, `astonishment`, `surprise`, `shock`, `startled`, `amazed`*
 
 
 
@@ -212,9 +230,27 @@ Used sites:
 
 
 
-[Moan 1](https://freesound.org/people/ritola27/sounds/220654/ "grito mujer8") [2](https://freesound.org/people/ritola27/sounds/220652/ "grito mujer7") [3](https://freesound.org/people/ritola27/sounds/220650/ "grito mujer6") 
+[Moan 1](https://freesound.org/people/ritola27/sounds/220654/ "grito mujer8") [2](https://freesound.org/people/ritola27/sounds/220652/ "grito mujer7") [3](https://freesound.org/people/ritola27/sounds/220650/ "grito mujer6") [4](https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/ "female moaning 1") 
 
 *`groan`, `sigh`, `pleasure`, `soft`, `gasp`*
+
+
+
+[Hum 1](https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/ "female vocal melody humming") [2](https://freesound.org/people/owstu/sounds/727694/ "female vocal 2 higher notes") 
+
+*`sing`*
+
+
+
+[Whimper 1](https://freesound.org/people/Drkvixn91/sounds/318078/ "whimper gasp 1 female") 
+
+*`breath`, `gasp`, `surprise`*
+
+
+
+[Agree 1](https://freesound.org/people/PuzzleAndy/sounds/752227/ "female speaking mhm") 
+
+*`yes`*
 
 
 
@@ -223,11 +259,11 @@ Used sites:
 
 
 &nbsp;
-### Child (10)
+### Child (20)
 
 
 
-[BabyCry 1](https://freesound.org/people/mariiao2/sounds/240372/ "baby cry") 
+[BabyCry 1](https://freesound.org/people/mariiao2/sounds/240372/ "baby cry") [2](https://freesound.org/people/deleted_user_2104797/sounds/346663/ "baby cry a") [3](https://freesound.org/people/deleted_user_2104797/sounds/346663/ "baby cry b") 
 
 *`weeping`, `tantrum`, `fussy`, `upset`, `tears`*
 
@@ -239,7 +275,25 @@ Used sites:
 
 
 
-[GirlLaugh 1](https://freesound.org/people/FunWithSound/sounds/367493/ "child giggle") [2](https://freesound.org/people/kim.headlee/sounds/184618/ "lkf10") 
+[BoyLaugh 1](https://freesound.org/people/OBXJohn/sounds/365632/ "boy or young child laughing a") [2](https://freesound.org/people/OBXJohn/sounds/365632/ "boy or young child laughing b") 
+
+*`giggle`, `titter`, `laughing`, `innocent`, `playground`*
+
+
+
+[BoyGrunt 1](https://freesound.org/people/SpliceSound/sounds/260188/ "young boy grunts for body impact a") [2](https://freesound.org/people/SpliceSound/sounds/260188/ "young boy grunts for body impact b") 
+
+*`groan`, `strain`, `effort`, `exertion`*
+
+
+
+[BoyGasp 1](https://freesound.org/people/SpliceSound/sounds/260188/ "young boy grunts for body impact c") [2](https://freesound.org/people/SpliceSound/sounds/188209/ "individual child gasps") 
+
+*`ooh`, `astonishment`, `surprise`, `shock`, `startled`, `amazed`*
+
+
+
+[GirlLaugh 1](https://freesound.org/people/FunWithSound/sounds/367493/ "child giggle") [2](https://freesound.org/people/kim.headlee/sounds/184618/ "lkf10") [3](https://freesound.org/people/ashjenx/sounds/135387/ "child laughing") 
 
 *`giggle`, `titter`, `laughing`, `innocent`, `playground`*
 
@@ -263,12 +317,18 @@ Used sites:
 
 
 
+[Snore 1](https://freesound.org/people/schafferdavid/sounds/198325/ "sleepingchild") 
+
+*`breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
+
+
+
 
 
 
 
 &nbsp;
-### Child (10)
+### Crowd (16)
 
 
 
@@ -296,9 +356,21 @@ Used sites:
 
 
 
-[Boo 1](https://pixabay.com/sound-effects/people-crowd-booing-494319/ "dragon studio crowd booing 494319") 
+[Boo 1](https://freesound.org/people/valeriebbb96/sounds/403060/ "boooh") 
 
 *`booing`, `jeering`, `disapproval`*
+
+
+
+[Panic 1](https://freesound.org/people/IENBA/sounds/491405/ "crowd in panic") 
+
+*`hysteria`, `chaos`, `riot`, `scream`, `shout`*
+
+
+
+[Gasp 1](https://freesound.org/people/ZerOcarina/sounds/232263/ "gasp") [2](https://freesound.org/people/dr_skitz/sounds/353924/ "gasp") 
+
+*`surprise`*
 
 
 
@@ -319,7 +391,7 @@ Used sites:
 
 
 &nbsp;
-### Action (50)
+### Action (56)
 
 
 
@@ -371,9 +443,9 @@ Used sites:
 
 
 
-[Poke 1](https://freesound.org/people/RavenBlueFeather/sounds/606981/ "gage") [2](https://pixabay.com/sound-effects/people-vomiting-301069/ "velisophigus vomiting 301069") 
+[Puke 1](https://freesound.org/people/RavenBlueFeather/sounds/606981/ "gage") [2](https://freesound.org/people/Turroe22/sounds/135415/ "gagging 1") 
 
-*`gagging`, `retching`, `vomit`, `throat`, `nausea`, `sick`*
+*`gage`, `retching`, `vomit`, `throat`, `nausea`, `sick`, `spew`*
 
 
 
@@ -400,6 +472,22 @@ Used sites:
 *`wash`, `laundry`, `thud`, `shuffling`*
 
 
+
+[Push 1](https://freesound.org/people/ssierra1202/sounds/391960/ "dragged") [2](https://freesound.org/people/crashoverride6/sounds/146408/ "sand on paper dragged long") 
+
+*`scrape`, `slide`, `friction`, `drag`*
+
+
+
+[FingerSnap 1](https://freesound.org/people/vckhaze/sounds/332604/ "single finger snap") [2](https://freesound.org/people/OwlStorm/sounds/151214/ "click finger snap") 
+
+*`click`, `percussive`*
+
+
+
+[KnuckleCrack 1](https://freesound.org/people/Reitanna/sounds/218219/ "knuckles crack10") [2](https://freesound.org/people/Reitanna/sounds/218220/ "knuckles crack8") 
+
+*`pop`, `crunch`, `joint`, `break`*
 
 
 
@@ -514,7 +602,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (81)
+### Animal (88)
 
 
 
@@ -578,13 +666,13 @@ Used sites:
 
 
 
-[Eagle 1](https://pixabay.com/sound-effects/nature-hawk-call-sound-effect-hawk-cry-364472/ "dragon studio hawk call sound effect hawk cry 364472") [2](https://freesound.org/people/SieuAmThanh/sounds/556575/ "ai bang tren khong") 
+[Eagle 1](https://freesound.org/people/basedMedia/sounds/548118/ "hawk 2") [2](https://freesound.org/people/SieuAmThanh/sounds/556575/ "ai bang tren khong") 
 
 *`hawk`, `falcon`, `screech`*
 
 
 
-[Cow 1](https://pixabay.com/sound-effects/nature-cow-mooing-343423/ "u jd81cxyq22 cow mooing 343423") [2](https://freesound.org/people/Bird_man/sounds/275154/ "moo") [3](https://freesound.org/people/Zozzy/sounds/59245/ "z moo01") [4](https://freesound.org/people/DiArchangeli/sounds/112068/ "animalhowling") 
+[Cow 1](https://freesound.org/people/JarredGibb/sounds/233146/ "cow moan 2 96khz") [2](https://freesound.org/people/Bird_man/sounds/275154/ "moo") [3](https://freesound.org/people/Zozzy/sounds/59245/ "z moo01") [4](https://freesound.org/people/DiArchangeli/sounds/112068/ "animalhowling") 
 
 *`moo`, `cattle`, `bovine`, `farm`*
 
@@ -608,7 +696,7 @@ Used sites:
 
 
 
-[Horse 1](https://freesound.org/people/madklown/sounds/184503/ "horse") [2](https://freesound.org/people/shadoWisp/sounds/269571/ "horse neigh shortened") [3](https://freesound.org/people/o_ciz/sounds/475483/ "horsesnort 3") 
+[Horse 1](https://freesound.org/people/madklown/sounds/184503/ "horse") [2](https://freesound.org/people/shadoWisp/sounds/269571/ "horse neigh shortened") [3](https://freesound.org/people/o_ciz/sounds/475483/ "horsesnort 3") [4](https://freesound.org/people/Kubuzz/sounds/347036/ "horses whinny") 
 
 *`neigh`, `whinny`, `stallion`, `equine`, `snort`*
 
@@ -620,15 +708,27 @@ Used sites:
 
 
 
-[Bird 1](https://freesound.org/people/deleted_user_229898/sounds/34207/ "birds 01") [2](https://freesound.org/people/xFromarge1/sounds/509321/ "bird cherp 42") [3](https://freesound.org/people/ReadeOnly/sounds/85405/ "birdcall") [4](https://freesound.org/people/D4XX/sounds/607242/ "great tit") [5](https://freesound.org/people/D4XX/sounds/607223/ "bird sound") 
+[Bird 1](https://freesound.org/people/deleted_user_229898/sounds/34207/ "birds 01") [2](https://freesound.org/people/xFromarge1/sounds/509321/ "bird cherp 42") [3](https://freesound.org/people/ReadeOnly/sounds/85405/ "birdcall") [4](https://freesound.org/people/D4XX/sounds/607242/ "great tit") [5](https://freesound.org/people/D4XX/sounds/607223/ "bird sound") [6](https://freesound.org/people/ReadeOnly/sounds/47599/ "") [7](https://freesound.org/people/ReadeOnly/sounds/85404/ "canaryartie 4") [8](https://freesound.org/people/LilMati/sounds/519105/ "bird 02") [9](https://freesound.org/people/williew705/sounds/98448/ "bird song at spfd lake") [10](https://freesound.org/people/LilMati/sounds/365668/ "bird thrush nightingale 04") 
 
 *`chirp`, `tweet`, `warble`*
+
+
+
+[Owl 1](https://freesound.org/people/Gerent/sounds/558397/ "owl hooting 000102 0145s3 002 070 000 002 037 044") 
+
+*`hoot`, `night`, `spooky`, `avian`*
 
 
 
 [Crow 1](https://freesound.org/people/iwanPlays/sounds/512781/ "croworraven1") [2](https://freesound.org/people/iwanPlays/sounds/512780/ "croworraven2") [3](https://freesound.org/people/Q.K./sounds/56234/ "crows 02") 
 
 *`caw`, `raven`, `rook`, `ominous`*
+
+
+
+[Seagull 1](https://freesound.org/people/Snapper4298/sounds/166707/ "seagull 2") 
+
+*`bird`, `chirp`, `ocean`*
 
 
 
@@ -650,7 +750,7 @@ Used sites:
 
 
 
-[Lion 1](https://freesound.org/people/LilMati/sounds/516829/ "lion growl") [2](https://freesound.org/people/craigsmith/sounds/675443/ "s01 09 short lion roars") [3](https://pixabay.com/sound-effects/nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190/ "pwlpl powerful lion roar sound effect high quality sfx 444190") 
+[Lion 1](https://freesound.org/people/LilMati/sounds/516829/ "lion growl") [2](https://freesound.org/people/craigsmith/sounds/675443/ "s01 09 short lion roars") [3](https://freesound.org/people/LilMati/sounds/527214/ "leo season") 
 
 *`roar`, `growl`, `snarl`, `apex`*
 
@@ -686,13 +786,13 @@ Used sites:
 
 
 
-[Cicada 1](https://freesound.org/people/Attia.phonatics/sounds/829810/ "crickets katydids cicadas insect sound at night") [2](https://freesound.org/people/soundofsong/sounds/640718/ "cicada insect loop") 
+[Cicada 1](https://freesound.org/people/Attia.phonatics/sounds/829810/ "crickets katydids cicadas insect sound at night") [2](https://freesound.org/people/soundofsong/sounds/640718/ "cicada insect loop") [3](https://freesound.org/people/Nox_Sound/sounds/515053/ "animal cicada solo loop") 
 
 *`insect`, `buzz`*
 
 
 
-[WingFlap 1](https://freesound.org/people/_stubb/sounds/389634/ "wing flap 1") [2](https://pixabay.com/sound-effects/film-special-effects-dragon-flapping-wings-364476/ "dragon studio dragon flapping wings 364476") 
+[WingFlap 1](https://freesound.org/people/_stubb/sounds/389634/ "wing flap 1") [2](https://freesound.org/people/ani_music/sounds/244982/ "wing flap flag flapping 5a") 
 
 *`flapping`, `airborne`*
 
@@ -703,7 +803,13 @@ Used sites:
 
 
 &nbsp;
-### Nature (34)
+### Nature (37)
+
+
+
+[Waves 1](https://freesound.org/people/Leszek_Szary/sounds/751567/ "ocean 6") [2](https://freesound.org/people/Yarmonics/sounds/441852/ "w 1 wave") [3](https://freesound.org/people/qubodup/sounds/442944/ "ocean wave") 
+
+*`beach`, `coast`, `ocean`, `sea`, `shore`, `water`*
 
 
 
@@ -773,15 +879,15 @@ Used sites:
 
 
 
-[Thunder 1](https://freesound.org/people/SGAK/sounds/467777/ "thunder") [2](https://pixabay.com/sound-effects/film-special-effects-thunder-clap-521194/ "u q2hb2391vb thunder clap 521194") 
+[Thunder 1](https://freesound.org/people/SGAK/sounds/467777/ "thunder") [2](https://freesound.org/people/Littlebrojay/sounds/195439/ "strike 3 sec") 
 
 *`lightning`, `storm`, `tempest`*
 
 
 
-[Wind 1](https://pixabay.com/sound-effects/nature-wind-blowing-sfx-06-423674/ "dragon studio wind blowing sfx 06 423674") [2](https://sonniss.com/gameaudiogdc/ "WINDDsgn EXT, Eye Of The Storm 344 Audi") 
+[Wind 1](https://freesound.org/people/crashoverride6/sounds/146932/ "wind gust") [2](https://sonniss.com/gameaudiogdc/ "WINDDsgn EXT, Eye Of The Storm 344 Audi") 
 
-*`cyclone`, `gale`, `muffled`*
+*`cyclone`, `gale`, `muffled`, `gust`*
 
 
 
@@ -808,7 +914,7 @@ Used sites:
 
 
 &nbsp;
-### Item (75)
+### Item (84)
 
 
 
@@ -863,6 +969,12 @@ Used sites:
 [Zipper 1](https://sonniss.com/gameaudiogdc/ "NEO008 a") [2](https://sonniss.com/gameaudiogdc/ "NEO008 b") 
 
 *`fastener`, `track`, `friction`, `raspy`*
+
+
+
+[Blinds 1](https://freesound.org/people/newagesoup/sounds/347892/ "window blinds raise 01") [2](https://freesound.org/people/newagesoup/sounds/347886/ "window blinds lower02") 
+
+*`slide`, `swipe`, `squeak`, `curtain`*
 
 
 
@@ -968,7 +1080,7 @@ Used sites:
 
 
 
-[Spray 1](https://sonniss.com/gameaudiogdc/ "OBJMisc Spray Bottle, Spray 1 344 Audio Barbershop Vol 1") 
+[Spray 1](https://sonniss.com/gameaudiogdc/ "OBJMisc Spray Bottle, Spray 1 344 Audio Barbershop Vol 1") [2](https://freesound.org/people/richwise/sounds/476839/ "spray can") 
 
 *`burst`, `liquid`, `barber`, `misting`*
 
@@ -998,12 +1110,24 @@ Used sites:
 
 
 
+[Cutlery 1](https://freesound.org/people/Glitchedtones/sounds/322394/ "cutlery clash 01") [2](https://freesound.org/people/Glitchedtones/sounds/322395/ "cutlery clash 02") [3](https://freesound.org/people/Closetwalrus/sounds/370298/ "plate") [4](https://freesound.org/people/SLV443/sounds/735514/ "falling spoon") 
+
+*`metal`, `clink`, `dinner`, `clash`, `fork`, `spoon`, `porcelain`, `plate`, `ceramic`*
+
+
+
+[Vinyl 1](https://freesound.org/people/dland/sounds/74385/ "to hell with vinyl") [2](https://freesound.org/people/TasmanianPower/sounds/162493/ "vinyl rewind") 
+
+*`record`, `scratch`, `stop`, `rewind`, `turntable`, `dj`*
+
+
+
 
 
 
 
 &nbsp;
-### Machine (41)
+### Machine (47)
 
 
 
@@ -1016,6 +1140,12 @@ Used sites:
 [MotorDead 1](https://freesound.org/people/KRAFTWERK2K1/sounds/32416/ "car engine wont start") 
 
 *`failed`, `engine`, `struggle`, `cranking`, `dead`*
+
+
+
+[Elevator 1](https://freesound.org/people/smokum/sounds/83227/ "elevator") [2](https://freesound.org/people/JarredGibb/sounds/217471/ "lift 3") [3](https://freesound.org/people/simplen00b/sounds/182331/ "elev loop") 
+
+*`lift`*
 
 
 
@@ -1103,6 +1233,12 @@ Used sites:
 
 
 
+[Steam 1](https://freesound.org/people/pengo_au/sounds/90143/ "steam burst") [2](https://freesound.org/people/wubitog/sounds/234782/ "steamhiss") [3](https://freesound.org/people/qubodup/sounds/442671/ "steam") 
+
+*`hiss`, `vapor`, `sizzle`, `pneumatic`, `release`*
+
+
+
 [Lever 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0302 industrial lever switch 014") [2](https://sonniss.com/gameaudiogdc/ "Bluezone BC0302 industrial lever switch 039") 
 
 *`switch`, `handle`, `latch`, `toggle`, `clunk`, `lock`, `unlock`, `metallic`*
@@ -1175,7 +1311,7 @@ Used sites:
 
 
 
-[Shot 1](https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/ "universfield gunshot 352466") [4](https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/ "universfield pistol gun shot 278821") [1](https://freesound.org/people/kretopi/sounds/406476/ "synthguns 001") [2](https://freesound.org/people/Brokenphono/sounds/344142/ "gunshot 002") [5](https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/ "eaglaxle gun shot 1 530788") [6](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/ "eaglaxle gun shot 3 530790") 
+[Shot 1](https://freesound.org/people/LeMudCrab/sounds/163457/ "ak47 shot") [4](https://freesound.org/people/acidsnowflake/sounds/402789/ "small pistol gunshot indoors") [3](https://freesound.org/people/kretopi/sounds/406476/ "synthguns 001") [2](https://freesound.org/people/Brokenphono/sounds/344142/ "gunshot 002") [5](https://freesound.org/people/michorvath/sounds/427596/ "ar15 rifle shot") [6](https://freesound.org/people/MAbdurrahman/sounds/459116/ "gun shot 1") 
 
 *`blast`, `pistol`*
 
@@ -1193,7 +1329,7 @@ Used sites:
 
 
 
-[ShotGun 1](https://freesound.org/people/michorvath/sounds/427595/ "20 gauge shotgun gunshot") [2](https://freesound.org/people/LilMati/sounds/473846/ "shotgun shot 03") 
+[Shotgun 1](https://freesound.org/people/michorvath/sounds/427595/ "20 gauge shotgun gunshot") [2](https://freesound.org/people/LilMati/sounds/473846/ "shotgun shot 03") 
 
 *`scatter`, `pump`*
 
@@ -1205,7 +1341,7 @@ Used sites:
 
 
 
-[Reload 1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [4](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") 
+[Reload 1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [4](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://freesound.org/people/Dredile/sounds/111676/ "revolvercock1") [7](https://freesound.org/people/nebulasnails/sounds/405538/ "pistol cock") 
 
 *`cocking`, `magazine`, `chambering`, `round`*
 
@@ -1262,7 +1398,7 @@ Used sites:
 
 
 
-[Alarm 1](https://pixabay.com/sound-effects/city-car-alarm-88609/ "freesound community car alarm 88609") 
+[Alarm 1](https://freesound.org/people/soundingoffagain/sounds/150981/ "caralarm") 
 
 *`siren`, `antitheft`, `security`*
 
@@ -1330,7 +1466,7 @@ Used sites:
 
 
 &nbsp;
-### Door (12)
+### Door (16)
 
 
 
@@ -1370,12 +1506,24 @@ Used sites:
 
 
 
+[Chain 1](https://freesound.org/people/miguelstar2/sounds/198470/ " 0205 sandau") 
+
+*`anchor`, `mechanism`, `drawbridge`, `metallic`, `bolt`*
+
+
+
+[Elevator 1](https://freesound.org/people/ToniTobe/sounds/233307/ "automatic elevator door") [2](https://freesound.org/people/vacuumfan7072/sounds/322132/ "elevator opening") [3](https://freesound.org/people/craigsmith/sounds/675538/ "s16 20 elevator door open close") 
+
+*`machine`, `mechanic`, `lift`*
+
+
+
 
 
 
 
 &nbsp;
-### Hit (41)
+### Hit (46)
 
 
 
@@ -1481,12 +1629,24 @@ Used sites:
 
 
 
+[Can 1](https://freesound.org/people/cower/sounds/185370/ "rolling can sound 2 a") [2](https://freesound.org/people/cower/sounds/185370/ "rolling can sound 2 b") [3](https://freesound.org/people/cower/sounds/185370/ "rolling can sound 2 c") 
+
+*`tin`, `roll`, `rattle`, `metallic`, `clatter`*
+
+
+
+[Metal 1](https://freesound.org/people/Freeman213SG/sounds/326044/ "ventilation grate fall a") [2](https://freesound.org/people/Freeman213SG/sounds/326044/ "ventilation grate fall b") 
+
+*`vent`, `grate`*
+
+
+
 
 
 
 
 &nbsp;
-### Break (29)
+### Break (33)
 
 
 
@@ -1538,9 +1698,9 @@ Used sites:
 
 
 
-[Wood 1](https://sonniss.com/gameaudiogdc/ "WOODBrk Snap09 InMotionAudio Wood") 
+[Wood 1](https://sonniss.com/gameaudiogdc/ "WOODBrk Snap09 InMotionAudio Wood") [2](https://freesound.org/people/Deathscyp/sounds/443293/ "wood break") [3](https://freesound.org/people/Bertsz/sounds/500901/ "wood crate destory 2") 
 
-*`snap`, `crack`, `twig`, `timber`, `crisp`*
+*`crate`, `box`, `snap`, `crack`, `twig`, `timber`, `crisp`*
 
 
 
@@ -1579,6 +1739,10 @@ Used sites:
 *`rock`, `collapse`, `landslide`, `fragmentation`, `scattering`*
 
 
+
+[Can 1](https://freesound.org/people/key-sto/sounds/452126/ "zoom0030 mn a") [2](https://freesound.org/people/key-sto/sounds/452126/ "zoom0030 mn b") 
+
+*`tin`, `aluminum`, `crush`, `crunch`*
 
 
 
