@@ -131,10 +131,10 @@ foreach (var cfgFile in cfgFileList)
                 s => Path.GetFileNameWithoutExtension(s) == value.File);
             if (pIdx is -1) Error("Sample does not exist: " + value.File);
             
-            value.Folder = Path.GetDirectoryName(tempSampleList[pIdx])!;
-            value.Preset = entry.Key;
-            value.Name = name;
-            value.Ext = Path.GetExtension(tempSampleList[pIdx]);
+            value.Meta.Folder = Path.GetDirectoryName(tempSampleList[pIdx])!;
+            value.Meta.Preset = entry.Key;
+            value.Meta.Name = name;
+            value.Meta.Ext = Path.GetExtension(tempSampleList[pIdx]);
             
             tempSampleList.RemoveAt(pIdx);
 
@@ -375,8 +375,8 @@ if (!outputDir.Exists)
             continue;
         }
 
-        var pCfg = presetToCfg.GetValueOrDefault(cfg.Preset);
-        var gCfg = GetGroupCfg(cfg.Name);
+        var pCfg = presetToCfg.GetValueOrDefault(cfg.Meta.Preset);
+        var gCfg = GetGroupCfg(cfg.Meta.Name);
 
         var cmd =
             // Quiet output
@@ -460,7 +460,7 @@ foreach (var sCfg in presets.Values
              .SelectMany(s => s.Select(ss => ss.Item2)))
 {
     var sampleFile = sCfg.File;
-    var sampleExt = sCfg.Ext;
+    var sampleExt = sCfg.Meta.Ext;
 
     if (SampleCache.TryGetDuration(sampleFile) is { } duration)
     {
@@ -471,7 +471,7 @@ foreach (var sCfg in presets.Values
 
     var task = Task.Run(() =>
     {
-        var pathOld = Path.Join(sCfg.Folder, sampleFile + sampleExt);
+        var pathOld = Path.Join(sCfg.Meta.Folder, sampleFile + sampleExt);
         var pathNew = Path.Join(outputDir.Name, sampleFile + ".ogg");
         
         var durOld = GetDuration(pathOld);
@@ -498,7 +498,7 @@ foreach (var sCfg in presets.Values
         if (dur.New / dur.Old > .51) return;
         
         Warn(
-            $"'{sCfg.Preset}.{sCfg.Name}' excesive trim (Old={
+            $"'{sCfg.Meta.Preset}.{sCfg.Meta.Name}' excesive trim (Old={
             dur.Old:F3}, New={dur.New:F3})");
     }
 }
@@ -923,15 +923,19 @@ internal sealed class GroupCfg: BaseCfg;
 
 internal sealed class SampleCfg: BaseCfg
 {
-    public string Folder = "";
-    public string Preset = "";
-    public string Name = "";
+    public sealed class SampleMeta
+    {
+        public string Folder = "";
+        public string Preset = "";
+        public string Name = "";
+        public string Ext = "";
+    }
 
-    public string File = "";
-    public string Ext = "";
+    public SampleMeta Meta = new();
     
-    public double? LoopStart;
+    public string File = "";
 
+    public double? LoopStart;
     public string? LoopEnd;
     public string? LoopMode;
 }
@@ -955,7 +959,7 @@ internal sealed class SampleCfgDeserializer : INodeDeserializer
         Type expectedType,
         Func<IParser, Type, object?> _,
         out object? value,
-        ObjectDeserializer rootDeserializer)
+        ObjectDeserializer __)
     {
         if (expectedType == typeof(SampleCfg) &&
             parser.TryConsume<Scalar>(out var scalar))
