@@ -295,6 +295,7 @@ if (processReadme)
         count++;
     }
     
+    readme += tagsVar;
     AddTags();
 
     readme = string.Format(
