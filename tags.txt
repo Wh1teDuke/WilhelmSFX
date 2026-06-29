@@ -119,6 +119,8 @@ Bison Buffalo beast
 Horse Neigh whinny stallion equine snort
 Donkey Bray ass mule
 Bird chirp tweet warble
+BirdBaby cry screech squeal newborn
+Dove bird cry pigeon
 Owl hoot night spooky avian
 Crow Caw raven rook ominous
 Seagull bird chirp ocean
@@ -191,6 +193,7 @@ Cloth foley cotton soft subtle
 Scratch tapping friction scrape
 Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
 Vinyl record scratch stop rewind turntable dj
+Saw wood plank cut board carpentry scraping
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
@@ -259,6 +262,9 @@ Close slam shut
 Curtain shower fabric
 Chain anchor mechanism drawbridge metallic bolt
 Elevator machine mechanic lift
+HatchOpen metal slide
+HatchClose metal slide
+Knob handle squeak latch mechanism
 
 # Hit
 Swing swipe strike whiff miss

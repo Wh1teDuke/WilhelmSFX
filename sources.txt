@@ -434,6 +434,11 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 98448__williew705__bird-song-at-spfd-lake               https://freesound.org/people/williew705/sounds/98448/
 365668__lilmati__bird-thrush-nightingale-04             https://freesound.org/people/LilMati/sounds/365668/
 
+684509__5ro4__pigeon-squab-cry                          https://freesound.org/people/5ro4/sounds/684509/
+
+795719__5ro4__dove-cry-1                                https://freesound.org/people/5ro4/sounds/795719/
+147349__elle-trudgett__australian-morning-birds         https://freesound.org/people/elle-trudgett/sounds/147349/
+
 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044 https://freesound.org/people/Gerent/sounds/558397/
 
 512781__iwanplays__croworraven1                         https://freesound.org/people/iwanPlays/sounds/512781/
@@ -599,6 +604,7 @@ Newspaper_Static_Foley_Rummage                          https://sonniss.com/game
 
 360739__lilmati__coin-sound-01                          https://freesound.org/people/LilMati/sounds/360739/
 343462__rocotilos__real-coin-drop                       https://freesound.org/people/Rocotilos/sounds/343462/
+19778__jmaimarc__coindrop1                              https://freesound.org/people/jmaimarc/sounds/19778/
 
 162195__rickmk2__coin-drop                              https://freesound.org/people/Rickmk2/sounds/162195/
 558991__gerent__coins-falling-022                       https://freesound.org/people/Gerent/sounds/558991/
@@ -662,6 +668,7 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 74385__dland__to-hell-with-vinyl                        https://freesound.org/people/dland/sounds/74385/
 162493__tasmanianpower__vinyl-rewind                    https://freesound.org/people/TasmanianPower/sounds/162493/
 
+850179__mihacappy__sawing_wood_plank                    https://freesound.org/people/Mihacappy/sounds/850179/
 
 
 // Machine
@@ -878,6 +885,11 @@ DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_
 233307__tonitobe__automatic-elevator-door               https://freesound.org/people/ToniTobe/sounds/233307/
 322132__vacuumfan7072__elevator-opening                 https://freesound.org/people/vacuumfan7072/sounds/322132/
 675538__craigsmith__s16-20-elevator-door-open-close     https://freesound.org/people/craigsmith/sounds/675538/
+
+842383__mihacappy__hatch4_a                             https://freesound.org/people/Mihacappy/sounds/842383/
+842383__mihacappy__hatch4_b                             https://freesound.org/people/Mihacappy/sounds/842383/
+
+611189__5ro4__door-and-doorknob-noises-2                https://freesound.org/people/5ro4/sounds/611189/
 
 
 

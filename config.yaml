@@ -439,6 +439,11 @@ Presets:
       File: 365668__lilmati__bird-thrush-nightingale-04
       Trim: false
 
+    BirdBaby1: 684509__5ro4__pigeon-squab-cry
+
+    Dove1: 795719__5ro4__dove-cry-1
+    Dove2: 147349__elle-trudgett__australian-morning-birds
+
     Owl1: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
 
     Crow1: 512781__iwanplays__croworraven1
@@ -692,6 +697,7 @@ Presets:
 
     CoinDrop1: 360739__lilmati__coin-sound-01
     CoinDrop2: 343462__rocotilos__real-coin-drop
+    CoinDrop3: 19778__jmaimarc__coindrop1
     CoinsDrop1: 162195__rickmk2__coin-drop
     CoinsDrop2: 558991__gerent__coins-falling-022
     CoinsDrop3: many_coins_12
@@ -764,6 +770,10 @@ Presets:
     Vinyl2:
       File: 162493__tasmanianpower__vinyl-rewind
       Speed: 1.7
+
+    Saw1:
+      File: 850179__mihacappy__sawing_wood_plank
+      LoopEnd: all
 
   Machine:
     Motor1:
@@ -1070,6 +1080,13 @@ Presets:
     Elevator1: 233307__tonitobe__automatic-elevator-door
     Elevator2: 322132__vacuumfan7072__elevator-opening
     Elevator3: 675538__craigsmith__s16-20-elevator-door-open-close
+
+    HatchOpen1: 842383__mihacappy__hatch4_a
+    HatchClose1: 842383__mihacappy__hatch4_b
+
+    Knob1:
+      File: 611189__5ro4__door-and-doorknob-noises-2
+      Trim: false
 
   Hit:
     Swing1: 389590__jofae__swing-woosh
