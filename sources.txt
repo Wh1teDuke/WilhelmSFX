@@ -434,6 +434,11 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 98448__williew705__bird-song-at-spfd-lake               https://freesound.org/people/williew705/sounds/98448/
 365668__lilmati__bird-thrush-nightingale-04             https://freesound.org/people/LilMati/sounds/365668/
 
+555096__naturenotesuk__eurasian-magpie-calling          https://freesound.org/people/naturenotesuk/sounds/555096/
+730487__baron_von_flitzekack__magpie                    https://freesound.org/people/Baron_von_Flitzekack/sounds/730487/
+402971__straget__a-screeching-magpie-in-the-top-of-a-birch  https://freesound.org/people/straget/sounds/402971/
+478637__soumen59__magpie-robin-singing                  https://freesound.org/people/soumen59/sounds/478637/
+
 684509__5ro4__pigeon-squab-cry                          https://freesound.org/people/5ro4/sounds/684509/
 
 795719__5ro4__dove-cry-1                                https://freesound.org/people/5ro4/sounds/795719/

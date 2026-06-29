@@ -119,6 +119,7 @@ Bison Buffalo beast
 Horse Neigh whinny stallion equine snort
 Donkey Bray ass mule
 Bird chirp tweet warble
+Magpie bird chirp
 BirdBaby cry screech squeal newborn
 Dove bird cry pigeon
 Owl hoot night spooky avian
