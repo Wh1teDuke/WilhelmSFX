@@ -13,7 +13,6 @@ VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/game
 813310__qubodup__victim-screaming                       https://freesound.org/people/qubodup/sounds/813310/
 222648__mariallinas__wild-scream                        https://freesound.org/people/mariallinas/sounds/222648/
 813308__qubodup__wilhelm-scream                         https://freesound.org/people/qubodup/sounds/813308/
-175385__digitaldominic__scream                          https://freesound.org/people/DigitalDominic/sounds/175385/
 
 187762__anguruso__buttface                              https://freesound.org/people/anguruso/sounds/187762/
 318090__drkvixn91__sigh_5_male_deep                     https://freesound.org/people/Drkvixn91/sounds/318090/
@@ -114,6 +113,7 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 235595__tcrocker68__girl_two_screams_a                  https://freesound.org/people/tcrocker68/sounds/235595/
 235595__tcrocker68__girl_two_screams_b                  https://freesound.org/people/tcrocker68/sounds/235595/
 625318__darknightprincess__female-startled-scream-sound-effect-voiced-by-darknightprincess  https://freesound.org/people/DarkNightPrincess/sounds/625318/
+175385__digitaldominic__scream                          https://freesound.org/people/DigitalDominic/sounds/175385/
 
 344010__reitanna__growly                                https://freesound.org/people/Reitanna/sounds/344010/
 343919__reitanna__large-growl                           https://freesound.org/people/Reitanna/sounds/343919/
