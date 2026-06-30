@@ -80,7 +80,7 @@ Push scrape slide friction drag
 FingerSnap click percussive
 KnuckleCrack pop crunch joint break
 
-# Move
+# Step
 Foot step stride pace walking
 Grass outdoor
 Leaves Foliage dry crunchy rustle
