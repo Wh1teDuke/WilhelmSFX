@@ -96,6 +96,7 @@ Slime squish squelch slimy
 HorseGallop Gallop trot equestrian
 HorseTrot clop equine gait hoofbeat
 Stomp monster large tremor
+Robot clank step whirl stomp
 
 # Monster
 Roar aggresive creature hostile
@@ -235,6 +236,7 @@ PhoneHang disconnect
 Dial calling tones
 Beep blip tone ping
 Radar sonar pulse scan detection
+Calculate ai computer robot
 
 # Gun
 Laser blaster plasma energy beam pew
@@ -263,7 +265,7 @@ PlaneInterior drone hum aviation
 
 # Robot
 Robo synthetic bloop android
-Move step whirl stomp
+Transform construction grind engine circuit whirring
 
 # Door
 Open entrance portal

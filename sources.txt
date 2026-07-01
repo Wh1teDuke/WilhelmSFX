@@ -353,6 +353,14 @@ FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_c  https://sonn
 812538__yoyamen1212__big-monster-stomp                  https://freesound.org/people/Yoyamen1212/sounds/812538/
 
 
+Bluezone_BC0284_soundwave_robot_footsteps_001           https://sonniss.com/gameaudiogdc/
+footstep_a_mech_mega_01                                 https://sonniss.com/gameaudiogdc/
+footstep_a_mech_mega_02                                 https://sonniss.com/gameaudiogdc/
+Robot_Big_Footstep_Servo_003                            https://sonniss.com/gameaudiogdc/
+813056__audiopapkin__big-robot-footstep                 https://freesound.org/people/AudioPapkin/sounds/813056/
+813054__audiopapkin__big-robot-footstep-003             https://freesound.org/people/AudioPapkin/sounds/813054/
+
+
 // Monster
 
 MonsterPack2_Monster06_Attack13                         https://sonniss.com/gameaudiogdc/
@@ -812,6 +820,8 @@ Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/game
 539957__samsterbirdies__sonar-ping                      https://freesound.org/people/SamsterBirdies/sounds/539957/
 32093__jbum__jsyd_ping                                  https://freesound.org/people/jbum/sounds/32093/
 
+390531__freedomfightervictor__calculating               https://freesound.org/people/freedomfightervictor/sounds/390531/
+
 
 
 // Gun
@@ -899,11 +909,15 @@ AEROInt_Airplane_Interior_Small_Plane                   https://sonniss.com/game
 826373__charonfaustinus__small-robot-very-cute          https://freesound.org/people/charonfaustinus/sounds/826373/
 187409__mazk1985__robot_go                              https://freesound.org/people/mazk1985/sounds/187409/
 255883__dontgothere__funny-cartoon-robot                https://freesound.org/people/DontGoThere/sounds/255883/
+505751__thehorriblejoke__computer-breaking-sound        https://freesound.org/people/freedomfightervictor/sounds/390531/
+125099__oddworld__sfx-dtmf-01                           https://freesound.org/people/Oddworld/sounds/125099/
+401745__zenithinfinitivestudios__tone_robot             https://freesound.org/people/ZenithInfinitiveStudios/sounds/401745/
+819678__hotpin7__robot-screaming                        https://freesound.org/people/hotpin7/sounds/819678/
+528772__itsthatroboguy__robotic-monster-roar            https://freesound.org/people/ItsThatRoboGuy/sounds/528772/
 
-Bluezone_BC0284_soundwave_robot_footsteps_001           https://sonniss.com/gameaudiogdc/
-footstep_a_mech_mega_01                                 https://sonniss.com/gameaudiogdc/
-footstep_a_mech_mega_02                                 https://sonniss.com/gameaudiogdc/
-Robot_Big_Footstep_Servo_003                            https://sonniss.com/gameaudiogdc/
+749682__audiopapkin__mechanical-sound-design-elements-robot-ps-001  https://freesound.org/people/AudioPapkin/sounds/749682/
+813078__audiopapkin__sound-design-elements-robot-mechanism-019  https://freesound.org/people/AudioPapkin/sounds/813078/
+813079__audiopapkin__sound-design-elements-robot-mechanism-020  https://freesound.org/people/AudioPapkin/sounds/813079/
 
 
 
