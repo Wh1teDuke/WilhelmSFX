@@ -539,6 +539,9 @@ RAINInt_Heavy_Rain_on_Window,__Constant                 https://sonniss.com/game
 467777__sgak__thunder                                   https://freesound.org/people/SGAK/sounds/467777/
 195439__littlebrojay__strike-3-sec                      https://freesound.org/people/Littlebrojay/sounds/195439/
 
+496839__anderlk__earthquake                             https://freesound.org/people/anderlk/sounds/496839/
+217657__reitanna__earth-rumble                          https://freesound.org/people/Reitanna/sounds/217657/
+
 146932__crashoverride6__wind-gust                       https://freesound.org/people/crashoverride6/sounds/146932/
 WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi                 https://sonniss.com/gameaudiogdc/
 
@@ -551,8 +554,6 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 471158__audroger__embers-4                              https://freesound.org/people/AuDRoger/sounds/471158/
 471161__audroger__embers-1                              https://freesound.org/people/AuDRoger/sounds/471161/
 471159__audroger__embers-3                              https://freesound.org/people/AuDRoger/sounds/471159/
-
-
 
 
 
@@ -1027,6 +1028,11 @@ GORESplt_Gore_Splatter_01_JSE_GMP_b                     https://sonniss.com/game
 
 Bluezone_BC0287_annihilation_debris_falling_rock_001    https://sonniss.com/gameaudiogdc/
 Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://sonniss.com/gameaudiogdc/
+560510__nox_sound__explosion_debris_short_stereo        https://freesound.org/people/Nox_Sound/sounds/560510/
+825099__dreadwolf910__bucket-0102                       https://freesound.org/people/Dreadwolf910/sounds/825099/
+554148__nox_sound__foley_impact_stones_strong_debris_stereo_ds  https://freesound.org/people/Nox_Sound/sounds/554148/
+550342__nox_sound__foley_stones_falls_debris_stereo_dr05  https://freesound.org/people/Nox_Sound/sounds/550342/
+249814__spookymodem__hitting-wall                       https://freesound.org/people/spookymodem/sounds/249814/
 
 452126__key-sto__zoom0030_mn_a                          https://freesound.org/people/key-sto/sounds/452126/
 452126__key-sto__zoom0030_mn_b                          https://freesound.org/people/key-sto/sounds/452126/

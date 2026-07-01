@@ -630,6 +630,16 @@ Presets:
     Thunder1: 467777__sgak__thunder
     Thunder2: 195439__littlebrojay__strike-3-sec
 
+    Quake1:
+      File: 496839__anderlk__earthquake
+      Trim: false
+      LoopEnd: all
+
+    Quake2:
+      File: 217657__reitanna__earth-rumble
+      Trim: false
+      LoopEnd: all
+
     Fire1:
       File: storegraphic-crackling-fire-sound-309634
       LoopStart: .665
@@ -1239,6 +1249,11 @@ Presets:
 
     Debris1: Bluezone_BC0287_annihilation_debris_falling_rock_001
     Debris2: Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010
+    Debris3: 560510__nox_sound__explosion_debris_short_stereo
+    Debris4: 825099__dreadwolf910__bucket-0102
+    Debris5: 554148__nox_sound__foley_impact_stones_strong_debris_stereo_ds
+    Debris6: 550342__nox_sound__foley_stones_falls_debris_stereo_dr05
+    Debris7: 249814__spookymodem__hitting-wall
 
     Can1: 452126__key-sto__zoom0030_mn_a
     Can2: 452126__key-sto__zoom0030_mn_b

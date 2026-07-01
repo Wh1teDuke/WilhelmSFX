@@ -155,6 +155,7 @@ WindLeaves breeze gust tree
 River Stream rushing flow
 Waterfall Cascading Rushing
 Thunder lightning storm tempest
+Quake rumble shake
 Wind Breeze gust gale blowing
 Fire Crackle campfire
 Embers Crackling coals burning hearth
@@ -308,7 +309,7 @@ Paper tear rip canvas sheet
 Cloth fabric rip tear textile soft
 Flesh Squish Squelch Wet Gory Meaty Slash
 Gore splatter squish flesh gruesome visceral
-Debris rock collapse landslide fragmentation scattering
+Debris rock collapse landslide gravel scattering
 Can tin aluminum crush crunch
 
 # Bang
