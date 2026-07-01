@@ -18,6 +18,8 @@ Presets:
   Male:
     Laugh1: 190627__danielsilveira321__hahaha
     Laugh2: VOXLaff_Police_Officer_Laugh_Vocal_Male_1
+    Laugh3: 859265__spaudiobooks__man-laughing-various_a
+    Laugh4: 859265__spaudiobooks__man-laughing-various_b
 
     Scream1: 759458__akridiy__a-single-scream-of-a-young-male
     Scream2: 523216__feed__death-scream
@@ -232,10 +234,35 @@ Presets:
     ChildrenYell1: 675108__craigsmith__s12-21-kids-yelling-yeah
 
   Monster:
+    # TODO Group dinosaurs together, like zombies
+    # TODO: Rethink roar
     Roar1: MonsterPack2_Monster06_Attack13
     Roar2: MonsterPack2_Monster10_Call09
+    Roar3: 571386__lewisbm__large_animal_groan_growl
+
+    Zombie1: 787943__finnskog__zombie-growl
+    Zombie2: 193759__nanity05__zombie
+    Zombie3: 744096__dreggsome__zombie-death
+    Zombie4: 396797__scorpion67890__mutant-scream
+    Zombie5: 20343__corpsehere__zombieme2
+    Zombie6: 426628__mrh4hn__zombie-moan
+
+    Critter1: 800277__securesubset__insect-animal-growl-chitter
+
+    Shout1: 744794__qubodup__small-evil-creature-attack-shout-3
+    Shout2: 732999__bjelicvuk__quack
+    Shout3: 728185__paulzsoundz__monster-yell-pain-or-growl
+    Shout4: 671191__ewanpenman11__monster-5
+
+    Snarl1: 726516__blueskysounds888__gurgling_water_in_siphon_01
+    Snarl2: 743297__chuckchuckgoof__creature-snarl
+    Snarl3: 705208__joeleleven__monster-growling
+    Snarl4: 676480__neartheatmoshphere__beast-7
+    Snarl5: 676476__neartheatmoshphere__beast-3
+    Snarl6: 640467__dragonboi50120__demongrowl
 
     Agony1: MonsterPack2_Monster09_Death02
+    Agony2: 568000__leadstarson__monster_sound_big_death
 
   Action:
     Grab1: 651515__1bob__grab-item
@@ -381,6 +408,8 @@ Presets:
     HorseTrot1: FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_a
     HorseTrot2: FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_b
     HorseTrot3: FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_c
+
+    Stomp1: 812538__yoyamen1212__big-monster-stomp
 
   Animal:
     Toy1: 445958__breviceps__cartoon-bat-mouse-squeak

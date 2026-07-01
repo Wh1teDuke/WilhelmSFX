@@ -95,9 +95,14 @@ Swim splashing pool lake
 Slime squish squelch slimy
 HorseGallop Gallop trot equestrian
 HorseTrot clop equine gait hoofbeat
+Stomp monster large tremor
 
 # Monster
 Roar aggresive creature hostile
+Critter bug insect chitter
+Zombie growl horror undead
+Shout aggresive angry growl
+Snarl gurgle growl grunt
 Agony death pain
 
 # Animal

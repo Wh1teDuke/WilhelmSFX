@@ -6,6 +6,8 @@ No protection is claimed in original U.S. Government works
 
 190627__danielsilveira321__hahaha                       https://freesound.org/people/danielsilveira321/sounds/190627/
 VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/gameaudiogdc/
+859265__spaudiobooks__man-laughing-various_a            https://freesound.org/people/SPAudiobooks/sounds/859265/
+859265__spaudiobooks__man-laughing-various_b            https://freesound.org/people/SPAudiobooks/sounds/859265/
 
 759458__akridiy__a-single-scream-of-a-young-male        https://freesound.org/people/akridiy/sounds/759458/
 523216__feed__death-scream                              https://freesound.org/people/Feed_/sounds/523216/
@@ -348,12 +350,38 @@ FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_a  https://sonn
 FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_b  https://sonniss.com/gameaudiogdc/
 FEETHors_Draft_Horse_Trot_On_Concrete_03_STEREO_DRCA_HOCA_UsiPro_c  https://sonniss.com/gameaudiogdc/
 
+812538__yoyamen1212__big-monster-stomp                  https://freesound.org/people/Yoyamen1212/sounds/812538/
+
+
 // Monster
 
 MonsterPack2_Monster06_Attack13                         https://sonniss.com/gameaudiogdc/
 MonsterPack2_Monster10_Call09                           https://sonniss.com/gameaudiogdc/
+571386__lewisbm__large_animal_groan_growl               https://freesound.org/people/Lewis.B.M/sounds/571386/
+
+800277__securesubset__insect-animal-growl-chitter       https://freesound.org/people/SecureSubset/sounds/800277/
+
+787943__finnskog__zombie-growl                          https://freesound.org/people/finnskog/sounds/787943/
+193759__nanity05__zombie                                https://freesound.org/people/nanity05/sounds/193759/
+744096__dreggsome__zombie-death                         https://freesound.org/people/dreggsome/sounds/744096/
+396797__scorpion67890__mutant-scream                    https://freesound.org/people/scorpion67890/sounds/396797/
+20343__corpsehere__zombieme2                            https://freesound.org/people/corpsehere/sounds/20343/
+426628__mrh4hn__zombie-moan                             https://freesound.org/people/mrh4hn/sounds/426628/
+
+744794__qubodup__small-evil-creature-attack-shout-3     https://freesound.org/people/qubodup/sounds/744794/
+732999__bjelicvuk__quack                                https://freesound.org/people/bjelicvuk/sounds/732999/
+728185__paulzsoundz__monster-yell-pain-or-growl         https://freesound.org/people/PaulzSoundz/sounds/728185/
+671191__ewanpenman11__monster-5                         https://freesound.org/people/EwanPenman11/sounds/671191/
+
+726516__blueskysounds888__gurgling_water_in_siphon_01   https://freesound.org/people/blueskysounds888/sounds/726516/
+743297__chuckchuckgoof__creature-snarl                  https://freesound.org/people/ChuckChuckGoof/sounds/743297/
+705208__joeleleven__monster-growling                    https://freesound.org/people/JoelEleven/sounds/705208/
+676480__neartheatmoshphere__beast-7                     https://freesound.org/people/NearTheAtmoshphere/sounds/676480/
+676476__neartheatmoshphere__beast-3                     https://freesound.org/people/NearTheAtmoshphere/sounds/676476/
+640467__dragonboi50120__demongrowl                      https://freesound.org/people/dragonboi50120/sounds/640467/
 
 MonsterPack2_Monster09_Death02                          https://sonniss.com/gameaudiogdc/
+568000__leadstarson__monster_sound_big_death            https://freesound.org/people/Leadstarson/sounds/568000/
 
 
 // Animal
