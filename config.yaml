@@ -1245,6 +1245,18 @@ Presets:
     Metal1: 326044__freeman213sg__ventilation-grate-fall_a
     Metal2: 326044__freeman213sg__ventilation-grate-fall_b
 
+    Brick1: 655350__jadevelloza__brick-being-dropped-owi
+
+    Stone1: 434130__89o__place
+    Stone2:
+      File: 350750__aerror__stonehit1
+      TrimDb: -54
+    Stone3: 350748__aerror__stonehit3
+    Stone4: 364711__alegemaate__stone-dropping
+
+    Thud1: 570976__dichardson__stone-drop-on-grass-3
+    Thud2: 570965__dichardson__brick-drop-on-grass-2
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror

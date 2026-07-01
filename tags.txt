@@ -300,6 +300,9 @@ Blocked shield armor parry deflect bash
 Racket tennis ball smash stroke plock
 Can tin roll rattle metallic clatter
 Metal vent grate
+Brick fall
+Stone bock fall rock
+Thud muted
 
 # Break
 Glass shatter smash
