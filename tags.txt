@@ -190,8 +190,12 @@ CoinsDrop chink clink Tinkling
 BulletDrop casing shell ammo
 ChestOpen trunk lid creak locker slam safe container
 ChestClose trunk lid creak locker slam safe container
+JarOpen screw
+JarClose screw
 Lock Padlock deadbolt latch mechanism key
 Chains Shackles rattle rustle fetters bonds
+TubeScrew metal creak rusty squeak turn
+Screw brass creak metal twist
 Match ignition flame candle lighting
 Lighter spark flint
 DrawSword Unsheathe slide blade metallic
@@ -204,6 +208,7 @@ Scratch tapping friction scrape
 Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
 Vinyl record scratch stop rewind turntable dj
 Saw wood plank cut board carpentry scraping
+SocketWrench clack click ratchet rattle screw
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
@@ -211,6 +216,7 @@ MotorDead Failed engine struggle cranking dead
 Elevator lift
 Pneumatic Hydraulic Piston compression servo valve hiss whistling
 Drill electric hardware power
+Screw electric whir spin
 Fan extractor ventilation hum airflow suction
 Train Locomotive rumble freight railway
 Minecart rail coaster rattle wagon clatter
@@ -336,3 +342,6 @@ Door intercom bell buzz dingdong chime
 Phone ring office
 Alarm siren antitheft security
 Siren air alarm army raid
+
+# Etc
+WoodenCrate creak squeak

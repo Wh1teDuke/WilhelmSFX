@@ -3,13 +3,11 @@ Settings:
   Presets:
     Animal:
       ReleaseVolEnv: 2.0
-      ReleaseModEnv: 2.0
 
   # Per group settings (ie Male.Laugh*)
   Groups:
     Nature.Waves:
       ReleaseVolEnv: 4.0
-      ReleaseModEnv: 4.0
 
 
 Presets:
@@ -772,6 +770,10 @@ Presets:
 
     ChestClose2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_c
 
+    JarOpen1: 521126__nox_sound__foley_object_jar_opening_closing_a
+
+    JarClose1: 521126__nox_sound__foley_object_jar_opening_closing_b
+
     Lock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
     Lock2: 342713__spacejoe__lock-3-remove-key-3
     Lock3: 422852__ipaddeh__door_unlocking
@@ -785,6 +787,13 @@ Presets:
     Chains4: 167373__ani_music__steel-chain-being-dropped
     Chains5: 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box
     Chains6: 362858__richardemoore__chainwrapping2
+
+    TubeScrew1: 214882__fantozzi__the-big-squeak-21-screwing-3
+    TubeScrew2: 214892__fantozzi__the-big-squeak-20-screwing-1
+    TubeScrew3: 742600__xkeril__squeaky-metal-screwed-01
+
+    Screw1: 353245__nettimato__screwing-and-unscrewing-brass_a
+    Screw2: 353245__nettimato__screwing-and-unscrewing-brass_b
 
     Match1: 370362__devilqube__match-lighting-candle
     Match2: 398448__brachern__match-ignite-no-strike
@@ -834,6 +843,8 @@ Presets:
     Saw1:
       File: 850179__mihacappy__sawing_wood_plank
       LoopEnd: all
+
+    SocketWrench1: 616628__loinnats__socket-wrench
 
   Machine:
     Motor1:
@@ -899,6 +910,21 @@ Presets:
       File: 179725__wjoojoo__impact_drill
       LoopStart: .335
       LoopEnd: .709
+
+    Screw1:
+      File: 457165__garuda1982__electric-screwdriver
+      Trim: false
+
+      LoopStart: 0.036
+      LoopEnd: 0.206
+      LoopMode: loop
+
+      AttackVolEnv: 0.1
+      ReleaseVolEnv: 1.5
+
+      AttackModEnv: 3
+      ReleaseModEnv: 0.3
+      ModEnvToPitch: 200
 
     Fan1:
       File: 219491__jarredgibb__extractor-fan-01
@@ -1372,3 +1398,7 @@ Presets:
       LoopStart: 0.8
       LoopEnd: 12.75
       MulSampleRate: .5
+
+  # Don't know where to put these
+  Etc:
+    WoodenCrate1: 214871__fantozzi__the-big-squeak-3-wooden-crate

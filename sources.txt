@@ -667,6 +667,10 @@ many_coins_12                                           https://sonniss.com/game
 
 570484__nox_sound__foley_object_metal_chest_openclose_mono_c    https://freesound.org/people/Nox_Sound/sounds/570484/
 
+521126__nox_sound__foley_object_jar_opening_closing_a   https://freesound.org/people/Nox_Sound/sounds/521126/
+
+521126__nox_sound__foley_object_jar_opening_closing_b   https://freesound.org/people/Nox_Sound/sounds/521126/
+
 632489__ani_music__opening-a-steel-padlock-shackle-take-c   https://freesound.org/people/ani_music/sounds/632489/
 342713__spacejoe__lock-3-remove-key-3                   https://freesound.org/people/SpaceJoe/sounds/342713/
 422852__ipaddeh__door_unlocking                         https://freesound.org/people/IPaddeh/sounds/422852/
@@ -680,6 +684,13 @@ many_coins_12                                           https://sonniss.com/game
 167373__ani_music__steel-chain-being-dropped            https://freesound.org/people/ani_music/sounds/167373/
 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box https://freesound.org/people/ani_music/sounds/167372/
 362858__richardemoore__chainwrapping2                   https://freesound.org/people/richardemoore/sounds/362858/
+
+214882__fantozzi__the-big-squeak-21-screwing-3          https://freesound.org/people/Fantozzi/sounds/214882/
+214892__fantozzi__the-big-squeak-20-screwing-1          https://freesound.org/people/Fantozzi/sounds/214892/
+742600__xkeril__squeaky-metal-screwed-01                https://freesound.org/people/xkeril/sounds/742600/
+
+353245__nettimato__screwing-and-unscrewing-brass_a      https://freesound.org/people/nettimato/sounds/353245/
+353245__nettimato__screwing-and-unscrewing-brass_a      https://freesound.org/people/nettimato/sounds/353245/
 
 370362__devilqube__match-lighting-candle                https://freesound.org/people/devilqube/sounds/370362/
 398448__brachern__match-ignite-no-strike                https://freesound.org/people/brachern/sounds/398448/
@@ -717,6 +728,8 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 
 850179__mihacappy__sawing_wood_plank                    https://freesound.org/people/Mihacappy/sounds/850179/
 
+616628__loinnats__socket-wrench                         https://freesound.org/people/Loinnats/sounds/616628/
+
 
 // Machine
 
@@ -739,6 +752,8 @@ Bluezone_BC0290_demolisher_pneumatic_texture_007        https://sonniss.com/game
 
 345073__metrostock99__drill-gun                         https://freesound.org/people/metrostock99/sounds/345073/
 179725__wjoojoo__impact_drill                           https://freesound.org/people/wjoojoo/sounds/179725/
+
+457165__garuda1982__electric-screwdriver                https://freesound.org/people/Garuda1982/sounds/457165/
 
 219491__jarredgibb__extractor-fan-01                    https://freesound.org/people/JarredGibb/sounds/219491/
 
@@ -1130,3 +1145,9 @@ Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://
 54086__guitarguy1985__horn                              https://freesound.org/people/guitarguy1985/sounds/54086/
 
 412171__poligonstudio__air-raid-siren-alarm             https://freesound.org/people/Poligonstudio/sounds/412171/
+
+
+
+// Etc
+
+214871__fantozzi__the-big-squeak-3-wooden-crate         https://freesound.org/people/Fantozzi/sounds/214871/

@@ -537,16 +537,20 @@ foreach (var (presetName, sounds) in presets)
     bank.Instruments.Add(instrument);
 
     var pCfg = presetToCfg.GetValueOrDefault(presetName);
-    
-    if (pCfg != null)
-    {
-        if (pCfg.ReleaseVolEnv is {} rve)
-            instrument.GlobalZone.SetGenerator(
-                Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
-        if (pCfg.ReleaseModEnv is {} rme)
-            instrument.GlobalZone.SetGenerator(
-                Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
-    }
+
+    TrySetFloat(
+        instrument.GlobalZone, Generator.Type.AttackVolEnv, pCfg?.AttackVolEnv);
+    TrySetFloat(
+        instrument.GlobalZone, Generator.Type.ReleaseVolEnv, pCfg?.ReleaseVolEnv);
+
+    TrySetFloat(
+        instrument.GlobalZone, Generator.Type.AttackModEnv, pCfg?.AttackModEnv);
+    TrySetFloat(
+        instrument.GlobalZone, Generator.Type.ReleaseModEnv, pCfg?.ReleaseModEnv);
+    TrySetInt(
+        instrument.GlobalZone, Generator.Type.ModEnvToPitch, pCfg?.ModEnvToPitch);
+    TrySetLoopMode(
+        instrument.GlobalZone, pCfg?.LoopMode);
     
     var set = new HashSet<string>();
 
@@ -605,35 +609,41 @@ foreach (var (presetName, sounds) in presets)
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
 
-        if (gCfg != null)
-        {
-            if (gCfg.ReleaseVolEnv is {} rve)
-                zone.Basic.SetGenerator(
-                    Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
-            if (gCfg.ReleaseModEnv is {} rme)
-                zone.Basic.SetGenerator(
-                    Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
-        }
+        TrySetFloat(
+            zone.Basic,
+            Generator.Type.AttackVolEnv,
+            cfg.AttackVolEnv ?? gCfg?.AttackVolEnv);
+        TrySetFloat(
+            zone.Basic,
+            Generator.Type.ReleaseVolEnv,
+            cfg.ReleaseVolEnv ?? gCfg?.ReleaseVolEnv);
+        TrySetFloat(
+            zone.Basic,
+            Generator.Type.AttackModEnv,
+            cfg.AttackModEnv ?? gCfg?.AttackModEnv);
+        TrySetFloat(
+            zone.Basic,
+            Generator.Type.ReleaseModEnv,
+            cfg.ReleaseModEnv ?? gCfg?.ReleaseModEnv);
+        TrySetInt(
+            zone.Basic,
+            Generator.Type.ModEnvToPitch,
+            cfg.ModEnvToPitch ?? gCfg?.ModEnvToPitch);
+        var loopModeSet = TrySetLoopMode(
+            zone.Basic,
+            cfg.LoopMode ?? gCfg?.LoopMode);
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
             // TODO: if sample is very short, maybe mode 3 is a sensible default
-            var mode = cfg.LoopMode?.ToLowerInvariant() switch
-            {
-                "untilrelease" => 3,
-                null => 1,
-                var m => int.Parse(m)
-            };
+            var mode = cfg.LoopMode?.ToLowerInvariant() ?? "1";
 
-            if ((cfg.ReleaseVolEnv ??
-                cfg.ReleaseModEnv) is not null)
+            if ((
+                cfg.ReleaseVolEnv ??
+                cfg.ReleaseModEnv ??
+                null) is not null)
             {
-                if (cfg.ReleaseVolEnv is {} rve)
-                    zone.Basic.SetGenerator(
-                        Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
-                if (cfg.ReleaseModEnv is {} rme)
-                    zone.Basic.SetGenerator(
-                        Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
+                // Empty
             }
             else if (sample.LoopEnd < sampleDurLen)
             {
@@ -641,12 +651,12 @@ foreach (var (presetName, sounds) in presets)
                     (sample.LoopEnd / (double)sampleDurLen) * sampleDuration;
                 var tc = UnitConverter.SecondsToTimecents(sec);
 
-                zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
+                if (!loopModeSet)
+                    zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
                 zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, tc);
-                zone.Basic.SetGenerator(Generator.Type.ReleaseModEnv, tc);
             }
-            else
-                zone.Basic.SetGenerator(Generator.Type.SampleModes, mode);
+            else if (!loopModeSet)
+                TrySetLoopMode(zone.Basic, mode);
         }
         
         bank.Samples.Add(sample);
@@ -744,6 +754,33 @@ GroupCfg? GetGroupCfg(string sampleName)
 
 bool SkipSample(string sampleOrigin) =>
     filterOrigin != null && !Regex.IsMatch(sampleOrigin, filterOrigin);
+
+void TrySetFloat(BasicZone zone, Generator.Type gen, double? genVal)
+{
+    if (genVal is not {} val) return;
+    zone.SetGenerator(gen, UnitConverter.SecondsToTimecents(val));
+}
+
+void TrySetInt(BasicZone zone, Generator.Type gen, int? genVal)
+{
+    if (genVal is not {} val) return;
+    zone.SetGenerator(gen, val);
+}
+
+bool TrySetLoopMode(BasicZone zone, string? genVal)
+{
+    if (genVal is not {} val) return false;
+    var mode = val.ToLowerInvariant() switch
+    {
+        "no" or "false" or "off" or "null" or "unset" => 0,
+        "loop" => 1,
+        "onrelease" => 2,
+        "untilrelease" => 3,
+        var m => int.Parse(m)
+    };
+    zone.SetGenerator(Generator.Type.SampleModes, mode);
+    return true;
+}
 
 [DoesNotReturn]
 static void Error(string msg)
@@ -925,8 +962,16 @@ internal abstract class BaseCfg
     public bool? Norm;
     public int? Q;
     public int? SampleRate;
+
+    public double? AttackVolEnv;
     public double? ReleaseVolEnv;
+
+    public double? AttackModEnv;
     public double? ReleaseModEnv;
+
+    public int? ModEnvToPitch;
+
+    public string? LoopMode;
 
     public double? MulQ;
     public double? MulSampleRate;
@@ -952,7 +997,6 @@ internal sealed class SampleCfg: BaseCfg
 
     public double? LoopStart;
     public string? LoopEnd;
-    public string? LoopMode;
 }
 
 internal class MConfig
