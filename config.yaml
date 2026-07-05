@@ -6,6 +6,9 @@ Settings:
 
   # Per group settings (ie Male.Laugh*)
   Groups:
+    Male.Snore:
+      ReleaseVolEnv: 0.5
+
     Nature.Waves:
       ReleaseVolEnv: 4.0
 
@@ -42,10 +45,12 @@ Presets:
       Trim: false
 
     Snore2: 365372__rdpipo7777__ronquido
-    Snore3: universfield-snore-250959
-    Snore4: magiaz-snoring-389947_a
-    Snore5: magiaz-snoring-389947_b
-    Snore6: magiaz-snoring-389947_c
+    Snore3: 844964__taranliberation__snoring_a
+    Snore4: 844964__taranliberation__snoring_b
+    Snore5: 791248__jrwentertainment__snoring-30s-48khz24-bit
+    Snore6:
+      File: 760036__stevielematt__snore-03_44100
+      Trim: false
 
     Cough1: 743360__qubodup__strong-double-cough
     Cough2: 151217__owlstorm__cough-3
@@ -346,6 +351,19 @@ Presets:
 
     KnuckleCrack1: 218219__reitanna__knuckles-crack10
     KnuckleCrack2: 218220__reitanna__knuckles-crack8
+
+    Whistle1:
+      File: 241258__deleted_user_4389770__wolf-whistle
+      TrimDb: -50
+
+    Whistle2: 256552__skiggz__attention-whistle
+    Whistle3: 417392__frisko28i__whiste
+    Whistle4: 132294__j_bond__male-whistle
+    Whistle5: 19825__tommorawe__pfiff_whistle
+
+    Whistle6:
+      File: 146887__elle-trudgett__innocent-whistle
+      TrimDb: -50
 
   Step:
     Foot1: 251788__vkproduktion__footstep-01
@@ -925,6 +943,7 @@ Presets:
       AttackModEnv: 3
       ReleaseModEnv: 0.3
       ModEnvToPitch: 200
+      SemitoneTuning: -200
 
     Fan1:
       File: 219491__jarredgibb__extractor-fan-01

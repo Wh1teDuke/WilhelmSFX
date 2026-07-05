@@ -537,20 +537,7 @@ foreach (var (presetName, sounds) in presets)
     bank.Instruments.Add(instrument);
 
     var pCfg = presetToCfg.GetValueOrDefault(presetName);
-
-    TrySetFloat(
-        instrument.GlobalZone, Generator.Type.AttackVolEnv, pCfg?.AttackVolEnv);
-    TrySetFloat(
-        instrument.GlobalZone, Generator.Type.ReleaseVolEnv, pCfg?.ReleaseVolEnv);
-
-    TrySetFloat(
-        instrument.GlobalZone, Generator.Type.AttackModEnv, pCfg?.AttackModEnv);
-    TrySetFloat(
-        instrument.GlobalZone, Generator.Type.ReleaseModEnv, pCfg?.ReleaseModEnv);
-    TrySetInt(
-        instrument.GlobalZone, Generator.Type.ModEnvToPitch, pCfg?.ModEnvToPitch);
-    TrySetLoopMode(
-        instrument.GlobalZone, pCfg?.LoopMode);
+    TrySetGenerators(instrument.GlobalZone, [pCfg]);
     
     var set = new HashSet<string>();
 
@@ -609,34 +596,12 @@ foreach (var (presetName, sounds) in presets)
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
 
-        TrySetFloat(
-            zone.Basic,
-            Generator.Type.AttackVolEnv,
-            cfg.AttackVolEnv ?? gCfg?.AttackVolEnv);
-        TrySetFloat(
-            zone.Basic,
-            Generator.Type.ReleaseVolEnv,
-            cfg.ReleaseVolEnv ?? gCfg?.ReleaseVolEnv);
-        TrySetFloat(
-            zone.Basic,
-            Generator.Type.AttackModEnv,
-            cfg.AttackModEnv ?? gCfg?.AttackModEnv);
-        TrySetFloat(
-            zone.Basic,
-            Generator.Type.ReleaseModEnv,
-            cfg.ReleaseModEnv ?? gCfg?.ReleaseModEnv);
-        TrySetInt(
-            zone.Basic,
-            Generator.Type.ModEnvToPitch,
-            cfg.ModEnvToPitch ?? gCfg?.ModEnvToPitch);
-        var loopModeSet = TrySetLoopMode(
-            zone.Basic,
-            cfg.LoopMode ?? gCfg?.LoopMode);
+        TrySetGenerators(zone.Basic, [cfg, gCfg]);
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
-            // TODO: if sample is very short, maybe mode 3 is a sensible default
-            var mode = cfg.LoopMode?.ToLowerInvariant() ?? "1";
+            var loopModeSet =
+                zone.Basic.GetGenerator(Generator.Type.SampleModes) != null;
 
             if ((
                 cfg.ReleaseVolEnv ??
@@ -656,7 +621,9 @@ foreach (var (presetName, sounds) in presets)
                 zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, tc);
             }
             else if (!loopModeSet)
-                TrySetLoopMode(zone.Basic, mode);
+                // TODO: if sample is very short, maybe mode 3 is a sensible default
+                TrySetLoopMode(
+                    zone.Basic, cfg.LoopMode?.ToLowerInvariant() ?? "1");
         }
         
         bank.Samples.Add(sample);
@@ -767,9 +734,9 @@ void TrySetInt(BasicZone zone, Generator.Type gen, int? genVal)
     zone.SetGenerator(gen, val);
 }
 
-bool TrySetLoopMode(BasicZone zone, string? genVal)
+void TrySetLoopMode(BasicZone zone, string? genVal)
 {
-    if (genVal is not {} val) return false;
+    if (genVal is not {} val) return;
     var mode = val.ToLowerInvariant() switch
     {
         "no" or "false" or "off" or "null" or "unset" => 0,
@@ -779,7 +746,54 @@ bool TrySetLoopMode(BasicZone zone, string? genVal)
         var m => int.Parse(m)
     };
     zone.SetGenerator(Generator.Type.SampleModes, mode);
-    return true;
+}
+
+void TrySetGenerators(BasicZone zone, List<BaseCfg?> cfgList)
+{
+    if (!cfgList.Any(cfg => cfg != null)) return;
+
+    foreach (var cfg in cfgList)
+        if (cfg?.SemitoneTuning is {} val)
+        {
+            TrySetInt(zone, Generator.Type.FineTune, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.AttackVolEnv is {} val)
+        {
+            TrySetFloat(zone, Generator.Type.AttackVolEnv, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.ReleaseVolEnv is {} val)
+        {
+            TrySetFloat(zone, Generator.Type.ReleaseVolEnv, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.AttackModEnv is {} val)
+        {
+            TrySetFloat(zone, Generator.Type.AttackModEnv, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.ReleaseModEnv is {} val)
+        {
+            TrySetFloat(zone, Generator.Type.ReleaseModEnv, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.ModEnvToPitch is {} val)
+        {
+            TrySetInt(zone, Generator.Type.ModEnvToPitch, val);
+            break;
+        }
+    foreach (var cfg in cfgList)
+        if (cfg?.LoopMode is {} val)
+        {
+            TrySetLoopMode(zone, val);
+            break;
+        }
 }
 
 [DoesNotReturn]
@@ -962,6 +976,8 @@ internal abstract class BaseCfg
     public bool? Norm;
     public int? Q;
     public int? SampleRate;
+
+    public int? SemitoneTuning;
 
     public double? AttackVolEnv;
     public double? ReleaseVolEnv;

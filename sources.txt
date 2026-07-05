@@ -29,10 +29,10 @@ VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/game
 
 233600__sortsapostata__snoring                          https://freesound.org/people/SortsApostata/sounds/233600/
 365372__rdpipo7777__ronquido                            https://freesound.org/people/rdpipo7777/sounds/365372/
-universfield-snore-250959                               https://pixabay.com/sound-effects/people-snore-250959/
-magiaz-snoring-389947_a                                 https://pixabay.com/sound-effects/people-snoring-389947/
-magiaz-snoring-389947_b                                 https://pixabay.com/sound-effects/people-snoring-389947/
-magiaz-snoring-389947_c                                 https://pixabay.com/sound-effects/people-snoring-389947/
+844964__taranliberation__snoring_a                      https://freesound.org/people/Taranliberation/sounds/844964/
+844964__taranliberation__snoring_b                      https://freesound.org/people/Taranliberation/sounds/844964/
+791248__jrwentertainment__snoring-30s-48khz24-bit       https://freesound.org/people/JRWEntertainment/sounds/791248/
+760036__stevielematt__snore-03_44100                    https://freesound.org/people/stevielematt/sounds/760036/
 
 743360__qubodup__strong-double-cough                    https://freesound.org/people/qubodup/sounds/743360/
 151217__owlstorm__cough-3                               https://freesound.org/people/OwlStorm/sounds/151217/
@@ -291,6 +291,13 @@ FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b https:
 
 218219__reitanna__knuckles-crack10                      https://freesound.org/people/Reitanna/sounds/218219/
 218220__reitanna__knuckles-crack8                       https://freesound.org/people/Reitanna/sounds/218220/
+
+241258__deleted_user_4389770__wolf-whistle              https://freesound.org/people/deleted_user_4389770/sounds/241258/
+256552__skiggz__attention-whistle                       https://freesound.org/people/Skiggz/sounds/256552/
+417392__frisko28i__whiste                               https://freesound.org/people/frisko28i/sounds/417392/
+132294__j_bond__male-whistle                            https://freesound.org/people/J_Bond/sounds/132294/
+19825__tommorawe__pfiff_whistle                         https://freesound.org/people/tommorawe/sounds/19825/
+146887__elle-trudgett__innocent-whistle                 https://freesound.org/people/elle-trudgett/sounds/146887/
 
 
 // Step
