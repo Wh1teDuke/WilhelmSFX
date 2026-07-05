@@ -553,11 +553,11 @@ Bluezone_BC0298_designed_water_texture_014              https://sonniss.com/game
 Bluezone_BC0298_designed_water_underwater_005           https://sonniss.com/gameaudiogdc/
 UWM008                                                  https://sonniss.com/gameaudiogdc/
 
-freesound_community-water-drop-3-84577                  https://pixabay.com/sound-effects/film-special-effects-water-drop-3-84577/
-freesound_community-water-drip-45622                    https://pixabay.com/sound-effects/film-special-effects-water-drip-45622/
-mrstokes302-water-droplet-sfx-mrstokes302-417690        https://pixabay.com/sound-effects/film-special-effects-water-droplet-sfx-mrstokes302-417690/
-dragon-studio-waterdrop-406639                          https://pixabay.com/sound-effects/film-special-effects-waterdrop-406639/
-alexzavesa-water-drop-tap-4-463593                      https://pixabay.com/sound-effects/nature-water-drop-tap-4-463593/
+174718__paespedro__single-water-drop                    https://freesound.org/people/paespedro/sounds/174718/
+166325__deleted_user_2104797__water_drop_9              https://freesound.org/people/deleted_user_2104797/sounds/166325/
+387949__giddster__water-splash-drops-3_a                https://freesound.org/people/giddster/sounds/387949/
+387949__giddster__water-splash-drops-3_b                https://freesound.org/people/giddster/sounds/387949/
+165206__metaepitome__water-drop-sound                   https://freesound.org/people/metaepitome/sounds/165206/
 
 208111__planman__poof-of-smoke                          https://freesound.org/people/Planman/sounds/208111/
 714257__qubodup__puff-of-smoke                          https://freesound.org/people/qubodup/sounds/714257/
@@ -590,9 +590,9 @@ WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi                 https://sonniss.com/game
 
 181801__keweldog__breeze                                https://freesound.org/people/keweldog/sounds/181801/
 
-storegraphic-crackling-fire-sound-309634                https://pixabay.com/sound-effects/nature-crackling-fire-sound-309634/
-djartmusic-short-fire-whoosh_1-317280                   https://pixabay.com/sound-effects/film-special-effects-short-fire-whoosh-1-317280/
-yodguard-fire-magic-5-378639                            https://pixabay.com/sound-effects/film-special-effects-fire-magic-5-378639/
+757203__henkonen__fire-burning-loop                     https://freesound.org/people/HenKonen/sounds/757203/
+687010__jo000__fire-ignite                              https://freesound.org/people/Jo000/sounds/687010/
+442677__qubodup__tree-burns-down                        https://freesound.org/people/qubodup/sounds/442677/
 
 471158__audroger__embers-4                              https://freesound.org/people/AuDRoger/sounds/471158/
 471161__audroger__embers-1                              https://freesound.org/people/AuDRoger/sounds/471161/

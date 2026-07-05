@@ -636,11 +636,11 @@ Presets:
       File: UWM008
       LoopEnd: all
 
-    Drop1: freesound_community-water-drop-3-84577
-    Drop2: freesound_community-water-drip-45622
-    Drop3: mrstokes302-water-droplet-sfx-mrstokes302-417690
-    Drop4: dragon-studio-waterdrop-406639
-    Drop5: alexzavesa-water-drop-tap-4-463593
+    Drop1: 174718__paespedro__single-water-drop
+    Drop2: 166325__deleted_user_2104797__water_drop_9
+    Drop3: 387949__giddster__water-splash-drops-3_a
+    Drop4: 387949__giddster__water-splash-drops-3_b
+    Drop5: 165206__metaepitome__water-drop-sound
 
     SmokePoof1: 208111__planman__poof-of-smoke
     SmokePoof2: 714257__qubodup__puff-of-smoke
@@ -703,12 +703,10 @@ Presets:
       LoopEnd: all
 
     Fire1:
-      File: storegraphic-crackling-fire-sound-309634
-      LoopStart: .665
-      LoopEnd: 5.437
-
-    Fire2: djartmusic-short-fire-whoosh_1-317280
-    Fire3: yodguard-fire-magic-5-378639
+      File: 757203__henkonen__fire-burning-loop
+      LoopEnd: all
+    Fire2: 687010__jo000__fire-ignite
+    Fire3: 442677__qubodup__tree-burns-down
 
     Embers1:
       File: 471158__audroger__embers-4
