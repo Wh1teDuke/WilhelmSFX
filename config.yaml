@@ -552,14 +552,24 @@ Presets:
 
     Squirrel1: yell-YELLSGYredsquirrel2004320
 
-    Rat1: 397651__sieuamthanh__chuot07
-    Rat2: tanweraman-mouse-squeak-261126
-    Rat3: sound_garage-rat-squeaks-1-fx-396297
+    Rat1:
+      File: 397651__sieuamthanh__chuot07
+      TrimDb: -55
 
-    Bat1: freesound_community-double-squeak-2-103875_a
-    Bat2: freesound_community-double-squeak-2-103875_b
-    Bat3: the-vampires-monster-bat-chirping-type-2-355965_a
-    Bat4: the-vampires-monster-bat-chirping-type-2-355965_b
+    Rat2:
+      File: 472399__joseagudelo__16_raton_chillando
+      Trim: false
+
+    Rat3:
+      File: 397488__sieuamthanh__chuot02
+      TrimDb: -55
+
+    Bat1: 352899__sastoryteller__hanging-bats-two-with-wings
+    Bat2: 320721__pillonoise__bat-sounds_a
+    Bat3: 320721__pillonoise__bat-sounds_b
+    Bat4:
+      File: 455593__coelhoigor__bat-chirp-close-up
+      Trim: false
 
     Snake1: 423454__florianreichelt__snarling-snake
     Snake2: 268580__7h3_lark__rattle_snake
