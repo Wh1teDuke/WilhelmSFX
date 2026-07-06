@@ -21,7 +21,7 @@ Used sites:
 
 ***
 
-## Effect List (773)
+## Effect List (774)
 &nbsp;
 ### Male (55)
 
@@ -559,7 +559,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (97)
+### Animal (98)
 
 
 
@@ -693,8 +693,8 @@ Used sites:
 
 
 
-[Monkey 1](https://pixabay.com/sound-effects/nature-monkey-128368/ "u zpj3vbdres monkey 128368") 
-*`chatter`, `screech`, `ape`, `primate`, `jungle`*
+[Monkey 1](https://freesound.org/people/wilika2/sounds/588625/ "monkey noise imitation 3") [2](https://freesound.org/people/wilika2/sounds/588623/ "monkey noise imitation") 
+*`chatter`, `screech`, `ape`, `primate`, `jungle`, `chimp`*
 
 
 

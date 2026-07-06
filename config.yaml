@@ -544,7 +544,12 @@ Presets:
 
     Elephant1: 527845__djones__elephant-trumpets-growls
 
-    Monkey1: u_zpj3vbdres-monkey-128368
+    Monkey1:
+      File: 588625__wilika2__monkey-noise-imitation-3
+      TrimDb: -70
+    Monkey2:
+      File: 588623__wilika2__monkey-noise-imitation
+      TrimDb: -63
 
     Lion1: 516829__lilmati__lion-growl
     Lion2: 675443__craigsmith__s01-09_short-lion-roars

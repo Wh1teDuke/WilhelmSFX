@@ -502,7 +502,8 @@ ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA               https://sonniss.com/game
 
 527845__djones__elephant-trumpets-growls                https://freesound.org/people/D.jones/sounds/527845/
 
-u_zpj3vbdres-monkey-128368                              https://pixabay.com/sound-effects/nature-monkey-128368/
+588625__wilika2__monkey-noise-imitation-3               https://freesound.org/people/wilika2/sounds/588625/
+588623__wilika2__monkey-noise-imitation                 https://freesound.org/people/wilika2/sounds/588623/
 
 516829__lilmati__lion-growl                             https://freesound.org/people/LilMati/sounds/516829/
 675443__craigsmith__s01-09_short-lion-roars             https://freesound.org/people/craigsmith/sounds/675443/
