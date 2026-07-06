@@ -418,9 +418,8 @@ MonsterPack2_Monster09_Death02                          https://sonniss.com/game
 
 ANMLDog_Dog_Shuffle,_Grunt,_Movement,_Lying_Down_344_Audio_Dog_Vocalisations  https://sonniss.com/gameaudiogdc/
 
-universfield-wolf-howling-140235                        https://pixabay.com/sound-effects/nature-wolf-howling-140235/
-dragon-studio-wolf-howl-2-359870                        https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/
-dragon-studio-a-lone-wolf-cries-359871                  https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/
+500646__betchkal__cooper-creek-20160313_014852-solitary-wolf-howl-very-clear  https://freesound.org/people/betchkal/sounds/500646/
+640986__beautifuldaymonster1968__the-classic-wolf-tv-howl https://freesound.org/people/beautifuldaymonster1968/sounds/640986/
 yell-YELLWolvesDec252013                                https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm
 
 yell-YELLgrizzlyC20160626SM303143_a                     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm

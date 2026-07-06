@@ -16,12 +16,11 @@ Used sites:
 
 - [freesound.org](https://freesound.org)
 - [sonniss.com](https://sonniss.com)
-- [pixabay.com](https://pixabay.com)
 - [www.nps.gov](https://www.nps.gov)
 
 ***
 
-## Effect List (774)
+## Effect List (773)
 &nbsp;
 ### Male (55)
 
@@ -559,7 +558,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (98)
+### Animal (97)
 
 
 
@@ -588,7 +587,7 @@ Used sites:
 
 
 
-[Wolf 1](https://pixabay.com/sound-effects/nature-wolf-howling-140235/ "universfield wolf howling 140235") [2](https://pixabay.com/sound-effects/horror-wolf-howl-2-359870/ "dragon studio wolf howl 2 359870") [3](https://pixabay.com/sound-effects/nature-a-lone-wolf-cries-359871/ "dragon studio a lone wolf cries 359871") [4](https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm "yell YELLWolvesDec252013") 
+[Wolf 1](https://freesound.org/people/betchkal/sounds/500646/ "cooper creek 20160313 014852 solitary wolf howl very clear") [2](https://freesound.org/people/beautifuldaymonster1968/sounds/640986/ "the classic wolf tv howl") [3](https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm "yell YELLWolvesDec252013") 
 *`howl`, `pack`*
 
 
