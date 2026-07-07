@@ -9,6 +9,10 @@ Settings:
     Male.Snore:
       ReleaseVolEnv: 0.5
 
+    Action.Pee:
+      ReleaseVolEnv: 0.5
+      TrimDb: -50
+
     Nature.Waves:
       ReleaseVolEnv: 4.0
 
@@ -321,6 +325,22 @@ Presets:
     Puke2:
       File: 135415__turroe22__gagging-1
       Trim: false
+
+    Pee1:
+      File: 640948__metrowned__peeing
+      Seek: 0.3
+      LoopStart: 0.486
+      LoopEnd: 5.145
+
+    Pee2:
+      File: 232539__arnaump__male-peeing
+      LoopStart: 0.248
+      LoopEnd: 4.046
+
+    Pee3:
+      File: 498979__16fpanska_urbanek_jonas__15piss
+      LoopStart: 0.836
+      LoopEnd: 5.734
 
     Chew1: 275015__wadaltmon__bite-apple
     Chew2: 528962__steenish__crunch

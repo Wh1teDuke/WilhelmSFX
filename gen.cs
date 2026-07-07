@@ -376,7 +376,19 @@ if (!outputDir.Exists)
         }
 
         var pCfg = presetToCfg.GetValueOrDefault(cfg.Meta.Preset);
-        var gCfg = GetGroupCfg(cfg.Meta.Name);
+        var gCfg = GetGroupCfg(cfg.Meta.FullName);
+
+        var seek = cfg.Seek ?? gCfg?.Seek ?? pCfg?.Seek;
+        var trim = cfg.Trim ?? gCfg?.Trim ?? pCfg?.Trim ?? true;
+        var trimDb = cfg.TrimDb ?? gCfg?.TrimDb ?? pCfg?.TrimDb ?? -45;
+        var sRate = cfg.SampleRate ??
+            gCfg?.SampleRate ?? pCfg?.SampleRate ?? sampleRate;
+        var sQ = cfg.Q ?? gCfg?.Q ?? pCfg?.Q ?? q;
+
+        sRate = (int)Math.Round(sRate *
+            (cfg.MulSampleRate ?? gCfg?.MulSampleRate ?? pCfg?.MulSampleRate ?? 1));
+        sQ = (int)Math.Round(sQ *
+            (cfg.MulQ ?? gCfg?.MulQ ?? pCfg?.MulQ ?? 1));
 
         var cmd =
             // Quiet output
@@ -387,11 +399,13 @@ if (!outputDir.Exists)
             "-vn "
         ;
 
+        if (seek != null) cmd += $" -ss {seek} ";
+
         var filters = "";
 
         // Trim silence from start/end
-        if (cfg.Trim ?? true)
-            filters += string.Format(filterTrim, cfg.TrimDb ?? -45);
+        if (trim)
+            filters += string.Format(filterTrim, trimDb);
 
         // Playback rate
         if (cfg.Speed is {} speed)
@@ -411,16 +425,6 @@ if (!outputDir.Exists)
 
         if (filters != "")
             filters = "-af \"" + filters.TrimEnd(',') + "\" ";
-
-        var sRate = cfg.SampleRate ??
-            gCfg?.SampleRate ?? pCfg?.SampleRate ?? sampleRate;
-        var sQ = cfg.Q ??
-            gCfg?.Q ?? pCfg?.Q ?? q;
-
-        sRate = (int)Math.Round(sRate *
-            (cfg.MulSampleRate ?? gCfg?.MulSampleRate ?? pCfg?.MulSampleRate ?? 1));
-        sQ = (int)Math.Round(sQ *
-            (cfg.MulQ ?? gCfg?.MulQ ?? pCfg?.MulQ ?? 1));
 
         // TODO: Save original samplerate
         sRate = int.Clamp(sRate, 750, 96_000);
@@ -500,7 +504,7 @@ foreach (var sCfg in presets.Values
         if (dur.New / dur.Old > .51) return;
         
         Warn(
-            $"'{sCfg.Meta.Preset}.{sCfg.Meta.Name}' excesive trim (Old={
+            $"'{sCfg.Meta.FullName}' excesive trim (Old={
             dur.Old:F3}, New={dur.New:F3})");
     }
 }
@@ -559,7 +563,7 @@ foreach (var (presetName, sounds) in presets)
         // Sample
         var sRate = cfg.Meta.FinalSampleRate;
         var audioData = File.ReadAllBytes(file.FullName);
-        var sampleName = presetName + "." + soundName;
+        var sampleName = cfg.Meta.FullName;
         var sampleDuration = sampleToDuration[fileName];
         var sampleDurLen = (int)(sampleDuration * sRate);
 
@@ -604,8 +608,8 @@ foreach (var (presetName, sounds) in presets)
                 zone.Basic.GetGenerator(Generator.Type.SampleModes) != null;
 
             if ((
-                cfg.ReleaseVolEnv ??
-                cfg.ReleaseModEnv ??
+                (cfg.ReleaseVolEnv ?? gCfg?.ReleaseVolEnv ?? pCfg?.ReleaseVolEnv) ??
+                (cfg.ReleaseModEnv ?? gCfg?.ReleaseModEnv ?? pCfg?.ReleaseModEnv) ??
                 null) is not null)
             {
                 // Empty
@@ -970,6 +974,7 @@ internal static class Log
 #region Model
 internal abstract class BaseCfg
 {
+    public double? Seek;
     public double? Speed;
     public bool? Trim;
     public int? TrimDb;
@@ -1005,6 +1010,8 @@ internal sealed class SampleCfg: BaseCfg
         public string Ext = "";
 
         public int FinalSampleRate = 0;
+
+        public string FullName => Preset + "." + Name;
     }
 
     public SampleMeta Meta = new();

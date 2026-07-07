@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (773)
+## Effect List (776)
 &nbsp;
 ### Male (55)
 
@@ -340,7 +340,7 @@ Used sites:
 
 
 &nbsp;
-### Action (62)
+### Action (65)
 
 
 
@@ -386,6 +386,11 @@ Used sites:
 
 [Puke 1](https://freesound.org/people/RavenBlueFeather/sounds/606981/ "gage") [2](https://freesound.org/people/Turroe22/sounds/135415/ "gagging 1") 
 *`gage`, `retching`, `vomit`, `throat`, `nausea`, `sick`, `spew`*
+
+
+
+[Pee 1](https://freesound.org/people/Metrowned/sounds/640948/ "peeing") [2](https://freesound.org/people/arnaump/sounds/232539/ "male peeing") [3](https://freesound.org/people/16FPanska_Urbanek_Jonas/sounds/498979/ "15piss") 
+*`bathroom`, `water`, `toilet`, `urinate`, `piss`*
 
 
 
