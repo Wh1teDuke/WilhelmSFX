@@ -97,6 +97,7 @@ if (includeExtra && Directory.Exists("ExtraSamples"))
 var deserializer = new DeserializerBuilder()
     .WithNamingConvention(PascalCaseNamingConvention.Instance)
     .WithNodeDeserializer(new SampleCfgDeserializer(), s => s.OnTop())
+    .WithDuplicateKeyChecking()
     .Build();
 
 var presets = new Dictionary<string, List<(string, SampleCfg)>>();

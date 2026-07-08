@@ -213,7 +213,8 @@ Scratch tapping friction scrape
 Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
 Vinyl record scratch stop rewind turntable dj
 Saw wood plank cut board carpentry scraping
-SocketWrench clack click ratchet rattle screw
+SocketWrench clack click ratchet rattle screw repair tool
+Hanger rattle moving wardrobe metal
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
@@ -295,7 +296,7 @@ Knob handle squeak latch mechanism
 
 # Hit
 Swing swipe strike whiff miss
-Slap smack impact
+Slap smack impact ouch strike
 Arrow bow trajectory shot
 Crossbow bolt string
 Punch strike smash hit impact combat

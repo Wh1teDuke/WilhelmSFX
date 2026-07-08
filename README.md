@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (795)
+## Effect List (802)
 &nbsp;
 ### Male (55)
 
@@ -863,7 +863,7 @@ Used sites:
 
 
 &nbsp;
-### Item (98)
+### Item (102)
 
 
 
@@ -1072,8 +1072,13 @@ Used sites:
 
 
 
-[SocketWrench 1](https://freesound.org/people/Loinnats/sounds/616628/ "socket wrench") 
-*`clack`, `click`, `ratchet`, `rattle`, `screw`*
+[SocketWrench 1](https://freesound.org/people/Loinnats/sounds/616628/ "socket wrench") [2](https://freesound.org/people/Rudmer_Rotteveel/sounds/591528/ "ratchet wrench slow multiple") [3](https://freesound.org/people/AlaskaRobotics/sounds/551497/ "ratchet socket wrench tool") 
+*`clack`, `click`, `ratchet`, `rattle`, `screw`, `repair`, `tool`*
+
+
+
+[Hanger 1](https://freesound.org/people/Millavsb/sounds/197892/ "moving coat hangers in an metal suport a") [2](https://freesound.org/people/Millavsb/sounds/197892/ "moving coat hangers in an metal suport b") 
+*`rattle`, `moving`, `wardrobe`, `metal`*
 
 
 
@@ -1464,7 +1469,7 @@ Used sites:
 
 
 &nbsp;
-### Hit (53)
+### Hit (55)
 
 
 
@@ -1473,8 +1478,8 @@ Used sites:
 
 
 
-[Slap 1](https://freesound.org/people/MootMcnoodles/sounds/444407/ "slap") 
-*`smack`, `impact`*
+[Slap 1](https://freesound.org/people/MootMcnoodles/sounds/444407/ "slap") [2](https://freesound.org/people/Loinnats/sounds/616628/ "smack1") [3](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564230/ "huge slap in the face") 
+*`smack`, `impact`, `ouch`, `strike`*
 
 
 
@@ -1670,11 +1675,11 @@ Used sites:
 
 
 &nbsp;
-### Bang (8)
+### Bang (9)
 
 
 
-[Boom 1](https://freesound.org/people/deleted_user_364925/sounds/47252/ "bad explosion") [2](https://freesound.org/people/Colin.LeBlanc.Sound/sounds/803198/ "explosion synth") [3](https://freesound.org/people/SamsterBirdies/sounds/745549/ "beefy explosions") 
+[Boom 1](https://freesound.org/people/deleted_user_364925/sounds/47252/ "bad explosion") [2](https://freesound.org/people/Colin.LeBlanc.Sound/sounds/803198/ "explosion synth") [3](https://freesound.org/people/SamsterBirdies/sounds/745549/ "beefy explosions") [4](https://freesound.org/people/derplayer/sounds/587183/ "explosion 03") 
 *`explosion`, `blast`, `detonation`, `bomb`, `burst`*
 
 

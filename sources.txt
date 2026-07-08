@@ -756,6 +756,11 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 850179__mihacappy__sawing_wood_plank                    https://freesound.org/people/Mihacappy/sounds/850179/
 
 616628__loinnats__socket-wrench                         https://freesound.org/people/Loinnats/sounds/616628/
+591528__rudmer_rotteveel__ratchet-wrench-slow-multiple  https://freesound.org/people/Rudmer_Rotteveel/sounds/591528/
+551497__alaskarobotics__ratchet-socket-wrench-tool      https://freesound.org/people/AlaskaRobotics/sounds/551497/
+
+197892__millavsb__moving-coat-hangers-in-an-metal-suport_a  https://freesound.org/people/Millavsb/sounds/197892/
+197892__millavsb__moving-coat-hangers-in-an-metal-suport_b  https://freesound.org/people/Millavsb/sounds/197892/
 
 
 // Machine
@@ -1012,6 +1017,8 @@ DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_
 420670__sypherzent__strong-melee-swing                  https://freesound.org/people/SypherZent/sounds/420670/
 
 444407__mootmcnoodles__slap                             https://freesound.org/people/MootMcnoodles/sounds/444407/
+206115__blazerdragoon__smack1                           https://freesound.org/people/Loinnats/sounds/616628/
+564230__njjjjjjjjjjjjjjjjjjjjjjjj__huge-slap-in-the-face  https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564230/
 
 511490__lydmakeren__fx_bowarrow                         https://freesound.org/people/Lydmakeren/sounds/511490/
 
@@ -1145,6 +1152,7 @@ Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://
 47252__deleted_user_364925__bad-explosion               https://freesound.org/people/deleted_user_364925/sounds/47252/
 803198__colinleblancsound__explosion-synth              https://freesound.org/people/Colin.LeBlanc.Sound/sounds/803198/
 745549__samsterbirdies__beefy-explosions                https://freesound.org/people/SamsterBirdies/sounds/745549/
+587183__derplayer__explosion_03                         https://freesound.org/people/derplayer/sounds/587183/
 
 587195__derplayer__explosion_07                         https://freesound.org/people/derplayer/sounds/587195/
 587191__derplayer__firework_twister                     https://freesound.org/people/derplayer/sounds/587191/

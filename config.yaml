@@ -288,7 +288,6 @@ Presets:
       File: 11559__samplecat__put-down-anything
       TrimDb: -50
 
-
     Swallow1: 368711__mikes-multimedia__heavy_swallow
     Swallow2: 445970__breviceps__drink-drinking-liquid
     Swallow3: 531755__magnuswaker__gulp-hard-swallow
@@ -917,6 +916,11 @@ Presets:
       LoopEnd: all
 
     SocketWrench1: 616628__loinnats__socket-wrench
+    SocketWrench2: 591528__rudmer_rotteveel__ratchet-wrench-slow-multiple
+    SocketWrench3: 551497__alaskarobotics__ratchet-socket-wrench-tool
+
+    Hanger1: 197892__millavsb__moving-coat-hangers-in-an-metal-suport_a
+    Hanger2: 197892__millavsb__moving-coat-hangers-in-an-metal-suport_b
 
   Machine:
     Motor1:
@@ -1295,6 +1299,8 @@ Presets:
     Swing4: 420670__sypherzent__strong-melee-swing
 
     Slap1: 444407__mootmcnoodles__slap
+    Slap2: 206115__blazerdragoon__smack1
+    Slap3: 564230__njjjjjjjjjjjjjjjjjjjjjjjj__huge-slap-in-the-face
 
     Arrow1: 511490__lydmakeren__fx_bowarrow
 
@@ -1428,6 +1434,7 @@ Presets:
     Boom1: 47252__deleted_user_364925__bad-explosion
     Boom2: 803198__colinleblancsound__explosion-synth
     Boom3: 745549__samsterbirdies__beefy-explosions
+    Boom4: 587183__derplayer__explosion_03
 
     Firework1: 587195__derplayer__explosion_07
     Firework2: 587191__derplayer__firework_twister # TODO Loop
