@@ -273,7 +273,21 @@ Presets:
 
   Action:
     Grab1: 651515__1bob__grab-item
-    Grab2: 841596__qubodup__grab-item
+    Grab2: 704749__err0rc0de__grab-item
+    Grab3: 841596__qubodup__grab-item
+    Grab4: 536418__rudmer_rotteveel__pill-bottle-grab
+    Grab5: 248027__sophiehall3535__grab-keys
+    Grab6: 405531__nebulasnails__keys-grabbing
+
+    Put1: 335751__j1987__put_item
+    Put2:
+      File: 404922__squidge316__putting-down-a-mug-on-a-table
+      Seek: .335
+    Put3: 444442__mtjohnson__putting-down-messenger-bag
+    Put4:
+      File: 11559__samplecat__put-down-anything
+      TrimDb: -50
+
 
     Swallow1: 368711__mikes-multimedia__heavy_swallow
     Swallow2: 445970__breviceps__drink-drinking-liquid
@@ -356,15 +370,18 @@ Presets:
     Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
 
     Push1:
-      File: 391960__ssierra1202__dragged
-      LoopStart: .05
-      LoopEnd: .25
-      Trim: false
-
-    Push2:
       File: 146408__crashoverride6__sand-on-paper-dragged-long
       LoopStart: .5
       LoopEnd: 1.7
+
+    Push2:
+      File: 828629__c64cosmin__pushing-cardboard-box
+      LoopEnd: all
+
+    Push3:
+      File: 558254__msavioti__heavy-stone-push
+      LoopStart: 0.077
+      LoopEnd: 0.53
 
     FingerSnap1: 332604__vckhaze__single-finger-snap
     FingerSnap2: 151214__owlstorm__click-finger-snap
@@ -754,9 +771,17 @@ Presets:
     Clink3: 416288__fugeni__empty-beer-bottles-clinking-clanking
     Clink4: 608709__somatik7__bottles-2
 
-    OpenLid1: 523322__marviinr__opening-beer-can
-    OpenLid2: 350618__supersnd__soda-bottle-open
-    OpenLid3: OBJCont_Flask,glass,figuredbottle,realcork,liquid,remove,squeak,slosh,alt4_EWKR
+    LidOpen1: 523322__marviinr__opening-beer-can
+    LidOpen2: 350618__supersnd__soda-bottle-open
+    LidOpen3:
+      File: OBJCont_Flask,glass,figuredbottle,realcork,liquid,remove,squeak,slosh,alt4_EWKR
+      TrimDb: -60
+
+    DrawerOpen1: 749634__nox_sound__foley_drawer_wood_old_manipulation_sequence_stereo_pcmd100_a
+    DrawerOpen2: 802695__vrymaa__furniture-drawers-open-close_a
+
+    DrawerClose1: 749634__nox_sound__foley_drawer_wood_old_manipulation_sequence_stereo_pcmd100_b
+    DrawerClose2: 802695__vrymaa__furniture-drawers-open-close_b
 
     PotLid1: 210100__bowlingballout__pot-lid_a
     PotLid2: 210100__bowlingballout__pot-lid_b
@@ -1222,14 +1247,24 @@ Presets:
 
     Slide1: 176146__swagmuffinplus__sliding-doors
     Slide2: 425090__neospica__pressurized-door-opening
-    Slide3: 243699__ertfelda__hidden-wall-opening
+    Slide3: 522127__bowesy__traincontainer-sliding-door
+    Slide4: 243699__ertfelda__hidden-wall-opening
 
     Metal1: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_a
     Metal2: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_b
 
+    LockerOpen1:
+      File: 242227__ehohnke__lockeropenclose_a
+      TrimDb: -50
+
+    LockerOpen2: 522043__garuda1982__metal-locker
+
+    LockerClose1: 242227__ehohnke__lockeropenclose_b
+    LockerClose2: 209656__soundscape_leuphana__20131203_closing-locker-_zoomh2nxy
+
     Creak1:
       File: 219499__jarredgibb__door-creak
-      Trim: false
+      TrimDb: -40
 
     Close1: 117614__soundmary__door-close
     Close2: 48980__lunardrive__metal-door-slam_soundsmith
@@ -1449,4 +1484,5 @@ Presets:
 
   # Don't know where to put these
   Etc:
-    WoodenCrate1: 214871__fantozzi__the-big-squeak-3-wooden-crate
+    WoodCreak1: 214871__fantozzi__the-big-squeak-3-wooden-crate
+    WoodCreak2: 629942__kyles__wood-creaks-heavy-deep-old-armoir-wardrobe-closet-door-open-close

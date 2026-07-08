@@ -602,15 +602,14 @@ foreach (var (presetName, sounds) in presets)
 
         TrySetGenerators(zone.Basic, [cfg, gCfg]);
 
+        // Defeault release vol and loop mode
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
             var loopModeSet =
                 zone.Basic.GetGenerator(Generator.Type.SampleModes) != null;
 
-            if ((
-                (cfg.ReleaseVolEnv ?? gCfg?.ReleaseVolEnv ?? pCfg?.ReleaseVolEnv) ??
-                (cfg.ReleaseModEnv ?? gCfg?.ReleaseModEnv ?? pCfg?.ReleaseModEnv) ??
-                null) is not null)
+            if ((cfg.ReleaseVolEnv ?? gCfg?.ReleaseVolEnv ?? pCfg?.ReleaseVolEnv)
+                is not null)
             {
                 // Empty
             }

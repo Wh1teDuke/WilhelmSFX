@@ -63,7 +63,8 @@ Protest demostration rally outcry revolt
 ChildrenYell loud yeah squeal shriek
 
 # Action
-Grab Pickup take loot inventory item collect
+Grab pickup take loot inventory item collect snatch
+Put place thud item
 Swallow Gulp drinking chugging throat chug
 ClimbLadder climbing rung stepping scaling
 Boil bubbling cooking hot kitchen potion
@@ -173,7 +174,9 @@ Embers Crackling coals burning hearth
 # Item
 Pour liquid glass
 Clink Clank bottle cheers
-OpenLid bottle can hiss crack
+LidOpen bottle can hiss crack
+DrawerOpen pull wood furniture slide friction
+DrawerClose push wood furniture slide friction
 PotLid clang cookware kitchenware rattle
 Sharpen Blade scrape friction grindstone
 CashReg register store money
@@ -279,6 +282,8 @@ Transform construction grind engine circuit whirring
 Open entrance portal
 Slide pneumatic pressurized hidden
 Metal gate screech rusty creak
+LockerOpen metal storage hinge
+LockerClose metal storage hinge
 Creak squeak wooden rusty
 Close slam shut
 Curtain shower fabric
@@ -346,4 +351,4 @@ Alarm siren antitheft security
 Siren air alarm army raid
 
 # Etc
-WoodenCrate creak squeak
+WoodCreak old squeak wardrobe crate
