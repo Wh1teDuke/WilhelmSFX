@@ -118,7 +118,6 @@ DogGrunt canine sigh groan murmur
 Wolf Howl pack
 Bear Grizzly roar predator apex
 ChorusFrog Frogs croaking ribbit amphibians
-ChorusCicada swarm crickets insect
 Chicken Rooster cluck cocorico
 Eagle Hawk falcon screech
 Cow Moo cattle bovine farm
@@ -134,18 +133,28 @@ Dove bird cry pigeon
 Owl hoot night spooky avian
 Crow Caw raven rook ominous
 Seagull bird chirp ocean
-Pig Oink grunt squeal swine
-Elephant Trumpet safari pachyderm
-Monkey Chatter screech ape primate jungle chimp
+Pig oink grunt squeal swine
+Elephant trumpet safari pachyderm
+Monkey chatter screech ape primate jungle chimp lemur
 Lion Roar growl snarl apex
 Squirrel Rodent chatter chip
 Rat Mouse squeak rodent chatter pest chu rodent chirp
 Bat vampire chirp cave
 Snake cobra snarle hiss rattle
-Bug skitter scurry chitter larvae parasite
 Frog Croak toad quack ribbit amphibian swamp
-Cicada Insect buzz
 WingFlap Flapping airborne
+
+# Bug
+Bug skitter scurry chitter larvae parasite
+Cicada Insect buzz
+ChorusCicada swarm crickets insect
+Cricket chirp
+Wasp buzz bee fly
+Mosquito buzz fly
+Katydid rattle
+Grasshopper crick locust
+Beetle buzz screech squark
+Roach hiss
 
 # Nature
 Waves beach coast ocean sea shore water
@@ -249,6 +258,7 @@ Dial calling tones
 Beep blip tone ping
 Radar sonar pulse scan detection
 Calculate ai computer robot
+Rewind tape cassete playback reverse
 
 # Gun
 Laser blaster plasma energy beam pew

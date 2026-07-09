@@ -444,9 +444,6 @@ yell-YELLGrizzlyBearVocalizations20160520Android1_c     https://www.nps.gov/yell
 
 yell-ChorusFrogs                                        https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm
 
-320113__laughatlantic__cicadas                          https://freesound.org/people/laughatlantic/sounds/320113/
-493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania  https://freesound.org/people/heyheymaimai/sounds/493058/
-
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
 435508__benjaminnelan__rooster-crow-1                   https://freesound.org/people/rafaelpicoli/sounds/392029/
@@ -517,6 +514,9 @@ ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA               https://sonniss.com/game
 
 588625__wilika2__monkey-noise-imitation-3               https://freesound.org/people/wilika2/sounds/588625/
 588623__wilika2__monkey-noise-imitation                 https://freesound.org/people/wilika2/sounds/588623/
+845712__thekingofgeeks360__primates-black-and-white-ruffed-lemur-take-2_a https://freesound.org/people/TheKingOfGeeks360/sounds/845712/
+845712__thekingofgeeks360__primates-black-and-white-ruffed-lemur-take-2_b https://freesound.org/people/TheKingOfGeeks360/sounds/845712/
+845712__thekingofgeeks360__primates-black-and-white-ruffed-lemur-take-2_c https://freesound.org/people/TheKingOfGeeks360/sounds/845712/
 
 516829__lilmati__lion-growl                             https://freesound.org/people/LilMati/sounds/516829/
 675443__craigsmith__s01-09_short-lion-roars             https://freesound.org/people/craigsmith/sounds/675443/
@@ -536,18 +536,44 @@ yell-YELLSGYredsquirrel2004320                          https://www.nps.gov/yell
 423454__florianreichelt__snarling-snake                 https://freesound.org/people/florianreichelt/sounds/423454/
 268580__7h3_lark__rattle_snake                          https://freesound.org/people/7h3_lark/sounds/268580/
 
-CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes https://sonniss.com/gameaudiogdc/
-
 536759__egomassive__frog                                https://freesound.org/people/egomassive/sounds/536759/
 361117__katzlbt__frog_quak                              https://freesound.org/people/katzlbt/sounds/361117/
+
+389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
+244982__ani_music__wing-flap-flag-flapping-5a           https://freesound.org/people/ani_music/sounds/244982/
+
+
+
+// Bug
+
+CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes https://sonniss.com/gameaudiogdc/
 
 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night https://freesound.org/people/Attia.phonatics/sounds/829810/
 640718__soundofsong__cicada-insect-loop                 https://freesound.org/people/soundofsong/sounds/640718/
 515053__nox_sound__animal_cicada_solo_loop              https://freesound.org/people/Nox_Sound/sounds/515053/
 
-389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
-244982__ani_music__wing-flap-flag-flapping-5a           https://freesound.org/people/ani_music/sounds/244982/
+320113__laughatlantic__cicadas                          https://freesound.org/people/laughatlantic/sounds/320113/
+493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania  https://freesound.org/people/heyheymaimai/sounds/493058/
 
+69439__guitarguy1985__synth-cricket                     https://freesound.org/people/guitarguy1985/sounds/69439/
+737195__sadiquecat__cricket                             https://freesound.org/people/Sadiquecat/sounds/737195/
+164485__deleted_user_2104797__cricket-2                 https://freesound.org/people/deleted_user_2104797/sounds/164485/
+753271__heckfricker__single-cricket-chirping-close-perspective-01 https://freesound.org/people/HECKFRICKER/sounds/753271/
+
+856767__loganzsound__wasp-buzzing-03                    https://freesound.org/people/loganzsound/sounds/856767/
+
+525122__allistersandwich__mosquito                      https://freesound.org/people/danielp27/sounds/409354/
+
+637065__lukewarm_sound__katydid_rattle_insect_chorus    https://freesound.org/people/lukewarm_sound/sounds/637065/
+
+827358__cregstorm__grasshopper-close-up-recording       https://freesound.org/people/cregstorm/sounds/827358/
+
+502211__warrenxg__beetle-squark5                        https://freesound.org/people/warrenXG/sounds/502211/
+
+811205__thekingofgeeks360__insects-madagascar-hissing-cockroach-several-hisses_a https://freesound.org/people/TheKingOfGeeks360/sounds/811205/
+811205__thekingofgeeks360__insects-madagascar-hissing-cockroach-several-hisses_b https://freesound.org/people/TheKingOfGeeks360/sounds/811205/
+811205__thekingofgeeks360__insects-madagascar-hissing-cockroach-several-hisses_c https://freesound.org/people/TheKingOfGeeks360/sounds/811205/
+811205__thekingofgeeks360__insects-madagascar-hissing-cockroach-several-hisses_d https://freesound.org/people/TheKingOfGeeks360/sounds/811205/
 
 
 // Nature
@@ -869,6 +895,8 @@ Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/game
 
 390531__freedomfightervictor__calculating               https://freesound.org/people/freedomfightervictor/sounds/390531/
 
+700527__lukaix__rewind-short                            https://freesound.org/people/LuKaiX/sounds/700527/
+372876__simplewave__tape-recorder-rewind-fanmade        https://freesound.org/people/simplewave/sounds/372876/
 
 
 // Gun

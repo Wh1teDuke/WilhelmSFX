@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (802)
+## Effect List (820)
 &nbsp;
 ### Male (55)
 
@@ -568,7 +568,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (97)
+### Animal (94)
 
 
 
@@ -609,11 +609,6 @@ Used sites:
 
 [ChorusFrog 1](https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm "yell ChorusFrogs") 
 *`frogs`, `croaking`, `ribbit`, `amphibians`*
-
-
-
-[ChorusCicada 1](https://freesound.org/people/laughatlantic/sounds/320113/ "cicadas") [2](https://freesound.org/people/heyheymaimai/sounds/493058/ "periodical cicada chorus at keystone state park pennsylvania") 
-*`swarm`, `crickets`, `insect`*
 
 
 
@@ -702,8 +697,8 @@ Used sites:
 
 
 
-[Monkey 1](https://freesound.org/people/wilika2/sounds/588625/ "monkey noise imitation 3") [2](https://freesound.org/people/wilika2/sounds/588623/ "monkey noise imitation") 
-*`chatter`, `screech`, `ape`, `primate`, `jungle`, `chimp`*
+[Monkey 1](https://freesound.org/people/wilika2/sounds/588625/ "monkey noise imitation 3") [2](https://freesound.org/people/wilika2/sounds/588623/ "monkey noise imitation") [3](https://freesound.org/people/TheKingOfGeeks360/sounds/845712/ "primates black and white ruffed lemur take 2 a") [4](https://freesound.org/people/TheKingOfGeeks360/sounds/845712/ "primates black and white ruffed lemur take 2 b") [5](https://freesound.org/people/TheKingOfGeeks360/sounds/845712/ "primates black and white ruffed lemur take 2 c") 
+*`chatter`, `screech`, `ape`, `primate`, `jungle`, `chimp`, `lemur`*
 
 
 
@@ -732,13 +727,27 @@ Used sites:
 
 
 
-[Bug 1](https://sonniss.com/gameaudiogdc/ "Small Species A Voices Skitter Squeak Phrase 02 HZBIT Microbes") 
-*`skitter`, `scurry`, `chitter`, `larvae`, `parasite`*
-
-
-
 [Frog 1](https://freesound.org/people/egomassive/sounds/536759/ "frog") [2](https://freesound.org/people/katzlbt/sounds/361117/ "frog quak") 
 *`croak`, `toad`, `quack`, `ribbit`, `amphibian`, `swamp`*
+
+
+
+[WingFlap 1](https://freesound.org/people/_stubb/sounds/389634/ "wing flap 1") [2](https://freesound.org/people/ani_music/sounds/244982/ "wing flap flag flapping 5a") 
+*`flapping`, `airborne`*
+
+
+
+
+
+
+
+&nbsp;
+### Bug (19)
+
+
+
+[Bug 1](https://sonniss.com/gameaudiogdc/ "Small Species A Voices Skitter Squeak Phrase 02 HZBIT Microbes") 
+*`skitter`, `scurry`, `chitter`, `larvae`, `parasite`*
 
 
 
@@ -747,10 +756,43 @@ Used sites:
 
 
 
-[WingFlap 1](https://freesound.org/people/_stubb/sounds/389634/ "wing flap 1") [2](https://freesound.org/people/ani_music/sounds/244982/ "wing flap flag flapping 5a") 
-*`flapping`, `airborne`*
+[ChorusCicada 1](https://freesound.org/people/laughatlantic/sounds/320113/ "cicadas") [2](https://freesound.org/people/heyheymaimai/sounds/493058/ "periodical cicada chorus at keystone state park pennsylvania") 
+*`swarm`, `crickets`, `insect`*
 
 
+
+[Cricket 1](https://freesound.org/people/guitarguy1985/sounds/69439/ "synth cricket") [2](https://freesound.org/people/Sadiquecat/sounds/737195/ "cricket") [3](https://freesound.org/people/deleted_user_2104797/sounds/164485/ "cricket 2") [4](https://freesound.org/people/HECKFRICKER/sounds/753271/ "single cricket chirping close perspective 01") 
+*`chirp`*
+
+
+
+[Wasp 1](https://freesound.org/people/loganzsound/sounds/856767/ "wasp buzzing 03") 
+*`buzz`, `bee`, `fly`*
+
+
+
+[Mosquito 1](https://freesound.org/people/danielp27/sounds/409354/ "mosquito") 
+*`buzz`, `fly`*
+
+
+
+[Katydid 1](https://freesound.org/people/lukewarm_sound/sounds/637065/ "katydid rattle insect chorus") 
+*`rattle`*
+
+
+
+[Grasshopper 1](https://freesound.org/people/cregstorm/sounds/827358/ "grasshopper close up recording") 
+*`crick`, `locust`*
+
+
+
+[Beetle 1](https://freesound.org/people/warrenXG/sounds/502211/ "beetle squark5") 
+*`buzz`, `screech`, `squark`*
+
+
+
+[Roach 1](https://freesound.org/people/TheKingOfGeeks360/sounds/811205/ "insects madagascar hissing cockroach several hisses a") [2](https://freesound.org/people/TheKingOfGeeks360/sounds/811205/ "insects madagascar hissing cockroach several hisses b") [3](https://freesound.org/people/TheKingOfGeeks360/sounds/811205/ "insects madagascar hissing cockroach several hisses c") [4](https://freesound.org/people/TheKingOfGeeks360/sounds/811205/ "insects madagascar hissing cockroach several hisses d") 
+*`hiss`*
 
 
 
@@ -1209,7 +1251,7 @@ Used sites:
 
 
 &nbsp;
-### Digit (18)
+### Digit (20)
 
 
 
@@ -1247,6 +1289,9 @@ Used sites:
 *`ai`, `computer`, `robot`*
 
 
+
+[Rewind 1](https://freesound.org/people/LuKaiX/sounds/700527/ "rewind short") [2](https://freesound.org/people/simplewave/sounds/372876/ "tape recorder rewind fanmade") 
+*`tape`, `cassete`, `playback`, `reverse`*
 
 
 
