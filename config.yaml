@@ -617,11 +617,11 @@ Presets:
 
     Frog1: 536759__egomassive__frog
     Frog2: 361117__katzlbt__frog_quak
-
-    ChorusFrog1:
-      File: yell-ChorusFrogs
-      LoopStart: 1.2
-      LoopEnd: all
+    Frog3: 265107__madbob69__frogs-a-few-minimal-traffic-noise_a
+    Frog4: 265107__madbob69__frogs-a-few-minimal-traffic-noise_b
+    Frog5: 149092__lepolainyann__frogs_a
+    Frog6: 149092__lepolainyann__frogs_b
+    Frog7: 527846__djones__frog-croaks
 
     WingFlap1:
       File: 389634__stubb__wing-flap-1
@@ -649,13 +649,7 @@ Presets:
       LoopEnd: all
       LoopMode: UntilRelease
 
-    ChorusCicada1:
-      File: 320113__laughatlantic__cicadas
-      LoopEnd: all
-
-    ChorusCicada2:
-      File: 493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania
-      LoopEnd: all
+    Cicada4: 396809__jedo__cicada-single
 
     Cricket1:
       File: 69439__guitarguy1985__synth-cricket

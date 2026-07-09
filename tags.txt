@@ -117,7 +117,6 @@ DogBark woof ruff aggressive
 DogGrunt canine sigh groan murmur
 Wolf Howl pack
 Bear Grizzly roar predator apex
-ChorusFrog Frogs croaking ribbit amphibians
 Chicken Rooster cluck cocorico
 Eagle Hawk falcon screech
 Cow Moo cattle bovine farm
@@ -147,7 +146,6 @@ WingFlap Flapping airborne
 # Bug
 Bug skitter scurry chitter larvae parasite
 Cicada Insect buzz
-ChorusCicada swarm crickets insect
 Cricket chirp
 Wasp buzz bee fly
 Mosquito buzz fly

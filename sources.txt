@@ -442,8 +442,6 @@ yell-YELLGrizzlyBearVocalizations20160520Android1_a     https://www.nps.gov/yell
 yell-YELLGrizzlyBearVocalizations20160520Android1_b     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
 yell-YELLGrizzlyBearVocalizations20160520Android1_c     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
 
-yell-ChorusFrogs                                        https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm
-
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
 842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
 435508__benjaminnelan__rooster-crow-1                   https://freesound.org/people/rafaelpicoli/sounds/392029/
@@ -538,6 +536,11 @@ yell-YELLSGYredsquirrel2004320                          https://www.nps.gov/yell
 
 536759__egomassive__frog                                https://freesound.org/people/egomassive/sounds/536759/
 361117__katzlbt__frog_quak                              https://freesound.org/people/katzlbt/sounds/361117/
+265107__madbob69__frogs-a-few-minimal-traffic-noise_a   https://freesound.org/people/madbob69/sounds/265107/
+265107__madbob69__frogs-a-few-minimal-traffic-noise_b   https://freesound.org/people/madbob69/sounds/265107/
+149092__lepolainyann__frogs_a                           https://freesound.org/people/lepolainyann/sounds/149092/
+149092__lepolainyann__frogs_b                           https://freesound.org/people/lepolainyann/sounds/149092/
+527846__djones__frog-croaks                             https://freesound.org/people/D.jones/sounds/527846/
 
 389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
 244982__ani_music__wing-flap-flag-flapping-5a           https://freesound.org/people/ani_music/sounds/244982/
@@ -551,9 +554,7 @@ CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes https:
 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night https://freesound.org/people/Attia.phonatics/sounds/829810/
 640718__soundofsong__cicada-insect-loop                 https://freesound.org/people/soundofsong/sounds/640718/
 515053__nox_sound__animal_cicada_solo_loop              https://freesound.org/people/Nox_Sound/sounds/515053/
-
-320113__laughatlantic__cicadas                          https://freesound.org/people/laughatlantic/sounds/320113/
-493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania  https://freesound.org/people/heyheymaimai/sounds/493058/
+396809__jedo__cicada-single                             https://freesound.org/people/Jedo/sounds/396809/
 
 69439__guitarguy1985__synth-cricket                     https://freesound.org/people/guitarguy1985/sounds/69439/
 737195__sadiquecat__cricket                             https://freesound.org/people/Sadiquecat/sounds/737195/

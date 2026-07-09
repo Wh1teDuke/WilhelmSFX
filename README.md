@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (820)
+## Effect List (823)
 &nbsp;
 ### Male (55)
 
@@ -568,7 +568,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (94)
+### Animal (98)
 
 
 
@@ -604,11 +604,6 @@ Used sites:
 
 [Bear 1](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm "yell YELLgrizzlyC20160626SM303143 a") [2](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm "yell YELLgrizzlyC20160626SM303143 b") [3](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm "yell YELLGrizzlyBearVocalizations20160520Android1 a") [4](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm "yell YELLGrizzlyBearVocalizations20160520Android1 b") [5](https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm "yell YELLGrizzlyBearVocalizations20160520Android1 c") 
 *`grizzly`, `roar`, `predator`, `apex`*
-
-
-
-[ChorusFrog 1](https://www.nps.gov/yell/learn/photosmultimedia/sounds-chorusfrogs.htm "yell ChorusFrogs") 
-*`frogs`, `croaking`, `ribbit`, `amphibians`*
 
 
 
@@ -727,7 +722,7 @@ Used sites:
 
 
 
-[Frog 1](https://freesound.org/people/egomassive/sounds/536759/ "frog") [2](https://freesound.org/people/katzlbt/sounds/361117/ "frog quak") 
+[Frog 1](https://freesound.org/people/egomassive/sounds/536759/ "frog") [2](https://freesound.org/people/katzlbt/sounds/361117/ "frog quak") [3](https://freesound.org/people/madbob69/sounds/265107/ "frogs a few minimal traffic noise a") [4](https://freesound.org/people/madbob69/sounds/265107/ "frogs a few minimal traffic noise b") [5](https://freesound.org/people/lepolainyann/sounds/149092/ "frogs a") [6](https://freesound.org/people/lepolainyann/sounds/149092/ "frogs b") [7](https://freesound.org/people/D.jones/sounds/527846/ "frog croaks") 
 *`croak`, `toad`, `quack`, `ribbit`, `amphibian`, `swamp`*
 
 
@@ -742,7 +737,7 @@ Used sites:
 
 
 &nbsp;
-### Bug (19)
+### Bug (18)
 
 
 
@@ -751,13 +746,8 @@ Used sites:
 
 
 
-[Cicada 1](https://freesound.org/people/Attia.phonatics/sounds/829810/ "crickets katydids cicadas insect sound at night") [2](https://freesound.org/people/soundofsong/sounds/640718/ "cicada insect loop") [3](https://freesound.org/people/Nox_Sound/sounds/515053/ "animal cicada solo loop") 
+[Cicada 1](https://freesound.org/people/Attia.phonatics/sounds/829810/ "crickets katydids cicadas insect sound at night") [2](https://freesound.org/people/soundofsong/sounds/640718/ "cicada insect loop") [3](https://freesound.org/people/Nox_Sound/sounds/515053/ "animal cicada solo loop") [4](https://freesound.org/people/Jedo/sounds/396809/ "cicada single") 
 *`insect`, `buzz`*
-
-
-
-[ChorusCicada 1](https://freesound.org/people/laughatlantic/sounds/320113/ "cicadas") [2](https://freesound.org/people/heyheymaimai/sounds/493058/ "periodical cicada chorus at keystone state park pennsylvania") 
-*`swarm`, `crickets`, `insect`*
 
 
 
