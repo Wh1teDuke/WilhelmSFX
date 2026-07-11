@@ -348,7 +348,7 @@ if (!outputDir.Exists)
     const string filterTrim =
         "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
     const string filterVolNorm =
-        "loudnorm=I=-14:TP=-1.0:LRA=6,";
+        "loudnorm=I=-14:TP=-1.0:LRA=11:measured_I=-20:measured_TP=-1.0:measured_LRA=11:measured_thresh=-30:linear=true,";
     // TODO: Don't remove silence if sample is too short
     const string filterPlaybackRate = "atempo={0},";
     const string filterBitCrusher = "acrusher=bits={0}:mix=1:mode=log:samples=1,";
