@@ -380,6 +380,7 @@ if (!outputDir.Exists)
         var gCfg = GetGroupCfg(cfg.Meta.FullName);
 
         var seek = cfg.Seek ?? gCfg?.Seek ?? pCfg?.Seek;
+        var to = cfg.To ?? gCfg?.To ?? pCfg?.To;
         var trim = cfg.Trim ?? gCfg?.Trim ?? pCfg?.Trim ?? true;
         var trimDb = cfg.TrimDb ?? gCfg?.TrimDb ?? pCfg?.TrimDb ?? -45;
         var sRate = cfg.SampleRate ??
@@ -401,6 +402,7 @@ if (!outputDir.Exists)
         ;
 
         if (seek != null) cmd += $" -ss {seek} ";
+        if (to != null) cmd += $" -to {to} ";
 
         var filters = "";
 
@@ -660,6 +662,8 @@ bank.Info = bank.Info with
 };
 
 var sbFile = new FileInfo(bankName + ".sf3");
+if (sbFile.Exists) sbFile.Delete();
+
 bank.WriteSF2(sbFile, SF2WriteOptions.Default with
 {
     Compress = true,
@@ -975,6 +979,7 @@ internal static class Log
 internal abstract class BaseCfg
 {
     public double? Seek;
+    public double? To;
     public double? Speed;
     public bool? Trim;
     public int? TrimDb;

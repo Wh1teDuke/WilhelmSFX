@@ -56,7 +56,6 @@ Applause Clapping ovation
 WarCry Battle charging horde
 Aww sympathy sigh pity
 Boo Booing jeering disapproval
-Panic hysteria chaos riot scream shout
 Gasp surprise
 Loud roar celebration arena
 Protest demostration rally outcry revolt
@@ -78,7 +77,7 @@ Chew Bite crunch munching eating mastication food
 BrushTeeth friction hygiene dental
 SandWood scraping friction foley workshop
 Scrub wash laundry thud shuffling
-Push scrape slide friction drag
+PushObstacle scrape slide friction drag
 FingerSnap click percussive
 KnuckleCrack pop crunch joint break
 Whistle noise vocal
@@ -325,6 +324,7 @@ Metal vent grate
 Brick fall
 Stone bock fall rock
 Thud muted
+MetalFence shacking iron clatter wire grid mesh rattle ring
 
 # Break
 Glass shatter smash

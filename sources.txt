@@ -193,7 +193,6 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 752711__nox_sound__voice_crowd_small_expression_laugh_stereo  https://freesound.org/people/Nox_Sound/sounds/752711/
 
 277022__sandermotions__applause-1                       https://freesound.org/people/Sandermotions/sounds/277022/
-432333__jentlemen__medium-crowd-clapping-6              https://freesound.org/people/jentlemen/sounds/432333/
 
 521831__joelcarrsound__middle-ages-war-cry-3            https://freesound.org/people/joelcarrsound/sounds/521831/
 521830__joelcarrsound__middle-ages-war-cry              https://freesound.org/people/joelcarrsound/sounds/521830/
@@ -204,8 +203,6 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 752706__nox_sound__voice_crowd_small_expression_awww_stereo https://freesound.org/people/Nox_Sound/sounds/752706/
 
 403060__valeriebbb96__boooh                             https://freesound.org/people/valeriebbb96/sounds/403060/
-
-491405__ienba__crowd-in-panic                           https://freesound.org/people/IENBA/sounds/491405/
 
 232263__zerocarina__gasp                                https://freesound.org/people/ZerOcarina/sounds/232263/
 353924__dr_skitz__gasp                                  https://freesound.org/people/dr_skitz/sounds/353924/
@@ -279,8 +276,6 @@ LADDER_Metal_Small_Rattle_c                             https://sonniss.com/game
 135415__turroe22__gagging-1                             https://freesound.org/people/Turroe22/sounds/135415/
 
 640948__metrowned__peeing                               https://freesound.org/people/Metrowned/sounds/640948/
-232539__arnaump__male-peeing                            https://freesound.org/people/arnaump/sounds/232539/
-498979__16fpanska_urbanek_jonas__15piss                 https://freesound.org/people/16FPanska_Urbanek_Jonas/sounds/498979/
 
 275015__wadaltmon__bite-apple                           https://freesound.org/people/wadaltmon/sounds/275015/
 528962__steenish__crunch                                https://freesound.org/people/steenish/sounds/528962/
@@ -434,7 +429,6 @@ ANMLDog_Dog_Shuffle,_Grunt,_Movement,_Lying_Down_344_Audio_Dog_Vocalisations  ht
 
 500646__betchkal__cooper-creek-20160313_014852-solitary-wolf-howl-very-clear  https://freesound.org/people/betchkal/sounds/500646/
 640986__beautifuldaymonster1968__the-classic-wolf-tv-howl https://freesound.org/people/beautifuldaymonster1968/sounds/640986/
-yell-YELLWolvesDec252013                                https://www.nps.gov/yell/learn/photosmultimedia/sounds-wolves.htm
 
 yell-YELLgrizzlyC20160626SM303143_a                     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
 yell-YELLgrizzlyC20160626SM303143_b                     https://www.nps.gov/yell/learn/photosmultimedia/grizzlysounds.htm
@@ -1116,6 +1110,9 @@ WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_c               https://sonniss.com/game
 
 570976__dichardson__stone-drop-on-grass-3               https://freesound.org/people/dichardson/sounds/570976/
 570965__dichardson__brick-drop-on-grass-2               https://freesound.org/people/dichardson/sounds/570965/
+
+255247__zaku18__kicking-the-fence                       https://freesound.org/people/Zaku18/sounds/255247/
+561043__nox_sound__foley_impact_metal_fence_mono        https://freesound.org/people/Nox_Sound/sounds/561043/
 
 
 

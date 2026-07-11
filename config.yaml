@@ -54,6 +54,8 @@ Presets:
     Snore5: 791248__jrwentertainment__snoring-30s-48khz24-bit
     Snore6:
       File: 760036__stevielematt__snore-03_44100
+      Seek: 3.0 # Just the whistle part
+      To: 4.5
       Trim: false
 
     Cough1: 743360__qubodup__strong-double-cough
@@ -209,8 +211,9 @@ Presets:
     Laugh2: 324894__deleted_user_2104797__crowd-laugh
     Laugh3: 752711__nox_sound__voice_crowd_small_expression_laugh_stereo
 
-    Applause1: 277022__sandermotions__applause-1
-    Applause2: 432333__jentlemen__medium-crowd-clapping-6
+    Applause1:
+      File: 277022__sandermotions__applause-1
+      TrimDb: -40
 
     WarCry1: 521831__joelcarrsound__middle-ages-war-cry-3
     WarCry2: 521830__joelcarrsound__middle-ages-war-cry
@@ -221,11 +224,6 @@ Presets:
     Aww2: 752706__nox_sound__voice_crowd_small_expression_awww_stereo
 
     Boo1: 403060__valeriebbb96__boooh
-
-    Panic1:
-      File: 491405__ienba__crowd-in-panic
-      LoopStart: 1.396
-      LoopEnd: 7.715
 
     Gasp1: 232263__zerocarina__gasp
     Gasp2: 353924__dr_skitz__gasp
@@ -345,16 +343,6 @@ Presets:
       LoopStart: 0.486
       LoopEnd: 5.145
 
-    Pee2:
-      File: 232539__arnaump__male-peeing
-      LoopStart: 0.248
-      LoopEnd: 4.046
-
-    Pee3:
-      File: 498979__16fpanska_urbanek_jonas__15piss
-      LoopStart: 0.836
-      LoopEnd: 5.734
-
     Chew1: 275015__wadaltmon__bite-apple
     Chew2: 528962__steenish__crunch
     Chew3: 584290__antumdeluge__apple-bite
@@ -368,16 +356,16 @@ Presets:
     Scrub1: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a
     Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
 
-    Push1:
+    PushObstacle1:
       File: 146408__crashoverride6__sand-on-paper-dragged-long
       LoopStart: .5
       LoopEnd: 1.7
 
-    Push2:
+    PushObstacle2:
       File: 828629__c64cosmin__pushing-cardboard-box
       LoopEnd: all
 
-    Push3:
+    PushObstacle3:
       File: 558254__msavioti__heavy-stone-push
       LoopStart: 0.077
       LoopEnd: 0.53
@@ -490,7 +478,6 @@ Presets:
 
     Wolf1: 500646__betchkal__cooper-creek-20160313_014852-solitary-wolf-howl-very-clear
     Wolf2: 640986__beautifuldaymonster1968__the-classic-wolf-tv-howl
-    Wolf3: yell-YELLWolvesDec252013
 
     Bear1: yell-YELLgrizzlyC20160626SM303143_a
     Bear2: yell-YELLgrizzlyC20160626SM303143_b
@@ -726,7 +713,10 @@ Presets:
 
     Bubbles2: 96125__bmaczero__bubbles_single2
 
-    TreeFall1: 139952__ecfike__a-tree-falling-down
+    TreeFall1:
+      File: 139952__ecfike__a-tree-falling-down
+      Seek: 0.5
+      To: 3.1
 
     Rain1:
       File: 530975__inframatico__rain1
@@ -1419,6 +1409,9 @@ Presets:
     Thud1: 570976__dichardson__stone-drop-on-grass-3
     Thud2: 570965__dichardson__brick-drop-on-grass-2
 
+    MetalFence1: 255247__zaku18__kicking-the-fence
+    MetalFence2: 561043__nox_sound__foley_impact_metal_fence_mono
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror
@@ -1454,7 +1447,9 @@ Presets:
     Ice1: Bluezone_BC0278_ice_crack_break_078
 
     Paper1: 485524__byjesusjp__hoja-rota
-    Paper2: PAPRHndl_Paper_Sheet_Crumple__04_MWSFX_CDAP
+    Paper2:
+      File: PAPRHndl_Paper_Sheet_Crumple__04_MWSFX_CDAP
+      Speed: 1.5
 
     Cloth1: CLOTHRip_CottonRips13_InMotionAudio_TornTShirt
     Cloth2: CLOTHRip_CottonRips44_InMotionAudio_TornTShirt
