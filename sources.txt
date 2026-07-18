@@ -861,6 +861,8 @@ Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/game
 418881__kierankeegan__tank-turret-rotate                https://freesound.org/people/KieranKeegan/sounds/418881/
 166246__demonicelectronic__5                            https://freesound.org/people/DemonicElectronic/sounds/166246/
 
+476836__richwise__phone-short-buzz                      https://freesound.org/people/richwise/sounds/476836/
+529979__lartti__phone-vibrate                           https://freesound.org/people/lartti/sounds/529979/
 
 
 // Digit

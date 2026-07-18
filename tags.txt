@@ -246,6 +246,7 @@ Spark flicker discharge flash
 Steam hiss vapor sizzle pneumatic release
 Lever switch handle latch toggle clunk lock unlock metallic
 TurretRotation tank military turning servo friction
+PhoneVibration buzz mobile vibrate
 
 # Digit
 Radio static fuzz noise frequency

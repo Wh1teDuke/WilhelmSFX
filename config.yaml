@@ -1117,6 +1117,13 @@ Presets:
       LoopEnd: 1.0
       ReleaseVolEnv: 0.5
 
+    PhoneVibration1:
+      File: 476836__richwise__phone-short-buzz
+      LoopStart: 0.1028
+      LoopEnd: 0.320
+
+    PhoneVibration2: 529979__lartti__phone-vibrate
+
   Digit:
     Radio1:
       File: 724706__9voltplasma__glitchy-radio-static-industrial-sfx

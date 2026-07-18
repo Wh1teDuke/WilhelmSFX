@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (820)
+## Effect List (822)
 &nbsp;
 ### Male (55)
 
@@ -1112,7 +1112,7 @@ Used sites:
 
 
 &nbsp;
-### Machine (52)
+### Machine (54)
 
 
 
@@ -1230,6 +1230,9 @@ Used sites:
 *`tank`, `military`, `turning`, `servo`, `friction`*
 
 
+
+[PhoneVibration 1](https://freesound.org/people/richwise/sounds/476836/ "phone short buzz") [2](https://freesound.org/people/lartti/sounds/529979/ "phone vibrate") 
+*`buzz`, `mobile`, `vibrate`*
 
 
 
