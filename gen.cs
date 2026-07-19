@@ -1,6 +1,6 @@
 #!/usr/bin/env -S dotnet run
 
-#:package SpessaSharp@4.3.12-nightly-00023
+#:package SpessaSharp@4.3.14-nightly-00047
 #:package YamlDotNet@18.0.0
 
 using System.Collections.Concurrent;
