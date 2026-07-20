@@ -291,6 +291,8 @@ LADDER_Metal_Small_Rattle_c                             https://sonniss.com/game
 443495__topschool__sound                                https://freesound.org/people/Topschool/sounds/443495/
 155900__tiptoe84__spit2                                 https://freesound.org/people/tiptoe84/sounds/155900/
 
+155917__tiptoe84__gargling                              https://freesound.org/people/tiptoe84/sounds/155917/
+
 344579__vcspran__brushing_teeth                         https://freesound.org/people/vcspran/sounds/344579/
 
 594403__elandre01__sanding-wood                         https://freesound.org/people/Elandre01/sounds/594403/
