@@ -146,7 +146,7 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 220650__ritola27__grito_mujer6                          https://freesound.org/people/ritola27/sounds/220650/
 565696__nefarious_needs__female-moaning-1               https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/
 
-727696__owstu__female-vocal-melody-humming              https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/
+727696__owstu__female-vocal-melody-humming              https://freesound.org/people/owstu/sounds/727696/
 727694__owstu__female-vocal-2-higher-notes              https://freesound.org/people/owstu/sounds/727694/
 
 318078__drkvixn91__whimper_gasp_1_female                https://freesound.org/people/Drkvixn91/sounds/318078/
