@@ -287,6 +287,10 @@ LADDER_Metal_Small_Rattle_c                             https://sonniss.com/game
 816237__qubodup__crunch                                 https://freesound.org/people/qubodup/sounds/816237/
 718593__jomungus__crispy-bite                           https://freesound.org/people/JoMungus/sounds/718593/
 
+352407__noahpardo__npx-throat-clearing-and-spit-2       https://freesound.org/people/noahpardo/sounds/352407/
+443495__topschool__sound                                https://freesound.org/people/Topschool/sounds/443495/
+155900__tiptoe84__spit2                                 https://freesound.org/people/tiptoe84/sounds/155900/
+
 344579__vcspran__brushing_teeth                         https://freesound.org/people/vcspran/sounds/344579/
 
 594403__elandre01__sanding-wood                         https://freesound.org/people/Elandre01/sounds/594403/

@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (824)
+## Effect List (827)
 &nbsp;
 ### Male (57)
 
@@ -340,7 +340,7 @@ Used sites:
 
 
 &nbsp;
-### Action (72)
+### Action (75)
 
 
 
@@ -401,6 +401,11 @@ Used sites:
 
 [Chew 1](https://freesound.org/people/wadaltmon/sounds/275015/ "bite apple") [2](https://freesound.org/people/steenish/sounds/528962/ "crunch") [3](https://freesound.org/people/AntumDeluge/sounds/584290/ "apple bite") [4](https://freesound.org/people/User391915396/sounds/570336/ "eating sound effect") [5](https://freesound.org/people/qubodup/sounds/816237/ "crunch") [6](https://freesound.org/people/JoMungus/sounds/718593/ "crispy bite") 
 *`bite`, `crunch`, `munching`, `eating`, `mastication`, `food`*
+
+
+
+[Spit 1](https://freesound.org/people/noahpardo/sounds/352407/ "npx throat clearing and spit 2") [2](https://freesound.org/people/Topschool/sounds/443495/ "sound") [3](https://freesound.org/people/tiptoe84/sounds/155900/ "spit2") 
+*`nasal`, `inhale`*
 
 
 

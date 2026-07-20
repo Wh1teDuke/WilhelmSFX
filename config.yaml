@@ -357,6 +357,14 @@ Presets:
     Chew5: 816237__qubodup__crunch
     Chew6: 718593__jomungus__crispy-bite
 
+    Spit1: 352407__noahpardo__npx-throat-clearing-and-spit-2
+    Spit2:
+      File: 443495__topschool__sound
+      Seek: 0.65
+      To: 2.0
+      Trim: false
+    Spit3: 155900__tiptoe84__spit2
+
     BrushTeeth1: 344579__vcspran__brushing_teeth
     SandWood1: 594403__elandre01__sanding-wood
 
