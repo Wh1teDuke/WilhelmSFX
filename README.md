@@ -20,9 +20,9 @@ Used sites:
 
 ***
 
-## Effect List (822)
+## Effect List (824)
 &nbsp;
-### Male (55)
+### Male (57)
 
 
 
@@ -100,6 +100,11 @@ Used sites:
 
 [Moan 1](https://freesound.org/people/joseppujol/sounds/221550/ "pleasure sound") 
 *`groan`, `sigh`, `pleasure`, `soft`, `gasp`*
+
+
+
+[Megaphone 1](https://freesound.org/people/kyles/sounds/407183/ "megaphone voice prerecorded ad loop in ext second hand clothing market kampala uganda africa 2016") [2](https://freesound.org/people/EduFigueres/sounds/450737/ "loop megaphone voice in beijing") 
+*`distortion`, `noise`, `voice`, `broadcast`*
 
 
 

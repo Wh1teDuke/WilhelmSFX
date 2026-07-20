@@ -75,6 +75,9 @@ HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17  https://sonn
 
 221550__joseppujol__pleasure-sound                      https://freesound.org/people/joseppujol/sounds/221550/
 
+407183__kyles__megaphone-voice-prerecorded-ad-loop-in-ext-second-hand-clothing-market-kampala-uganda-africa-2016  https://freesound.org/people/kyles/sounds/407183/
+450737__edufigueres__loop-megaphone-voice-in-beijing    https://freesound.org/people/EduFigueres/sounds/450737/
+
 
 
 // Female
