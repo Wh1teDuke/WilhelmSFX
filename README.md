@@ -207,7 +207,7 @@ Used sites:
 
 
 
-[Hum 1](https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/ "female vocal melody humming") [2](https://freesound.org/people/owstu/sounds/727694/ "female vocal 2 higher notes") 
+[Hum 1](https://freesound.org/people/owstu/sounds/727696/ "female vocal melody humming") [2](https://freesound.org/people/owstu/sounds/727694/ "female vocal 2 higher notes") 
 *`sing`*
 
 
