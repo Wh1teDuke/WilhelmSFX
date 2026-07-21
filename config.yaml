@@ -1555,7 +1555,9 @@ Presets:
       LoopEnd: 12.75
       MulSampleRate: .5
 
-  # Don't know where to put these
+  # Don't know where to put these (yet)
   Etc:
     WoodCreak1: 214871__fantozzi__the-big-squeak-3-wooden-crate
     WoodCreak2: 629942__kyles__wood-creaks-heavy-deep-old-armoir-wardrobe-closet-door-open-close
+
+    MetalCreak1: 339184__joedeshon__squeak_01
